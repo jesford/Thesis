@@ -1,0 +1,762 @@
+\begin{thebibliography}{78}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Adami} et~al.(2010){Adami}, {Durret}, {Benoist}, {Coupon}, {Mazure},
+  {Meneux}, {Ilbert}, {Blaizot}, {Arnouts}, {Cappi}, {Garilli}, {Guennou},
+  {Lebrun}, {Lef{\`e}vre}, {Maurogordato}, {McCracken}, {Mellier}, {Slezak},
+  {Tresse}, and {Ulmer}]{Adami10}
+C.~{Adami}, F.~{Durret}, C.~{Benoist}, J.~{Coupon}, A.~{Mazure}, B.~{Meneux},
+  O.~{Ilbert}, J.~{Blaizot}, S.~{Arnouts}, A.~{Cappi}, B.~{Garilli},
+  L.~{Guennou}, V.~{Lebrun}, O.~{Lef{\`e}vre}, S.~{Maurogordato}, H.~J.
+  {McCracken}, Y.~{Mellier}, E.~{Slezak}, L.~{Tresse}, and M.~P. {Ulmer}.
+\newblock {Galaxy structure searches by photometric redshifts in the CFHTLS}.
+\newblock \emph{\aap}, 509:\penalty0 A81, Jan. 2010.
+\newblock \doi{10.1051/0004-6361/200913067}.
+
+\bibitem[{Bartelmann} and {Schneider}(2001)]{BS01}
+M.~{Bartelmann} and P.~{Schneider}.
+\newblock {Weak gravitational lensing}.
+\newblock \emph{\physrep}, 340:\penalty0 291--472, Jan. 2001.
+\newblock \doi{10.1016/S0370-1573(00)00082-X}.
+
+\bibitem[{Bauer} et~al.(2011){Bauer}, {Seitz}, {Jerke}, {Scalzo}, {Rabinowitz},
+  {Ellman}, and {Baltay}]{Bauer11}
+A.~H. {Bauer}, S.~{Seitz}, J.~{Jerke}, R.~{Scalzo}, D.~{Rabinowitz},
+  N.~{Ellman}, and C.~{Baltay}.
+\newblock {Measuring Lensing Magnification of Quasars by Large Scale Structure
+  Using the Variability-Luminosity Relation}.
+\newblock \emph{\apj}, 732:\penalty0 64, May 2011.
+\newblock \doi{10.1088/0004-637X/732/2/64}.
+
+\bibitem[{Bridle} et~al.(2009){Bridle}, {Shawe-Taylor}, {Amara}, {Applegate},
+  {Balan}, {Bernstein}, {Dahle}, {Erben}, {Gill}, {Heavens}, {Heymans}, {High},
+  {Hoekstra}, {Jarvis}, {Kirk}, {Kitching}, {Kneib}, {Kuijken}, {Lagatutta},
+  {Mandelbaum}, {Massey}, {Mellier}, {Moghaddam}, {Moudden}, {Nakajima},
+  {Paulin-Henriksson}, {Pires}, {Rassat}, {Refregier}, {Rhodes}, {Schrabback},
+  {Semboloni}, {Shmakova}, {van Waerbeke}, {Witherick}, {Voigt}, and
+  {Wittman}]{great08}
+S.~{Bridle}, J.~{Shawe-Taylor}, A.~{Amara}, D.~{Applegate}, J.~S.~T. {Balan},
+  Berge, G.~{Bernstein}, H.~{Dahle}, T.~{Erben}, M.~{Gill}, A.~{Heavens},
+  C.~{Heymans}, F.~W. {High}, H.~{Hoekstra}, M.~{Jarvis}, D.~{Kirk},
+  T.~{Kitching}, J.-P. {Kneib}, K.~{Kuijken}, D.~{Lagatutta}, R.~{Mandelbaum},
+  R.~{Massey}, Y.~{Mellier}, B.~{Moghaddam}, Y.~{Moudden}, R.~{Nakajima},
+  S.~{Paulin-Henriksson}, S.~{Pires}, A.~{Rassat}, A.~{Refregier}, J.~{Rhodes},
+  T.~{Schrabback}, E.~{Semboloni}, M.~{Shmakova}, L.~{van Waerbeke},
+  D.~{Witherick}, L.~{Voigt}, and D.~{Wittman}.
+\newblock {Handbook for the GREAT08 Challenge: An image analysis competition
+  for cosmological lensing}.
+\newblock \emph{Annals of Applied Statistics}, 3:\penalty0 6--37, 2009.
+\newblock \doi{10.1214/08-AOAS222}.
+
+\bibitem[{Capak} et~al.(2007){Capak}, {Aussel}, {Ajiki}, {McCracken},
+  {Mobasher}, {Scoville}, {Shopbell}, {Taniguchi}, {Thompson}, {Tribiano},
+  {Sasaki}, {Blain}, {Brusa}, {Carilli}, {Comastri}, {Carollo}, {Cassata},
+  {Colbert}, {Ellis}, {Elvis}, {Giavalisco}, {Green}, {Guzzo}, {Hasinger},
+  {Ilbert}, {Impey}, {Jahnke}, {Kartaltepe}, {Kneib}, {Koda}, {Koekemoer},
+  {Komiyama}, {Leauthaud}, {Le Fevre}, {Lilly}, {Liu}, {Massey}, {Miyazaki},
+  {Murayama}, {Nagao}, {Peacock}, {Pickles}, {Porciani}, {Renzini}, {Rhodes},
+  {Rich}, {Salvato}, {Sanders}, {Scarlata}, {Schiminovich}, {Schinnerer},
+  {Scodeggio}, {Sheth}, {Shioya}, {Tasca}, {Taylor}, {Yan}, and
+  {Zamorani}]{Capak07}
+P.~{Capak}, H.~{Aussel}, M.~{Ajiki}, H.~J. {McCracken}, B.~{Mobasher},
+  N.~{Scoville}, P.~{Shopbell}, Y.~{Taniguchi}, D.~{Thompson}, S.~{Tribiano},
+  S.~{Sasaki}, A.~W. {Blain}, M.~{Brusa}, C.~{Carilli}, A.~{Comastri}, C.~M.
+  {Carollo}, P.~{Cassata}, J.~{Colbert}, R.~S. {Ellis}, M.~{Elvis},
+  M.~{Giavalisco}, W.~{Green}, L.~{Guzzo}, G.~{Hasinger}, O.~{Ilbert},
+  C.~{Impey}, K.~{Jahnke}, J.~{Kartaltepe}, J.-P. {Kneib}, J.~{Koda},
+  A.~{Koekemoer}, Y.~{Komiyama}, A.~{Leauthaud}, O.~{Le Fevre}, S.~{Lilly},
+  C.~{Liu}, R.~{Massey}, S.~{Miyazaki}, T.~{Murayama}, T.~{Nagao}, J.~A.
+  {Peacock}, A.~{Pickles}, C.~{Porciani}, A.~{Renzini}, J.~{Rhodes}, M.~{Rich},
+  M.~{Salvato}, D.~B. {Sanders}, C.~{Scarlata}, D.~{Schiminovich},
+  E.~{Schinnerer}, M.~{Scodeggio}, K.~{Sheth}, Y.~{Shioya}, L.~A.~M. {Tasca},
+  J.~E. {Taylor}, L.~{Yan}, and G.~{Zamorani}.
+\newblock {The First Release COSMOS Optical and Near-IR Data and Catalog}.
+\newblock \emph{\apjs}, 172:\penalty0 99--116, Sept. 2007.
+\newblock \doi{10.1086/519081}.
+
+\bibitem[{Cooray} and {Sheth}(2002)]{Cooray02}
+A.~{Cooray} and R.~{Sheth}.
+\newblock {Halo models of large scale structure}.
+\newblock \emph{\physrep}, 372:\penalty0 1--129, Dec. 2002.
+\newblock \doi{10.1016/S0370-1573(02)00276-4}.
+
+\bibitem[{Covone} et~al.(2014){Covone}, {Sereno}, {Kilbinger}, and
+  {Cardone}]{Covone14}
+G.~{Covone}, M.~{Sereno}, M.~{Kilbinger}, and V.~F. {Cardone}.
+\newblock {Measurement of the halo bias from stacked shear profiles of galaxy
+  clusters}.
+\newblock \emph{ArXiv e-prints, astro-ph/1402.4815}, Feb. 2014.
+
+\bibitem[{De Lucia} and {Blaizot}(2007)]{DeLucia07}
+G.~{De Lucia} and J.~{Blaizot}.
+\newblock {The hierarchical formation of the brightest cluster galaxies}.
+\newblock \emph{\mnras}, 375:\penalty0 2--14, Feb. 2007.
+\newblock \doi{10.1111/j.1365-2966.2006.11287.x}.
+
+\bibitem[{Durret} et~al.(2011){Durret}, {Adami}, {Cappi}, {Maurogordato},
+  {M{\'a}rquez}, {Ilbert}, {Coupon}, {Arnouts}, {Benoist}, {Blaizot}, {Edorh},
+  {Garilli}, {Guennou}, {Le Brun}, {Le F{\`e}vre}, {Mazure}, {McCracken},
+  {Mellier}, {Mezrag}, {Slezak}, {Tresse}, and {Ulmer}]{Durret11}
+F.~{Durret}, C.~{Adami}, A.~{Cappi}, S.~{Maurogordato}, I.~{M{\'a}rquez},
+  O.~{Ilbert}, J.~{Coupon}, S.~{Arnouts}, C.~{Benoist}, J.~{Blaizot}, T.~M.
+  {Edorh}, B.~{Garilli}, L.~{Guennou}, V.~{Le Brun}, O.~{Le F{\`e}vre},
+  A.~{Mazure}, H.~J. {McCracken}, Y.~{Mellier}, C.~{Mezrag}, E.~{Slezak},
+  L.~{Tresse}, and M.~P. {Ulmer}.
+\newblock {Galaxy cluster searches based on photometric redshifts in the four
+  CFHTLS Wide fields}.
+\newblock \emph{\aap}, 535:\penalty0 A65, Nov. 2011.
+\newblock \doi{10.1051/0004-6361/201116985}.
+
+\bibitem[{Erben} et~al.(2009){Erben}, {Hildebrandt}, {Lerchster}, {Hudelot},
+  {Benjamin}, {van Waerbeke}, {Schrabback}, {Brimioulle}, {Cordes}, {Dietrich},
+  {Holhjem}, {Schirmer}, and {Schneider}]{Erben09}
+T.~{Erben}, H.~{Hildebrandt}, M.~{Lerchster}, P.~{Hudelot}, J.~{Benjamin},
+  L.~{van Waerbeke}, T.~{Schrabback}, F.~{Brimioulle}, O.~{Cordes}, J.~P.
+  {Dietrich}, K.~{Holhjem}, M.~{Schirmer}, and P.~{Schneider}.
+\newblock {CARS: the CFHTLS-Archive-Research Survey. I. Five-band multi-colour
+  data from 37 sq. deg. CFHTLS-wide observations}.
+\newblock \emph{\aap}, 493:\penalty0 1197--1222, Jan. 2009.
+\newblock \doi{10.1051/0004-6361:200810426}.
+
+\bibitem[{Erben} et~al.(2013){Erben}, {Hildebrandt}, {Miller}, {van Waerbeke},
+  {Heymans}, {Hoekstra}, {Kitching}, {Mellier}, {Benjamin}, {Blake}, {Bonnett},
+  {Cordes}, {Coupon}, {Fu}, {Gavazzi}, {Gillis}, {Grocutt}, {Gwyn}, {Holhjem},
+  {Hudson}, {Kilbinger}, {Kuijken}, {Milkeraitis}, {Rowe}, {Schrabback},
+  {Semboloni}, {Simon}, {Smit}, {Toader}, {Vafaei}, {van Uitert}, and
+  {Velander}]{Erben13}
+T.~{Erben}, H.~{Hildebrandt}, L.~{Miller}, L.~{van Waerbeke}, C.~{Heymans},
+  H.~{Hoekstra}, T.~D. {Kitching}, Y.~{Mellier}, J.~{Benjamin}, C.~{Blake},
+  C.~{Bonnett}, O.~{Cordes}, J.~{Coupon}, L.~{Fu}, R.~{Gavazzi}, B.~{Gillis},
+  E.~{Grocutt}, S.~D.~J. {Gwyn}, K.~{Holhjem}, M.~J. {Hudson}, M.~{Kilbinger},
+  K.~{Kuijken}, M.~{Milkeraitis}, B.~T.~P. {Rowe}, T.~{Schrabback},
+  E.~{Semboloni}, P.~{Simon}, M.~{Smit}, O.~{Toader}, S.~{Vafaei}, E.~{van
+  Uitert}, and M.~{Velander}.
+\newblock {CFHTLenS: the Canada-France-Hawaii Telescope Lensing Survey -
+  imaging data and catalogue products}.
+\newblock \emph{\mnras}, 433:\penalty0 2545--2563, Aug. 2013.
+\newblock \doi{10.1093/mnras/stt928}.
+
+\bibitem[{Ford} et~al.(2012){Ford}, {Hildebrandt}, {Van Waerbeke}, {Leauthaud},
+  {Capak}, {Finoguenov}, {Tanaka}, {George}, and {Rhodes}]{Ford12}
+J.~{Ford}, H.~{Hildebrandt}, L.~{Van Waerbeke}, A.~{Leauthaud}, P.~{Capak},
+  A.~{Finoguenov}, M.~{Tanaka}, M.~R. {George}, and J.~{Rhodes}.
+\newblock {Magnification by Galaxy Group Dark Matter Halos}.
+\newblock \emph{\apj}, 754:\penalty0 143, Aug. 2012.
+\newblock \doi{10.1088/0004-637X/754/2/143}.
+
+\bibitem[{Ford} et~al.(2014){Ford}, {Hildebrandt}, {Van Waerbeke}, {Erben},
+  {Laigle}, {Milkeraitis}, and {Morrison}]{Ford14}
+J.~{Ford}, H.~{Hildebrandt}, L.~{Van Waerbeke}, T.~{Erben}, C.~{Laigle},
+  M.~{Milkeraitis}, and C.~B. {Morrison}.
+\newblock {Cluster magnification and the mass-richness relation in CFHTLenS}.
+\newblock \emph{\mnras}, Feb. 2014.
+\newblock \doi{10.1093/mnras/stu225}.
+
+\bibitem[{George} et~al.(2011){George}, {Leauthaud}, {Bundy}, {Finoguenov},
+  {Tinker}, {Lin}, {Mei}, {Kneib}, {Aussel}, {Behroozi}, {Busha}, {Capak},
+  {Coccato}, {Covone}, {Faure}, {Fiorenza}, {Ilbert}, {Le Floc'h}, {Koekemoer},
+  {Tanaka}, {Wechsler}, and {Wolk}]{George11}
+M.~R. {George}, A.~{Leauthaud}, K.~{Bundy}, A.~{Finoguenov}, J.~{Tinker}, Y.-T.
+  {Lin}, S.~{Mei}, J.-P. {Kneib}, H.~{Aussel}, P.~S. {Behroozi}, M.~T. {Busha},
+  P.~{Capak}, L.~{Coccato}, G.~{Covone}, C.~{Faure}, S.~L. {Fiorenza},
+  O.~{Ilbert}, E.~{Le Floc'h}, A.~M. {Koekemoer}, M.~{Tanaka}, R.~H.
+  {Wechsler}, and M.~{Wolk}.
+\newblock {Galaxies in X-Ray Groups. I. Robust Membership Assignment and the
+  Impact of Group Environments on Quenching}.
+\newblock \emph{\apj}, 742:\penalty0 125, Dec. 2011.
+\newblock \doi{10.1088/0004-637X/742/2/125}.
+
+\bibitem[{George} et~al.(2012){George}, {Leauthaud}, {Bundy}, {Finoguenov},
+  {Ma}, {Rykoff}, {Tinker}, {Wechsler}, {Massey}, and {Mei}]{George12}
+M.~R. {George}, A.~{Leauthaud}, K.~{Bundy}, A.~{Finoguenov}, C.-P. {Ma}, E.~S.
+  {Rykoff}, J.~L. {Tinker}, R.~H. {Wechsler}, R.~{Massey}, and S.~{Mei}.
+\newblock {Galaxies in X-Ray Groups. II. A Weak Lensing Study of Halo
+  Centering}.
+\newblock \emph{\apj}, 757:\penalty0 2, Sept. 2012.
+\newblock \doi{10.1088/0004-637X/757/1/2}.
+
+\bibitem[{Gillis} and {Hudson}(2011)]{Gillis11}
+B.~R. {Gillis} and M.~J. {Hudson}.
+\newblock {Group-finding with photometric redshifts: the photo-z probability
+  peaks algorithm}.
+\newblock \emph{\mnras}, 410:\penalty0 13--26, Jan. 2011.
+\newblock \doi{10.1111/j.1365-2966.2010.17415.x}.
+
+\bibitem[{Gladders} and {Yee}(2000)]{Gladders00}
+M.~D. {Gladders} and H.~K.~C. {Yee}.
+\newblock {A New Method For Galaxy Cluster Detection. I. The Algorithm}.
+\newblock \emph{\aj}, 120:\penalty0 2148--2162, Oct. 2000.
+\newblock \doi{10.1086/301557}.
+
+\bibitem[{Hamana} et~al.(2004){Hamana}, {Ouchi}, {Shimasaku}, {Kayo}, and
+  {Suto}]{Hamana04}
+T.~{Hamana}, M.~{Ouchi}, K.~{Shimasaku}, I.~{Kayo}, and Y.~{Suto}.
+\newblock {Properties of host haloes of Lyman-break galaxies and Lyman
+  {$\alpha$} emitters from their number densities and angular clustering}.
+\newblock \emph{\mnras}, 347:\penalty0 813--823, Jan. 2004.
+\newblock \doi{10.1111/j.1365-2966.2004.07253.x}.
+
+\bibitem[{Hartlap} et~al.(2007){Hartlap}, {Simon}, and {Schneider}]{Hartlap07}
+J.~{Hartlap}, P.~{Simon}, and P.~{Schneider}.
+\newblock {Why your model parameter confidences might be too optimistic.
+  Unbiased estimation of the inverse covariance matrix}.
+\newblock \emph{\aap}, 464:\penalty0 399--404, Mar. 2007.
+\newblock \doi{10.1051/0004-6361:20066170}.
+
+\bibitem[{Heymans} et~al.(2006){Heymans}, {Van Waerbeke}, {Bacon}, {Berge},
+  {Bernstein}, {Bertin}, {Bridle}, {Brown}, {Clowe}, {Dahle}, {Erben}, {Gray},
+  {Hetterscheidt}, {Hoekstra}, {Hudelot}, {Jarvis}, {Kuijken}, {Margoniner},
+  {Massey}, {Mellier}, {Nakajima}, {Refregier}, {Rhodes}, {Schrabback}, and
+  {Wittman}]{step1}
+C.~{Heymans}, L.~{Van Waerbeke}, D.~{Bacon}, J.~{Berge}, G.~{Bernstein},
+  E.~{Bertin}, S.~{Bridle}, M.~L. {Brown}, D.~{Clowe}, H.~{Dahle}, T.~{Erben},
+  M.~{Gray}, M.~{Hetterscheidt}, H.~{Hoekstra}, P.~{Hudelot}, M.~{Jarvis},
+  K.~{Kuijken}, V.~{Margoniner}, R.~{Massey}, Y.~{Mellier}, R.~{Nakajima},
+  A.~{Refregier}, J.~{Rhodes}, T.~{Schrabback}, and D.~{Wittman}.
+\newblock {The Shear Testing Programme - I. Weak lensing analysis of simulated
+  ground-based observations}.
+\newblock \emph{\mnras}, 368:\penalty0 1323--1339, May 2006.
+\newblock \doi{10.1111/j.1365-2966.2006.10198.x}.
+
+\bibitem[{Heymans} et~al.(2012){Heymans}, {Van Waerbeke}, {Miller}, {Erben},
+  {Hildebrandt}, {Hoekstra}, {Kitching}, {Mellier}, {Simon}, {Bonnett},
+  {Coupon}, {Fu}, {Harnois D{\'e}raps}, {Hudson}, {Kilbinger}, {Kuijken},
+  {Rowe}, {Schrabback}, {Semboloni}, {van Uitert}, {Vafaei}, and
+  {Velander}]{Heymans12}
+C.~{Heymans}, L.~{Van Waerbeke}, L.~{Miller}, T.~{Erben}, H.~{Hildebrandt},
+  H.~{Hoekstra}, T.~D. {Kitching}, Y.~{Mellier}, P.~{Simon}, C.~{Bonnett},
+  J.~{Coupon}, L.~{Fu}, J.~{Harnois D{\'e}raps}, M.~J. {Hudson},
+  M.~{Kilbinger}, K.~{Kuijken}, B.~{Rowe}, T.~{Schrabback}, E.~{Semboloni},
+  E.~{van Uitert}, S.~{Vafaei}, and M.~{Velander}.
+\newblock {CFHTLenS: the Canada-France-Hawaii Telescope Lensing Survey}.
+\newblock \emph{\mnras}, 427:\penalty0 146--166, Nov. 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.21952.x}.
+
+\bibitem[{Hildebrandt} et~al.(2009{\natexlab{a}}){Hildebrandt}, {Pielorz},
+  {Erben}, {van Waerbeke}, {Simon}, and {Capak}]{Hildebrandt09a}
+H.~{Hildebrandt}, J.~{Pielorz}, T.~{Erben}, L.~{van Waerbeke}, P.~{Simon}, and
+  P.~{Capak}.
+\newblock {CARS: the CFHTLS-Archive-Research Survey. II. Weighing dark matter
+  halos of Lyman-break galaxies at z = 3-5}.
+\newblock \emph{\aap}, 498:\penalty0 725--736, May 2009{\natexlab{a}}.
+\newblock \doi{10.1051/0004-6361/200811042}.
+
+\bibitem[{Hildebrandt} et~al.(2009{\natexlab{b}}){Hildebrandt}, {van Waerbeke},
+  and {Erben}]{Hildebrandt09b}
+H.~{Hildebrandt}, L.~{van Waerbeke}, and T.~{Erben}.
+\newblock {CARS: The CFHTLS-Archive-Research Survey. III. First detection of
+  cosmic magnification in samples of normal high-z galaxies}.
+\newblock \emph{\aap}, 507:\penalty0 683--691, Nov. 2009{\natexlab{b}}.
+\newblock \doi{10.1051/0004-6361/200912655}.
+
+\bibitem[{Hildebrandt} et~al.(2011){Hildebrandt}, {Muzzin}, {Erben},
+  {Hoekstra}, {Kuijken}, {Surace}, {van Waerbeke}, {Wilson}, and
+  {Yee}]{Hildebrandt11}
+H.~{Hildebrandt}, A.~{Muzzin}, T.~{Erben}, H.~{Hoekstra}, K.~{Kuijken},
+  J.~{Surace}, L.~{van Waerbeke}, G.~{Wilson}, and H.~K.~C. {Yee}.
+\newblock {Lensing Magnification: A Novel Method to Weigh High-redshift
+  Clusters and its Application to SpARCS}.
+\newblock \emph{\apjl}, 733:\penalty0 L30, June 2011.
+\newblock \doi{10.1088/2041-8205/733/2/L30}.
+
+\bibitem[{Hildebrandt} et~al.(2012){Hildebrandt}, {Erben}, {Kuijken}, {van
+  Waerbeke}, {Heymans}, {Coupon}, {Benjamin}, {Bonnett}, {Fu}, {Hoekstra},
+  {Kitching}, {Mellier}, {Miller}, {Velander}, {Hudson}, {Rowe}, {Schrabback},
+  {Semboloni}, and {Ben{\'{\i}}tez}]{Hildebrandt12}
+H.~{Hildebrandt}, T.~{Erben}, K.~{Kuijken}, L.~{van Waerbeke}, C.~{Heymans},
+  J.~{Coupon}, J.~{Benjamin}, C.~{Bonnett}, L.~{Fu}, H.~{Hoekstra}, T.~D.
+  {Kitching}, Y.~{Mellier}, L.~{Miller}, M.~{Velander}, M.~J. {Hudson},
+  B.~T.~P. {Rowe}, T.~{Schrabback}, E.~{Semboloni}, and N.~{Ben{\'{\i}}tez}.
+\newblock {CFHTLenS: improving the quality of photometric redshifts with
+  precision photometry}.
+\newblock \emph{\mnras}, 421:\penalty0 2355--2367, Apr. 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.20468.x}.
+
+\bibitem[{Hildebrandt} et~al.(2013){Hildebrandt}, {van Waerbeke}, {Scott},
+  {B{\'e}thermin}, {Bock}, {Clements}, {Conley}, {Cooray}, {Dunlop}, {Eales},
+  {Erben}, {Farrah}, {Franceschini}, {Glenn}, {Halpern}, {Heinis}, {Ivison},
+  {Marsden}, {Oliver}, {Page}, {P{\'e}rez-Fournon}, {Smith}, {Rowan-Robinson},
+  {Valtchanov}, {van der Burg}, {Vieira}, {Viero}, and {Wang}]{Hildebrandt13}
+H.~{Hildebrandt}, L.~{van Waerbeke}, D.~{Scott}, M.~{B{\'e}thermin}, J.~{Bock},
+  D.~{Clements}, A.~{Conley}, A.~{Cooray}, J.~S. {Dunlop}, S.~{Eales},
+  T.~{Erben}, D.~{Farrah}, A.~{Franceschini}, J.~{Glenn}, M.~{Halpern},
+  S.~{Heinis}, R.~J. {Ivison}, G.~{Marsden}, S.~J. {Oliver}, M.~J. {Page},
+  I.~{P{\'e}rez-Fournon}, A.~J. {Smith}, M.~{Rowan-Robinson}, I.~{Valtchanov},
+  R.~F.~J. {van der Burg}, J.~D. {Vieira}, M.~{Viero}, and L.~{Wang}.
+\newblock {Inferring the mass of submillimetre galaxies by exploiting their
+  gravitational magnification of background galaxies}.
+\newblock \emph{\mnras}, 429:\penalty0 3230--3237, Mar. 2013.
+\newblock \doi{10.1093/mnras/sts585}.
+
+\bibitem[{Hoekstra}(2007)]{Hoekstra07}
+H.~{Hoekstra}.
+\newblock {A comparison of weak-lensing masses and X-ray properties of galaxy
+  clusters}.
+\newblock \emph{\mnras}, 379:\penalty0 317--330, July 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.11951.x}.
+
+\bibitem[{Hoekstra} et~al.(2012){Hoekstra}, {Mahdavi}, {Babul}, and
+  {Bildfell}]{Hoekstra12}
+H.~{Hoekstra}, A.~{Mahdavi}, A.~{Babul}, and C.~{Bildfell}.
+\newblock {The Canadian Cluster Comparison Project: weak lensing masses and SZ
+  scaling relations}.
+\newblock \emph{\mnras}, 427:\penalty0 1298--1311, Dec. 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.22072.x}.
+
+\bibitem[{Huff} and {Graves}(2014)]{Huff14}
+E.~M. {Huff} and G.~J. {Graves}.
+\newblock {Magnificent Magnification: Exploiting the Other Half of the Lensing
+  Signal}.
+\newblock \emph{\apjl}, 780:\penalty0 L16, Jan. 2014.
+\newblock \doi{10.1088/2041-8205/780/2/L16}.
+
+\bibitem[{Johnston} et~al.(2007){Johnston}, {Sheldon}, {Wechsler}, {Rozo},
+  {Koester}, {Frieman}, {McKay}, {Evrard}, {Becker}, and {Annis}]{Johnston07}
+D.~E. {Johnston}, E.~S. {Sheldon}, R.~H. {Wechsler}, E.~{Rozo}, B.~P.
+  {Koester}, J.~A. {Frieman}, T.~A. {McKay}, A.~E. {Evrard}, M.~R. {Becker},
+  and J.~{Annis}.
+\newblock {Cross-correlation Weak Lensing of SDSS galaxy Clusters II: Cluster
+  Density Profiles and the Mass--Richness Relation}.
+\newblock \emph{ArXiv e-prints, astro-ph/0709.1159}, Sept. 2007.
+
+\bibitem[{Kerscher} et~al.(2000){Kerscher}, {Szapudi}, and
+  {Szalay}]{Kerscher00}
+M.~{Kerscher}, I.~{Szapudi}, and A.~S. {Szalay}.
+\newblock {A Comparison of Estimators for the Two-Point Correlation Function}.
+\newblock \emph{\apjl}, 535:\penalty0 L13--L16, May 2000.
+\newblock \doi{10.1086/312702}.
+
+\bibitem[{Kitching} et~al.(2010){Kitching}, {Balan}, {Bernstein}, {Bethge},
+  {Bridle}, {Courbin}, {Gentile}, {Heavens}, {Hirsch}, {Hosseini}, {Kiessling},
+  {Amara}, {Kirk}, {Kuijken}, {Mandelbaum}, {Moghaddam}, {Nurbaeva},
+  {Paulin-Henriksson}, {Rassat}, {Rhodes}, {Sch{\"o}lkopf}, {Shawe-Taylor},
+  {Gill}, {Shmakova}, {Taylor}, {Velander}, {van Waerbeke}, {Witherick},
+  {Wittman}, {Harmeling}, {Heymans}, {Massey}, {Rowe}, {Schrabback}, and
+  {Voigt}]{great10}
+T.~{Kitching}, S.~{Balan}, G.~{Bernstein}, M.~{Bethge}, S.~{Bridle},
+  F.~{Courbin}, M.~{Gentile}, A.~{Heavens}, M.~{Hirsch}, R.~{Hosseini},
+  A.~{Kiessling}, A.~{Amara}, D.~{Kirk}, K.~{Kuijken}, R.~{Mandelbaum},
+  B.~{Moghaddam}, G.~{Nurbaeva}, S.~{Paulin-Henriksson}, A.~{Rassat},
+  J.~{Rhodes}, B.~{Sch{\"o}lkopf}, J.~{Shawe-Taylor}, M.~{Gill}, M.~{Shmakova},
+  A.~{Taylor}, M.~{Velander}, L.~{van Waerbeke}, D.~{Witherick}, D.~{Wittman},
+  S.~{Harmeling}, C.~{Heymans}, R.~{Massey}, B.~{Rowe}, T.~{Schrabback}, and
+  L.~{Voigt}.
+\newblock {Gravitational Lensing Accuracy Testing 2010 (GREAT10) Challenge
+  Handbook}.
+\newblock \emph{ArXiv e-prints, astro-ph/1009.0779}, Sept. 2010.
+
+\bibitem[{Kitzbichler} and {White}(2007)]{KW07}
+M.~G. {Kitzbichler} and S.~D.~M. {White}.
+\newblock {The high-redshift galaxy population in hierarchical galaxy formation
+  models}.
+\newblock \emph{\mnras}, 376:\penalty0 2--12, Mar. 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.11458.x}.
+
+\bibitem[{Koester} et~al.(2007){Koester}, {McKay}, {Annis}, {Wechsler},
+  {Evrard}, {Rozo}, {Bleem}, {Sheldon}, and {Johnston}]{Koester07}
+B.~P. {Koester}, T.~A. {McKay}, J.~{Annis}, R.~H. {Wechsler}, A.~E. {Evrard},
+  E.~{Rozo}, L.~{Bleem}, E.~S. {Sheldon}, and D.~{Johnston}.
+\newblock {MaxBCG: A Red-Sequence Galaxy Cluster Finder}.
+\newblock \emph{\apj}, 660:\penalty0 221--238, May 2007.
+\newblock \doi{10.1086/512092}.
+
+\bibitem[{Landy} and {Szalay}(1993)]{LandySzalay93}
+S.~D. {Landy} and A.~S. {Szalay}.
+\newblock {Bias and variance of angular correlation functions}.
+\newblock \emph{\apj}, 412:\penalty0 64--71, July 1993.
+\newblock \doi{10.1086/172900}.
+
+\bibitem[{Larson} et~al.(2011){Larson}, {Dunkley}, {Hinshaw}, {Komatsu},
+  {Nolta}, {Bennett}, {Gold}, {Halpern}, {Hill}, {Jarosik}, {Kogut}, {Limon},
+  {Meyer}, {Odegard}, {Page}, {Smith}, {Spergel}, {Tucker}, {Weiland},
+  {Wollack}, and {Wright}]{WMAP7}
+D.~{Larson}, J.~{Dunkley}, G.~{Hinshaw}, E.~{Komatsu}, M.~R. {Nolta}, C.~L.
+  {Bennett}, B.~{Gold}, M.~{Halpern}, R.~S. {Hill}, N.~{Jarosik}, A.~{Kogut},
+  M.~{Limon}, S.~S. {Meyer}, N.~{Odegard}, L.~{Page}, K.~M. {Smith}, D.~N.
+  {Spergel}, G.~S. {Tucker}, J.~L. {Weiland}, E.~{Wollack}, and E.~L. {Wright}.
+\newblock {Seven-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Power Spectra and WMAP-derived Parameters}.
+\newblock \emph{\apjs}, 192:\penalty0 16, Feb. 2011.
+\newblock \doi{10.1088/0067-0049/192/2/16}.
+
+\bibitem[{Leauthaud} et~al.(2010){Leauthaud}, {Finoguenov}, {Kneib}, {Taylor},
+  {Massey}, {Rhodes}, {Ilbert}, {Bundy}, {Tinker}, {George}, {Capak},
+  {Koekemoer}, {Johnston}, {Zhang}, {Cappelluti}, {Ellis}, {Elvis}, {Giodini},
+  {Heymans}, {Le F{\`e}vre}, {Lilly}, {McCracken}, {Mellier},
+  {R{\'e}fr{\'e}gier}, {Salvato}, {Scoville}, {Smoot}, {Tanaka}, {Van
+  Waerbeke}, and {Wolk}]{Leauthaud10}
+A.~{Leauthaud}, A.~{Finoguenov}, J.-P. {Kneib}, J.~E. {Taylor}, R.~{Massey},
+  J.~{Rhodes}, O.~{Ilbert}, K.~{Bundy}, J.~{Tinker}, M.~R. {George},
+  P.~{Capak}, A.~M. {Koekemoer}, D.~E. {Johnston}, Y.-Y. {Zhang},
+  N.~{Cappelluti}, R.~S. {Ellis}, M.~{Elvis}, S.~{Giodini}, C.~{Heymans},
+  O.~{Le F{\`e}vre}, S.~{Lilly}, H.~J. {McCracken}, Y.~{Mellier},
+  A.~{R{\'e}fr{\'e}gier}, M.~{Salvato}, N.~{Scoville}, G.~{Smoot}, M.~{Tanaka},
+  L.~{Van Waerbeke}, and M.~{Wolk}.
+\newblock {A Weak Lensing Study of X-ray Groups in the Cosmos Survey: Form and
+  Evolution of the Mass-Luminosity Relation}.
+\newblock \emph{\apj}, 709:\penalty0 97--114, Jan. 2010.
+\newblock \doi{10.1088/0004-637X/709/1/97}.
+
+\bibitem[{Mandelbaum} et~al.(2006){Mandelbaum}, {Seljak}, {Cool}, {Blanton},
+  {Hirata}, and {Brinkmann}]{Mandelbaum06}
+R.~{Mandelbaum}, U.~{Seljak}, R.~J. {Cool}, M.~{Blanton}, C.~M. {Hirata}, and
+  J.~{Brinkmann}.
+\newblock {Density profiles of galaxy groups and clusters from SDSS
+  galaxy-galaxy weak lensing}.
+\newblock \emph{\mnras}, 372:\penalty0 758--776, Oct. 2006.
+\newblock \doi{10.1111/j.1365-2966.2006.10906.x}.
+
+\bibitem[{Mandelbaum} et~al.(2008){Mandelbaum}, {Seljak}, and
+  {Hirata}]{Mandelbaum08}
+R.~{Mandelbaum}, U.~{Seljak}, and C.~M. {Hirata}.
+\newblock {A halo mass--concentration relation from weak lensing}.
+\newblock \emph{\jcap}, 8:\penalty0 006, Aug. 2008.
+\newblock \doi{10.1088/1475-7516/2008/08/006}.
+
+\bibitem[{Massey} et~al.(2007{\natexlab{a}}){Massey}, {Heymans}, {Berg{\'e}},
+  {Bernstein}, {Bridle}, {Clowe}, {Dahle}, {Ellis}, {Erben}, {Hetterscheidt},
+  {High}, {Hirata}, {Hoekstra}, {Hudelot}, {Jarvis}, {Johnston}, {Kuijken},
+  {Margoniner}, {Mandelbaum}, {Mellier}, {Nakajima}, {Paulin-Henriksson},
+  {Peeples}, {Roat}, {Refregier}, {Rhodes}, {Schrabback}, {Schirmer}, {Seljak},
+  {Semboloni}, and {van Waerbeke}]{step2}
+R.~{Massey}, C.~{Heymans}, J.~{Berg{\'e}}, G.~{Bernstein}, S.~{Bridle},
+  D.~{Clowe}, H.~{Dahle}, R.~{Ellis}, T.~{Erben}, M.~{Hetterscheidt}, F.~W.
+  {High}, C.~{Hirata}, H.~{Hoekstra}, P.~{Hudelot}, M.~{Jarvis}, D.~{Johnston},
+  K.~{Kuijken}, V.~{Margoniner}, R.~{Mandelbaum}, Y.~{Mellier}, R.~{Nakajima},
+  S.~{Paulin-Henriksson}, M.~{Peeples}, C.~{Roat}, A.~{Refregier}, J.~{Rhodes},
+  T.~{Schrabback}, M.~{Schirmer}, U.~{Seljak}, E.~{Semboloni}, and L.~{van
+  Waerbeke}.
+\newblock {The Shear Testing Programme 2: Factors affecting high-precision
+  weak-lensing analyses}.
+\newblock \emph{\mnras}, 376:\penalty0 13--38, Mar. 2007{\natexlab{a}}.
+\newblock \doi{10.1111/j.1365-2966.2006.11315.x}.
+
+\bibitem[{Massey} et~al.(2007{\natexlab{b}}){Massey}, {Rhodes}, {Ellis},
+  {Scoville}, {Leauthaud}, {Finoguenov}, {Capak}, {Bacon}, {Aussel}, {Kneib},
+  {Koekemoer}, {McCracken}, {Mobasher}, {Pires}, {Refregier}, {Sasaki},
+  {Starck}, {Taniguchi}, {Taylor}, and {Taylor}]{Massey07}
+R.~{Massey}, J.~{Rhodes}, R.~{Ellis}, N.~{Scoville}, A.~{Leauthaud},
+  A.~{Finoguenov}, P.~{Capak}, D.~{Bacon}, H.~{Aussel}, J.-P. {Kneib},
+  A.~{Koekemoer}, H.~{McCracken}, B.~{Mobasher}, S.~{Pires}, A.~{Refregier},
+  S.~{Sasaki}, J.-L. {Starck}, Y.~{Taniguchi}, A.~{Taylor}, and J.~{Taylor}.
+\newblock {Dark matter maps reveal cosmic scaffolding}.
+\newblock \emph{\nat}, 445:\penalty0 286--290, Jan. 2007{\natexlab{b}}.
+\newblock \doi{10.1038/nature05497}.
+
+\bibitem[{Mazure} et~al.(2007){Mazure}, {Adami}, {Pierre}, {Le F{\`e}vre},
+  {Arnouts}, {Duc}, {Ilbert}, {Lebrun}, {Meneux}, {Pacaud}, {Surdej}, and
+  {Valtchanov}]{Mazure07}
+A.~{Mazure}, C.~{Adami}, M.~{Pierre}, O.~{Le F{\`e}vre}, S.~{Arnouts}, P.~A.
+  {Duc}, O.~{Ilbert}, V.~{Lebrun}, B.~{Meneux}, F.~{Pacaud}, J.~{Surdej}, and
+  I.~{Valtchanov}.
+\newblock {Structure detection in the D1 CFHTLS deep field using accurate
+  photometric redshifts: a benchmark}.
+\newblock \emph{\aap}, 467:\penalty0 49--62, May 2007.
+\newblock \doi{10.1051/0004-6361:20066379}.
+
+\bibitem[{M{\'e}nard} et~al.(2003){M{\'e}nard}, {Hamana}, {Bartelmann}, and
+  {Yoshida}]{Menard03}
+B.~{M{\'e}nard}, T.~{Hamana}, M.~{Bartelmann}, and N.~{Yoshida}.
+\newblock {Improving the accuracy of cosmic magnification statistics}.
+\newblock \emph{\aap}, 403:\penalty0 817--828, June 2003.
+\newblock \doi{10.1051/0004-6361:20030406}.
+
+\bibitem[{M{\'e}nard} et~al.(2010){M{\'e}nard}, {Scranton}, {Fukugita}, and
+  {Richards}]{Menard10}
+B.~{M{\'e}nard}, R.~{Scranton}, M.~{Fukugita}, and G.~{Richards}.
+\newblock {Measuring the galaxy-mass and galaxy-dust correlations through
+  magnification and reddening}.
+\newblock \emph{\mnras}, 405:\penalty0 1025--1039, June 2010.
+\newblock \doi{10.1111/j.1365-2966.2010.16486.x}.
+
+\bibitem[Milkeraitis(2011)]{MMthesis11}
+M.~Milkeraitis.
+\newblock \emph{{Optical galaxy cluster detection and weak lensing derived
+  galaxy cluster mass functions: the development of a new algorithm and its
+  application to the Millenium Simulation, CFHTLS-Deep, and CFHTLS-Wide
+  surveys}}.
+\newblock PhD thesis, University of British Columbia, 2011.
+
+\bibitem[{Milkeraitis} et~al.(2010){Milkeraitis}, {van Waerbeke}, {Heymans},
+  {Hildebrandt}, {Dietrich}, and {Erben}]{Milkeraitis10}
+M.~{Milkeraitis}, L.~{van Waerbeke}, C.~{Heymans}, H.~{Hildebrandt}, J.~P.
+  {Dietrich}, and T.~{Erben}.
+\newblock {3D-Matched-Filter galaxy cluster finder - I. Selection functions and
+  CFHTLS Deep clusters}.
+\newblock \emph{\mnras}, 406:\penalty0 673--688, July 2010.
+\newblock \doi{10.1111/j.1365-2966.2010.16720.x}.
+
+\bibitem[{Miller} et~al.(2013){Miller}, {Heymans}, {Kitching}, {van Waerbeke},
+  {Erben}, {Hildebrandt}, {Hoekstra}, {Mellier}, {Rowe}, {Coupon}, {Dietrich},
+  {Fu}, {Harnois-D{\'e}raps}, {Hudson}, {Kilbinger}, {Kuijken}, {Schrabback},
+  {Semboloni}, {Vafaei}, and {Velander}]{Miller13}
+L.~{Miller}, C.~{Heymans}, T.~D. {Kitching}, L.~{van Waerbeke}, T.~{Erben},
+  H.~{Hildebrandt}, H.~{Hoekstra}, Y.~{Mellier}, B.~T.~P. {Rowe}, J.~{Coupon},
+  J.~P. {Dietrich}, L.~{Fu}, J.~{Harnois-D{\'e}raps}, M.~J. {Hudson},
+  M.~{Kilbinger}, K.~{Kuijken}, T.~{Schrabback}, E.~{Semboloni}, S.~{Vafaei},
+  and M.~{Velander}.
+\newblock {Bayesian galaxy shape measurement for weak lensing surveys - III.
+  Application to the Canada-France-Hawaii Telescope Lensing Survey}.
+\newblock \emph{\mnras}, 429:\penalty0 2858--2880, Mar. 2013.
+\newblock \doi{10.1093/mnras/sts454}.
+
+\bibitem[{Mo} and {White}(1996)]{Mo96}
+H.~J. {Mo} and S.~D.~M. {White}.
+\newblock {An analytic model for the spatial clustering of dark matter haloes}.
+\newblock \emph{\mnras}, 282:\penalty0 347--361, Sept. 1996.
+
+\bibitem[{Morrison} et~al.(2012){Morrison}, {Scranton}, {M{\'e}nard},
+  {Schmidt}, {Tyson}, {Ryan}, {Choi}, and {Wittman}]{Morrison12}
+C.~B. {Morrison}, R.~{Scranton}, B.~{M{\'e}nard}, S.~J. {Schmidt}, J.~A.
+  {Tyson}, R.~{Ryan}, A.~{Choi}, and D.~M. {Wittman}.
+\newblock {Tomographic magnification of Lyman-break galaxies in the Deep Lens
+  Survey}.
+\newblock \emph{\mnras}, 426:\penalty0 2489--2499, Nov. 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.21826.x}.
+
+\bibitem[{Narayan}(1989)]{Narayan89}
+R.~{Narayan}.
+\newblock {Gravitational lensing and quasar-galaxy correlations}.
+\newblock \emph{\apjl}, 339:\penalty0 L53--L56, Apr. 1989.
+\newblock \doi{10.1086/185418}.
+
+\bibitem[{Navarro} et~al.(1997){Navarro}, {Frenk}, and {White}]{nfw97}
+J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
+\newblock {A Universal Density Profile from Hierarchical Clustering}.
+\newblock \emph{\apj}, 490:\penalty0 493, Dec. 1997.
+\newblock \doi{10.1086/304888}.
+
+\bibitem[{Newman}(2008)]{Newman08}
+J.~A. {Newman}.
+\newblock {Calibrating Redshift Distributions beyond Spectroscopic Limits with
+  Cross-Correlations}.
+\newblock \emph{\apj}, 684:\penalty0 88--101, Sept. 2008.
+\newblock \doi{10.1086/589982}.
+
+\bibitem[{Ouchi} et~al.(2004){Ouchi}, {Shimasaku}, {Okamura}, {Furusawa},
+  {Kashikawa}, {Ota}, {Doi}, {Hamabe}, {Kimura}, {Komiyama}, {Miyazaki},
+  {Miyazaki}, {Nakata}, {Sekiguchi}, {Yagi}, and {Yasuda}]{Ouchi04}
+M.~{Ouchi}, K.~{Shimasaku}, S.~{Okamura}, H.~{Furusawa}, N.~{Kashikawa},
+  K.~{Ota}, M.~{Doi}, M.~{Hamabe}, M.~{Kimura}, Y.~{Komiyama}, M.~{Miyazaki},
+  S.~{Miyazaki}, F.~{Nakata}, M.~{Sekiguchi}, M.~{Yagi}, and N.~{Yasuda}.
+\newblock {Subaru Deep Survey. V. A Census of Lyman Break Galaxies at z\~{}=4
+  and 5 in the Subaru Deep Fields: Photometric Properties}.
+\newblock \emph{\apj}, 611:\penalty0 660--684, Aug. 2004.
+\newblock \doi{10.1086/422207}.
+
+\bibitem[{Postman} et~al.(1996){Postman}, {Lubin}, {Gunn}, {Oke}, {Hoessel},
+  {Schneider}, and {Christensen}]{Postman96}
+M.~{Postman}, L.~M. {Lubin}, J.~E. {Gunn}, J.~B. {Oke}, J.~G. {Hoessel}, D.~P.
+  {Schneider}, and J.~A. {Christensen}.
+\newblock {The Palomar Distant Clusters Survey. I. The Cluster Catalog}.
+\newblock \emph{\aj}, 111:\penalty0 615, Feb. 1996.
+\newblock \doi{10.1086/117811}.
+
+\bibitem[{Prada} et~al.(2012){Prada}, {Klypin}, {Cuesta}, {Betancort-Rijo}, and
+  {Primack}]{Prada12}
+F.~{Prada}, A.~A. {Klypin}, A.~J. {Cuesta}, J.~E. {Betancort-Rijo}, and
+  J.~{Primack}.
+\newblock {Halo concentrations in the standard {$\Lambda$} cold dark matter
+  cosmology}.
+\newblock \emph{\mnras}, 423:\penalty0 3018--3030, July 2012.
+\newblock \doi{10.1111/j.1365-2966.2012.21007.x}.
+
+\bibitem[{Rozo} and {Schmidt}(2010)]{RozoSchmidt10}
+E.~{Rozo} and F.~{Schmidt}.
+\newblock {Weak Lensing Mass Calibration with Shear and Magnification}.
+\newblock \emph{ArXiv e-prints, astro-ph/1009.5735}, Sept. 2010.
+
+\bibitem[{Sawicki} and {Thompson}(2006)]{Sawicki06}
+M.~{Sawicki} and D.~{Thompson}.
+\newblock {Keck Deep Fields. II. The Ultraviolet Galaxy Luminosity Function at
+  z \~{} 4, 3, and 2}.
+\newblock \emph{\apj}, 642:\penalty0 653--672, May 2006.
+\newblock \doi{10.1086/500999}.
+
+\bibitem[{Schechter}(1976)]{Schechter76}
+P.~{Schechter}.
+\newblock {An analytic expression for the luminosity function for galaxies.}
+\newblock \emph{\apj}, 203:\penalty0 297--306, Jan. 1976.
+\newblock \doi{10.1086/154079}.
+
+\bibitem[{Schmidt} et~al.(2012){Schmidt}, {Leauthaud}, {Massey}, {Rhodes},
+  {George}, {Koekemoer}, {Finoguenov}, and {Tanaka}]{Schmidt12}
+F.~{Schmidt}, A.~{Leauthaud}, R.~{Massey}, J.~{Rhodes}, M.~R. {George}, A.~M.
+  {Koekemoer}, A.~{Finoguenov}, and M.~{Tanaka}.
+\newblock {A Detection of Weak-lensing Magnification Using Galaxy Sizes and
+  Magnitudes}.
+\newblock \emph{\apjl}, 744:\penalty0 L22, Jan. 2012.
+\newblock \doi{10.1088/2041-8205/744/2/L22}.
+
+\bibitem[{Scranton} et~al.(2005){Scranton}, {M{\'e}nard}, {Richards}, {Nichol},
+  {Myers}, {Jain}, {Gray}, {Bartelmann}, {Brunner}, {Connolly}, {Gunn},
+  {Sheth}, {Bahcall}, {Brinkman}, {Loveday}, {Schneider}, {Thakar}, and
+  {York}]{Scranton05}
+R.~{Scranton}, B.~{M{\'e}nard}, G.~T. {Richards}, R.~C. {Nichol}, A.~D.
+  {Myers}, B.~{Jain}, A.~{Gray}, M.~{Bartelmann}, R.~J. {Brunner}, A.~J.
+  {Connolly}, J.~E. {Gunn}, R.~K. {Sheth}, N.~A. {Bahcall}, J.~{Brinkman},
+  J.~{Loveday}, D.~P. {Schneider}, A.~{Thakar}, and D.~G. {York}.
+\newblock {Detection of Cosmic Magnification with the Sloan Digital Sky
+  Survey}.
+\newblock \emph{\apj}, 633:\penalty0 589--602, Nov. 2005.
+\newblock \doi{10.1086/431358}.
+
+\bibitem[{Seljak} and {Warren}(2004)]{Seljak04}
+U.~{Seljak} and M.~S. {Warren}.
+\newblock {Large-scale bias and stochasticity of haloes and dark matter}.
+\newblock \emph{\mnras}, 355:\penalty0 129--136, Nov. 2004.
+\newblock \doi{10.1111/j.1365-2966.2004.08297.x}.
+
+\bibitem[{Shan} et~al.(2012){Shan}, {Kneib}, {Tao}, {Fan}, {Jauzac},
+  {Limousin}, {Massey}, {Rhodes}, {Thanjavur}, and {McCracken}]{Shan12}
+H.~{Shan}, J.-P. {Kneib}, C.~{Tao}, Z.~{Fan}, M.~{Jauzac}, M.~{Limousin},
+  R.~{Massey}, J.~{Rhodes}, K.~{Thanjavur}, and H.~J. {McCracken}.
+\newblock {Weak Lensing Measurement of Galaxy Clusters in the CFHTLS-Wide
+  Survey}.
+\newblock \emph{\apj}, 748:\penalty0 56, Mar. 2012.
+\newblock \doi{10.1088/0004-637X/748/1/56}.
+
+\bibitem[{Sheth} and {Tormen}(1999)]{Sheth99}
+R.~K. {Sheth} and G.~{Tormen}.
+\newblock {Large-scale bias and the peak background split}.
+\newblock \emph{\mnras}, 308:\penalty0 119--126, Sept. 1999.
+\newblock \doi{10.1046/j.1365-8711.1999.02692.x}.
+
+\bibitem[{Springel} et~al.(2005){Springel}, {White}, {Jenkins}, {Frenk},
+  {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole},
+  {Thomas}, {Couchman}, {Evrard}, {Colberg}, and {Pearce}]{Springel05}
+V.~{Springel}, S.~D.~M. {White}, A.~{Jenkins}, C.~S. {Frenk}, N.~{Yoshida},
+  L.~{Gao}, J.~{Navarro}, R.~{Thacker}, D.~{Croton}, J.~{Helly}, J.~A.
+  {Peacock}, S.~{Cole}, P.~{Thomas}, H.~{Couchman}, A.~{Evrard}, J.~{Colberg},
+  and F.~{Pearce}.
+\newblock {Simulations of the formation, evolution and clustering of galaxies
+  and quasars}.
+\newblock \emph{\nat}, 435:\penalty0 629--636, June 2005.
+\newblock \doi{10.1038/nature03597}.
+
+\bibitem[{Steidel} et~al.(1998){Steidel}, {Adelberger}, {Dickinson},
+  {Giavalisco}, and {Pettini}]{Steidel98}
+C.~C. {Steidel}, K.~L. {Adelberger}, M.~{Dickinson}, M.~{Giavalisco}, and
+  M.~{Pettini}.
+\newblock {Lyman Break Galaxies at z\~{}3 and Beyond}.
+\newblock \emph{ArXiv e-prints, astro-ph/9812167}, Dec. 1998.
+
+\bibitem[{Tinker} et~al.(2010){Tinker}, {Robertson}, {Kravtsov}, {Klypin},
+  {Warren}, {Yepes}, and {Gottl{\"o}ber}]{Tinker10}
+J.~L. {Tinker}, B.~E. {Robertson}, A.~V. {Kravtsov}, A.~{Klypin}, M.~S.
+  {Warren}, G.~{Yepes}, and S.~{Gottl{\"o}ber}.
+\newblock {The Large-scale Bias of Dark Matter Halos: Numerical Calibration and
+  Model Tests}.
+\newblock \emph{\apj}, 724:\penalty0 878--886, Dec. 2010.
+\newblock \doi{10.1088/0004-637X/724/2/878}.
+
+\bibitem[{Umetsu}(2013)]{Umetsu13}
+K.~{Umetsu}.
+\newblock {Model-free Multi-probe Lensing Reconstruction of Cluster Mass
+  Profiles}.
+\newblock \emph{\apj}, 769:\penalty0 13, May 2013.
+\newblock \doi{10.1088/0004-637X/769/1/13}.
+
+\bibitem[{Umetsu} et~al.(2011){Umetsu}, {Broadhurst}, {Zitrin}, {Medezinski},
+  and {Hsu}]{Umetsu11}
+K.~{Umetsu}, T.~{Broadhurst}, A.~{Zitrin}, E.~{Medezinski}, and L.-Y. {Hsu}.
+\newblock {Cluster Mass Profiles from a Bayesian Analysis of Weak-lensing
+  Distortion and Magnification Measurements: Applications to Subaru Data}.
+\newblock \emph{\apj}, 729:\penalty0 127, Mar. 2011.
+\newblock \doi{10.1088/0004-637X/729/2/127}.
+
+\bibitem[{van der Burg} et~al.(2010){van der Burg}, {Hildebrandt}, and
+  {Erben}]{vanderBurg10}
+R.~F.~J. {van der Burg}, H.~{Hildebrandt}, and T.~{Erben}.
+\newblock {The UV galaxy luminosity function at z = 3-5 from the CFHT Legacy
+  Survey Deep fields}.
+\newblock \emph{\aap}, 523:\penalty0 A74, Nov. 2010.
+\newblock \doi{10.1051/0004-6361/200913812}.
+
+\bibitem[{van Waerbeke}(2010)]{Waerbeke10}
+L.~{van Waerbeke}.
+\newblock {Shear and magnification: cosmic complementarity}.
+\newblock \emph{\mnras}, 401:\penalty0 2093--2100, Jan. 2010.
+\newblock \doi{10.1111/j.1365-2966.2009.15809.x}.
+
+\bibitem[{Van Waerbeke} et~al.(2010){Van Waerbeke}, {Hildebrandt}, {Ford}, and
+  {Milkeraitis}]{LHJM10}
+L.~{Van Waerbeke}, H.~{Hildebrandt}, J.~{Ford}, and M.~{Milkeraitis}.
+\newblock {Magnification as a Probe of Dark Matter Halos at High Redshifts}.
+\newblock \emph{\apjl}, 723:\penalty0 L13--L16, Nov. 2010.
+\newblock \doi{10.1088/2041-8205/723/1/L13}.
+
+\bibitem[{Van Waerbeke} et~al.(2013){Van Waerbeke}, {Benjamin}, {Erben},
+  {Heymans}, {Hildebrandt}, {Hoekstra}, {Kitching}, {Mellier}, {Miller},
+  {Coupon}, {Harnois-D{\'e}raps}, {Fu}, {Hudson}, {Kilbinger}, {Kuijken},
+  {Rowe}, {Schrabback}, {Semboloni}, {Vafaei}, {van Uitert}, and
+  {Velander}]{Waerbeke13}
+L.~{Van Waerbeke}, J.~{Benjamin}, T.~{Erben}, C.~{Heymans}, H.~{Hildebrandt},
+  H.~{Hoekstra}, T.~D. {Kitching}, Y.~{Mellier}, L.~{Miller}, J.~{Coupon},
+  J.~{Harnois-D{\'e}raps}, L.~{Fu}, M.~{Hudson}, M.~{Kilbinger}, K.~{Kuijken},
+  B.~{Rowe}, T.~{Schrabback}, E.~{Semboloni}, S.~{Vafaei}, E.~{van Uitert}, and
+  M.~{Velander}.
+\newblock {CFHTLenS: mapping the large-scale structure with gravitational
+  lensing}.
+\newblock \emph{\mnras}, 433:\penalty0 3373--3388, Aug. 2013.
+\newblock \doi{10.1093/mnras/stt971}.
+
+\bibitem[{Velander} et~al.(2014){Velander}, {van Uitert}, {Hoekstra}, {Coupon},
+  {Erben}, {Heymans}, {Hildebrandt}, {Kitching}, {Mellier}, {Miller}, {Van
+  Waerbeke}, {Bonnett}, {Fu}, {Giodini}, {Hudson}, {Kuijken}, {Rowe},
+  {Schrabback}, and {Semboloni}]{Velander14}
+M.~{Velander}, E.~{van Uitert}, H.~{Hoekstra}, J.~{Coupon}, T.~{Erben},
+  C.~{Heymans}, H.~{Hildebrandt}, T.~D. {Kitching}, Y.~{Mellier}, L.~{Miller},
+  L.~{Van Waerbeke}, C.~{Bonnett}, L.~{Fu}, S.~{Giodini}, M.~J. {Hudson},
+  K.~{Kuijken}, B.~{Rowe}, T.~{Schrabback}, and E.~{Semboloni}.
+\newblock {CFHTLenS: the relation between galaxy dark matter haloes and baryons
+  from weak gravitational lensing}.
+\newblock \emph{\mnras}, 437:\penalty0 2111--2136, Jan. 2014.
+\newblock \doi{10.1093/mnras/stt2013}.
+
+\bibitem[{Voit}(2005)]{Voit05}
+G.~M. {Voit}.
+\newblock {Tracing cosmic evolution with clusters of galaxies}.
+\newblock \emph{Reviews of Modern Physics}, 77:\penalty0 207--258, Apr. 2005.
+\newblock \doi{10.1103/RevModPhys.77.207}.
+
+\bibitem[{Wen} et~al.(2012){Wen}, {Han}, and {Liu}]{Wen12}
+Z.~L. {Wen}, J.~L. {Han}, and F.~S. {Liu}.
+\newblock {A Catalog of 132,684 Clusters of Galaxies Identified from Sloan
+  Digital Sky Survey III}.
+\newblock \emph{\apjs}, 199:\penalty0 34, Apr. 2012.
+\newblock \doi{10.1088/0067-0049/199/2/34}.
+
+\bibitem[{Wright} and {Brainerd}(2000)]{Wright00}
+C.~O. {Wright} and T.~G. {Brainerd}.
+\newblock {Gravitational Lensing by NFW Halos}.
+\newblock \emph{\apj}, 534:\penalty0 34--40, May 2000.
+\newblock \doi{10.1086/308744}.
+
+\bibitem[{Yang} et~al.(2006){Yang}, {Mo}, {van den Bosch}, {Jing}, {Weinmann},
+  and {Meneghetti}]{Yang06}
+X.~{Yang}, H.~J. {Mo}, F.~C. {van den Bosch}, Y.~P. {Jing}, S.~M. {Weinmann},
+  and M.~{Meneghetti}.
+\newblock {Weak lensing by galaxies in groups and clusters - I. Theoretical
+  expectations}.
+\newblock \emph{\mnras}, 373:\penalty0 1159--1172, Dec. 2006.
+\newblock \doi{10.1111/j.1365-2966.2006.11091.x}.
+
+\bibitem[{Zehavi} et~al.(2011){Zehavi}, {Zheng}, {Weinberg}, {Blanton},
+  {Bahcall}, {Berlind}, {Brinkmann}, {Frieman}, {Gunn}, {Lupton}, {Nichol},
+  {Percival}, {Schneider}, {Skibba}, {Strauss}, {Tegmark}, and
+  {York}]{Zehavi11}
+I.~{Zehavi}, Z.~{Zheng}, D.~H. {Weinberg}, M.~R. {Blanton}, N.~A. {Bahcall},
+  A.~A. {Berlind}, J.~{Brinkmann}, J.~A. {Frieman}, J.~E. {Gunn}, R.~H.
+  {Lupton}, R.~C. {Nichol}, W.~J. {Percival}, D.~P. {Schneider}, R.~A.
+  {Skibba}, M.~A. {Strauss}, M.~{Tegmark}, and D.~G. {York}.
+\newblock {Galaxy Clustering in the Completed SDSS Redshift Survey: The
+  Dependence on Color and Luminosity}.
+\newblock \emph{\apj}, 736:\penalty0 59, July 2011.
+\newblock \doi{10.1088/0004-637X/736/1/59}.
+
+\end{thebibliography}
