@@ -33,7 +33,7 @@ As light from distance objects in the universe makes the journey from its source
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.3]{plots_intro/LensDiagram.png}
-\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta$ relative to the horizontal, its image (gray star) appears to be at an angle $\alpha+\beta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labelled.}
+\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta$ relative to the horizontal, its image (gray star) appears to be at an angle $\alpha+\beta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
 \label{lensing}
 \end{center}
 \end{figure}
@@ -42,6 +42,38 @@ As light from distance objects in the universe makes the journey from its source
 \subsection{Weak Lensing Shear}
 
 \subsection{Magnification}
+\label{sec:mag}
+Weak lensing magnification is, to first order, a measure of the convergence of a lensing mass.  It can be detected through the stretching of solid angle on the sky, which leads to the amplification of source flux, since lensing conserves surface brightness. In general, two different approaches can be taken to measure magnification.  The method we employ involves observing the effects on source number densities that result from source amplification in a flux-limited survey. An alternative approach is to observe coherent variations in source sizes and flux, but this method suffers from many of the limitations facing shear analysis.
+
+Magnification affects the source number densities in two ways, and the one that dominates is determined by the intrinsic magnitude number counts of the sources in question.  Simply put, the brightest sources, which usually have steep number counts, will exhibit an {\it increase} in number density when lensed, as the amplification allows more objects to be detected, while the number density of the faintest sources, having relatively shallow number counts, will {\it decrease} \citep{Narayan89}.
+
+Compared to shear measurements, magnification exhibits a slightly lower signal-to-noise ($S/N$) ratio, the reason it has been largely ignored until recently.  However, what magnification lacks in signal strength, it makes up for in terms of its ability to be applied to lenses at higher redshift and to poorly resolved sources \citep{Waerbeke10}.  Since shear studies require measurements of galaxy shapes, in order for a source to be used it must necessarily be well resolved.  This is in stark contrast to magnification studies using source number densities, which have no such requirement for the sources to be resolved at all.  In principle only source magnitudes, redshifts, and positions relative to a lens must be known.  This simple fact makes it possible to extend weak lensing magnification analyses to a much higher redshift than possible for shear, and allows a much higher source density to be included in the analysis.  
+
+Because the constraint on source resolution is considerably relaxed, ground-based observations can be incorporated to a greater degree with magnification than for shear, as we are not concerned with correcting for the smearing of the image due to the Point Spread Function. From the financial perspective, magnification studies are therefore extremely cheap to carry out, since the excellent resolution of space-based telescopes is not required. See \citet{Waerbeke10}, \citet{RozoSchmidt10}, and \citet{Umetsu11}, for more detailed discussions of the benefits of combining magnification with shear in gravitational lensing studies.
+
+The magnification factor $\mu$ is the inverse determinant of the amplification matrix, which maps the image deformation from the source to observer frame, and describes the first order effects of gravitational lensing \citep{BS01}.
+\begin{equation}
+\mu = \frac{1}{\mathrm{det} \cal{A}} = 
+\frac{1}{(1-\kappa)^2 - \left|\gamma\right|^2} \approx 1+2\kappa
+\label{mu}
+\end{equation}
+The magnification is simply a measure of the convergence ($\kappa$) of light rays due to the projected mass along the line-of-sight.  Assuming a model for a density profile, e.g. SIS or NFW, $\mu$ can then directly yield the surface-mass-density of the lens.
+
+The number of observed source galaxies, as a function of magnitude and redshift, $n(m,z)$, is related to the intrinsic number $n_0(m,z)$ that would be observed in the absence of lensing through an equation involving properties of both the lens and source:
+\begin{equation}
+n(m,z)dm = \mu ^{\alpha -1} n_0(m,z)dm.
+\end{equation}
+where $\alpha$ is a property of the background sources, defined according to
+\begin{equation}
+\alpha \equiv \alpha(m,z) = 2.5 \frac{\mathrm d}{\mathrm d \it m} \log n_0(m,z).
+\label{alpha}
+\end{equation}
+The form of this relationship was first demonstrated by \citet{Narayan89}, as it applied to lensed quasar number densities, but can be easily generalized to any galaxy type as long as one has a means of obtaining the slope of the number counts $\alpha$.
+
+This shows that distant source galaxies, lensed by an intervening concentration of mass, may have their observed number counts increased {\it or} decreased depending on the sign of the quantity $\alpha -1$.  Sources for which $\alpha -1 > 0$ will appear to be correlated on the sky with a lens position, while sources with $\alpha -1 < 0$ will be anti-correlated, as a dearth of objects will be observed in the vicinity of a lens.  The number density of galaxies for which the intrinsic number count slope gives $\alpha -1 \approx 0$ will essentially be unaffected by lensing magnification, as the dilution and amplification effects will cancel, and no correlation signal will be observed for these objects \citep{Scranton05}.
+
+The first measurement? or calculation? was by \citet{Broadhurst95}
+Important early lensing calculations by \citet{KS93}
 
 \subsection{Magnification vs. Shear}
 
@@ -49,6 +81,9 @@ As light from distance objects in the universe makes the journey from its source
 \section{Impact of this Thesis}
 \label{sec:impact}
 
+This work contained in this thesis has pushed the boundaries of what knowledge can be extracted from weak lensing surveys. By including intrinsically smaller and fainter background sources, which cannot be used in conventional weak lensing studies, we pave the way for a more optimal use of survey data. These gravitationally-lensed sources, which are too small for reliable shape or size measurements, can still be included in a lensing analysis by using the flux magnification formalism described in Section \ref{sec:mag}. The author of this thesis has proven the utility of measuring magnification, through several key publications which appear as chapters in this work, and carried out thorough studies of the systematic effects which provide limitations. 
+
+Prior to this thesis research, weak lensing was dominated by the shear method. This was originally motivated by some early work showing that there was less scatter in galaxy shapes than in sizes or positions {\color{red} add ref}. A handful of magnification detections had been made {\color{red} add ref}, but they did not extend beyond simple detection to scientific results.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Thesis Overview}

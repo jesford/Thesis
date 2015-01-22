@@ -1,0 +1,177 @@
+\documentclass{article}
+%\documentclass[a4paper, twocolumn, twoside]{article}
+
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{}{,}
+
+\begin{document}
+
+\title{\textbf{THESIS PROPOSAL} \\ \small{\it for Ph.D. in Physics at UBC}}
+\author{\Large{\textbf{Jes Ford}} \\ \\ {\it Supervisor:} \\ Ludo Van Waerbeke \\ \\ {\it Committee Members:} \\ Douglas Scott, Gary Hinshaw, Jasper Wall, Vesna Sossi}
+\maketitle
+
+
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+
+%\begin{center}
+%\tableofcontents
+%\end{center}
+
+\section{Thesis Proposal}
+My research focuses on developing and optimizing the use of gravitational lensing magnification as a probe of the dark matter halos of galaxies, groups, and clusters. This method is distinct from the widespread use of weak lensing shear, which focuses on shape distortion of lensed galaxies. Magnification will become an important complimentary probe of cosmology, allowing us to study higher redshift lenses than possible with shear, all for a tiny fraction of the observational price tag.
+
+\subsection{Introduction to Magnification}
+Weak lensing magnification is, to first order, a measure of the convergence of a lensing mass.  It can be detected through the stretching of solid angle on the sky, which leads to the amplification of source flux, since lensing conserves surface brightness. In general, two different approaches can be taken to measure magnification.  The method we employ involves observing the effects on source number densities that result from source amplification in a flux-limited survey. An alternative approach is to observe coherent variations in source sizes and flux, but this method suffers from many of the limitations facing shear analysis.
+
+Magnification affects the source number densities in two ways, and the one that dominates is determined by the intrinsic magnitude number counts of the sources in question.  Simply put, the brightest sources, which usually have steep number counts, will exhibit an {\it increase} in number density when lensed, as the amplification allows more objects to be detected, while the number density of the faintest sources, having relatively shallow number counts, will {\it decrease} \citep{Narayan89}.
+
+Compared to shear measurements, magnification exhibits a slightly lower signal-to-noise ($S/N$) ratio, the reason it has been largely ignored until recently.  However, what magnification lacks in signal strength, it makes up for in terms of its ability to be applied to lenses at higher redshift and to poorly resolved sources \citep{Waerbeke10}.  Since shear studies require measurements of galaxy shapes, in order for a source to be used it must necessarily be well resolved.  This is in stark contrast to magnification studies using source number densities, which have no such requirement for the sources to be resolved at all.  In principle only source magnitudes, redshifts, and positions relative to a lens must be known.  This simple fact makes it possible to extend weak lensing magnification analyses to a much higher redshift than possible for shear, and allows a much higher source density to be included in the analysis.  
+
+Because the constraint on source resolution is considerably relaxed, ground-based observations can be incorporated to a greater degree with magnification than for shear, as we are not concerned with correcting for the smearing of the image due to the Point Spread Function. From the financial perspective, magnification studies are therefore extremely cheap to carry out, since the excellent resolution of space-based telescopes is not required. See \citet{Waerbeke10}, \citet{RozoSchmidt10}, and \citet{Umetsu11}, for more detailed discussions of the benefits of combining magnification with shear in gravitational lensing studies.
+
+The magnification factor $\mu$ is the inverse determinant of the amplification matrix, which maps the image deformation from the source to observer frame, and describes the first order effects of gravitational lensing \citep{BartelmannSchneider01}.
+\begin{equation}
+\mu = \frac{1}{\mathrm{det} \cal{A}} = 
+\frac{1}{(1-\kappa)^2 - \left|\gamma\right|^2} \approx 1+2\kappa
+\label{mu}
+\end{equation}
+The magnification is simply a measure of the convergence ($\kappa$) of light rays due to the projected mass along the line-of-sight.  Assuming a model for a density profile, e.g. SIS or NFW, $\mu$ can then directly yield the surface-mass-density of the lens.
+
+The number of observed source galaxies, as a function of magnitude and redshift, $n(m,z)$, is related to the intrinsic number $n_0(m,z)$ that would be observed in the absence of lensing through an equation involving properties of both the lens and source:
+\begin{equation}
+n(m,z)dm = \mu ^{\alpha -1} n_0(m,z)dm.
+\end{equation}
+where $\alpha$ is a property of the background sources, defined according to
+\begin{equation}
+\alpha \equiv \alpha(m,z) = 2.5 \frac{\mathrm d}{\mathrm d \it m} \log n_0(m,z).
+\label{alpha}
+\end{equation}
+The form of this relationship was first demonstrated by \citet{Narayan89}, as it applied to lensed quasar number densities, but can be easily generalized to any galaxy type as long as one has a means of obtaining the slope of the number counts $\alpha$.
+
+This shows that distant source galaxies, lensed by an intervening concentration of mass, may have their observed number counts increased {\it or} decreased depending on the sign of the quantity $\alpha -1$.  Sources for which $\alpha -1 > 0$ will appear to be correlated on the sky with a lens position, while sources with $\alpha -1 < 0$ will be anti-correlated, as a dearth of objects will be observed in the vicinity of a lens.  The number density of galaxies for which the intrinsic number count slope gives $\alpha -1 \approx 0$ will essentially be unaffected by lensing magnification, as the dilution and amplification effects will cancel, and no correlation signal will be observed for these objects \citep{Scranton05}.
+
+\subsection{Current Project Status}
+My research at UBC has involved using relatively low-mass X-ray selected galaxy groups as lenses for magnification analysis. Most of my work has focused on the COSMOS $\sim$2 deg$^2$ field, but I have also done some preliminary work with the four CFHTLS Deep fields ($\sim$1 deg$^2$ each). I recently submitted a paper in which I succesfully detected a magnification signal from these X-ray groups, using Lyman-break galaxies (LBGs) as background sources.  The LBGs are particularly promising sources for magnification because they (1) are high redshift, (2) have steep number counts, and (3) their Luminosity Funtions (LFs) have been well studied, so we have a means of obtaining $\alpha$ to interpret the signal. Please see my recent paper for details of this work \citep{Ford11}, in which we measure X-ray group halo masses consistent with previous weak lensing shear analyses (see Fig. \ref{multisis}).
+
+\begin{figure*}
+ \begin{center}
+  \includegraphics[scale=0.6]{wopt_multiSIS_UGRBall_44x_9R4.eps}
+  \caption{Multiple-Singular-Isothermal-Sphere fit to the optimally weighted cross correlation function, using the LBG background source sample. The significance of the magnification detection is $4.8 \sigma$.  The dashed line shows the prediction from the shear measured values of $M_{200}$, and the solid line is the best fit to the magnification measurement. We find the best fit relative scaling relation to be $a= M_{mag}/M_{shear}=1.4 \pm 0.6$, consistent with the shear-measured group masses.}
+  \label{multisis}
+ \end{center}
+\end{figure*}
+
+
+Prior to the above work with the LBGs, I spent much of my time attempting to use photometrically selected galaxies in the COSMOS field as background sources. While there certainly was a signal detected, the S/N was poor compared with the LBGs, even while having much greater numbers of sources. We arributed this in part to the fact that the redshifts are not nearly as secure for galaxies selected photometrically, as the Lyman-break drop-out technique is quite robust. This could have led to some redshift overlap between lenses and sources, as well as affecting the calculated lensing efficiencies. Another issue was likely the fact that $\alpha$ had to be obtained directly from the data itself, by measuring the number counts as a function of magnitude in separate redshift slices. This process suffered from large uncertainties due to small-number statistics after doing the necessary binning in redshift, however we hope that the much larger area of the CFHTLS Wide survey will afford us better statistics so that photo-z galaxies can be incorporated as well.
+
+\subsection{Proposed Thesis Work}
+Research for my thesis will be an extension of my current work, focusing on the much larger CFHTLS Wide field, which covers an area of $\sim$171 deg$^2$. Over 15,000 galaxy clusters have been discovered in this field, by group member and recent PhD recipient Martha Milkeraitis. Many of these clusters are detected with high significance, and are much more massive than the groups I have used thus far, and should therefore yield a strong magnification signal. Additionally, since lensing magnification is measured by stacking lenses and measuring the average lens profile, having several hundred times as many clusters to stack will certainly improve results as well.
+
+In contrast to the limited/smaller study I recently completed on COSMOS, magnification analysis on the CFHTLS Wide should allow us to distinguish between various models for the dark matter halo profile. We will compare the simple Singular-Isothermal-Sphere model with the more strongly motivated Navarro-Frenk-White (NFW) profile \citep{nfw97}:
+\begin{equation}
+\rho(r)_{NFW}=\rho_{crit}\frac{\delta_c}{(\frac{r}{r_s})(1+\frac{r}{r_s})^2}.
+\end{equation}
+Here the two fit parameters are the characteristic halo density $\delta_c$ and scale radius $r_s$, and $\rho_{crit}=3H(z)^2/8\pi G$ is the critical energy density for a closed universe.
+
+In addition to LBGs, which we believe to be the best sources for magnification, the very large area of the CFHTLS Wide should allow us to extract a magnification signal using normal photometrically selected galaxies as well. This will provide an interesting comparison between types of sources in magnification analysis, and put some initial constraints on the relative S/N levels of the two background samples. Because the photo-$z$ galaxies have less secure redshift estimates, we will have to be careful to ensure that the background sample has minimal low-$z$ contaminants, the presense of which would overwhelm the magnification signal with actual physical clustering with the foreground matter.
+
+One very interesting aspect of magnification using number counts (as opposed to weak lensing shear or magnification using source sizes) is the prospect to simultaneously investigate cosmic dust. While gravitational lensing is achromatic (light of all wavelengths is lensed identically), extinction by dust associated with structure should have a wavelength dependence. \citet{Menard10} recently measured cosmic dust extinction for the first time, and detected the characteristic reddening effect from 20 kpc to several Mpc for galaxy lenses at $z\sim0.3$. 
+
+The observed flux of a background galaxy, due to the combined effects of both magnification and dust extinction is given by $f_{obs}=f_0 \mu e^{-\tau_{\lambda}}$, where $\tau_{\lambda}$ is the optical depth at a particular wavelength and $\mu$ is the magnification factor defined in EQ \ref{mu}. The magnitude shift due to these effects is \citep{Menard10}:
+\begin{equation}
+\delta m_{\lambda}=-2.5\mathrm{log}\mu + \frac{2.5}{\mathrm{ln}10}\tau_{\lambda}.
+\end{equation}
+In practice, one can quantify the presence of dust by looking at the apparent source magnitude shifts as a function of angle from the lens $\delta m_\alpha (\phi) = m_\alpha (\phi) - \langle m_\alpha \rangle$. Doing this in multiple wavelength bands then allows calculation of the color excess $E_{\alpha \beta} \equiv \delta m_\alpha - \delta m_\beta$. Because the magnification component should effect all the $\delta m$ curves uniformly, this difference $E_{\alpha \beta}$ gives a measure of the difference in optical depths at wavelengths $\lambda = \alpha, \beta$ \citep{Menard10}.
+\begin{equation}
+\delta m_\alpha - \delta m_\beta = \frac{2.5}{\mathrm{ln}10}[ \tau_\alpha - \tau_\beta ].
+\end{equation}
+
+% is related to the difference between the optical depths at wavelengths $\lambda = \alpha, \beta$ \citep{Menard10}. This approach allows one to constrain the opacity of the universe on the large scales of dark matter halos \citep{Fang11}.
+%The correction factor to the observed background galaxy overdensity, due to dust is given by 
+%\begin{equation}
+%\delta_{dust}=-|\alpha|\delta\tau_{\lambda},
+%\end{equation}
+%where $\alpha$ is a function of the number counts, as given in EQ \ref{alpha}, and the fluctuation in optical depth is $\delta\tau_{\lambda} \equiv \tau - \bar{\tau}$ \citep{Fang11}. 
+Final aspects are to account for Eddington bias and investigation of the optimal weighting of the cross-correlation function. Eddington bias results from statistical fluctuations of the flux measurements, leading to a spread in the observed luminosities.  In the typical case where we have many more intrinsically faint than bright objects, this effect leads to an overestimate of the number of bright objects, as more faint sources will be scattered towards the bright end than vice-versa.
+
+To date I have been using the weighting scheme proposed by \citet{Menard03}, which assigns a weight of $(\alpha-1)$ to each source galaxy. A slight variation of this weighting has recently been shown to be {\it more} optimal, in the limit where shot noise is small relative to the intrinsic clustering of the background population \citep{Yang11}.  The addional term added to the $(\alpha-1)$ weight includes a measure of the background galaxy bias, but is negligible for low source density. Additionally, assuming a robust measure of the source LF, one can improve S/N by removing sources from the analysis which have a weight factor of $(\alpha-1) \approx 0$. These optimizations schemes will be explored in my thesis as well.
+
+\begin{table*}[b!]
+ \begin{center}
+   
+    \begin{tabular}{|l|l|c|l|c|}
+      \hline
+      Course \# & Course Title & Credits & Grade & Mark (\%) \\ \hline \hline
+      Astr 500 & Principles of Modern Astronomy & $3.0$ & A  & 89 \\ \hline
+      Phys 500 & Quantum Mechanics I & $3.0$ & B & 75 \\ \hline
+      Astr 520 & Astro Research Seminar (Journal Club) & $3.0$ & A+ & 90 \\ \hline
+      Phys 571 & Physical Cosmology & $3.0$ & A & 88 \\ \hline
+      Phys 555/407 & Introduction to General Relativity & $3.0$ & A & 87 \\ \hline
+      Phys 520 & Teaching Techniques in Physics \& Astro & $2.0$ & pass & \it{n/a} \\ \hline
+      Astr 530B & Practical Statistics for Astronomers & $3.0$ & A+ & 93 \\ \hline
+      Phys 555 & (Extended) Practical Stats for Astro & $1.0$ & A+ & 94 \\ \hline
+      \it{Phys 504} & \it{Relativity and Electromagnetism} & \it{$3.0$} &  & \\ \hline
+
+    \end{tabular}
+  
+  \caption{COURSE WORK. \it{21 credits completed, 3 credits remaining.}}
+  \label{marks}
+ \end{center}
+\end{table*}
+
+
+\section{PhD Timeline}
+A rough outline of steps completed and to come:
+
+\begin{itemize}
+ \item{Sept 2009: Began MSc in Physics}
+ \item{Sept 2010: Transferred to PhD program}
+ \item{Sept 2010: Passed Comprehensive Exam}
+ \item{Dec 2011: Thesis Proposal submitted to Committee}
+ \item{Jan 2012: {\it Begin work on CFHTLS Wide}}
+ \item{Dec 2012: {\it Coursework complete \& Advancement to Candidacy}}
+ \item{2012: {\it Complete CFHTLS LBG Magnification study, publish paper}}
+ \item{2013: {\it Finish final measurements for Thesis, publish paper}}
+ \item{Fall 2013: {\it Begin dedicated Thesis Writing}}
+ \item{Spring/Summer 2014: {\it Department \& FOGS PhD Defense}}
+
+\end{itemize}
+
+
+\section{Advancement to Candidacy}
+In addition to my Thesis Proposal getting approved by the committee members, I must also complete the following, in order to advance to candidacy.
+
+\subsection{Comprehensive Exam}
+This requirement has been completed. I passed the Written Comprehensive Examination in \textbf{September 2010}.
+
+\subsection{Course Work}
+Since I transfered to the PhD program after one year in the Masters, I am required to complete a total of \textbf{24 credits}. I have finished 21 of these, and therefore have a single 3-credit course remianing. I plan to take Relativity and Electromagnetism (Phys 504) the next term it is offered, which is likely to be Fall 2012. The courses I have completed, and marks earned, are listed in Table \ref{marks}. My cumulative Grade Average is \textbf{87.4\%}.
+
+
+
+\section{Publications}
+I recently submitted my first first-author paper to the Astrophysical Journal, and it is currently available on the arXiv:1111.3698v1. A list of all my refereed publications is given below.
+
+\begin{itemize}
+ \item
+  {\it Magnification by Galaxy Group Dark Matter Halos.}
+  \textbf{Ford, J.}, Hildebrandt, H., Van Waerbeke, L., Leauthaud, A., Capak, P., Finoguenov, A., Tanaka, M., George, M., Rhodes, J, 2011, \emph{submitted to ApJ}.
+ \item
+  {\it Magnification as a Probe of Dark Matter Halos at High Redshifts.}
+  Van Waerbeke, L., Hildebrandt, H., \textbf{Ford, J.}, Milkeraitis, M., 2010, ApJL, 723, L13.
+ \item
+  {\it Magnetically Accelerated Foils for Shock Wave Experiments.}
+  Neff, S., \textbf{Ford, J.}, Wright, S., Martinez, D., Plechaty, C., Presura, R., 2009, Astrophys. Space Sci., 322: 189-193.
+ \item
+  {\it Faraday Cup Measurements of the Energy Spectrum of Laser-Accelerated Protons.}
+  Neff, S., Wright, S., Plechaty, C., \textbf{Ford, J.}, Royle, R., Presura, R., 2008, IEEE Trans. on Plasma Sci., 36, 5.
+\end{itemize}
+
+
+\bibliographystyle{apj}
+\bibliography{References}
+
+\end{document}
