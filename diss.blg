@@ -19,45 +19,46 @@ Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A
 while executing---line 1429 of file abbrvnat.bst
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1429 of file abbrvnat.bst
-You've used 106 entries,
+Warning--empty publisher in Sagan80
+You've used 107 entries,
             2773 wiz_defined-function locations,
-            1347 strings with 37957 characters,
-and the built_in function-call counts, 88417 in all, are:
-= -- 6819
-> -- 9842
-< -- 34
-+ -- 3292
-- -- 3182
-* -- 9115
-:= -- 14788
-add.period$ -- 413
-call.type$ -- 106
-change.case$ -- 1376
-chr.to.int$ -- 102
-cite$ -- 212
-duplicate$ -- 2192
-empty$ -- 3949
-format.name$ -- 3328
-if$ -- 17330
+            1353 strings with 38081 characters,
+and the built_in function-call counts, 88710 in all, are:
+= -- 6840
+> -- 9852
+< -- 35
++ -- 3296
+- -- 3185
+* -- 9132
+:= -- 14835
+add.period$ -- 416
+call.type$ -- 107
+change.case$ -- 1379
+chr.to.int$ -- 103
+cite$ -- 215
+duplicate$ -- 2212
+empty$ -- 3981
+format.name$ -- 3332
+if$ -- 17390
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 104
-newline$ -- 633
-num.names$ -- 426
-pop$ -- 2477
+missing$ -- 106
+newline$ -- 638
+num.names$ -- 430
+pop$ -- 2490
 preamble$ -- 1
-purify$ -- 1272
+purify$ -- 1275
 quote$ -- 0
-skip$ -- 2270
+skip$ -- 2282
 stack$ -- 0
-substring$ -- 1788
-swap$ -- 229
+substring$ -- 1790
+swap$ -- 230
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1166
-warning$ -- 0
-while$ -- 394
+type$ -- 1172
+warning$ -- 1
+while$ -- 397
 width$ -- 0
-write$ -- 1569
+write$ -- 1580
 (There were 3 error messages)

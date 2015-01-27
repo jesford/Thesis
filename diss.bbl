@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{107}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -752,6 +752,11 @@ E.~S. {Rykoff}, E.~{Rozo}, M.~T. {Busha}, C.~E. {Cunha}, A.~{Finoguenov},
 \newblock {redMaPPer. I. Algorithm and SDSS DR8 Catalog}.
 \newblock \emph{\apj}, 785:\penalty0 104, Apr. 2014.
 \newblock \doi{10.1088/0004-637X/785/2/104}.
+
+\bibitem[{Sagan}(1980)]{Sagan80}
+C.~{Sagan}.
+\newblock \emph{{Cosmos}}.
+\newblock 1980.
 
 \bibitem[{Sawicki} and {Thompson}(2006)]{Sawicki06}
 M.~{Sawicki} and D.~{Thompson}.
