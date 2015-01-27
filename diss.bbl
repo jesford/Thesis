@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{106}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -227,6 +227,19 @@ J.~{Ford}, H.~{Hildebrandt}, L.~{Van Waerbeke}, T.~{Erben}, C.~{Laigle},
 \newblock {Cluster magnification and the mass-richness relation in CFHTLenS}.
 \newblock \emph{\mnras}, 439:\penalty0 3755--3764, Apr. 2014.
 \newblock \doi{10.1093/mnras/stu225}.
+
+\bibitem[{Ford} et~al.(2015){Ford}, {Van Waerbeke}, {Milkeraitis}, {Laigle},
+  {Hildebrandt}, {Erben}, {Heymans}, {Hoekstra}, {Kitching}, {Mellier},
+  {Miller}, {Choi}, {Coupon}, {Fu}, {Hudson}, {Kuijken}, {Robertson}, {Rowe},
+  {Schrabback}, and {Velander}]{Ford15}
+J.~{Ford}, L.~{Van Waerbeke}, M.~{Milkeraitis}, C.~{Laigle}, H.~{Hildebrandt},
+  T.~{Erben}, C.~{Heymans}, H.~{Hoekstra}, T.~{Kitching}, Y.~{Mellier},
+  L.~{Miller}, A.~{Choi}, J.~{Coupon}, L.~{Fu}, M.~J. {Hudson}, K.~{Kuijken},
+  N.~{Robertson}, B.~{Rowe}, T.~{Schrabback}, and M.~{Velander}.
+\newblock {CFHTLenS: a weak lensing shear analysis of the 3D-Matched-Filter
+  galaxy clusters}.
+\newblock \emph{\mnras}, 447:\penalty0 1304--1318, Feb. 2015.
+\newblock \doi{10.1093/mnras/stu2545}.
 
 \bibitem[{George} et~al.(2011){George}, {Leauthaud}, {Bundy}, {Finoguenov},
   {Tinker}, {Lin}, {Mei}, {Kneib}, {Aussel}, {Behroozi}, {Busha}, {Capak},
@@ -762,6 +775,12 @@ F.~{Schmidt}, A.~{Leauthaud}, R.~{Massey}, J.~{Rhodes}, M.~R. {George}, A.~M.
 \newblock \emph{\apjl}, 744:\penalty0 L22, Jan. 2012.
 \newblock \doi{10.1088/2041-8205/744/2/L22}.
 
+\bibitem[{Schneider} et~al.(2000){Schneider}, {King}, and {Erben}]{Schneider00}
+P.~{Schneider}, L.~{King}, and T.~{Erben}.
+\newblock {Cluster mass profiles from weak lensing: constraints from shear and
+  magnification information}.
+\newblock \emph{\aap}, 353:\penalty0 41--56, Jan. 2000.
+
 \bibitem[{Scranton} et~al.(2005){Scranton}, {M{\'e}nard}, {Richards}, {Nichol},
   {Myers}, {Jain}, {Gray}, {Bartelmann}, {Brunner}, {Connolly}, {Gunn},
   {Sheth}, {Bahcall}, {Brinkman}, {Loveday}, {Schneider}, {Thakar}, and
@@ -861,6 +880,12 @@ J.~L. {Tinker}, B.~E. {Robertson}, A.~V. {Kravtsov}, A.~{Klypin}, M.~S.
   Model Tests}.
 \newblock \emph{\apj}, 724:\penalty0 878--886, Dec. 2010.
 \newblock \doi{10.1088/0004-637X/724/2/878}.
+
+\bibitem[{Tyson} et~al.(1984){Tyson}, {Valdes}, {Jarvis}, and {Mills}]{Tyson84}
+J.~A. {Tyson}, F.~{Valdes}, J.~F. {Jarvis}, and A.~P. {Mills}, Jr.
+\newblock {Galaxy mass distribution from gravitational light deflection}.
+\newblock \emph{\apjl}, 281:\penalty0 L59--L62, June 1984.
+\newblock \doi{10.1086/184285}.
 
 \bibitem[{Umetsu}(2013)]{Umetsu13}
 K.~{Umetsu}.
