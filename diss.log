@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  26 JAN 2015 15:57
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  26 JAN 2015 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,7 +797,7 @@ although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:CFHTLS' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 15.
-<plots_intro/LensDiagram.png, id=480, 1161.33875pt x 592.2125pt>
+<plots_intro/LensDiagram.png, id=480, 1153.30875pt x 590.205pt>
 File: plots_intro/LensDiagram.png Graphic file (type png)
 
 <use plots_intro/LensDiagram.png> [1
@@ -1374,7 +1374,7 @@ urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/symbol/
 usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (80 pages, 792443 bytes).
+Output written on diss.pdf (80 pages, 794483 bytes).
 PDF statistics:
  2887 PDF objects out of 2984 (max. 8388607)
  2210 compressed objects within 23 object streams
