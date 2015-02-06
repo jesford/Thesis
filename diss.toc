@@ -11,15 +11,15 @@
 \contentsline {subsection}{\numberline {1.1.3}Dark Energy}{3}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Cosmic Dynamics}{4}{subsection.1.1.4}
 \contentsline {subsection}{\numberline {1.1.5}Distances in Cosmology}{5}{subsection.1.1.5}
-\contentsline {section}{\numberline {1.2}Galaxy Clusters}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Clusters as Cosmological Probes}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Intracluster Physics}{5}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Gravitational Lensing}{5}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Weak Lensing Shear}{7}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Magnification}{7}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.2}Galaxy Clusters}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Clusters as Cosmological Probes}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Intracluster Physics}{6}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Gravitational Lensing}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Weak Lensing Shear}{6}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Magnification}{6}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Magnification vs. Shear}{8}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Impact of this Thesis}{8}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Overview}{9}{section.1.5}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{10}{section.1.5}
 \contentsline {chapter}{\numberline {2}Magnification by Galaxy Group Dark Matter Halos}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Theory}{12}{section.2.2}

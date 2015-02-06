@@ -43,9 +43,9 @@ One consequence of this expansion (and also the way it was first discovered) is 
 z \equiv \frac{\lambda_{\rm obs} - \lambda_{\rm em}}{\lambda_{\rm em}}.
 \end{equation}
 
-Redshift is often a convenient means of indicating cosmological distances, and will be used frequently throughout this thesis. Since the universe is expanding, it is convenient to express its growth in terms of a scale factor $a(t)$. We define $a$ to be unity today ($t=t_0$), and say that $a(t)<1$ in the past. In this framework we can directly convert the cosmological redshift of an object to the scale factor when its light was emitted \citep{DodelsonText}:
+Redshift is often a convenient means of indicating cosmological distances, and will be used frequently throughout this thesis. Since the universe is expanding, it is convenient to express its growth in terms of a scale factor $a(t)$. We define $a$ to be unity today ($t=t_0$), and say that $a(t)<1$ in the past. In this framework we can directly convert the cosmological redshift of an object to the scale factor when its light was emitted \citep{RydenText}:
 \begin{equation}
-a(t_{\rm e}) = \frac{1}{1+z}.
+1+z = \frac{a(t_0)}{a(t_{\rm e})} = \frac{1}{a(t_{\rm e})}.
 \label{eq:z}
 \end{equation}
 
@@ -99,20 +99,27 @@ If curvature is non-zero, then $\mathscr R$ gives the radius of curvature \citep
 
 Applying the Robertson-Walker metric (\autoref{eq:metric}) to the Einstein field equations (\autoref{eq:Einstein}), we obtain the Friedmann Equation:
 \begin{equation}
-\left( \frac{\dot a}{a} \right)^2 = \frac{8\pi G}{3} \rho_{\rm crit} \left[ \Omega_{\Lambda} + \Omega_{\rm c} + \Omega_{b} + \Omega_{\rm r} \right]
+\left( \frac{\dot a}{a} \right)^2 = \frac{8\pi G}{3} \rho_{\rm total}.
 \end{equation}
-where we have ignored the curvature term, which is so close to zero to be negligible. In practice, it is often sufficient to ignore $\Omega_{\rm r}$ and $\Omega_{\rm b}$ as well, and approximate the universe as being flat and composed of only matter and a cosmological constant. That will be the case in most of this thesis, and we will use the matter density $\Omega_{\rm m} \approx \Omega_{\rm c} + \Omega_{\rm b}$, absorbing the tiny fraction of the universe's baryon fraction into the cold dark matter term, and use a single term for matter $\Omega_{\rm m}$. 
+Here $a=a(t)$ is the scale factor, and $\dot a$ is its first order derivative with respect to time. The total energy density of the universe $\rho_{\rm total}$ appears to be equal to the critical energy density $\rho_{\rm crit}$, which is exactly the case if the universe has zero curvature. The critical density is given by \citep{DodelsonText}:
+\begin{equation}
+\rho_{\rm crit} \equiv \frac{3H_0^2}{8\pi G} \approx 1.88h^2 \times 10^{-29} \frac{\rm g}{{\rm cm}^3}.
+\end{equation}
 
+Cosmologists frequently express the density of each component of the universe as a fraction of the total or critical energy density, using the notation $\Omega_i = \rho_i / \rho_{\rm crit}$. Since the universe is flat $\sum \Omega_i = \Omega_{\Lambda} + \Omega_{\rm c} + \Omega_{\rm b} + \Omega_{\rm r} =1$. Each of these components evolves differently with the scale factor (i.e. time, or redshift). The present values of these density parameters is given in \autoref{table:constants}, along with other cosmological constants relevant to this thesis.
 
 The evolution of matter (both normal matter and dark matter) is the most intuitive, as its energy density is simply inversely proportional to the volume of space, $\epsilon_m(t) \propto a(t)^{-3}$. The energy density of radiation (massless particles such as photons) scales as $\epsilon_r(t) \propto a(t)^{-4}$ because the energy of the particles drops off as the cosmological expansion increases their wavelength, yielding an extra factor of $a(t)^{-1}$ over the case for matter. Dark energy appears to be consistent with a cosmological constant, which, as the name implies, has constant energy density $\epsilon_{\Lambda} \propto a(t)^{0}$.
 \textcolor{red}{plot of scale factor evolution?}
 
+It is useful to introduce the Hubble rate $H(t) \equiv {\dot a}/a$, which is equal to the Hubble constant $H_0$ at the present time $t_0$. Thus we can re-write the Friedmann Equation, describing the evolution of the universe, in this form:
+\begin{equation}
+H(z)^2 = H_0^2 \left[ \Omega_{\Lambda} + \Omega_{\rm m}(1+z)^3 + \Omega_{\rm r} (1+z)^4 \right].
+\end{equation}
+The curvature term, which is so close to zero to be negligible, is ignored. In practice, it is often sufficient to ignore $\Omega_{\rm r}$ as well, and approximate the universe as being flat and composed of only matter and a cosmological constant. That will be the case in most of this thesis, and we will use the matter density $\Omega_{\rm m} \approx \Omega_{\rm c} + \Omega_{\rm b}$, absorbing the tiny fraction of the universe's baryon fraction into the cold dark matter term, and use a single term for matter $\Omega_{\rm m}$. 
+
+
 \textcolor{red}{accel. eq...}
 
-The critical energy density of the universe is given by \citep{DodelsonText}:
-\begin{equation}
-\rho_{\rm crit} \equiv \frac{3H_0^2}{8\pi G} \approx 1.88h^2 \times 10^{-29} \frac{\rm g}{{\rm cm}^3}
-\end{equation}
 
 Dod p3, 
 
@@ -139,7 +146,7 @@ Dod p3,
 
     \end{tabular}
   \caption[Cosmological Constants]{Current best values of the Cosmological Constants using a combination of \ac{CMB} data from the Planck and \ac{WMAP} missions \citep{PlanckXVI}. It is quite remarkable that our entire model for the current state and evolution of the universe can be fully encapsulated by a mere 6 parameters -- the top 6 rows. The constants in the lower portion of the table are derived from these top 6 values, and are more relevant for the topics explored in this thesis. {\it Note: }The dimensionless Hubble parameter ``little $h$'' is just the Hubble Constant in units of 100 km/s/Mpc. $h \approx 0.7$.}
-  \label{constants}
+  \label{table:constants}
 
  \end{center}
 \end{table*}
