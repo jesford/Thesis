@@ -3,8 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: diss.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: preface.aux
-A level-1 auxiliary file: ack.aux
-A level-1 auxiliary file: dedicate.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: ch2.aux
 A level-1 auxiliary file: ch3.aux
@@ -19,46 +17,48 @@ Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A
 while executing---line 1429 of file abbrvnat.bst
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1429 of file abbrvnat.bst
+Warning--empty publisher in DodelsonText
+Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
-You've used 107 entries,
+You've used 122 entries,
             2773 wiz_defined-function locations,
-            1353 strings with 38081 characters,
-and the built_in function-call counts, 88710 in all, are:
-= -- 6840
-> -- 9852
-< -- 35
-+ -- 3296
-- -- 3185
-* -- 9132
-:= -- 14835
-add.period$ -- 416
-call.type$ -- 107
-change.case$ -- 1379
-chr.to.int$ -- 103
-cite$ -- 215
-duplicate$ -- 2212
-empty$ -- 3981
-format.name$ -- 3332
-if$ -- 17390
+            1451 strings with 42779 characters,
+and the built_in function-call counts, 101059 in all, are:
+= -- 7759
+> -- 11261
+< -- 44
++ -- 3770
+- -- 3644
+* -- 10382
+:= -- 16916
+add.period$ -- 470
+call.type$ -- 122
+change.case$ -- 1574
+chr.to.int$ -- 118
+cite$ -- 247
+duplicate$ -- 2521
+empty$ -- 4526
+format.name$ -- 3808
+if$ -- 19792
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 106
-newline$ -- 638
-num.names$ -- 430
-pop$ -- 2490
+missing$ -- 122
+newline$ -- 722
+num.names$ -- 491
+pop$ -- 2872
 preamble$ -- 1
-purify$ -- 1275
+purify$ -- 1458
 quote$ -- 0
-skip$ -- 2282
+skip$ -- 2603
 stack$ -- 0
-substring$ -- 1790
-swap$ -- 230
-text.length$ -- 2
+substring$ -- 2003
+swap$ -- 257
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1172
-warning$ -- 1
-while$ -- 397
+type$ -- 1325
+warning$ -- 3
+while$ -- 451
 width$ -- 0
-write$ -- 1580
+write$ -- 1788
 (There were 3 error messages)
