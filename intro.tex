@@ -191,13 +191,26 @@ Angular diameter distance is the distance measure relevant for gravitational len
 \section{Gravitational Lensing}
 \label{sec:Lensing}
 
-As light from distance objects in the universe makes the journey from its source to our telescopes, it is deflected and distorted by mass inhomogeneities along its path. In particular, large overdensities, such as galaxies and galaxy clusters, will cause light rays to be bent 
+As light from distance objects in the universe makes the journey from its source to our telescopes, it is deflected by mass inhomogeneities along its path. In particular, large overdensities, such as galaxies and galaxy clusters, will cause light rays to be bent and focused, altering the images of the background objects. Einstein's theory of General Relativity predicts this effect, and specifically requires the angle of deflection to be twice that of Newtonian gravity. During a solar eclipse in 1919, Sir Arthur Eddington measured the positions of stars being gravitationally lensed by the sun, providing experimental evidence for the new theory of gravity and paving the way for the future of gravitational lensing as a field \citep{BS01}.
+
+The lensing geometry is displayed (not to scale) in \autoref{plot:lensing}. For most lensing studies the distances between astronomical objects involved is far greater than the size of the gravitational lens itself. It is therefore reasonable to approximate the path of the light ray being bent at a sharp angle (as opposed to gradually arcing through the gravitational potential) \citep{BS01}. In analogy to refraction of light by an optical lens, this is known as the ``thin lens approximation.'' When light passes nearby an object of mass $M$, at impact parameter $b$, its path will be bent by the angle $\alpha$ \citep{RydenText}:
+\begin{equation}
+\alpha = \frac{4GM}{c^2 b}.
+\end{equation}
+This causes the background light source to appear as if it is at an angle $\theta_{\rm obs}$, when it is really at angular position $\theta_{\rm true}$.
+
+Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak and micro lensing are not. \textcolor{red}{Strong lensing background...}
+
+Weak lensing, just as the name implies, leads to much less significant distortions. However, unlike the rarity of a strong lensing event, weak lensing is everywhere. Essentially all light rays are distorted at least a bit while traveling to us through the small-scale inhomogeneities of the universe. Weak lensing itself, and different methods of measuring it, will be discussed in much more detail below. 
+
+Finally, microlensing is the even weaker signature of gravitational lensing, usually employed to study low mass compact objects like black holes, brown dwarfs, and \textcolor{red}{??? Probably the most famous? use of microlensing has been the search for a significant \acf{MACHO} population. \ac{MACHO}s were considered a serious dark matter candidate until ruled out by ???}
+
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.3]{plots_intro/LensDiagram.png}
-\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta = \beta + \Delta\theta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
-\label{lensing}
+\includegraphics[scale=0.5]{plots_intro/LensDiagram.png}
+\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\theta_{\rm true}$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta_{\rm obs}$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
+\label{plot:lensing}
 \end{center}
 \end{figure}
 
