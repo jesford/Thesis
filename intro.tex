@@ -34,11 +34,11 @@ A third important fact about our universe on large scales, is that it is expandi
 \begin{equation}
 v \approx H_0 r,
 \end{equation}
-where $v$ is recessional velocity, $r$ is distance, and $H_0$ is known as the Hubble constant \citep{RydenText}. Our current best estimate is $H_0 = 67.8\pm0.77$ km/s/Mpc \citep{PlanckXVI}; this and other cosmological constants are listed in Table \ref{constants}. The discovery of the expansion of the universe simultaneously abolished any notion that our universe was static, while also giving rise to the idea of a Big Bang origin. Extrapolating back in time, it seems that the universe was once much smaller, denser, and hotter. 
+where $v$ is recessional velocity, $r$ is distance, and $H_0$ is known as the Hubble constant \citep{RydenText}. Our current best estimate is $H_0 = 67.8\pm0.77$ km/s/Mpc \citep{PlanckXVI}; this and other cosmological constants are listed in \autoref{table:constants}. The discovery of the expansion of the universe simultaneously abolished any notion that our universe was static, while also giving rise to the idea of a Big Bang origin. Extrapolating back in time, it seems that the universe was once much smaller, denser, and hotter. 
 
-Several pieces of evidence, including the remarkable success of \acf{CMB} experiments such as \acf{WMAP} \citep{WMAP9} and Planck \citep{PlanckXVI}, provide very strong support for the Big Bang theory. \textcolor{red}{More about CMB experiments...}
+Several pieces of evidence, including the remarkable success of \acf{CMB} experiments such as the \acf{COBE} \citep{COBE96}, the \acf{WMAP} \citep{WMAP9} and Planck \citep{PlanckXVI}, provide very strong support for the Big Bang theory. First detected by \citet{PenziasWilson65}, the \ac{CMB} is an isotropic background of microwave photons that have been essentially free-streaming since the universe was a dense opaque cloud. At around 380,000 years of age, the density had dropped sufficiently, and the universe had cooled enough for neutral atoms to form, freeing the photons from Thomson scattering. The \ac{CMB} photons match a blackbody spectrum with temperature $2.73 K$ and have a number density of $4.11 \times 10^8 / m^3$. The tiny fluctuations in \ac{CMB} temperature on the sky, which are of order 1 part in $10^5$, are the seeds of structure formation in the universe \citep{RydenText}. Measurements of these anisotropies by \ac{WMAP} and Planck have provided cosmological parameter constraints of incredible precision (see \autoref{table:constants}).
 
-One consequence of this expansion (and also the way it was first discovered) is that light from distant objects is redshifted as it travels to us. This shifts the spectrum of light emitted by galaxies, so that known absorption lines will appear at different wavelengths than they are observed in laboratories on earth. This cosmological redshift can be expressed in terms of the observed and the emitted wavelengths \citep{RydenText}:
+One consequence of the expansion of the universe (and also the way it was first discovered) is that light from distant objects is redshifted as it travels to us. This shifts the spectrum of light emitted by galaxies, so that known absorption lines will appear at different wavelengths than they are observed in laboratories on earth. This cosmological redshift can be expressed in terms of the observed and the emitted wavelengths \citep{RydenText}:
 \begin{equation}
 z \equiv \frac{\lambda_{\rm obs} - \lambda_{\rm em}}{\lambda_{\rm em}}.
 \end{equation}
@@ -70,7 +70,7 @@ Einstein added a term to his field equations known as the cosmological constant,
 R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R =  -\frac{8\pi G}{c^4} T_{\mu\nu} + \Lambda g_{\mu\nu}
 \label{eq:Einstein}
 \end{equation}
-Here $R_{\mu\nu}$ and $R$ are the Ricci tensor and scalar. $G$ is Newton's gravitational constant and $c$ is the speed of light in a vacuum. The metric tensor is given by $g_{\mu\nu}$,  and the energy-momentum tensor is $T_{\mu\nu}$ \citep{Bertone05}. When the Hubble expansion was discovered, Einstein famously abandoned the cosmological constant term, $\Lambda g_{\mu\nu}$, but it has since reappeared \citep{RydenText}...
+Here $R_{\mu\nu}$ and $R$ are the Ricci tensor and scalar. $G$ is Newton's gravitational constant and $c$ is the speed of light in a vacuum. The metric tensor is given by $g_{\mu\nu}$,  and the energy-momentum tensor is $T_{\mu\nu}$ \citep{Bertone05}. When the Hubble expansion was discovered, Einstein famously abandoned the cosmological constant term, $\Lambda g_{\mu\nu}$, but it has since reappeared \citep{RydenText}.
 
 In the late 1990s, two teams of astronomers were trying to measure the deceleration of the universe, since the current expansion was expected to be slowing under the gravitational attraction of all the matter. Both the High-$z$ Supernovae Search Team \citep{Riess98} and the Supernovae Cosmology Project \citep{Perlmutter99} used type Ia supernovae as standard candles, relating the peak luminosity to the width of the light-curve, and found evidence for a non-zero cosmological constant. The universe's expansion was actually accelerating. This nobel-prize-winning discovery has been a paradigm shift for the field of cosmology.
 
@@ -86,7 +86,7 @@ General Relativity stipulates that space and time are part of a single fabric, k
 \end{equation}
 Here d$t$ is an interval of proper time, d$\Omega^2 = {\rm d}\theta^2 + {\rm sin}^2\theta {\rm d}\phi^2$, and $(r,\theta,\phi)$ are the set of comoving position coordinates (comoving coordinates grow along with the Hubble expansion -- see \autoref{sec:distances}). 
 
-The $S_{\rm k}(r)$ term describes the curvature of the universe, which can be {\it flat} (zero curvature, Euclidean), {\it closed} (positively curved, analogous to the surface of a sphere in 2-dimensions), or {\it open} (negatively curved, like the surface of a saddle in 2-dimensions). Explicitly,
+The $S_{\rm k}(r)$ term is specified by the curvature of the universe, which can be {\it flat} (zero curvature, Euclidean), {\it closed} (positively curved, analogous to the surface of a sphere in 2-dimensions), or {\it open} (negatively curved, like the surface of a saddle in 2-dimensions). Explicitly,
 \begin{equation}
 S_{\rm k}(r) = 
     \begin{cases}
@@ -108,20 +108,6 @@ Here $a=a(t)$ is the scale factor, and $\dot a$ is its first order derivative wi
 
 Cosmologists frequently express the density of each component of the universe as a fraction of the total or critical energy density, using the notation $\Omega_i = \rho_i / \rho_{\rm crit}$. Since the universe is flat $\sum \Omega_i = \Omega_{\Lambda} + \Omega_{\rm c} + \Omega_{\rm b} + \Omega_{\rm r} =1$. Each of these components evolves differently with the scale factor (i.e. time, or redshift). The present values of these density parameters is given in \autoref{table:constants}, along with other cosmological constants relevant to this thesis.
 
-The evolution of matter (both normal matter and dark matter) is the most intuitive, as its energy density is simply inversely proportional to the volume of space, $\epsilon_m(t) \propto a(t)^{-3}$. The energy density of radiation (massless particles such as photons) scales as $\epsilon_r(t) \propto a(t)^{-4}$ because the energy of the particles drops off as the cosmological expansion increases their wavelength, yielding an extra factor of $a(t)^{-1}$ over the case for matter. Dark energy appears to be consistent with a cosmological constant, which, as the name implies, has constant energy density $\epsilon_{\Lambda} \propto a(t)^{0}$.
-\textcolor{red}{plot of scale factor evolution?}
-
-It is useful to introduce the Hubble rate $H(t) \equiv {\dot a}/a$, which is equal to the Hubble constant $H_0$ at the present time $t_0$. Thus we can re-write the Friedmann Equation, describing the evolution of the universe, in this form:
-\begin{equation}
-H(z)^2 = H_0^2 \left[ \Omega_{\Lambda} + \Omega_{\rm m}(1+z)^3 + \Omega_{\rm r} (1+z)^4 \right].
-\end{equation}
-The curvature term, which is so close to zero to be negligible, is ignored. In practice, it is often sufficient to ignore $\Omega_{\rm r}$ as well, and approximate the universe as being flat and composed of only matter and a cosmological constant. That will be the case in most of this thesis, and we will use the matter density $\Omega_{\rm m} \approx \Omega_{\rm c} + \Omega_{\rm b}$, absorbing the tiny fraction of the universe's baryon fraction into the cold dark matter term, and use a single term for matter $\Omega_{\rm m}$. 
-
-
-\textcolor{red}{accel. eq...}
-
-
-Dod p3, 
 
 %Table of cosmological constants
 \begin{table*}%[b!]
@@ -129,7 +115,7 @@ Dod p3,
     \begin{tabular}{|c|c|p{10cm}|}
 
       \hline
-      Symbol & Value & Meaning \\ \hline \hline
+      Symbol & Value & Description \\ \hline \hline
 
       $\Omega_{\rm b}h^2$ & $0.02205\pm0.00028$ & Fraction of the present day energy density of the universe that is composed of baryons (times $h^2$). \\ \hline
       $\Omega_{\rm c}h^2$ & $0.1199\pm0.0027$ & Fraction of the present day energy density of the universe that is composed of cold dark matter (times $h^2$). \\ \hline
@@ -152,12 +138,46 @@ Dod p3,
 \end{table*}
 
 
+The evolution of matter (both normal matter and dark matter) is the most intuitive, as its energy density is simply inversely proportional to the volume of space, $\rho_m(t) \propto a(t)^{-3} = (1+z)^{3}$. The energy density of radiation (massless particles such as photons) scales as $\rho_r(t) \propto a(t)^{-4} = (1+z)^{4}$ because the energy of the particles drops off as the cosmological expansion increases their wavelength, yielding an extra factor of $a(t)^{-1}$ over the case for matter. Dark energy appears to be consistent with a cosmological constant, which, as the name implies, would have constant energy density $\rho_{\Lambda} \propto a(t)^{0} = (1+z)^{0}$.
+%%\textcolor{red}{plot of scale factor evolution?}
+
+It is useful to introduce the Hubble rate $H(t) \equiv {\dot a}/a$, which, at present the present time $t_0$, is equal to the Hubble constant $H_0$. Thus we can re-write the Friedmann Equation, describing the evolution of the universe, in this form:
+\begin{equation}
+H(z)^2 = H_0^2 \left[ \Omega_{\Lambda} + \Omega_{\rm m}(1+z)^3 + \Omega_{\rm r} (1+z)^4 \right].
+\end{equation}
+The curvature term, which is so close to zero to be negligible, is ignored.\footnote{If included, the curvature term would scale proportionally to $(1+z)^2$.} In weak lensing, it is usually practical to ignore $\Omega_{\rm r}$ as well, and approximate the universe as being flat and composed of only matter and a cosmological constant. That will be the case in most of this thesis, and we will use the matter density $\Omega_{\rm m} \approx \Omega_{\rm c} + \Omega_{\rm b}$, absorbing the tiny fraction of the universe's baryon fraction into the cold dark matter term, and use a single term for the fractional energy density that is contributed by matter, $\Omega_{\rm m}$. 
+
+
+%%\textcolor{red}{accel. eq?}
+%Dod p3, 
+
 \subsection{Distances in Cosmology}
 \label{sec:distances}
 
-Describing distances between objects in an expanding and accelerating universe is no simple task. Since physical distances are growing with the universe's expansion, a natural coordinate system to use is that of comoving coordinates, which grow along with the universe. The comoving distance between two galaxies is a constant, as long as they have no velocity relative to the Hubble expansion, while the physical distance between them grows.
+Describing distances between objects in an expanding and accelerating universe is no simple task. Since physical distances are growing with the universe's expansion, a natural coordinate system to use is that of comoving coordinates, which grow along with the universe. The {\it comoving distance} between two galaxies is a constant, as long as they have no velocity relative to the Hubble expansion, while the physical distance between them grows. This physical distance is usually called the {\it proper distance}, and is simply given by
+\begin{equation}
+d_p(t) = a(t)r,
+\end{equation}
+where $r$ is the comoving radial distance, the same $r$ used in the Robertson-Walker metric (\autoref{eq:metric}) \citep{RydenText}. Since actually measuring a cosmological scale proper distance would require us to pause the universe's expansion while we extend an enormous tape measurer, we have to rely on other forms of distance, discussed below. 
 
-Because of the finite velocity of light, we do not observe distant objects in their present state, but as they were when the light left, and with the wavelength of light redshifted by the universe's expansion. Frequently we wish to relate the apparent brightness of a distant object
+Frequently we want to relate the apparent brightness of a distant astronomical object to its distance. This is especially crucial for objects of known intrinsic luminosity (often called standard candles), such as the type Ia supernovae discussed in \autoref{sec:DE}. For everyday distances here on Earth, we observe that the flux $f$ of an object with luminosity $L$ falls off as $1/($distance$)2$. We can therefore define an analogous {\it luminosity distance} in cosmology as
+\begin{equation}
+d_L \equiv \sqrt{\frac{L}{4\pi f}},
+\end{equation}
+with the understanding that this is different than proper or comoving distance because the universe has been expanding during the time it took for the light to travel to us. In fact, this implies the relationship
+\begin{equation}
+d_L = (1+z)r = (1+z)d_p(t_0).
+\end{equation}
+
+Similar to the notion of a standard candle, we can imagine a standard ruler of a fixed physical length $\ell$. We can define the {\it angular diameter distance} to be the distance at which this object would have to be, in order to conform to our everyday experience of the relationship between distance, length, and angle subtended ($\theta$ [radians]):
+\begin{equation}
+d_A \equiv \frac{\ell}{\theta}.
+\end{equation}
+Here we have invoked the small angle approximation, and the angular diameter distance $d_A$ is simply related to the other distance definitions \citep{RydenText}:
+\begin{equation}
+d_A = \frac{r}{(1+z)}= \frac{d_L}{(1+z)^2}.
+\end{equation}
+Angular diameter distance is the distance measure relevant for gravitational lensing, which will be discussed in \autoref{sec:Lensing}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Galaxy Clusters}
