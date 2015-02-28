@@ -11,15 +11,15 @@
 \contentsline {subsection}{\numberline {1.1.3}Dark Energy}{3}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Cosmic Dynamics}{4}{subsection.1.1.4}
 \contentsline {subsection}{\numberline {1.1.5}Distances in Cosmology}{6}{subsection.1.1.5}
-\contentsline {section}{\numberline {1.2}Galaxy Clusters}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Clusters as Cosmological Probes}{7}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Intracluster Physics}{7}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}Gravitational Lensing}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Weak Lensing Shear}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Magnification}{9}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Magnification vs. Shear}{10}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Impact of this Thesis}{10}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Overview}{11}{section.1.5}
+\contentsline {section}{\numberline {1.2}Gravitational Lensing}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Weak Lensing Shear}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Magnification}{9}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Magnification vs. Shear}{11}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Galaxy Clusters}{11}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Clusters as Cosmological Probes}{11}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Intracluster Physics}{11}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Impact of this Thesis}{11}{section.1.4}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{12}{section.1.5}
 \contentsline {chapter}{\numberline {2}Magnification by Galaxy Group Dark Matter Halos}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}Theory}{14}{section.2.2}
@@ -75,4 +75,4 @@
 \contentsline {section}{\numberline {5.1}Summary and Conclusions}{66}{section.5.1}
 \contentsline {section}{\numberline {5.2}Future Work}{66}{section.5.2}
 \contentsline {chapter}{Bibliography}{67}{chapter*.44}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{77}{appendix.A}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{78}{appendix.A}
