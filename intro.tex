@@ -183,27 +183,25 @@ Angular diameter distance is the distance measure relevant for gravitational len
 \section{Gravitational Lensing}
 \label{sec:Lensing}
 
-\textcolor{red}{Good references are \citet{Schneider06_WeakGravLens} and \citet{Schneider06_IntroGravLensCosmology}.} 
-
 As light from distance objects in the universe makes the journey from its source to our telescopes, it is deflected by mass inhomogeneities along its path. In particular, large overdensities, such as galaxies and galaxy clusters, will cause light rays to be bent and focused, altering the images of the background objects. Einstein's theory of General Relativity predicts this effect, and specifically requires the angle of deflection to be twice that of in Newtonian gravity. During a solar eclipse in 1919, Sir Arthur Eddington measured the shifted apparent positions of stars being gravitationally lensed by the sun, providing experimental evidence for the new theory of gravity and paving the way for the future of gravitational lensing as a field \citep{BS01}.
 
-The lensing geometry is displayed (not to scale) in \autoref{plot:lensing}. For most lensing studies the distances between astronomical objects involved is far greater than the size of the gravitational lens itself. It is therefore reasonable to approximate the path of the light ray as being bent at a sharp angle (as opposed to gradually arcing through the gravitational potential) \citep{BS01}. In analogy to refraction of light by an optical lens, this is known as the ``thin lens approximation.'' When light passes nearby an object of mass $M$, at impact parameter $b$, its path will be bent by the angle $\alpha$ \citep{RydenText}:
+The lensing geometry is displayed (not to scale) in \autoref{plot:lensing}. For most lensing studies the distances between astronomical objects involved is far greater than the size of the gravitational lens itself. It is therefore reasonable to approximate the path of the light ray as being bent at a sharp angle (as opposed to gradually arcing through the gravitational potential) \citep{BS01}. In analogy to refraction of light by an optical lens, this is known as the ``thin lens approximation.'' When light passes nearby an object of mass $M$, at impact parameter $b$, its path will be bent by the angle $\alpha_{\rm L}$ \citep{RydenText}:\footnote{Note that this thesis uses a similar notation to lensing reviews such as \citet{BS01} and \citet{Schneider06_WeakGravLens}, but we add the subscript ``L'' to some symbols in this chapter, pertaining to the lensing equations, to avoid confusion with the use of the same symbols in later sections of the thesis (e.g. $\beta$ will be the slope of the cluster mass-richness relation in \autoref{ch3} and \autoref{ch4}).}
 \begin{equation}
-\alpha = \frac{4GM}{c^2 b}.
+\alpha_{\rm L} = \frac{4GM}{c^2 b}.
 \end{equation}
-This causes the background light source to appear as if it is at an angle $\theta_{\rm obs}$, when it is really at angular position $\theta_{\rm true}$.
+This causes the background light source to appear as if it is at an angle $\theta$, when it is really at angular position $\beta_{\rm L}$, as shown in \autoref{plot:lensing}.
 
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.5]{plots_intro/LensDiagram.png}
-\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\theta_{\rm true}$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta_{\rm obs}$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
+\includegraphics[scale=0.4]{plots_intro/LensDiagram.png}
+\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha_{\rm L}$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta_{\rm L}$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
 \label{plot:lensing}
 \end{center}
 \end{figure}
 
 The fact that gravitational lensing directly probes the underlying density field along the line of sight is what makes the technique extremely valuable. All other methods for probing the matter distribution of the universe do not probe the mass itself (which is mostly dark matter), but rather the baryonic component of the mass -- stars, and interstellar gas and dust. While we expect the baryons to trace the underlying density of dark matter, there are many complicating factors (see \autoref{sec:Clusters}) that render the analogy lacking. Additionally, other means of measuring masses (such as using radial velocities) rely on assumptions about the virial equilibrium of a system which may not be satisfied.
 
-Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitational lensed arc was discovered nearly a decade later by \citet{Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
+Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitationally lensed arc was discovered nearly a decade later by \citet{Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
 
 Weak lensing, just as the name implies, leads to much less significant distortions. The hallmark of weak lensing is that it is a statistical effect, only measurable using ensembles of many background sources and foreground lenses. Unlike the rarity of a strong lensing event, however, weak lensing is everywhere. Essentially all light rays are distorted at least a bit while traveling to us through the inhomogeneous gravitational fields of the universe. Weak lensing itself, and different methods of measuring it, will be discussed in much more detail in \autoref{sec:Shear} and \autoref{sec:Mag} below. 
 
@@ -212,10 +210,49 @@ Finally, microlensing is the even weaker signature of gravitational lensing, whe
 
 \subsection{Weak Lensing Shear}
 \label{sec:Shear}
-Weak lensing shear is the component of weak lensing that deals with shape distortion of galaxy images. If all galaxies were intrinsically circular, or of known shape, then each individual background source would provide information on the gravitational field through which its light had propagated. Instead, however, galaxies take on a variety of shapes and orientations, and their unlensed representations are impossible to know. In order to proceed, weak lensing astronomers make two critical assumptions: (1) galaxy shapes can be approximated as elliptical, and (2) the orientation of these ellipses are random in the absence of gravitational lensing. \textcolor{red}{The second point has been the subject of much study, but any intrinsic alignments of background galaxies is expected to be an effect of order ????}
+Weak lensing shear is the component of weak lensing that deals with shape distortion of galaxy images. If all galaxies were intrinsically circular, or of known shape, then each individual background source would provide information on the gravitational field through which its light had propagated. Instead, however, galaxies take on a variety of shapes and orientations, and their unlensed representations are impossible to know. In order to proceed, weak lensing astronomers make two critical assumptions: (1) galaxy shapes can be approximated as elliptical, and (2) the orientation of these ellipses are random in the absence of gravitational lensing \citep{BS01}. \textcolor{red}{The second point has been the subject of much study, but the affect of any intrinsic alignment of background galaxies is expected to be of order ????}
 
+As illustrated in \autoref{plot:lensing}, the lens equation is given by $\bm{\beta}_{\rm L} = \bm{\theta} - \bm{\alpha}_{\rm L}$, where we now use bold face to indicate angular positions with two components on the sky. The deflection angle $\bm{\alpha}_{\rm L}$ can be expressed as the gradient of the lensing (or deflection) potential $\bm{\alpha}_{\rm L} = \nabla \psi$. The lensing potential $\psi(\bm{\theta})$ is the two-dimensional analogue to the Newtonian gravitational potential, and is given by \citep{Schneider06_IntroGravLensCosmology}:
+\begin{equation}
+\psi(\bm{\theta}) = \frac{1}{\pi} \int_{\mathbb{R}^2} \kappa(\bm{\theta'}) {\rm ln}|\bm{\theta} - \bm{\theta}'| {\rm d}^2 \theta'.
+\end{equation}
+Here $\kappa$ is known as the convergence, which encapsulates the magnification information to be described in \autoref{sec:Mag} below. It can be expressed as the ratio
+\begin{equation}
+\kappa(\bm{\theta}) = \frac{\Sigma(\bm{\theta})}{\Sigma_{\rm crit}},
+\end{equation}
+where $\Sigma(\bm{\theta})$ is the two-dimensional mass density (with units of mass per area on the sky), and $\Sigma_{\mathrm{crit}}$ is the critical surface mass density of the lens. The latter demarcates the separation between strong and weak gravitational lenses, depending critically on the geometry of the angular diameter distances between objects, given by
+\begin{equation}
+\label{eqn:sigcrit}
+\Sigma_{\mathrm{crit}} = \frac{c^2}{4 \pi G} \frac{D_{\rm s}}{D_{\rm l} D_{\rm ls}}.
+\end{equation}
+Strong lenses (i.e. capable of forming multiple images) must have $\Sigma \ge \Sigma_{\mathrm{crit}}$ \citep{Schneider06_IntroGravLensCosmology}.
 
+The transformation of background objects from source (unlensed) to image (lensed) is described by the Jacobian (or amplification) matrix $\cal{A}$ \citep{DodelsonText}: 
+\begin{equation}
+{\cal A}(\bm{\theta}) = \frac{\partial \bm{\beta_{\rm L}}}{\partial \bm{\theta}}  = \left( \delta_{ij} - \frac{\partial^2 \psi(\bm{\theta})}{\partial \theta_{i} \partial \theta_j} \right) = \left( \begin{array}{cc}
+{1-\kappa-\gamma_1} & {-\gamma_2} \\
+{-\gamma_2} & {1-\kappa+\gamma_1} \\
+\end{array} \right). 
+\end{equation}
+The two components of the shear $\gamma (\bm{\theta})$ can be expressed as derivates of the lensing potential:
+\begin{equation}
+\gamma_1 = \frac{1}{2} \left( \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_1^2} - \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_2^2} \right), 
+\end{equation}
+\begin{equation}
+\gamma_2 = \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_1 \partial\theta_2}.
+\end{equation}
+The shear is often written as a complex number, $\gamma \equiv \gamma_1 + i\gamma_2 = |\gamma|{\rm e}^{2i\varphi}$. Here $|\gamma|$ and $\varphi$ indicate the amplitude and direction of distortion, respectively, which is unchanged when rotated by 180$^\circ$. 
 
+We do not observe the true shear, however, but rather the reduced shear  $g(\bm{\theta}) = \gamma (\bm{\theta}) \left[1-\kappa (\bm{\theta}) \right]^{-1}$. We can thus rewrite the Jacobian matrix as:
+\begin{equation}
+{\cal A}(\bm{\theta}) = (1-\kappa) \left( \begin{array}{cc}
+{1-g_1} & {-g_2} \\
+{-g_2} & {1+g_1} \\
+\end{array} \right). 
+\end{equation}
+In the regime of weak lensing, the convergence and shear are small, $\kappa \ll 1$ and $| \gamma| \ll 1$. Therefore it is often safe to assume that $\gamma \approx g$ \citep{Schneider06_WeakGravLens}.
+
+\textcolor{red}{The observed shape of galaxy can be written as ... and the intrinsic source shape is ...}
 
 \subsection{Magnification}
 \label{sec:Mag}
