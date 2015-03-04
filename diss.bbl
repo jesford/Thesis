@@ -1,4 +1,4 @@
-\begin{thebibliography}{136}
+\begin{thebibliography}{138}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -630,6 +630,12 @@ A.~{Leauthaud}, A.~{Finoguenov}, J.-P. {Kneib}, J.~E. {Taylor}, R.~{Massey},
 \newblock \emph{\apj}, 709:\penalty0 97--114, Jan. 2010.
 \newblock \doi{10.1088/0004-637X/709/1/97}.
 
+\bibitem[{Lynds} and {Petrosian}(1986)]{Lynds86}
+R.~{Lynds} and V.~{Petrosian}.
+\newblock {Giant Luminous Arcs in Galaxy Clusters}.
+\newblock In \emph{Bulletin of the American Astronomical Society}, volume~18 of
+  \emph{Bulletin of the American Astronomical Society}, page 1014, Sept. 1986.
+
 \bibitem[{Mandelbaum} et~al.(2006){Mandelbaum}, {Seljak}, {Cool}, {Blanton},
   {Hirata}, and {Brinkmann}]{Mandelbaum06}
 R.~{Mandelbaum}, U.~{Seljak}, R.~J. {Cool}, M.~{Blanton}, C.~M. {Hirata}, and
@@ -1046,6 +1052,13 @@ M.~{Simet} and R.~{Mandelbaum}.
 \newblock {Background sky obscuration by cluster galaxies as a source of
   systematic error for weak lensing}.
 \newblock \emph{ArXiv e-prints, astro-ph/1406.4908}, June 2014.
+
+\bibitem[{Soucail} et~al.(1987){Soucail}, {Fort}, {Mellier}, and
+  {Picat}]{Soucail87}
+G.~{Soucail}, B.~{Fort}, Y.~{Mellier}, and J.~P. {Picat}.
+\newblock {A blue ring-like structure, in the center of the A 370 cluster of
+  galaxies}.
+\newblock \emph{\aap}, 172:\penalty0 L14--L16, Jan. 1987.
 
 \bibitem[{Soucail} et~al.(1988){Soucail}, {Mellier}, {Fort}, {Mathez}, and
   {Cailloux}]{Soucail88}

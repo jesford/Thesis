@@ -20,45 +20,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in DodelsonText
 Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
-You've used 136 entries,
+You've used 138 entries,
             2773 wiz_defined-function locations,
-            1547 strings with 46454 characters,
-and the built_in function-call counts, 110915 in all, are:
-= -- 8547
-> -- 12192
-< -- 52
-+ -- 4082
-- -- 3941
-* -- 11338
-:= -- 18523
-add.period$ -- 523
-call.type$ -- 136
-change.case$ -- 1711
-chr.to.int$ -- 131
-cite$ -- 275
-duplicate$ -- 2829
-empty$ -- 5087
-format.name$ -- 4125
-if$ -- 21782
+            1561 strings with 46764 characters,
+and the built_in function-call counts, 111971 in all, are:
+= -- 8639
+> -- 12252
+< -- 55
++ -- 4102
+- -- 3959
+* -- 11426
+:= -- 18674
+add.period$ -- 529
+call.type$ -- 138
+change.case$ -- 1723
+chr.to.int$ -- 133
+cite$ -- 279
+duplicate$ -- 2883
+empty$ -- 5173
+format.name$ -- 4147
+if$ -- 22013
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 136
-newline$ -- 803
-num.names$ -- 551
-pop$ -- 3120
+missing$ -- 138
+newline$ -- 813
+num.names$ -- 559
+pop$ -- 3145
 preamble$ -- 1
-purify$ -- 1581
+purify$ -- 1591
 quote$ -- 0
-skip$ -- 2878
+skip$ -- 2920
 stack$ -- 0
-substring$ -- 2275
-swap$ -- 300
-text.length$ -- 5
+substring$ -- 2308
+swap$ -- 316
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1479
+type$ -- 1501
 warning$ -- 3
-while$ -- 510
+while$ -- 518
 width$ -- 0
-write$ -- 1992
+write$ -- 2019
 (There were 3 error messages)

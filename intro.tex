@@ -201,7 +201,7 @@ This causes the background light source to appear as if it is at an angle $\thet
 
 The fact that gravitational lensing directly probes the underlying density field along the line of sight is what makes the technique extremely valuable. All other methods for probing the matter distribution of the universe do not probe the mass itself (which is mostly dark matter), but rather the baryonic component of the mass -- stars, and interstellar gas and dust. While we expect the baryons to trace the underlying density of dark matter, there are many complicating factors (see \autoref{sec:Clusters}) that render the analogy lacking. Additionally, other means of measuring masses (such as using radial velocities) rely on assumptions about the virial equilibrium of a system which may not be satisfied.
 
-Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitationally lensed arc was discovered nearly a decade later by \citet{Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
+Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitationally lensed arcs were discovered nearly a decade later by \citet{Lynds86} and \citet{Soucail87,Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
 
 Weak lensing, just as the name implies, leads to much less significant distortions. The hallmark of weak lensing is that it is a statistical effect, only measurable using ensembles of many background sources and foreground lenses. Unlike the rarity of a strong lensing event, however, weak lensing is everywhere. Essentially all light rays are distorted at least a bit while traveling to us through the inhomogeneous gravitational fields of the universe. Weak lensing itself, and different methods of measuring it, will be discussed in much more detail in \autoref{sec:Shear} and \autoref{sec:Mag} below. 
 
@@ -216,19 +216,33 @@ As illustrated in \autoref{plot:lensing}, the lens equation is given by $\bm{\be
 \begin{equation}
 \psi(\bm{\theta}) = \frac{1}{\pi} \int_{\mathbb{R}^2} \kappa(\bm{\theta'}) {\rm ln}|\bm{\theta} - \bm{\theta}'| {\rm d}^2 \theta'.
 \end{equation}
-Here $\kappa$ is known as the convergence, which encapsulates the magnification information to be described in \autoref{sec:Mag} below. It can be expressed as the ratio
+Here $\kappa$ is known as the convergence, which encapsulates the magnification information to be described in \autoref{sec:Mag} below. Explicitly, the convergence is given by
 \begin{equation}
-\kappa(\bm{\theta}) = \frac{\Sigma(\bm{\theta})}{\Sigma_{\rm crit}},
+\kappa(\bm{\theta}) =\frac{1}{2} \left( \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_1^2} + \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_2^2} \right)
 \end{equation}
-where $\Sigma(\bm{\theta})$ is the two-dimensional mass density (with units of mass per area on the sky), and $\Sigma_{\mathrm{crit}}$ is the critical surface mass density of the lens. The latter demarcates the separation between strong and weak gravitational lenses, depending critically on the geometry of the angular diameter distances between objects, given by
+but another useful expression is the ratio
+\begin{equation}
+\label{eqn:kappa}
+\kappa(\bm{\theta}) = \frac{\Sigma(\bm{\theta})}{\Sigma_{\rm crit}}.
+\end{equation}
+Here $\Sigma(\bm{\theta})$ is the two-dimensional surface mass density (with units of mass per area on the sky), and $\Sigma_{\mathrm{crit}}$ is the critical surface mass density of the lens \citep{Wright00}. The latter demarcates the separation between strong and weak gravitational lenses, depending critically on the geometry of the angular diameter distances between objects, given by
 \begin{equation}
 \label{eqn:sigcrit}
 \Sigma_{\mathrm{crit}} = \frac{c^2}{4 \pi G} \frac{D_{\rm s}}{D_{\rm l} D_{\rm ls}}.
 \end{equation}
 Strong lenses (i.e. capable of forming multiple images) must have $\Sigma \ge \Sigma_{\mathrm{crit}}$ \citep{Schneider06_IntroGravLensCosmology}.
 
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.3]{plots_intro/kappa_gamma.png}
+\caption[$\kappa$ and $\gamma$ Diagram]{Representation demonstrating the effect of convergence $\kappa$ and shear $\gamma$ on a circular source. Diagram shows the unlensed source (green circle) and the final lensed image (black outline) for positive and negative values of both $\kappa$ and the real and imaginary components of $\gamma$. [{\it Image Credit:} TallJimbo / Wikimedia Commons / CC-BY-SA-3.0].}
+\label{plot:kappagamma}
+\end{center}
+\end{figure}
+
 The transformation of background objects from source (unlensed) to image (lensed) is described by the Jacobian (or amplification) matrix $\cal{A}$ \citep{DodelsonText}: 
 \begin{equation}
+\label{eqn:A}
 {\cal A}(\bm{\theta}) = \frac{\partial \bm{\beta_{\rm L}}}{\partial \bm{\theta}}  = \left( \delta_{ij} - \frac{\partial^2 \psi(\bm{\theta})}{\partial \theta_{i} \partial \theta_j} \right) = \left( \begin{array}{cc}
 {1-\kappa-\gamma_1} & {-\gamma_2} \\
 {-\gamma_2} & {1-\kappa+\gamma_1} \\
@@ -243,8 +257,9 @@ The two components of the shear $\gamma (\bm{\theta})$ can be expressed as deriv
 \end{equation}
 The shear is often written as a complex number, $\gamma \equiv \gamma_1 + i\gamma_2 = |\gamma|{\rm e}^{2i\varphi}$. Here $|\gamma|$ and $\varphi$ indicate the amplitude and direction of distortion, respectively, which is unchanged when rotated by 180$^\circ$. 
 
-We do not observe the true shear, however, but rather the reduced shear  $g(\bm{\theta}) = \gamma (\bm{\theta}) \left[1-\kappa (\bm{\theta}) \right]^{-1}$. We can thus rewrite the Jacobian matrix as:
+We do not observe the true shear, but rather the reduced shear  $g(\bm{\theta}) = \gamma (\bm{\theta}) \left[1-\kappa (\bm{\theta}) \right]^{-1}$. We can thus rewrite the Jacobian matrix as:
 \begin{equation}
+\label{eqn:Ag}
 {\cal A}(\bm{\theta}) = (1-\kappa) \left( \begin{array}{cc}
 {1-g_1} & {-g_2} \\
 {-g_2} & {1+g_1} \\
@@ -252,9 +267,53 @@ We do not observe the true shear, however, but rather the reduced shear  $g(\bm{
 \end{equation}
 In the regime of weak lensing, the convergence and shear are small, $\kappa \ll 1$ and $| \gamma| \ll 1$. Therefore it is often safe to assume that $\gamma \approx g$ \citep{Schneider06_WeakGravLens}.
 
-\textcolor{red}{The observed shape of galaxy can be written as ... and the intrinsic source shape is ...}
+The observed brightness distribution of a galaxy image $I(\bm{\theta})$ is not in general perfectly elliptical, but we can approximate it as an ellipse in the following manner. The center of the brightness distribution of the image is
+\begin{equation}
+\bm{\bar{\theta}} \equiv \frac{\int {\rm d}^2\theta I(\bm{\theta}) q_I( I(\bm{\theta})) \bm{\theta}}{\int {\rm d}^2\theta I(\bm{\theta}) q_I( I(\bm{\theta}))},
+\end{equation}
+where $q_I( I(\bm{\theta}))$ is some weight function, and we assume that the galaxy image of interest is isolated on the sky. To describe ellipticity we will be interested in the second brightness moments of the source, contained in the tensor
+\begin{equation}
+Q_{ij} = \frac{\int {\rm d}^2\theta I(\bm{\theta}) q_I( I(\bm{\theta})) (\theta_i - \bar{\theta_i})(\theta_j - \bar{\theta_j})}{\int {\rm d}^2\theta I(\bm{\theta}) q_I( I(\bm{\theta}))},
+\end{equation}
+where $i,j \in (1,2)$ \citep{Schneider06_WeakGravLens}. The size $\omega$ of the galaxy image is just a function of the diagonal components of this matrix,
+\begin{equation} 
+\omega = (Q_{11}Q_{22} - Q_{12}^2)^{1/2},
+\end{equation}
+while the shape, or ellipticity, of the image involves the off-diagonal elements:
+\begin{equation} 
+\chi \equiv \frac{Q_{11} - Q_{22} + 2i Q_{12}}{Q_{11} + Q_{22}} ,
+\end{equation}
+\begin{equation} 
+\epsilon \equiv \frac{Q_{11} - Q_{22} + 2i Q_{12}}{Q_{11} + Q_{22} + 2(Q_{11}Q_{22} - Q_{12}^2)^{1/2}}.
+\end{equation}
+The complex ellipticity can be characterized by either of $\chi$ or $\epsilon$, which are simply related and interchangeable (in different situations one may be easier to work with). In the weak lensing regime $\gamma \approx g \approx \langle \epsilon \rangle \approx  \langle \chi \rangle /2$ \citep{BS01}. 
 
-\subsection{Magnification}
+In analogy with the image center $\bm{\bar{\theta}}$ and tensor of second brightness moments $Q_{ij}$, one can define the same quantities for the unlensed source center $\bm{\bar{\beta}}$ and tensor of second brightness moments $Q_{ij}^{(s)}$. The relation between the source and image tensors is
+\begin{equation}
+Q^{(s)} = {\cal A} Q {\cal A}^{\rm T} = {\cal A} Q {\cal A},
+\end{equation}
+where ${\cal A} \equiv {\cal A}(\bm{\theta})$ is the Jacobian defined in \autoref{eqn:A} and \autoref{eqn:Ag}. Further calculation shows that the complex image ellipticities ($\epsilon$ or $\chi$) can be related to the source ellipticities ($\epsilon^{(s)}$ or $\chi^{(s)}$) through the reduced shear \citep{BS01}.
+
+In this thesis we are concerned with a particular manifestation of gravitational lensing -- lensing by galaxy clusters. If we consider an circularly symmetric mass density on the sky (an idealized galaxy cluster), then we expect the shear distortion to be oriented tangential to the center of the lens. It is therefore useful in cluster lensing (and also in galaxy-galaxy lensing) to express the shear in terms of tangential and rotated (or cross) components:
+\begin{equation}
+\gamma_{\rm t} = -{\rm Re}\left[ \gamma {\rm e}^{-2i\phi} \right],  
+\end{equation}
+\begin{equation}
+\gamma_{\rm r} = -{\rm Im}\left[ \gamma {\rm e}^{-2i\phi} \right].
+\end{equation}
+Here the angle $\phi$ is the azimuthal angle measured about the center of the lens \citep{Schneider06_WeakGravLens}. The rotated shear (which would represent a curl component) should be consistent with zero, and is often used as a check of systematic effects. Even though any single galaxy cluster (or other lens) is likely not perfectly azimuthally symmetric, we expect a stack of many galaxy clusters to yield a symmetric profile on average.
+
+Similar to the surface mass density representation of the convergence (\autoref{eqn:kappa}), we can then relate the tangential shear to the differential surface mass density of the lens:
+\begin{equation}
+\gamma_{\rm t}(\theta) = \frac{\Delta\Sigma(\theta)}{\Sigma_{\rm crit}},
+\end{equation}
+where $\theta$ now specifies the radial angle of separation between the lens center and the source image. The differential surface mass density is defined to equal the difference between the average surface mass density interior to $\theta$ and the surface mass density at $\theta$ \citep{Wright00}: 
+\begin{equation}
+\Delta\Sigma(\theta) \equiv \overline{\Delta\Sigma}(< \theta) - \Delta\Sigma(\theta).
+\end{equation}
+Given an expression for the mass density profile of a gravitational lens, and angular diameter distances involved, the expected tangential shear profile can be derived. Useful models for galaxy cluster masses, and the resulting $\gamma_{\rm t}(\theta)$ and $\Delta\Sigma(\theta)$ profiles, will be given in \autoref{sec:Clusters}.
+
+\subsection{Weak Lensing Magnification}
 \label{sec:Mag}
 Weak lensing magnification is, to first order, a measure of the convergence of a lensing mass.  It can be detected through the stretching of solid angle on the sky, which leads to the amplification of source flux, since lensing conserves surface brightness. In general, two different approaches can be taken to measure magnification.  The method we employ involves observing the effects on source number densities that result from source amplification in a flux-limited survey. An alternative approach is to observe coherent variations in source sizes and flux, but this method suffers from many of the limitations facing shear analysis.
 
