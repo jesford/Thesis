@@ -185,16 +185,17 @@ Angular diameter distance is the distance measure relevant for gravitational len
 
 As light from distance objects in the universe makes the journey from its source to our telescopes, it is deflected by mass inhomogeneities along its path. In particular, large overdensities, such as galaxies and galaxy clusters, will cause light rays to be bent and focused, altering the images of the background objects. Einstein's theory of General Relativity predicts this effect, and specifically requires the angle of deflection to be twice that of in Newtonian gravity. During a solar eclipse in 1919, Sir Arthur Eddington measured the shifted apparent positions of stars being gravitationally lensed by the sun, providing experimental evidence for the new theory of gravity and paving the way for the future of gravitational lensing as a field \citep{BS01}.
 
-The lensing geometry is displayed (not to scale) in \autoref{plot:lensing}. For most lensing studies the distances between astronomical objects involved is far greater than the size of the gravitational lens itself. It is therefore reasonable to approximate the path of the light ray as being bent at a sharp angle (as opposed to gradually arcing through the gravitational potential) \citep{BS01}. In analogy to refraction of light by an optical lens, this is known as the ``thin lens approximation.'' When light passes nearby an object of mass $M$, at impact parameter $b$, its path will be bent by the angle $\alpha_{\rm L}$ \citep{RydenText}:\footnote{Note that this thesis uses a similar notation to lensing reviews such as \citet{BS01} and \citet{Schneider06_WeakGravLens}, but we add the subscript ``L'' to some symbols in this chapter, pertaining to the lensing equations, to avoid confusion with the use of the same symbols in later sections of the thesis (e.g. $\beta$ will be the slope of the cluster mass-richness relation in \autoref{ch3} and \autoref{ch4}).}
+The lensing geometry is displayed (not to scale) in \autoref{plot:lensing}. For most lensing studies the distances between astronomical objects involved is far greater than the size of the gravitational lens itself. It is therefore reasonable to approximate the path of the light ray as being bent at a sharp angle (as opposed to gradually arcing through the gravitational potential) \citep{BS01}. In analogy to refraction of light by an optical lens, this is known as the ``thin lens approximation.'' When light passes nearby an object of mass $M$, at impact parameter $b$, its path will be bent by the angle $\hat{\alpha}_{\rm L}$ \citep{RydenText}:\footnote{Note that this thesis uses a similar notation to lensing reviews such as \citet{BS01} and \citet{Schneider06_WeakGravLens}, but we add the subscript ``L'' to some symbols in this chapter, pertaining to the lensing equations, to avoid confusion with the use of the same symbols in later sections of the thesis (e.g. $\beta$ will be the slope of the cluster mass-richness relation in \autoref{ch3} and \autoref{ch4}).}
 \begin{equation}
-\alpha_{\rm L} = \frac{4GM}{c^2 b}.
+\label{eqn:deflection}
+\hat{\alpha}_{\rm L} = \frac{4GM}{c^2 b}.
 \end{equation}
 This causes the background light source to appear as if it is at an angle $\theta$, when it is really at angular position $\beta_{\rm L}$, as shown in \autoref{plot:lensing}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[scale=0.4]{plots_intro/LensDiagram.png}
-\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\alpha_{\rm L}$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta_{\rm L}$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
+\caption[Gravitational Lensing Diagram]{Diagram showing the geometry of gravitational lensing. Light from the background source is bent by an angle $\hat{\alpha}_{\rm L}$ when it passes near the gravitational lens (gray oval) on its way to the earth. While the actual source (black star) is at an angle $\beta_{\rm L}$ relative to the horizontal, its image (gray star) appears to be at an angle $\theta$. The angular diameter distances to the lens ($D_{\rm l}$), to the source ($D_{\rm s}$) and between the lens and source ($D_{\rm ls}$) are labeled.}
 \label{plot:lensing}
 \end{center}
 \end{figure}
@@ -212,7 +213,11 @@ Finally, microlensing is the even weaker signature of gravitational lensing, whe
 \label{sec:Shear}
 Weak lensing shear is the component of weak lensing that deals with shape distortion of galaxy images. If all galaxies were intrinsically circular, or of known shape, then each individual background source would provide information on the gravitational field through which its light had propagated. Instead, however, galaxies take on a variety of shapes and orientations, and their unlensed representations are impossible to know. In order to proceed, weak lensing astronomers make two critical assumptions: (1) galaxy shapes can be approximated as elliptical, and (2) the orientation of these ellipses are random in the absence of gravitational lensing \citep{BS01}. The second point follows from the isotropy of the universe. Though only a few percent effect, characterization of these intrinsic alignments is an active area of research \citep[see e.g.][]{Hirata04,Heymans13}.
 
-As illustrated in \autoref{plot:lensing}, the lens equation is given by $\bm{\beta}_{\rm L} = \bm{\theta} - \bm{\alpha}_{\rm L}$, where we now use bold face to indicate angular positions with two components on the sky. The deflection angle $\bm{\alpha}_{\rm L}$ can be expressed as the gradient of the lensing (or deflection) potential $\bm{\alpha}_{\rm L} = \nabla \psi$. The lensing potential $\psi(\bm{\theta})$ is the two-dimensional analogue to the Newtonian gravitational potential $\Phi$, and is given by \citep{NarayanBartelmann96}:
+As illustrated in \autoref{plot:lensing}, the lens equation is given by 
+\begin{equation}
+\bm{\beta}_{\rm L} = \bm{\theta} - \bm{\alpha}_{\rm L},
+\end{equation}
+where we now use bold face to indicate angular positions with two components on the sky. The reduced deflection angle $\bm{\alpha}_{\rm L}$ is related to the deflection angle of \autoref{eqn:deflection} by $\bm{\alpha}_{\rm L} = (D_{\rm ls}/D_{\rm s})\bm{\hat{\alpha}}_{\rm L}$. The reduced deflection angle $\bm{\alpha}_{\rm L}$ can be expressed as the gradient of the lensing (or deflection) potential $\bm{\alpha}_{\rm L} = \nabla \psi$. The lensing potential $\psi(\bm{\theta})$ is the two-dimensional analogue to the Newtonian gravitational potential $\Phi$, and is given by \citep{NarayanBartelmann96}:
 \begin{equation}
 \psi(\bm{\theta}) = \frac{2}{c^2}\frac{D_{\rm ls}}{D_{\rm l} D_{\rm s}} \int \Phi(D_{\rm l} \bm{\theta},z){\rm d}z = \frac{1}{\pi} \int_{\mathbb{R}^2} \kappa(\bm{\theta'}) {\rm ln}|\bm{\theta} - \bm{\theta}'| {\rm d}^2 \theta'.
 \end{equation}
@@ -290,7 +295,11 @@ while the shape, or ellipticity, of the image involves the off-diagonal elements
 \end{equation}
 The complex ellipticity can be characterized by either of $\chi$ or $\epsilon$, which are simply related and interchangeable (in different situations one may be easier to work with) \citep{BS01}. 
 
-Each of the observed source ellipticities $\epsilon$ is related both to the shear caused by weak lensing, and to the intrinsic ellipticity $\epsilon^{(s)}$ of the unlensed background source:
+In analogy with the image center $\bm{\bar{\theta}}$ and tensor of second brightness moments $Q_{ij}$, one can define the same quantities for the unlensed source center $\bm{\bar{\beta}}$ and tensor of second brightness moments $Q_{ij}^{(s)}$. The relation between the source and image tensors is
+\begin{equation}
+Q^{(s)} = {\cal A} Q {\cal A}^{\rm T} = {\cal A} Q {\cal A},
+\end{equation}
+where ${\cal A} \equiv {\cal A}(\bm{\theta})$ is the Jacobian defined in \autoref{eqn:A} and \autoref{eqn:Ag}. The observed source ellipticity $\epsilon$ is related both to the shear caused by weak lensing, and to the intrinsic ellipticity $\epsilon^{(s)}$ of the unlensed background source:
 \begin{equation} 
 \epsilon^{(s)} = 
     \begin{cases}
@@ -299,12 +308,6 @@ Each of the observed source ellipticities $\epsilon$ is related both to the shea
     \end{cases}
 \end{equation}
 If we average over many background sources that are randomly oriented, then the average intrinsic ellipticity $\langle \epsilon^{(s)} \rangle = 0$ and we can apply the weak lensing approximation to conclude that $\gamma \approx g \approx \langle \epsilon \rangle \approx  \langle \chi \rangle /2$ \citep{BS01}. 
-
-In analogy with the image center $\bm{\bar{\theta}}$ and tensor of second brightness moments $Q_{ij}$, one can define the same quantities for the unlensed source center $\bm{\bar{\beta}}$ and tensor of second brightness moments $Q_{ij}^{(s)}$. The relation between the source and image tensors is
-\begin{equation}
-Q^{(s)} = {\cal A} Q {\cal A}^{\rm T} = {\cal A} Q {\cal A},
-\end{equation}
-where ${\cal A} \equiv {\cal A}(\bm{\theta})$ is the Jacobian defined in \autoref{eqn:A} and \autoref{eqn:Ag}. Further calculation shows that the complex image ellipticities ($\epsilon$ or $\chi$) can be related to the source ellipticities ($\epsilon^{(s)}$ or $\chi^{(s)}$) through the reduced shear \citep{BS01}.
 
 In this thesis we are concerned with a particular manifestation of gravitational lensing -- lensing by galaxy clusters. If we consider an circularly symmetric mass density on the sky (an idealized galaxy cluster), then we expect the shear distortion to be oriented tangential to the center of the lens. It is therefore useful in cluster lensing (and also in galaxy-galaxy lensing) to express the shear in terms of tangential and rotated (or cross) components:
 \begin{equation}
@@ -332,29 +335,31 @@ Given an expression for the mass density profile of a gravitational lens, and an
 
 Gravitational lensing causes the magnification of background galaxies due to the isotropic focusing of the lensed light rays (whereas shear arises from the anisotropic component). Magnification $\mu(\bm{\theta})$ is related to the determinant of the Jacobian, 
 \begin{equation}
-\mu = \frac{1}{{\rm det}{\cal A}} = \frac{1}{(1-\kappa)^2 - |\gamma|^2}.
+\mu  = \frac{1}{{\rm det}{\cal A}} = \frac{1}{(1-\kappa)^2 - |\gamma|^2}.
 \end{equation}
-In the weak lensing limit ($|\gamma| \ll 1$), the magnification is simply a measure of the convergence of a lensing mass, $\mu \approx 1+2\kappa$, where $\kappa$ is defined in \autoref{eqn:kappapartials} and \autoref{eqn:kappa} \citep{Schneider06_IntroGravLensCosmology}. Conceptually, the effect can be understood as the stretching of solid angle on the sky, which causes the amplification of source flux, since lensing conserves surface brightness. This directly leads to a change in source size $\omega = \mu(\bm{\theta}) \omega^{(s)}$, where size is defined in \autoref{eqn:size} \citep{BS01}.
+In the weak lensing limit ($|\gamma| \ll 1$), the magnification is simply a measure of the convergence of a lensing mass, $\mu \approx 1+2\kappa$, where $\kappa$ is defined in \autoref{eqn:kappapartials} and \autoref{eqn:kappa} \citep{Schneider06_IntroGravLensCosmology}. For the case of circularly symmetric sources we can write $\mu = (\theta/\beta_{\rm L})({\rm d}\theta/{\rm d}\beta_{\rm L})$
+\citep{NarayanBartelmann96}. Conceptually, magnification can be understood as the stretching of solid angle on the sky, which causes the amplification of source flux, since lensing conserves surface brightness. This directly leads to a change in source size $\omega = \mu(\bm{\theta}) \omega^{(s)}$, where size is defined in \autoref{eqn:size} \citep{BS01}.
 
 In general, two different approaches can be taken to measure magnification: (1) quantifying sizes of galaxies behind lenses and measuring lensing-induced changes, or (2) detecting the effect on background source number density that ensues as a result of amplification in a flux-limited survey. This thesis focuses on the latter approach. The former method suffers from many of the limitations facing shear analysis, and will be discussed briefly in \autoref{sec:VS} below.
 
-Define $n_0(S,z){\rm d}S{\rm d}z$ to be the intrinsic (unlensed) number of galaxies per solid angle within ${\rm d}S$ of flux $S$ and ${\rm d}z$ of redshift $z$. The cumulative lensed number density detectable (i.e. brighter than $S$) in an astronomical survey will then be:
+Define $n_0(f,z){\rm d}f{\rm d}z$ to be the intrinsic (unlensed) number of galaxies per solid angle within ${\rm d}f$ of flux $f$ and ${\rm d}z$ of redshift $z$. The cumulative lensed number density detectable (i.e. brighter than $f$) in an astronomical survey will then be:
 \begin{equation}
-n(>S,\bm{\theta},z) = \frac{1}{\mu(\bm{\theta},z)} n_0\left(\frac{>S}{\mu(\bm{\theta},z)},z\right).
+n(>f,\bm{\theta},z) = \frac{1}{\mu(\bm{\theta},z)} n_0\left(\frac{>f}{\mu(\bm{\theta},z)},z\right).
 \end{equation}
 In this equation we can see that magnification affects the source number densities in two ways. The prefactor $1/\mu$ represents the stretching of apparent solid angle, and decreases the number density on the sky. Meanwhile, the denominator in the argument of $n_0$ implies that sources will be detectable to a fainter intrinsic magnitude, effectively increasing the observed source number density if there exist sources fainter than the detection limit of the survey \citep{Schneider06_WeakGravLens}.
 
-Since magnification affects the background source number densities in two opposing ways, we require knowledge of the intrinsic source number densities as a function of brightness, in order to predict or interpret our magnification observations. Typically, astronomical sources such as galaxies contain relatively few very bright members and are much more numerous towards the faint end. If we approximate the slope of the number density in a narrow flux bin as a power law $n_0(S) \propto S^{-\alpha}$, then we have
+Since magnification affects the background source number densities in these two opposing ways, we require knowledge of the intrinsic source number densities as a function of brightness, in order to predict or interpret our magnification observations. Typically, astronomical sources such as galaxies contain relatively few very bright members and are much more numerous towards the faint end. If we approximate the slope of the number density in a narrow flux bin as a power law $n_0(f) \propto f^{-\alpha}$, then we have
 \begin{equation}
-\frac{n(>S)}{n_0(>S)} = \mu^{\alpha-1}.
+\frac{n(>f)}{n_0(>f)} = \mu^{\alpha-1}.
 \end{equation}
 
-Unfortunately, instead of using flux, astronomers frequently characterize source brightness using the ancient system of magnitudes. The apparent (observed) magnitude of an object with flux $S$ is
+Unfortunately, instead of using flux, astronomers frequently characterize source brightness using the ancient-Greek-inspired system of magnitudes. The apparent (observed) magnitude of an object with flux $S$ is
 \begin{equation}
-m \equiv -2.5 {\rm log}_{10}(S/S_{\rm x}),
+m \equiv -2.5 {\rm log}_{10}(f/f_{\rm x}),
 \end{equation}
-where $S_{\rm x} = 2.53 \times 10^{-8} \ {\rm W}/{\rm m}^2$ is a reference flux \citep{RydenText}. Bright sources have smaller apparent magnitude. \textcolor{red}{An absolute magnitude can be defined... necessary?} In terms of apparent magnitudes we can relate the lensed and intrinsic number densities using the equation
+where $f_{\rm x} = 2.53 \times 10^{-8} \ {\rm W}/{\rm m}^2$ is a reference flux \citep{RydenText}. Bright sources have smaller apparent magnitudes. \textcolor{red}{An absolute magnitude can be defined... necessary?} In terms of apparent magnitudes we can relate the lensed and intrinsic number densities using the equation
 \begin{equation}
+\label{eqn:nofm}
 n(m,z){\rm d}m = \mu^{\alpha -1} n_0(m,z){\rm d}m,
 \end{equation}
 where we now define $\alpha$ explicitly according to
@@ -362,7 +367,7 @@ where we now define $\alpha$ explicitly according to
 \alpha \equiv \alpha(m,z) = 2.5 \frac{\mathrm d}{\mathrm d \it m} \log n_0(m,z).
 \label{alpha}
 \end{equation}
-The form of this relationship was first demonstrated by \citet{Narayan89}, as it applied to lensed quasar number densities, but can be easily generalized to any galaxy type as long as one has a means of obtaining the slope of the number counts $\alpha$.
+The form of \autoref{eqn:nofm} was first demonstrated by \citet{Narayan89}, who applied it to lensed quasar number densities, but it can be generalized to any galaxy type as long as one has a means of obtaining the slope of the number counts $\alpha$.
 
 Returning to the question of whether gravitational lensing magnification will cause an increase or decrease in observed number densities of background sources, we find that the answer depends precisely on the value of $\alpha$. Sources for which $\alpha -1 > 0$ will appear to be correlated on the sky with a lens position, while sources with $\alpha -1 < 0$ will be anti-correlated, as a dearth of objects will be observed in the vicinity of a lens.  The number density of galaxies for which the intrinsic number count slope gives $\alpha -1 \approx 0$ will essentially be unaffected by lensing magnification, as the dilution and amplification effects will cancel, and no correlation signal will be observed for these objects \citep{Scranton05}. The brightest sources, which usually have steep number counts, will exhibit an {\it increase} in number density when lensed, as the amplification allows more objects to be detected, while the number density of the faintest sources, having relatively shallow number counts, will {\it decrease} \citep{Narayan89}.
 
@@ -384,7 +389,7 @@ Compared to shear measurements, magnification exhibits a slightly lower signal-t
 
 Because the constraint on source resolution is considerably relaxed, ground-based observations can be incorporated to a greater degree with magnification than for shear, as we are not concerned with correcting for the smearing of the image due to the Point Spread Function. From the financial perspective, magnification studies are therefore extremely cheap to carry out, since the excellent resolution of space-based telescopes is not required. See \citet{Waerbeke10}, \citet{RozoSchmidt10}, and \citet{Umetsu11}, for more detailed discussions of the benefits of combining magnification with shear in gravitational lensing studies.
 
-\textcolor{red}{size measurements more difficult than shapes, bottom pg 12 of Schneider ecopy.}
+\textcolor{red}{size measurements more difficult than shapes, bottom pg 12 of Schneider ecopy. comparison pg 349 BS01}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Galaxy Clusters}
