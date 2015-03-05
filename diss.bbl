@@ -1,4 +1,4 @@
-\begin{thebibliography}{138}
+\begin{thebibliography}{141}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -429,6 +429,21 @@ C.~{Heymans}, L.~{Van Waerbeke}, L.~{Miller}, T.~{Erben}, H.~{Hildebrandt},
 \newblock \emph{\mnras}, 427:\penalty0 146--166, Nov. 2012.
 \newblock \doi{10.1111/j.1365-2966.2012.21952.x}.
 
+\bibitem[{Heymans} et~al.(2013){Heymans}, {Grocutt}, {Heavens}, {Kilbinger},
+  {Kitching}, {Simpson}, {Benjamin}, {Erben}, {Hildebrandt}, {Hoekstra},
+  {Mellier}, {Miller}, {Van Waerbeke}, {Brown}, {Coupon}, {Fu},
+  {Harnois-D{\'e}raps}, {Hudson}, {Kuijken}, {Rowe}, {Schrabback}, {Semboloni},
+  {Vafaei}, and {Velander}]{Heymans13}
+C.~{Heymans}, E.~{Grocutt}, A.~{Heavens}, M.~{Kilbinger}, T.~D. {Kitching},
+  F.~{Simpson}, J.~{Benjamin}, T.~{Erben}, H.~{Hildebrandt}, H.~{Hoekstra},
+  Y.~{Mellier}, L.~{Miller}, L.~{Van Waerbeke}, M.~L. {Brown}, J.~{Coupon},
+  L.~{Fu}, J.~{Harnois-D{\'e}raps}, M.~J. {Hudson}, K.~{Kuijken}, B.~{Rowe},
+  T.~{Schrabback}, E.~{Semboloni}, S.~{Vafaei}, and M.~{Velander}.
+\newblock {CFHTLenS tomographic weak lensing cosmological parameter
+  constraints: Mitigating the impact of intrinsic galaxy alignments}.
+\newblock \emph{\mnras}, 432:\penalty0 2433--2453, July 2013.
+\newblock \doi{10.1093/mnras/stt601}.
+
 \bibitem[{Hildebrandt} et~al.(2009{\natexlab{a}}){Hildebrandt}, {Pielorz},
   {Erben}, {van Waerbeke}, {Simon}, and {Capak}]{Hildebrandt09a}
 H.~{Hildebrandt}, J.~{Pielorz}, T.~{Erben}, L.~{van Waerbeke}, P.~{Simon}, and
@@ -498,6 +513,13 @@ G.~{Hinshaw}, D.~{Larson}, E.~{Komatsu}, D.~N. {Spergel}, C.~L. {Bennett},
   Cosmological Parameter Results}.
 \newblock \emph{\apjs}, 208:\penalty0 19, Oct. 2013.
 \newblock \doi{10.1088/0067-0049/208/2/19}.
+
+\bibitem[{Hirata} and {Seljak}(2004)]{Hirata04}
+C.~M. {Hirata} and U.~{Seljak}.
+\newblock {Intrinsic alignment-lensing interference as a contaminant of cosmic
+  shear}.
+\newblock \emph{\prd}, 70\penalty0 (6):\penalty0 063526, Sept. 2004.
+\newblock \doi{10.1103/PhysRevD.70.063526}.
 
 \bibitem[{Hoekstra}(2007)]{Hoekstra07}
 H.~{Hoekstra}.
@@ -800,6 +822,11 @@ R.~{Narayan}.
 \newblock {Gravitational lensing and quasar-galaxy correlations}.
 \newblock \emph{\apjl}, 339:\penalty0 L53--L56, Apr. 1989.
 \newblock \doi{10.1086/185418}.
+
+\bibitem[{Narayan} and {Bartelmann}(1996)]{NarayanBartelmann96}
+R.~{Narayan} and M.~{Bartelmann}.
+\newblock {Lectures on Gravitational Lensing}.
+\newblock \emph{ArXiv Astrophysics e-prints}, June 1996.
 
 \bibitem[{Navarro} et~al.(1997){Navarro}, {Frenk}, and {White}]{nfw97}
 J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
