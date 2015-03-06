@@ -14,65 +14,65 @@
 \contentsline {section}{\numberline {1.2}Gravitational Lensing}{7}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Weak Lensing Shear}{9}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Weak Lensing Magnification}{12}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Magnification vs. Shear}{14}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Galaxy Clusters}{15}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Clusters as Cosmological Probes}{15}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Intracluster Physics}{15}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Impact of this Thesis}{15}{section.1.4}
-\contentsline {section}{\numberline {1.5}Thesis Overview}{16}{section.1.5}
-\contentsline {chapter}{\numberline {2}Magnification by Galaxy Group Dark Matter Halos}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}Theory}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Data}{19}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Lenses}{19}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Sources}{20}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Analysis and Results}{22}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Measuring $\alpha (m)$}{22}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Optimally-Weighted Cross-Correlation}{22}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Halo Mass Profiles}{23}{subsection.2.4.3}
-\contentsline {section}{\numberline {2.5}Summary and Conclusions}{24}{section.2.5}
-\contentsline {chapter}{\numberline {3}Cluster Magnification and the Mass-Richness Relation in CFHTLenS}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{27}{section.3.1}
-\contentsline {section}{\numberline {3.2}Data}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}3D-MF Galaxy Clusters}{28}{subsection.3.2.1}
-\contentsline {subsubsection}{Cluster Centers}{29}{subsubsection*.15}
-\contentsline {subsubsection}{Cluster Richness}{31}{subsubsection*.18}
-\contentsline {subsection}{\numberline {3.2.2}Sources}{32}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Magnification Methodology}{32}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}The Measurement}{32}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}The Modeling}{33}{subsection.3.3.2}
-\contentsline {subsubsection}{Composite-Halo Fits}{34}{subsubsection*.20}
-\contentsline {subsubsection}{LBG Contamination}{35}{subsubsection*.21}
-\contentsline {section}{\numberline {3.4}Results}{37}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The Mass-Richness Relation}{39}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Redshift Binning}{42}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Conclusions}{43}{section.3.5}
-\contentsline {chapter}{\numberline {4}CFHTLenS: A Weak Lensing Shear Analysis of the 3D-Matched-Filter Galaxy Clusters}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data}{46}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}The Canada-France-Hawaii Telescope Legacy Survey Wide}{46}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}CFHTLenS Shear Catalogue}{47}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}3D-MF Clusters}{47}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Method}{50}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Stacking Galaxy Clusters}{50}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Measuring $\Delta \Sigma $}{51}{subsection.4.3.2}
-\contentsline {subsubsection}{The NFW model}{52}{subsubsection*.33}
-\contentsline {subsubsection}{Non-weak shear corrections}{52}{subsubsection*.35}
-\contentsline {subsection}{\numberline {4.3.3}Miscentring Formalism}{53}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}The Halo Model}{55}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{55}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Fits to $\Delta \Sigma $}{59}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}The Mass-Richness Relation}{60}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results of Binning Clusters in Redshift}{61}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Discussion}{63}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Interpretation of the Results}{63}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Comparisons of Cluster Catalogue Volume}{63}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Comparison with other Mass-Richness Relations}{64}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Comparisons with other Cluster Centroid Analyses}{65}{subsection.4.5.4}
-\contentsline {subsection}{\numberline {4.5.5}Comparison with Magnification Results}{66}{subsection.4.5.5}
-\contentsline {section}{\numberline {4.6}Conclusions}{68}{section.4.6}
-\contentsline {chapter}{\numberline {5}Conclusions}{70}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary and Conclusions}{70}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{70}{section.5.2}
-\contentsline {chapter}{Bibliography}{71}{chapter*.46}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{82}{appendix.A}
+\contentsline {subsection}{\numberline {1.2.3}Magnification vs. Shear}{15}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Galaxy Clusters}{16}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Clusters as Cosmological Probes}{16}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Intracluster Physics}{16}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Impact of this Thesis}{16}{section.1.4}
+\contentsline {section}{\numberline {1.5}Thesis Overview}{17}{section.1.5}
+\contentsline {chapter}{\numberline {2}Magnification by Galaxy Group Dark Matter Halos}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{18}{section.2.1}
+\contentsline {section}{\numberline {2.2}Theory}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Data}{20}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Lenses}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Sources}{21}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Analysis and Results}{23}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Measuring $\alpha (m)$}{23}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Optimally-Weighted Cross-Correlation}{23}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Halo Mass Profiles}{24}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Summary and Conclusions}{25}{section.2.5}
+\contentsline {chapter}{\numberline {3}Cluster Magnification and the Mass-Richness Relation in CFHTLenS}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}3D-MF Galaxy Clusters}{29}{subsection.3.2.1}
+\contentsline {subsubsection}{Cluster Centers}{30}{subsubsection*.15}
+\contentsline {subsubsection}{Cluster Richness}{32}{subsubsection*.18}
+\contentsline {subsection}{\numberline {3.2.2}Sources}{33}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Magnification Methodology}{33}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The Measurement}{33}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}The Modeling}{34}{subsection.3.3.2}
+\contentsline {subsubsection}{Composite-Halo Fits}{35}{subsubsection*.20}
+\contentsline {subsubsection}{LBG Contamination}{36}{subsubsection*.21}
+\contentsline {section}{\numberline {3.4}Results}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The Mass-Richness Relation}{40}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Redshift Binning}{43}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Conclusions}{44}{section.3.5}
+\contentsline {chapter}{\numberline {4}CFHTLenS: A Weak Lensing Shear Analysis of the 3D-Matched-Filter Galaxy Clusters}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{46}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data}{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The Canada-France-Hawaii Telescope Legacy Survey Wide}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}CFHTLenS Shear Catalogue}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}3D-MF Clusters}{48}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Method}{51}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Stacking Galaxy Clusters}{51}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Measuring $\Delta \Sigma $}{52}{subsection.4.3.2}
+\contentsline {subsubsection}{The NFW model}{53}{subsubsection*.33}
+\contentsline {subsubsection}{Non-weak shear corrections}{53}{subsubsection*.35}
+\contentsline {subsection}{\numberline {4.3.3}Miscentring Formalism}{54}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The Halo Model}{56}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{56}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Fits to $\Delta \Sigma $}{60}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}The Mass-Richness Relation}{61}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results of Binning Clusters in Redshift}{62}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Discussion}{64}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Interpretation of the Results}{64}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Comparisons of Cluster Catalogue Volume}{64}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Comparison with other Mass-Richness Relations}{65}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Comparisons with other Cluster Centroid Analyses}{66}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Comparison with Magnification Results}{67}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Conclusions}{69}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusions}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}Summary and Conclusions}{71}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{71}{section.5.2}
+\contentsline {chapter}{Bibliography}{72}{chapter*.46}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{84}{appendix.A}

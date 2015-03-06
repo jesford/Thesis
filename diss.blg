@@ -13,6 +13,7 @@ A level-1 auxiliary file: appendix.aux
 Database file #1: References.bib
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1347 of file abbrvnat.bst
+Warning--empty publisher in Arp87
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1429 of file abbrvnat.bst
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
@@ -20,45 +21,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in DodelsonText
 Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
-You've used 141 entries,
+You've used 146 entries,
             2773 wiz_defined-function locations,
-            1581 strings with 47684 characters,
-and the built_in function-call counts, 114303 in all, are:
-= -- 8818
-> -- 12513
-< -- 57
-+ -- 4189
-- -- 4043
-* -- 11660
-:= -- 19064
-add.period$ -- 540
-call.type$ -- 141
-change.case$ -- 1760
-chr.to.int$ -- 136
-cite$ -- 285
-duplicate$ -- 2943
-empty$ -- 5277
-format.name$ -- 4238
-if$ -- 22470
+            1614 strings with 48501 characters,
+and the built_in function-call counts, 116175 in all, are:
+= -- 8982
+> -- 12594
+< -- 61
++ -- 4218
+- -- 4067
+* -- 11801
+:= -- 19361
+add.period$ -- 557
+call.type$ -- 146
+change.case$ -- 1782
+chr.to.int$ -- 141
+cite$ -- 296
+duplicate$ -- 3044
+empty$ -- 5451
+format.name$ -- 4269
+if$ -- 22862
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 141
-newline$ -- 830
-num.names$ -- 571
-pop$ -- 3213
+missing$ -- 147
+newline$ -- 857
+num.names$ -- 591
+pop$ -- 3256
 preamble$ -- 1
-purify$ -- 1625
+purify$ -- 1643
 quote$ -- 0
-skip$ -- 2985
+skip$ -- 3050
 stack$ -- 0
-substring$ -- 2341
-swap$ -- 322
+substring$ -- 2390
+swap$ -- 331
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1534
-warning$ -- 3
-while$ -- 528
+type$ -- 1584
+warning$ -- 4
+while$ -- 547
 width$ -- 0
-write$ -- 2061
+write$ -- 2128
 (There were 3 error messages)

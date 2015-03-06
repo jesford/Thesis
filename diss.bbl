@@ -1,4 +1,4 @@
-\begin{thebibliography}{141}
+\begin{thebibliography}{146}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -36,6 +36,17 @@ S.~{Andreon} and M.~A. {Hurn}.
   Bayesian approach}.
 \newblock \emph{\mnras}, 404:\penalty0 1922--1937, June 2010.
 \newblock \doi{10.1111/j.1365-2966.2010.16406.x}.
+
+\bibitem[{Arp}(1981)]{Arp81}
+H.~{Arp}.
+\newblock {Quasars near companion galaxies}.
+\newblock \emph{\apj}, 250:\penalty0 31--42, Nov. 1981.
+\newblock \doi{10.1086/159345}.
+
+\bibitem[{Arp}(1987)]{Arp87}
+H.~{Arp}.
+\newblock \emph{{Quasars, redshifts, and controversies}}.
+\newblock 1987.
 
 \bibitem[{Audouze} and {Tran Thanh Van}(1984)]{Bond83}
 J.~{Audouze} and J.~{Tran Thanh Van}, editors.
@@ -302,6 +313,13 @@ T.~{Erben}, H.~{Hildebrandt}, L.~{Miller}, L.~{van Waerbeke}, C.~{Heymans},
 \newblock \emph{\mnras}, 433:\penalty0 2545--2563, Aug. 2013.
 \newblock \doi{10.1093/mnras/stt928}.
 
+\bibitem[{Falco} et~al.(1985){Falco}, {Gorenstein}, and {Shapiro}]{Falco85}
+E.~E. {Falco}, M.~V. {Gorenstein}, and I.~I. {Shapiro}.
+\newblock {On model-dependent bounds on H(0) from gravitational images
+  Application of Q0957 + 561A,B}.
+\newblock \emph{\apjl}, 289:\penalty0 L1--L4, Feb. 1985.
+\newblock \doi{10.1086/184422}.
+
 \bibitem[{Fixsen} et~al.(1996){Fixsen}, {Cheng}, {Gales}, {Mather}, {Shafer},
   and {Wright}]{COBE96}
 D.~J. {Fixsen}, E.~S. {Cheng}, J.~M. {Gales}, J.~C. {Mather}, R.~A. {Shafer},
@@ -567,12 +585,6 @@ D.~E. {Johnston}, E.~S. {Sheldon}, R.~H. {Wechsler}, E.~{Rozo}, B.~P.
 \newblock {Cross-correlation Weak Lensing of SDSS galaxy Clusters II: Cluster
   Density Profiles and the Mass--Richness Relation}.
 \newblock \emph{ArXiv e-prints, astro-ph/0709.1159}, Sept. 2007.
-
-\bibitem[{Kaiser} and {Squires}(1993)]{KS93}
-N.~{Kaiser} and G.~{Squires}.
-\newblock {Mapping the dark matter with weak gravitational lensing}.
-\newblock \emph{\apj}, 404:\penalty0 441--450, Feb. 1993.
-\newblock \doi{10.1086/172297}.
 
 \bibitem[{Kerscher} et~al.(2000){Kerscher}, {Szapudi}, and
   {Szalay}]{Kerscher00}
@@ -999,6 +1011,12 @@ F.~{Schmidt}, A.~{Leauthaud}, R.~{Massey}, J.~{Rhodes}, M.~R. {George}, A.~M.
 \newblock \emph{\apjl}, 744:\penalty0 L22, Jan. 2012.
 \newblock \doi{10.1088/2041-8205/744/2/L22}.
 
+\bibitem[{Schneider}(1992)]{Schneider92}
+P.~{Schneider}.
+\newblock {Inversion of the Amplification Bias and the Number Excess of
+  Foreground Galaxies around High Redshift QSOS}.
+\newblock \emph{\aap}, 254:\penalty0 14, Feb. 1992.
+
 \bibitem[{Schneider}(2006{\natexlab{a}})]{Schneider06_IntroGravLensCosmology}
 P.~{Schneider}.
 \newblock {Part 1: Introduction to gravitational lensing and cosmology}.
@@ -1014,6 +1032,12 @@ P.~{Schneider}.
   {Kochanek}, and J.~{Wambsganss}, editors, \emph{Saas-Fee Advanced Course 33:
   Gravitational Lensing: Strong, Weak and Micro}, pages 269--451,
   2006{\natexlab{b}}.
+
+\bibitem[{Schneider} and {Seitz}(1995)]{SchneiderSeitz95}
+P.~{Schneider} and C.~{Seitz}.
+\newblock {Steps towards nonlinear cluster inversion through gravitational
+  distortions. 1: Basic considerations and circular clusters}.
+\newblock \emph{\aap}, 294:\penalty0 411--431, Feb. 1995.
 
 \bibitem[{Schneider} et~al.(2000){Schneider}, {King}, and {Erben}]{Schneider00}
 P.~{Schneider}, L.~{King}, and T.~{Erben}.
@@ -1052,6 +1076,13 @@ N.~{Sehgal}, G.~{Addison}, N.~{Battaglia}, E.~S. {Battistelli}, J.~R. {Bond},
   Optical Richness and Sunyaev-Zel'dovich Effect}.
 \newblock \emph{\apj}, 767:\penalty0 38, Apr. 2013.
 \newblock \doi{10.1088/0004-637X/767/1/38}.
+
+\bibitem[{Seldner} and {Peebles}(1979)]{SeldnerPeebles79}
+M.~{Seldner} and P.~J.~E. {Peebles}.
+\newblock {Statistical analysis of catalogs of extragalactic objects. XI -
+  Evidence of correlation of QSOs and Lick galaxy counts}.
+\newblock \emph{\apj}, 227:\penalty0 30--36, Jan. 1979.
+\newblock \doi{10.1086/156699}.
 
 \bibitem[{Seljak} and {Warren}(2004)]{Seljak04}
 U.~{Seljak} and M.~S. {Warren}.
@@ -1149,12 +1180,6 @@ J.~L. {Tinker}, B.~E. {Robertson}, A.~V. {Kravtsov}, A.~{Klypin}, M.~S.
 \newblock \emph{\apj}, 724:\penalty0 878--886, Dec. 2010.
 \newblock \doi{10.1088/0004-637X/724/2/878}.
 
-\bibitem[{Tyson} et~al.(1984){Tyson}, {Valdes}, {Jarvis}, and {Mills}]{Tyson84}
-J.~A. {Tyson}, F.~{Valdes}, J.~F. {Jarvis}, and A.~P. {Mills}, Jr.
-\newblock {Galaxy mass distribution from gravitational light deflection}.
-\newblock \emph{\apjl}, 281:\penalty0 L59--L62, June 1984.
-\newblock \doi{10.1086/184285}.
-
 \bibitem[{Umetsu}(2013)]{Umetsu13}
 K.~{Umetsu}.
 \newblock {Model-free Multi-probe Lensing Reconstruction of Cluster Mass
@@ -1205,8 +1230,8 @@ E.~{van Uitert}.
   2 (RCS2)}}.
 \newblock PhD thesis, Leiden University, 2012.
 
-\bibitem[{van Waerbeke}(2010)]{Waerbeke10}
-L.~{van Waerbeke}.
+\bibitem[{Van Waerbeke}(2010)]{Waerbeke10}
+L.~{Van Waerbeke}.
 \newblock {Shear and magnification: cosmic complementarity}.
 \newblock \emph{\mnras}, 401:\penalty0 2093--2100, Jan. 2010.
 \newblock \doi{10.1111/j.1365-2966.2009.15809.x}.
@@ -1257,6 +1282,14 @@ D.~{Walsh}, R.~F. {Carswell}, and R.~J. {Weymann}.
 \newblock {0957 + 561 A, B - Twin quasistellar objects or gravitational lens}.
 \newblock \emph{\nat}, 279:\penalty0 381--384, May 1979.
 \newblock \doi{10.1038/279381a0}.
+
+\bibitem[{Webster} et~al.(1988){Webster}, {Hewett}, {Harding}, and
+  {Wegner}]{Webster88}
+R.~L. {Webster}, P.~C. {Hewett}, M.~E. {Harding}, and G.~A. {Wegner}.
+\newblock {Detection of statistical gravitational lensing by foreground mass
+  distributions}.
+\newblock \emph{\nat}, 336:\penalty0 358, Nov. 1988.
+\newblock \doi{10.1038/336358a0}.
 
 \bibitem[{Wen} et~al.(2009){Wen}, {Han}, and {Liu}]{Wen09}
 Z.~L. {Wen}, J.~L. {Han}, and F.~S. {Liu}.
