@@ -1,4 +1,4 @@
-\begin{thebibliography}{146}
+\begin{thebibliography}{147}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -196,6 +196,13 @@ A.~{Cooray} and R.~{Sheth}.
 \newblock {Halo models of large scale structure}.
 \newblock \emph{\physrep}, 372:\penalty0 1--129, Dec. 2002.
 \newblock \doi{10.1016/S0370-1573(02)00276-4}.
+
+\bibitem[{Coupon} et~al.(2013){Coupon}, {Broadhurst}, and {Umetsu}]{Coupon13}
+J.~{Coupon}, T.~{Broadhurst}, and K.~{Umetsu}.
+\newblock {Cluster Lensing Profiles Derived from a Redshift Enhancement of
+  Magnified BOSS-survey Galaxies}.
+\newblock \emph{\apj}, 772:\penalty0 65, July 2013.
+\newblock \doi{10.1088/0004-637X/772/1/65}.
 
 \bibitem[{Covone} et~al.(2014){Covone}, {Sereno}, {Kilbinger}, and
   {Cardone}]{Covone14}
