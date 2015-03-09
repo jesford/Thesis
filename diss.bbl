@@ -1,9 +1,15 @@
-\begin{thebibliography}{147}
+\begin{thebibliography}{156}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Abell}(1958)]{Abell58}
+G.~O. {Abell}.
+\newblock {The Distribution of Rich Clusters of Galaxies.}
+\newblock \emph{\apjs}, 3:\penalty0 211, May 1958.
+\newblock \doi{10.1086/190036}.
 
 \bibitem[{Adami} et~al.(2010){Adami}, {Durret}, {Benoist}, {Coupon}, {Mazure},
   {Meneux}, {Ilbert}, {Blaizot}, {Arnouts}, {Cappi}, {Garilli}, {Guennou},
@@ -106,6 +112,12 @@ C.~{Bildfell}, H.~{Hoekstra}, A.~{Babul}, and A.~{Mahdavi}.
   X-ray luminous clusters}.
 \newblock \emph{\mnras}, 389:\penalty0 1637--1654, Oct. 2008.
 \newblock \doi{10.1111/j.1365-2966.2008.13699.x}.
+
+\bibitem[{Biviano}(2000)]{Biviano00}
+A.~{Biviano}.
+\newblock {From Messier to Abell: 200 Years of Science with Galaxy Clusters}.
+\newblock In \emph{Constructing the Universe with Clusters of Galaxies},
+  page~1, 2000.
 
 \bibitem[{Bolton} et~al.(2008){Bolton}, {Burles}, {Koopmans}, {Treu},
   {Gavazzi}, {Moustakas}, {Wayth}, and {Schlegel}]{Bolton08}
@@ -401,6 +413,11 @@ M.~D. {Gladders} and H.~K.~C. {Yee}.
 \newblock \emph{\aj}, 120:\penalty0 2148--2162, Oct. 2000.
 \newblock \doi{10.1086/301557}.
 
+\bibitem[{Gott} and {Rees}(1975)]{GottRees75}
+J.~R. {Gott}, III and M.~J. {Rees}.
+\newblock {A theory of galaxy formation and clustering}.
+\newblock \emph{\aap}, 45:\penalty0 365--376, Dec. 1975.
+
 \bibitem[{Hamana} et~al.(2004){Hamana}, {Ouchi}, {Shimasaku}, {Kayo}, and
   {Suto}]{Hamana04}
 T.~{Hamana}, M.~{Ouchi}, K.~{Shimasaku}, I.~{Kayo}, and Y.~{Suto}.
@@ -417,6 +434,12 @@ S.~M. {Hansen}, T.~A. {McKay}, R.~H. {Wechsler}, J.~{Annis}, E.~S. {Sheldon},
   Functions from SDSS Photometric Data}.
 \newblock \emph{\apj}, 633:\penalty0 122--137, Nov. 2005.
 \newblock \doi{10.1086/444554}.
+
+\bibitem[{Harrison}(1970)]{Harrison70}
+E.~R. {Harrison}.
+\newblock {Fluctuations at the Threshold of Classical Cosmology}.
+\newblock \emph{\prd}, 1:\penalty0 2726--2730, May 1970.
+\newblock \doi{10.1103/PhysRevD.1.2726}.
 
 \bibitem[{Hartlap} et~al.(2007){Hartlap}, {Simon}, and {Schneider}]{Hartlap07}
 J.~{Hartlap}, P.~{Simon}, and P.~{Schneider}.
@@ -584,6 +607,14 @@ E.~M. {Huff} and G.~J. {Graves}.
 \newblock \emph{\apjl}, 780:\penalty0 L16, Jan. 2014.
 \newblock \doi{10.1088/2041-8205/780/2/L16}.
 
+\bibitem[{Jenkins} et~al.(2001){Jenkins}, {Frenk}, {White}, {Colberg}, {Cole},
+  {Evrard}, {Couchman}, and {Yoshida}]{Jenkins01}
+A.~{Jenkins}, C.~S. {Frenk}, S.~D.~M. {White}, J.~M. {Colberg}, S.~{Cole},
+  A.~E. {Evrard}, H.~M.~P. {Couchman}, and N.~{Yoshida}.
+\newblock {The mass function of dark matter haloes}.
+\newblock \emph{\mnras}, 321:\penalty0 372--384, Feb. 2001.
+\newblock \doi{10.1046/j.1365-8711.2001.04029.x}.
+
 \bibitem[{Johnston} et~al.(2007){Johnston}, {Sheldon}, {Wechsler}, {Rozo},
   {Koester}, {Frieman}, {McKay}, {Evrard}, {Becker}, and {Annis}]{Johnston07}
 D.~E. {Johnston}, E.~S. {Sheldon}, R.~H. {Wechsler}, E.~{Rozo}, B.~P.
@@ -633,6 +664,12 @@ B.~P. {Koester}, T.~A. {McKay}, J.~{Annis}, R.~H. {Wechsler}, A.~E. {Evrard},
 \newblock {MaxBCG: A Red-Sequence Galaxy Cluster Finder}.
 \newblock \emph{\apj}, 660:\penalty0 221--238, May 2007.
 \newblock \doi{10.1086/512092}.
+
+\bibitem[{Kravtsov} and {Borgani}(2012)]{Kravtsov12}
+A.~V. {Kravtsov} and S.~{Borgani}.
+\newblock {Formation of Galaxy Clusters}.
+\newblock \emph{\araa}, 50:\penalty0 353--409, Sept. 2012.
+\newblock \doi{10.1146/annurev-astro-081811-125502}.
 
 \bibitem[{Landy} and {Szalay}(1993)]{LandySzalay93}
 S.~D. {Landy} and A.~S. {Szalay}.
@@ -884,6 +921,12 @@ B.~{Paczynski}.
 \newblock \emph{\araa}, 34:\penalty0 419--460, 1996.
 \newblock \doi{10.1146/annurev.astro.34.1.419}.
 
+\bibitem[{Peebles} and {Yu}(1970)]{PeeblesYu70}
+P.~J.~E. {Peebles} and J.~T. {Yu}.
+\newblock {Primeval Adiabatic Perturbation in an Expanding Universe}.
+\newblock \emph{\apj}, 162:\penalty0 815, Dec. 1970.
+\newblock \doi{10.1086/150713}.
+
 \bibitem[{Penzias} and {Wilson}(1965)]{PenziasWilson65}
 A.~A. {Penzias} and R.~W. {Wilson}.
 \newblock {A Measurement of Excess Antenna Temperature at 4080 Mc/s.}
@@ -934,6 +977,13 @@ F.~{Prada}, A.~A. {Klypin}, A.~J. {Cuesta}, J.~E. {Betancort-Rijo}, and
   cosmology}.
 \newblock \emph{\mnras}, 423:\penalty0 3018--3030, July 2012.
 \newblock \doi{10.1111/j.1365-2966.2012.21007.x}.
+
+\bibitem[{Press} and {Schechter}(1974)]{PS74}
+W.~H. {Press} and P.~{Schechter}.
+\newblock {Formation of Galaxies and Clusters of Galaxies by Self-Similar
+  Gravitational Condensation}.
+\newblock \emph{\apj}, 187:\penalty0 425--438, Feb. 1974.
+\newblock \doi{10.1086/152650}.
 
 \bibitem[{Riess} et~al.(1998){Riess}, {Filippenko}, {Challis}, {Clocchiatti},
   {Diercks}, {Garnavich}, {Gilliland}, {Hogan}, {Jha}, {Kirshner},
@@ -1349,6 +1399,12 @@ I.~{Zehavi}, Z.~{Zheng}, D.~H. {Weinberg}, M.~R. {Blanton}, N.~A. {Bahcall},
   Dependence on Color and Luminosity}.
 \newblock \emph{\apj}, 736:\penalty0 59, July 2011.
 \newblock \doi{10.1088/0004-637X/736/1/59}.
+
+\bibitem[{Zeldovich}(1972)]{Zeldovich72}
+Y.~B. {Zeldovich}.
+\newblock {A hypothesis, unifying the structure and the entropy of the
+  Universe}.
+\newblock \emph{\mnras}, 160:\penalty0 1P, 1972.
 
 \bibitem[{Zwicky}(1933)]{Zwicky33}
 F.~{Zwicky}.

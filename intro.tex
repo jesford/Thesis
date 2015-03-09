@@ -406,11 +406,53 @@ The bottom line regarding magnification is that it provides gravitational lensin
 \section{Galaxy Clusters}
 \label{sec:Clusters}
 
-\textcolor{red}{NFW on pg 76 of Schneider hardcopy.}
+Clusters of galaxies represent the largest and most massive gravitationally-bound systems to have formed thus far in our universe. They range from associations of only a few nearby galaxies, called groups, all the way up to very rich clusters containing many thousands of members. The distinction between groups and clusters is not well defined, and this thesis will largely use the word ``clusters'' as a blanket term covering all groupings of galaxies. Clusters themselves are observed to clump together into enormous superclusters.
 
-\subsection{Clusters as Cosmological Probes}
+Galaxies were first recognized to cluster together by Charles Messier in 1784, and then independently by F. Wilhelm Herschel in the early 19$^{\rm th}$ century, long before they were actually recognized as very distant galaxies similar to our own (they were called ``nebulae'') \citep{Biviano00}. The first cluster masses were estimated by \citet{Zwicky33}, but it wasn't until the first comprehensive catalog of over two thousand clusters was produced by \citet{Abell58} that the study of galaxy clusters really began to take off. Today hundreds of thousands of galaxy clusters have been cataloged and studied \citep[see e.g.][]{Wen12}.
 
-\subsection{Intracluster Physics}
+Because they harbor the deepest gravitational potentials in the universe, clusters are unique laboratories for studying the highest energy phenomena since the big bang. They can be used a testing grounds for general relativity, and gravitational structure formation. Baryonic processes of the intergalactic medium, high energy plasma physics, and the interplay with member galaxies and galaxy evolution, can all be explored using galaxy clusters \citep{Kravtsov12}. This section will discuss the two key uses for studying galaxy clusters -- to constrain cosmology (\autoref{sec:ClusterCosmo}) and to understand astrophysical processes (\autoref{sec:ClusterAstro}) -- with an attempt to highlight the significant aspects of these areas that are relevant to this thesis.
+
+\subsection{Clusters for Cosmology}
+\label{sec:ClusterCosmo}
+Clusters of galaxies represent the high-mass end of structure formation in the universe, and the most recent objects to have collapsed gravitationally. Quantifying cluster number density as a function of mass can be a sensitive probe of cosmology. Two cosmological parameters that are of particular importance for the study of galaxy clusters are $\Omega_m$ and $\sigma_8$. The first, already discussed in \autoref{sec:Cosmology}, is the matter content of the universe expressed as a fraction of the total energy density. The second parameter, $\sigma_8$, is known as the normalization of the matter power spectrum. It can also be described as the variance in the mass contained within spheres randomly located throughout the universe, with comoving radius $8 h^{-1}$\ac{Mpc} (hence the subscript ``8'') \citep{Voit05}.
+
+The fact that our universe even contains galaxies and other structures, means that the universe is not perfectly homogeneous. The canonical description is that, at early times there existed slight perturbations in the density field, which underwent gravitational collapse to eventually form the varied structures we observe today. If the average density was $\langle \rho_m \rangle$, then these density perturbations as a function of position can be written as
+\begin{equation}
+\delta(x) = \frac{\rho_m(x) - \langle \rho_m \rangle}{\langle \rho_m \rangle}.
+\end{equation}
+The Fourier components of the density perturbations are $\delta_{\rm k}(k) = \int \delta(x) {\rm e}^{i {\bm k} \cdot {\bm x}}{\rm d}^3x$. 
+
+If we believe that the universe is indeed isotropic, and that these perturbations $\delta(x)$ can be described as a Gaussian random field (the simplest case scenario), then we can fully characterize them using the isotropic power spectrum $P(k) \equiv \langle | \delta_{\rm k} |^2 \rangle$ \citep{Kravtsov12}. The power spectrum is often approximated as a power law $P(k) \propto k^n$, where $n=1$ is the special scale-invariant case proposed around the same time by \citet{Harrison70,PeeblesYu70,Zeldovich72}. Recent measurements by \citet{PlanckXVI} have shown that $n \approx 0.96$.
+
+Defining a spherical window function $W(r)$, and its Fourier transform $W_k$, we can write the variance on mass scale $M$ as 
+\begin{equation}
+\sigma^2 \equiv \left\langle \left| \frac{\delta M}{M} \right|^2 \right\rangle = \frac{1}{(2\pi)^3} \int P(k) |W_k|^2 {\rm d}^3k.
+\end{equation}
+Thus $\sigma_8$ is simply a special case of the square root of the above expression, wherein a top hat window function of radius $8 h^{-1}$\ac{Mpc} is used.\footnote{The top hat window function is constant inside the $8 h^{-1}$\ac{Mpc} radius, zero outside of it, and is normalized so it integrates to one.} This particular radius is historical in nature, simply chosen because $\delta M/M \sim 1$ in spheres of this volume, but it remains widely used in the cosmological literature today \citep{Voit05}. Better constraints now give $\sigma_8 \approx 0.83$ \citep{PlanckXVI}.
+
+At first, when the density constrast was small $\delta(x) \ll 1$, the perturbations simply expanded along with the universe. The modes grew independently, according to the linear growth function \citep{Voit05}:
+\begin{equation}
+D(a) \propto \frac{\delta \rho}{\rho} \propto \frac{\dot{a}}{a} \int_0^a \frac{{\rm d}a}{\dot{a}^3}.
+\end{equation}
+Later, as they entered each other's horizon, the overdense regions grew by attracting surrounding matter. Once they reach a critical density contrast $\delta_c$, they collapsed gravitationally and decoupled from the global expansion \citep{Schneider06_IntroGravLensCosmology}. Smaller overdensities merged together to form larger structures, in what is known as hierarchical structure formation. A full mathematical description of the growth of structure is beyond the scope of this introduction,  and the reader is referred to important early papers \citep[e.g.][]{PS74,GottRees75} or more recent excellent reviews on the subject \citep[e.g.][]{Voit05,Schneider06_IntroGravLensCosmology,Kravtsov12}. 
+
+A common approach to extracting cosmological information from galaxy clusters involves measuring the cumulative number density (comoving) of clusters above some mass threshold.  This important quantity $n_M (M,z)$ is known as the cluster mass function. In the original formalism of \citet{PS74} the cluster mass function is given by
+\begin{equation}
+n_M (M,z) = \frac{\Omega_m \rho_{\rm crit}(z=0)}{M} {\rm erfc}\left[ \frac{\delta_c}{\sqrt{2}\sigma(M,z)} \right].
+\end{equation}
+Improvements have been made on the Press-Schechter formalism, most notably by \citet{Sheth99} and \citet{Jenkins01}, generalizing to ellipsoidal perturbations and improving parameterizations based on cluster simulations. The cluster mass function $n_M$ depends very specifically on the meaning of the mass of a cluster. A common choice, which will be used throughout this thesis, is the mass parameter $M_{200}$. This is the total mass interior to a radius $R_{200}$, within which the average density is 200 times the critical energy density of the universe, $\langle \rho (r<R_{200}) \rangle = 200 \rho_{\rm crit}(z)$.
+
+There are several difficulties in connecting galaxy cluster observations to theories of structure formation in cosmology. Clusters evolve over time, but we cannot observe the collapse of an individual halo because of the time scales involved. Instead we must make inferences by observing ensembles of clusters at different redshifts. Other issues are the observational difficulties associated with compiling pure and complete samples of galaxy clusters, using techniques that nearly always probe some visible tracer of the cluster dark matter halo. Finally, it is very difficult to accurately know the true mass $M$ that appears in the cluster mass function. Gravitational lensing is the most promising method for obtaining accurate cluster masses, and the work in this thesis is aimed at improving these estimates further, especially for higher redshift clusters. Future experiments may build upon this work to use galaxy clusters to improve constraints on cosmology.
+
+\textcolor{red}{Include power spectrum visualization (pg 81 Schneider hardcopy)?}
+
+\subsection{Clusters for Astrophysics}
+\label{sec:ClusterAstro}
+
+Other stuff... \citep{Voit05}
+
+\textcolor{red}{\begin{itemize}\item cluster intro pg 30+ Schneider ecopy \item NFW on pg 76, of Schneider hardcopy \item halo abundance, power spectrum, pg 67+/- Schneider hardcopy \item good power spectrum visualization pg 81 Schneider hardcopy \end{itemize}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Impact of this Thesis}
@@ -436,9 +478,9 @@ Arguably the most important magnification result in all the literature to date i
 
 The body of this thesis is composed of three published studies that develop the weak gravitational lensing magnification technique, particularly for the study of galaxy clusters, and compare with results using the complementary and much more ubiquitous weak lensing shear approach:
 \begin{itemize}
-\item \autoref{ch2} contains the first magnification study of galaxy groups and first comparison with shear for stacked lens samples. The data are X-ray selected groups, and high-redshift Lyman-break galaxies in the ac{COSMOS} field.
-\item \autoref{ch3} represents the highest-significance magnification detection, and the first magnification study that could be binned as a function of cluster parameters. The data are optically-selected galaxy clusters and high-redshift Lyman-break galaxies in the ac{CFHTLenS} field.
-\item \autoref{ch4} is the follow-up shear analysis of the same cluster sample presented in the previous chapter, using the ac{CFHTLenS} shear catalog for background source shape measurements.
+\item \autoref{ch2} contains the first magnification study of galaxy groups and first comparison with shear for stacked lens samples. The data are X-ray selected groups, and high-redshift Lyman-break galaxies in the \ac{COSMOS} field.
+\item \autoref{ch3} represents the highest-significance magnification detection, and the first magnification study that could be binned as a function of cluster parameters. The data are optically-selected galaxy clusters and high-redshift Lyman-break galaxies in the \ac{CFHTLenS} field.
+\item \autoref{ch4} is the follow-up shear analysis of the same cluster sample presented in the previous chapter, using the \ac{CFHTLenS} shear catalog for background source shape measurements.
 \end{itemize}
 Finally, \autoref{ch:conc} wraps up with conclusions on the topic of cluster studies using both magnification and shear, and briefly outlines future directions for progress within the field.
 
