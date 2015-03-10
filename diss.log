@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  9 MAR 2015 21:58
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  9 MAR 2015 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1412,7 +1412,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  12164 strings out of 493747
  180635 string characters out of 3143546
- 290418 words of memory out of 3000000
+ 290509 words of memory out of 3000000
  14584 multiletter control sequences out of 15000+200000
  78785 words of font info for 163 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -1432,10 +1432,10 @@ type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (96 pages, 1659352 bytes).
+Output written on diss.pdf (96 pages, 1660683 bytes).
 PDF statistics:
- 3544 PDF objects out of 3580 (max. 8388607)
- 2839 compressed objects within 29 object streams
+ 3548 PDF objects out of 3580 (max. 8388607)
+ 2843 compressed objects within 29 object streams
  474 named destinations out of 1000 (max. 500000)
  697 words of extra memory for PDF output out of 10000 (max. 10000000)
 
