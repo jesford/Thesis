@@ -1,11 +1,13 @@
-*Jes' PhD Thesis*
+Jes' PhD Thesis
+============================================
 
-- This is a University of British Columbia Physics PhD Thesis by Jes Ford. 
-- The awesome UBC-approved template was generously made available by Brian de Alwis (see his original README below).
-
+- Dissertation for a PhD in Physics by Jes Ford
+- University of British Columbia - Vancouver 
+- The awesome original UBC-approved latex template was generously made available by Brian de Alwis. Thank you Brian!
+- Brian's original README is below
 
 ubcdiss -- a dissertation template for LaTeX
-============================================
+--------------------------------------------
 
 This distribution provides a LaTeX template for writing a dissertation
 conformant with UBC's specifications (as of Oct 2010).  The template
