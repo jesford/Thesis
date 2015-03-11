@@ -72,7 +72,8 @@
 \contentsline {subsection}{\numberline {4.5.5}Comparison with Magnification Results}{70}{subsection.4.5.5}
 \contentsline {section}{\numberline {4.6}Conclusions}{72}{section.4.6}
 \contentsline {chapter}{\numberline {5}Conclusions}{74}{chapter.5}
-\contentsline {section}{\numberline {5.1}Summary and Conclusions}{74}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{74}{section.5.2}
-\contentsline {chapter}{Bibliography}{75}{chapter*.46}
-\contentsline {chapter}{\numberline {A}Supporting Materials}{87}{appendix.A}
+\contentsline {section}{\numberline {5.1}Summary}{74}{section.5.1}
+\contentsline {section}{\numberline {5.2}Final Conclusions}{75}{section.5.2}
+\contentsline {section}{\numberline {5.3}Future Work}{75}{section.5.3}
+\contentsline {chapter}{Bibliography}{76}{chapter*.46}
+\contentsline {chapter}{\numberline {A}Supporting Materials}{88}{appendix.A}
