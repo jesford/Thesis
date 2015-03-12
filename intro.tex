@@ -203,7 +203,15 @@ This causes the background light source to appear as if it is at an angle $\thet
 
 The fact that gravitational lensing directly probes the underlying density field along the line of sight is what makes the technique extremely valuable. All other methods for probing the matter distribution of the universe do not probe the mass itself (which is mostly dark matter), but rather the baryonic component of the mass -- stars, and interstellar gas and dust. While we expect the baryons to trace the underlying density of dark matter, there are many complicating factors (see \autoref{sec:Clusters}) that render the analogy lacking. Additionally, other means of measuring masses (such as using radial velocities) rely on assumptions about the virial equilibrium of a system which may not be satisfied.
 
-Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye, whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitationally lensed arcs were discovered nearly a decade later by \citet{Lynds86} and \citet{Soucail87,Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
+Gravitational lensing is broadly divided into several branches depending upon the strength of the lensing effect. Strong lensing refers to the rarest and most obvious distortions, leading to images of giant arcs, Einstein rings, and multiple images of the same source. Strong lensing features are generally apparent to the eye (see \autoref{plot:abellcluster} for an example), whereas weak lensing and microlensing are not. The first observation of gravitational lensing producing multiple images was made by \citet{Walsh79} using a lensed quasar. The first gravitationally lensed arcs were discovered nearly a decade later by \citet{Lynds86} and \citet{Soucail87,Soucail88}. Currently, over one hundred strong gravitational lenses are known \citep{Browne03,Bolton08}. Strong lensing is very useful for accurately probing the dark matter halo mass profiles of galaxies and clusters of galaxies, often yielding detailed information on lens concentration \citep{Auger10} and substructure \citep{Mao98,Dalal02}. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1.5]{plots_intro/Abell2218_Med.jpg}
+\caption[Strong Lensing Image]{Abell 2218, a galaxy cluster at $z \sim 0.18$, yields a magnificent example of strong gravitational lensing. Many large arcs, which are highly distorted images of background galaxies, are easily visible in this image [Source: NASA].}
+\label{plot:abellcluster}
+\end{center}
+\end{figure}
 
 Weak lensing, just as the name implies, leads to much less significant distortions. The hallmark of weak lensing is that it is a statistical effect, only measurable using ensembles of many background sources and foreground lenses. Unlike the rarity of a strong lensing event, however, weak lensing is everywhere. Essentially all light rays are distorted at least a bit while traveling to us through the inhomogeneous gravitational fields of the universe. Weak lensing itself, and different approaches to measuring it, will be discussed in much more detail in \autoref{sec:Shear} and \autoref{sec:Mag} below. 
 
@@ -264,7 +272,7 @@ The two components of the shear $\gamma (\bm{\theta})$ can be expressed as deriv
 \begin{equation}
 \gamma_2 = \frac{\partial^2 \psi(\bm{\theta})}{\partial\theta_1 \partial\theta_2}.
 \end{equation}
-The shear is often written as a complex number, $\gamma \equiv \gamma_1 + i\gamma_2 = |\gamma|{\rm e}^{2i\varphi}$. Here $|\gamma|$ and $\varphi$ indicate the amplitude and direction of distortion, respectively, which is unchanged when rotated by 180$^\circ$. 
+The shear is often written as a complex number, $\gamma \equiv \gamma_1 + i\gamma_2 = |\gamma|{\rm e}^{2i\varphi}$. Here $|\gamma|$ and $\varphi$ indicate the amplitude and direction of distortion, respectively, which is unchanged when rotated by 180$^\circ$. An illustration of the meaning of each component of $\gamma$, as well as $\kappa$ is given in \autoref{plot:kappagamma}
 
 We do not observe the true shear, but rather the reduced shear  $g(\bm{\theta}) = \gamma (\bm{\theta}) \left[1-\kappa (\bm{\theta}) \right]^{-1}$. We can thus rewrite the Jacobian matrix as:
 \begin{equation}
@@ -321,6 +329,14 @@ In this thesis we are concerned with a particular manifestation of gravitational
 \end{equation}
 Here the angle $\phi$ is the azimuthal angle measured about the center of the lens \citep{Schneider06_WeakGravLens}. The rotated shear (which would represent a curl component) should be consistent with zero, and is often used as a check of systematic effects. Even though any single galaxy cluster (or other lens) is likely not perfectly azimuthally symmetric, we expect a stack of many galaxy clusters to yield a symmetric profile on average.
 
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.3]{plots_intro/ShearComponents.png}
+\caption[Tangential Shear]{Diagram illustrating the components of ellipticity, when decomposed into a tangential and cross component relative to the center of a gravitational lens. As described in the text of \autoref{sec:Shear}, the ellipticities $(\epsilon_{\rm t},\epsilon_{\times})$ are equivalent to the shear $(\gamma_{\rm t},\gamma_{\rm r})$ if they have been averaged over many sources that were randomly oriented in the absence of lensing. The angle $\phi$ measures the azimuthal position of the source about the center of the gravitational lens. [Source: \citet{Schneider06_WeakGravLens}].}
+\label{plot:shearcomponents}
+\end{center}
+\end{figure}
+
 Similar to the surface mass density representation of the convergence (\autoref{eqn:kappa}), we can then relate the tangential shear to the differential surface mass density of the lens:
 \begin{equation}
 \gamma_{\rm t}(\theta) = \frac{\Delta\Sigma(\theta)}{\Sigma_{\rm crit}},
@@ -343,13 +359,21 @@ Gravitational lensing causes the magnification of background galaxies due to the
 In the weak lensing limit ($|\gamma| \ll 1$), the magnification is simply a measure of the convergence of a lensing mass, $\mu \approx 1+2\kappa$, where $\kappa$ is defined in \autoref{eqn:kappapartials} and \autoref{eqn:kappa} \citep{Schneider06_IntroGravLensCosmology}. For the case of circularly symmetric sources we can write $\mu = (\theta/\beta_{\rm L})({\rm d}\theta/{\rm d}\beta_{\rm L})$
 \citep{NarayanBartelmann96}. Conceptually, magnification can be understood as the stretching of solid angle on the sky, which causes the amplification of source flux, since lensing conserves surface brightness. This directly leads to a change in source size $\omega = \mu(\bm{\theta}) \omega^{(s)}$, where size is defined in \autoref{eqn:size} \citep{BS01}.
 
-In general, two different approaches can be taken to measure magnification: (1) quantifying sizes of galaxies behind lenses and measuring lensing-induced changes, or (2) detecting the effect on background source number density that ensues as a result of amplification in a flux-limited survey. This thesis focuses on the latter approach. The former method suffers from many of the limitations facing shear analysis, and will be discussed briefly in \autoref{sec:VS} below.
+In general, two different approaches can be taken to measure magnification: (1) quantifying sizes of galaxies behind lenses and measuring lensing-induced changes, or (2) detecting the effect on background source number density that ensues as a result of amplification in a flux-limited survey. This thesis focuses on the latter approach. The former method suffers from many of the limitations facing shear analysis, and will be discussed briefly in \autoref{sec:VS} below. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{plots_intro/Magnification.png}
+\caption[Magnification Illustration]{Highly exaggerated illustration of the two effects of magnification (dilution and amplification) by a massive foreground galaxy. The left panel shows an idealized set of unlensed sources, the right panel shows the effect of gravitational lensing. Dilution refers to the stretching of solid angle on the sky, which reduces background source number density. Since lensing conserves surface brightness, a consequence is that source flux is amplified. [Source: Joerg Colberg, Ryan Scranton, Robert Lupton, \ac{SDSS}].}
+\label{plot:magnification}
+\end{center}
+\end{figure}
 
 Define $n_0(f,z){\rm d}f{\rm d}z$ to be the intrinsic (unlensed) number of galaxies per solid angle within ${\rm d}f$ of flux $f$ and ${\rm d}z$ of redshift $z$. The cumulative lensed number density detectable (i.e. brighter than $f$) in an astronomical survey will then be:
 \begin{equation}
 n(>f,\bm{\theta},z) = \frac{1}{\mu(\bm{\theta},z)} n_0\left(\frac{>f}{\mu(\bm{\theta},z)},z\right).
 \end{equation}
-In this equation we can see that magnification affects the source number densities in two ways. The prefactor $1/\mu$ represents the stretching of apparent solid angle, and decreases the number density on the sky. Meanwhile, the denominator in the argument of $n_0$ implies that sources will be detectable to a fainter intrinsic magnitude, effectively increasing the observed source number density if there exist sources fainter than the detection limit of the survey \citep{Schneider06_WeakGravLens}.
+In this equation we can see that magnification affects the source number densities in two ways. The prefactor $1/\mu$ represents the stretching of apparent solid angle, and decreases the number density on the sky. Meanwhile, the denominator in the argument of $n_0$ implies that sources will be detectable to a fainter intrinsic magnitude, effectively increasing the observed source number density if there exist sources fainter than the detection limit of the survey \citep{Schneider06_WeakGravLens}. An illustration of the two effects of magnification is given in \autoref{plot:magnification}.
 
 Since magnification affects the background source number densities in these two opposing ways, we require knowledge of the intrinsic source number densities as a function of brightness, in order to predict or interpret our magnification observations. Typically, astronomical sources such as galaxies contain relatively few very bright members and are much more numerous towards the faint end. If we approximate the slope of the number density in a narrow flux bin as a power law $n_0(f) \propto f^{-\alpha}$, then we have
 \begin{equation}
@@ -373,14 +397,6 @@ where we now define $\alpha$ explicitly according to
 The form of \autoref{eqn:nofm} was first demonstrated by \citet{Narayan89}, who applied it to lensed quasar number densities, but it can be generalized to any galaxy type as long as one has a means of obtaining the slope of the number counts $\alpha$.
 
 Returning to the question of whether gravitational lensing magnification will cause an increase or decrease in observed number densities of background sources, we find that the answer depends precisely on the value of $\alpha$. Sources for which $\alpha -1 > 0$ will appear to be correlated on the sky with a lens position, while sources with $\alpha -1 < 0$ will be anti-correlated, as a dearth of objects will be observed in the vicinity of a lens.  The number density of galaxies for which the intrinsic number count slope gives $\alpha -1 \approx 0$ will essentially be unaffected by lensing magnification, as the dilution and amplification effects will cancel, and no correlation signal will be observed for these objects \citep{Scranton05}. The brightest sources, which usually have steep number counts, will exhibit an {\it increase} in number density when lensed, as the amplification allows more objects to be detected, while the number density of the faintest sources, having relatively shallow number counts, will {\it decrease} \citep{Narayan89}.
-
-\begin{figure}
-\begin{center}
-\includegraphics[scale=0.4]{plots_intro/Magnification.png}
-\caption[Magnification Illustration]{Highly exaggerated illustration of the two effects of magnification (dilution and amplification) by a massive foreground galaxy. The left panel shows an idealized set of unlensed sources, the right panel shows the effect of gravitational lensing. Dilution refers to the stretching of solid angle on the sky, which reduces background source number density. Since lensing conserves surface brightness, a consequence is that source flux is amplified. [Source: Joerg Colberg, Ryan Scranton, Robert Lupton, \ac{SDSS}].}
-\label{plot:kappagamma}
-\end{center}
-\end{figure}
 
 Lensing magnification has had an interesting history. During the 1970s and '80s several studies showed that bright quasars were correlated on the sky with foreground galaxies \citep{SeldnerPeebles79,Arp81,Webster88,Narayan89}. The reason for this association was hotly debated, with some astronomers even arguing for physical associations of the objects \citep{Arp87}. The proponents of the lensing interpretation were frequently obtaining results discrepant with eachothers' as well as with the expected lensing signal strength \citep[see e.g.][]{Schneider92} through the end of the 20$^{\rm th}$ century. The first convincing magnification detection was made by \citet{Scranton05}, using 200,000 quasars lensed by 13 million galaxies in the \acf{SDSS}.
 
@@ -449,7 +465,7 @@ There are several difficulties in connecting galaxy cluster observations to theo
 \subsection{Clusters for Astrophysics}
 \label{sec:ClusterAstro}
 
-Other stuff... \citep{Voit05}
+Other stuff... \citep{Voit05} Be sure to include NFW profiles and $\Delta\Sigma$ profiles for clusters, as claimed at end of shear section.
 
 \textcolor{red}{\begin{itemize}\item cluster intro pg 30+ Schneider ecopy \item NFW on pg 76, of Schneider hardcopy \item halo abundance, power spectrum, pg 67+/- Schneider hardcopy \item good power spectrum visualization pg 81 Schneider hardcopy \end{itemize}}
 

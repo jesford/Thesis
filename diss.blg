@@ -9,8 +9,8 @@ A level-1 auxiliary file: ch3.aux
 A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
-A level-1 auxiliary file: appendix.aux
 Database file #1: References.bib
+Warning--I didn't find a database entry for "Covone12"
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1347 of file abbrvnat.bst
 Warning--empty publisher in Arp87
@@ -23,7 +23,7 @@ Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
 You've used 156 entries,
             2773 wiz_defined-function locations,
-            1683 strings with 49978 characters,
+            1684 strings with 49982 characters,
 and the built_in function-call counts, 120603 in all, are:
 = -- 9381
 > -- 12823
