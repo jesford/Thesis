@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Measuring $\Delta \Sigma $}{56}{subsection.4.3.2}
 \contentsline {subsubsection}{The \ac {NFW} model}{57}{subsubsection*.35}
 \contentsline {subsubsection}{Non-weak shear corrections}{57}{subsubsection*.37}
-\contentsline {subsection}{\numberline {4.3.3}Miscentring Formalism}{58}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Miscentering Formalism}{58}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}The Halo Model}{60}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{60}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Fits to $\Delta \Sigma $}{64}{subsection.4.4.1}

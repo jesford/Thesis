@@ -1,0 +1,17 @@
+sed "s/catalogue/catalog/g" intro.tex > temp.tex
+sed "s/catalogd/cataloged/g" temp.tex > temp2.tex
+
+grep -n catalogue temp2.tex
+mv temp2.tex intro.tex
+rm temp*
+
+
+sed "s/centre/center/g" ch4.tex > temp.tex
+sed "s/centerd/centered/g" temp.tex > temp2.tex
+sed "s/centring/centering/g" temp2.tex > temp.tex
+
+grep -n centre temp.tex
+mv temp.tex ch4.tex
+rm temp*
+
+sed "s/colour/color/g" ch4.tex > temp.tex
