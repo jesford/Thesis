@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data}{51}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}The Canada-France-Hawaii Telescope Legacy Survey Wide}{51}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}\ac {CFHTLenS} Shear Catalogue}{52}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}\ac {CFHTLenS} Shear Catalog}{52}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}\ac {3D-MF} Clusters}{52}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Method}{55}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Stacking Galaxy Clusters}{55}{subsection.4.3.1}
@@ -66,7 +66,7 @@
 \contentsline {subsection}{\numberline {4.4.3}Results of Binning Clusters in Redshift}{66}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Discussion}{68}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Interpretation of the Results}{68}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Comparisons of Cluster Catalogue Volume}{68}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Comparisons of Cluster Catalog Volume}{68}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Comparison with other Mass-Richness Relations}{69}{subsection.4.5.3}
 \contentsline {subsection}{\numberline {4.5.4}Comparisons with other Cluster Centroid Analyses}{70}{subsection.4.5.4}
 \contentsline {subsection}{\numberline {4.5.5}Comparison with Magnification Results}{71}{subsection.4.5.5}

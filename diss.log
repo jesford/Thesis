@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  13 MAR 2015 11:21
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  13 MAR 2015 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,7 +1411,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
 aux) (./ch4.aux) (./conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: C2F383B2600CE34B8B4A6D63F1F94BB1;5252.
+(rerunfilecheck)             Checksum: AAC1C6DA61E376B2C5FAD10C4400DB7D;5248.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
 (rerunfilecheck)             Checksum: 0BC04795AAE338F5514F3C72DADA5FCE;21566.
 
@@ -1422,7 +1422,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  12169 strings out of 493747
  181032 string characters out of 3143546
- 290190 words of memory out of 3000000
+ 290192 words of memory out of 3000000
  14586 multiletter control sequences out of 15000+200000
  81384 words of font info for 170 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -1442,7 +1442,7 @@ type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (100 pages, 1822996 bytes).
+Output written on diss.pdf (100 pages, 1822983 bytes).
 PDF statistics:
  3649 PDF objects out of 4296 (max. 8388607)
  2934 compressed objects within 30 object streams
