@@ -32,6 +32,5 @@ rm temp*
 
 sed "s/colour/color/g" ch4.tex > temp.tex
 
-sed "s/modelled/modeled/g" ch4.tex > temp.tex
+sed "s/modell/model/g" ch4.tex > temp.tex
 
-sed "s/modelling/modeling/g" ch4.tex > temp.tex

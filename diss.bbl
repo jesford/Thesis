@@ -1,4 +1,4 @@
-\begin{thebibliography}{156}
+\begin{thebibliography}{159}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -690,6 +690,14 @@ D.~{Larson}, J.~{Dunkley}, G.~{Hinshaw}, E.~{Komatsu}, M.~R. {Nolta}, C.~L.
 \newblock \emph{\apjs}, 192:\penalty0 16, Feb. 2011.
 \newblock \doi{10.1088/0067-0049/192/2/16}.
 
+\bibitem[{Laureijs} et~al.(2011){Laureijs}, {Amiaux}, {Arduini},
+  {Augu{\`e}res}, {Brinchmann}, {Cole}, {Cropper}, {Dabin}, {Duvet}, {Ealet},
+  and et~al.]{Euclid}
+R.~{Laureijs}, J.~{Amiaux}, S.~{Arduini}, J.~. {Augu{\`e}res}, J.~{Brinchmann},
+  R.~{Cole}, M.~{Cropper}, C.~{Dabin}, L.~{Duvet}, A.~{Ealet}, and et~al.
+\newblock {Euclid Definition Study Report}.
+\newblock \emph{ArXiv e-prints}, Oct. 2011.
+
 \bibitem[{Leauthaud} et~al.(2010){Leauthaud}, {Finoguenov}, {Kneib}, {Taylor},
   {Massey}, {Rhodes}, {Ilbert}, {Bundy}, {Tinker}, {George}, {Capak},
   {Koekemoer}, {Johnston}, {Zhang}, {Cappelluti}, {Ellis}, {Elvis}, {Giodini},
@@ -707,6 +715,15 @@ A.~{Leauthaud}, A.~{Finoguenov}, J.-P. {Kneib}, J.~E. {Taylor}, R.~{Massey},
   Evolution of the Mass-Luminosity Relation}.
 \newblock \emph{\apj}, 709:\penalty0 97--114, Jan. 2010.
 \newblock \doi{10.1088/0004-637X/709/1/97}.
+
+\bibitem[{LSST Science Collaboration} et~al.(2009){LSST Science Collaboration},
+  {Abell}, {Allison}, {Anderson}, {Andrew}, {Angel}, {Armus}, {Arnett},
+  {Asztalos}, {Axelrod}, and et~al.]{LSST2.0}
+{LSST Science Collaboration}, P.~A. {Abell}, J.~{Allison}, S.~F. {Anderson},
+  J.~R. {Andrew}, J.~R.~P. {Angel}, L.~{Armus}, D.~{Arnett}, S.~J. {Asztalos},
+  T.~S. {Axelrod}, and et~al.
+\newblock {LSST Science Book, Version 2.0}.
+\newblock \emph{ArXiv e-prints}, Dec. 2009.
 
 \bibitem[{Lynds} and {Petrosian}(1986)]{Lynds86}
 R.~{Lynds} and V.~{Petrosian}.
@@ -1181,6 +1198,30 @@ G.~{Soucail}, Y.~{Mellier}, B.~{Fort}, G.~{Mathez}, and M.~{Cailloux}.
 \newblock {The giant arc in A 370 - Spectroscopic evidence for gravitational
   lensing from a source at Z = 0.724}.
 \newblock \emph{\aap}, 191:\penalty0 L19--L21, Feb. 1988.
+
+\bibitem[{Spergel} et~al.(2015){Spergel}, {Gehrels}, {Baltay}, {Bennett},
+  {Breckinridge}, {Donahue}, {Dressler}, {Gaudi}, {Greene}, {Guyon}, {Hirata},
+  {Kalirai}, {Kasdin}, {Macintosh}, {Moos}, {Perlmutter}, {Postman},
+  {Rauscher}, {Rhodes}, {Wang}, {Weinberg}, {Benford}, {Hudson}, {Jeong},
+  {Mellier}, {Traub}, {Yamada}, {Capak}, {Colbert}, {Masters}, {Penny},
+  {Savransky}, {Sterns}, {Zimmerman}, {Barry}, {Bartusek}, {Carpenter},
+  {Cheng}, {Content}, {Dekens}, {Demers}, {Grady}, {Jackson}, {Kuan}, {Kruk},
+  {Melton}, {Nemati}, {Parvin}, {Poberezhskiy}, {Peddie}, {Ruffa}, {Wallace},
+  {Whipple}, {Wollack}, and {Zhao}]{WFIRST}
+D.~{Spergel}, N.~{Gehrels}, C.~{Baltay}, D.~{Bennett}, J.~{Breckinridge},
+  M.~{Donahue}, A.~{Dressler}, B.~S. {Gaudi}, T.~{Greene}, O.~{Guyon},
+  C.~{Hirata}, J.~{Kalirai}, N.~J. {Kasdin}, B.~{Macintosh}, W.~{Moos},
+  S.~{Perlmutter}, M.~{Postman}, B.~{Rauscher}, J.~{Rhodes}, Y.~{Wang},
+  D.~{Weinberg}, D.~{Benford}, M.~{Hudson}, W.-S. {Jeong}, Y.~{Mellier},
+  W.~{Traub}, T.~{Yamada}, P.~{Capak}, J.~{Colbert}, D.~{Masters}, M.~{Penny},
+  D.~{Savransky}, D.~{Sterns}, N.~{Zimmerman}, R.~{Barry}, L.~{Bartusek},
+  K.~{Carpenter}, E.~{Cheng}, D.~{Content}, F.~{Dekens}, R.~{Demers},
+  K.~{Grady}, C.~{Jackson}, G.~{Kuan}, J.~{Kruk}, M.~{Melton}, B.~{Nemati},
+  B.~{Parvin}, I.~{Poberezhskiy}, C.~{Peddie}, J.~{Ruffa}, J.~K. {Wallace},
+  A.~{Whipple}, E.~{Wollack}, and F.~{Zhao}.
+\newblock {Wide-Field InfrarRed Survey Telescope-Astrophysics Focused Telescope
+  Assets WFIRST-AFTA 2015 Report}.
+\newblock \emph{ArXiv e-prints}, Mar. 2015.
 
 \bibitem[{Springel} et~al.(2005){Springel}, {White}, {Jenkins}, {Frenk},
   {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole},
