@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  13 MAR 2015 17:05
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  14 MAR 2015 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,15 +789,20 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 18.
+ [9
 
-Overfull \hbox (32.40424pt too wide) in paragraph at lines 53--58
+
+]
+Overfull \hbox (148.28091pt too wide) in paragraph at lines 45--61
 [] 
  []
 
-) [9
 
+Overfull \hbox (1.39436pt too wide) in paragraph at lines 64--69
+[] 
+ []
 
-] [10]
+) [10]
 \openout2 = `intro.aux'.
 
  (./intro.tex
@@ -1426,10 +1431,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12185 strings out of 493747
- 181237 string characters out of 3143546
- 290454 words of memory out of 3000000
- 14599 multiletter control sequences out of 15000+200000
+ 12187 strings out of 493747
+ 181259 string characters out of 3143546
+ 290488 words of memory out of 3000000
+ 14601 multiletter control sequences out of 15000+200000
  79660 words of font info for 168 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  42i,16n,40p,1729b,797s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1448,7 +1453,7 @@ type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (101 pages, 1827038 bytes).
+Output written on diss.pdf (101 pages, 1829839 bytes).
 PDF statistics:
  3669 PDF objects out of 4296 (max. 8388607)
  2953 compressed objects within 30 object streams
