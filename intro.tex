@@ -101,9 +101,13 @@ Applying the Robertson-Walker metric (\autoref{eq:metric}) to the Einstein field
 \begin{equation}
 \left( \frac{\dot a}{a} \right)^2 = \frac{8\pi G}{3} \rho_{\rm total}.
 \end{equation}
-Here $a=a(t)$ is the scale factor, and $\dot a$ is its first order derivative with respect to time. The total energy density of the universe $\rho_{\rm total}$ appears to be equal to the critical energy density $\rho_{\rm crit}$, which is exactly the case if the universe has zero curvature. The critical density is given by \citep{DodelsonText}:
+Here $a=a(t)$ is the scale factor, and $\dot a$ is its first order derivative with respect to time. The total energy density of the universe $\rho_{\rm total}$ appears to be equal to the critical energy density $\rho_{\rm crit}$, which is exactly the case if the universe has zero curvature. The critical density is given by \citep{RydenText}:
 \begin{equation}
-\rho_{\rm crit} \equiv \frac{3H_0^2}{8\pi G} \approx 1.88h^2 \times 10^{-29} \frac{\rm g}{{\rm cm}^3}.
+\rho_{\rm crit}(z) \equiv \frac{3H(z)^2}{8\pi G},
+\end{equation}
+and its current value is:
+\begin{equation}
+\rho_{\rm crit}(0) \approx 9.2 \times 10^{-27} {\rm kg}/{\rm m}^{3} \approx 1.4 \times 10^{11} M_{\odot}/{\rm Mpc}^{3}.
 \end{equation}
 
 Cosmologists frequently express the density of each component of the universe as a fraction of the total or critical energy density, using the notation $\Omega_i = \rho_i / \rho_{\rm crit}$. $\Omega_{\Lambda}$ represents dark energy, $\Omega_{\rm c}$ is the cold dark matter, $\Omega_{\rm b}$ is the baryonic matter, and $\Omega_{\rm r}$ is for radiation. Since the universe is flat $\sum \Omega_i = \Omega_{\Lambda} + \Omega_{\rm c} + \Omega_{\rm b} + \Omega_{\rm r} =1$. Each of these components evolves differently with the scale factor (i.e. with time, or redshift). The present values of these density parameters are given in \autoref{table:constants}, along with other cosmological constants relevant to this thesis.
@@ -154,11 +158,15 @@ The curvature term, which is so close to zero to be negligible, is ignored.\foot
 \subsection{Distances in Cosmology}
 \label{sec:distances}
 
-Describing distances between objects in an expanding and accelerating universe is no simple task. Since physical distances are growing with the universe's expansion, a natural coordinate system to use is that of comoving coordinates, which grow along with the universe. The {\it comoving distance} between two galaxies is a constant, as long as they have no velocity relative to the Hubble expansion, while the physical distance between them grows. This physical distance is usually called the {\it proper distance}, and is simply given by
+Describing distances between objects in an expanding and accelerating universe is no simple task. Since physical distances are growing with the universe's expansion, a natural coordinate system to use is that of comoving coordinates, which grow along with the universe. The {\it comoving distance} between two galaxies is a constant, as long as they have no velocity relative to the Hubble expansion, while the physical distance between them grows. This physical distance is usually called the {\it proper distance}, is simply given by
 \begin{equation}
-d_p(t) = a(t)r,
+d_p(t) = a(t) r,
 \end{equation}
-where $r$ is the comoving radial distance, the same $r$ used in the Robertson-Walker metric (\autoref{eq:metric}) \citep{RydenText}. Since actually measuring a cosmological scale proper distance would require us to pause the universe's expansion while we extend an enormous tape measurer, we have to rely on other forms of distance, discussed below. 
+and at the time of observation $t_0$ is equal to
+\begin{equation}
+d_p(t_0) = r = c \int_{t_{\rm e}}^{t_0} \frac{{\rm d}t}{a(t)}.
+\end{equation}
+Here $t_{\rm e}$ is the time of emission, and $r$ is the comoving radial distance, the same $r$ used in the Robertson-Walker metric (\autoref{eq:metric}) \citep{RydenText}. Since actually measuring a cosmological scale proper distance would require us to pause the universe's expansion while we extend an enormous tape measurer, we have to rely on other forms of distance, discussed below. 
 
 Frequently we want to relate the apparent brightness of a distant astronomical object to its distance. This is especially crucial for objects of known intrinsic luminosity (often called standard candles), such as the type Ia supernovae discussed in \autoref{sec:DE}. For everyday distances here on Earth, we observe that the flux $f$ of an object with luminosity $L$ falls off as $1/($distance$)^2$. We can therefore define an analogous {\it luminosity distance} in cosmology as
 \begin{equation}
