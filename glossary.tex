@@ -24,7 +24,7 @@
 \acro{COSMOS}{Cosmological Evolution Survey\acroextra{. A very deep 2 deg$^2$ survey aimed at cosmological studies, incorporating data from many different space and ground-based telescopes (including Hubble, Spitzer, Chandra, and many others).}}
 \acro{Euclid}[E${\rm uclid}$]{Euclid\acroextra{. Description.}}
 \acro{LBG}{Lyman-break galaxy\acroextra{. High-redshift star forming galaxy that emits only at wavelengths longer than the Lyman limit (rest frame 912\AA), allowing detection through observations in multiple filters.}}
-\acro{LF}{Luminosity Function\acroextra{. A functional description of the number of objects (e.g. galaxies) as a function of luminosity or magnitude.}}
+\acro{LF}{Luminosity Function\acroextra{. The number of objects (e.g. galaxies) as a function of luminosity or magnitude.}}
 \acro{LSST}{Large Synoptic Survey Telescope\acroextra{. Description.}}
 \acro{MACHO}{MAssive Compact Halo Object\acroextra{. A term encompassing black holes, planets, and other compact objects, \acs{MACHO}s were once a serious dark matter candidate.}}
 \acro{NFW}{Navarro-Frenk-White\acroextra{. A halo mass model based on simulations of dissipationless gravitational collapse. Density is proportional to $1/r$ for small radii, transitioning to $1/r^3$ for large radii.}}
@@ -38,35 +38,97 @@
 
 \end{acronym}
 
-%\vspace{1cm}
-
-\section*{\underline{Symbols}}
-
-\begin{tabular}{ll}
-$a(t)$ & Scale factor of the universe, defined to be unity today. \\
-$G$ & Newton's gravitational constant. $G = 6.673 \times 10^{-11}$ N m$^2$ kg$^{-2}$.\\
-$c$ & Speed of light in a vacuum. $c = 2.998 \times 10^8$ m s$^{-1}$. \\
-$H(z)$ & Hubble rate. The redshift (or time) dependent expansion rate of the universe. \\
-$H_0$ & Hubble constant. The present-day Hubble rate. $H_0 \sim 67$ km s$^{-1}$ Mpc$^{-1}$. \\
-$\Omega_{\rm m}$ & Matter fraction. The fraction of the universe consisting of matter. $\Omega_{\rm m} \sim 0.3$ \\
-$\Omega_{\rm \Lambda}$ & Dark energy fraction. The fraction of the universe consisting of dark energy. $\Omega_{\rm \Lambda} \sim 0.7$. \\
-$\sigma_8$ & Normalization of the matter power spectrum.  $\sigma_8 \sim 0.8$.\\
-$z$ & Redshift. A common distance measure in cosmology. \\
-$\rho_{\rm crit}(z)$ & Critical energy density of the universe. Current value is $\rho_{\rm crit}(0) = 1.88h^2 \times 10^{-29}$ g cm$^{-3}$. \\
-$\mu$ & Magnification. Simply proportional to $\kappa$ in the weak lensing limit, $\mu$ is a function of the gravitational lens mass. \\
-$\kappa$ & Convergence. The component of gravitational lensing describing the isotropic focusing of light rays. \\
-$\gamma$ & Shear. The two component pseudo-vector quantifying the anisotropic focusing of gravitationally lensed light rays. \\
-$\alpha(m)$ & \acs{LF} slope. The logarithmic slope of the source luminosity function, controls the direction of the number count effect of magnification. \\
-\end{tabular}
+\vspace{0.5cm}
 
 \section*{\underline{Units}}
-
-\begin{tabular}{ll}
-Mpc & Megaparsec. A unit of distance in cosmology, equal to 10$^6$ parsecs, where a parsec is $3.086 \times 10^{16}$ m. \\
+\begin{tabular}{p{0.6in}p{5.8in}}
+arcmin & Arcminute. Unit of angular separation on the sky. 1 degree = 60 arcmin. \\
 $M_{\odot}$ & Solar mass. A common measure of mass in astronomy, equal to $1.989 \times 10^{30}$ kg. \\
-and & so on. \\
+pc & Parsec. A unit of distance in astronomy, equal to $3.086 \times 10^{16}$ m. Mpc = 10$^6$ pc, kpc = 10$^3$ pc. \\
 \end{tabular}
 
+\vspace{0.5cm}
+
+\section*{\underline{Symbols}}
+\begin{tabular}{p{0.6in}p{5.8in}}
+
+$a(t)$ & Scale factor of the universe, defined to be unity today. \\
+$\cal{A}$ & Amplification matrix, describing the gravitational lens mapping from source to image plane. \\
+$\alpha(m)$ & \acs{LF} slope. The logarithmic slope of the source luminosity function, controls the direction of the number count effect of magnification. \\
+$b(M_{200},z)$ & Bias factor, quantifying how an object of mass $M_{200}$ at $z$ clusters relative to the dark matter of the universe. \\ 
+$\beta$ & Slope of the mass-richness power-law relation. \\
+$c$ & Speed of light in a vacuum. $c = 2.998 \times 10^8$ m s$^{-1}$. \\
+$d_A$ & Angular diameter distance. The cosmological distance equal to length divided by angle subtended. \\
+$d_L$ & Luminosity distance. The cosmological distance for which flux drops as luminosity over (distance)$2$. \\
+$d_p(t)$ & Proper distance. The cosmological distance that would be measured between two objects if you could lay down a very large ruler at time $t$. \\
+$D_{\rm l}$ & Angular diameter distance from the observer to the gravitational lens. \\
+$D_{\rm ls}$ & Angular diameter distance between the gravitational lens and source. \\
+$D_{\rm s}$ & Angular diameter distance from the observer to the gravitationally lensed source. \\
+$D(z)$ & Linear Growth Function. \\
+$\delta\mu$ & Magnification contrast. $\delta\mu \equiv \mu -1$. \\
+
+\end{tabular}
+\section*{\underline{}}
+\vspace{-0.5cm}
+\begin{tabular}{p{0.6in}p{5.8in}}
+
+$\delta_{\rm c}$ & Characteristic overdensity of a halo. An \acs{NFW} parameter that is a function of $c_{200}$. \\
+$f_{clustering}$ & Fraction of the background source sample that is at the same redshift as the lenses, and therefore leads to a clustering signal. \\
+$f_{lensing}$ & Fraction of the background source sample that is at high redshift, and therefore can be lensed. \\
+$G$ & Newton's gravitational constant. $G = 6.673 \times 10^{-11}$ N m$^2$ kg$^{-2}$.\\
+$g$ & Reduced shear. $g = \gamma/(1-\kappa)$. \\
+$\gamma$ & Shear. The two component pseudo-vector quantifying the anisotropic focusing of gravitationally lensed light rays. \\
+$\gamma_{\rm t}$ & Tangential shear. Component of the shear oriented tangential to the direction of the lens. \\
+$h$ & Hubble parameter. $h \equiv H_0/(100\ $km s$^{-1}$ Mpc$^{-1}$). \\
+$H(z)$ & Hubble rate. The redshift (or time) dependent expansion rate of the universe. \\
+$H_0$ & Hubble constant. The present-day Hubble rate. $H_0 \sim 67$ km s$^{-1}$ Mpc$^{-1}$. \\
+$\kappa$ & Convergence. The part of gravitational lensing composed of the isotropic focusing of light rays. \\
+$m$ & Apparent magnitude. Logarithmic measure of flux relative to a reference value. \\
+$M$ & Absolute magnitude. Equal to the apparent magnitude a source would have if it was located at a luminosity distance of 10 pc. \\
+$M_0$ & Normalization of the mass-richness relation, defined to be the average mass of clusters with richness $N_{200}$. \\
+$M_{200}$ & Mass of a dark matter halo within the radius $R_{200}$. \\
+$\mu$ & Magnification. Simply proportional to $\kappa$ in the weak lensing limit, $\mu$ is a function of the gravitational lens mass. \\
+$n$ & Observed source number counts as a function of magnitude or flux and redshift. \\
+$n_0$ & Unlensed (intrinsic) source number counts. \\
+$N_{200}$ & Richness. The number of galaxies brighter than $i$-band absolute magnitude -19.35, within the radius $R_{200}$. \\
+$\omega$ & Size of a galaxy image. \\
+$\Omega_{\rm b}$ & Baryon density parameter. The fraction of the universe consisting of baryons. $\Omega_{\rm b} \sim 0.05$. \\
+$\Omega_{\rm c}$ & Cold dark matter density parameter. The fraction of the universe consisting of dark matter. $\Omega_{\rm c} \sim 0.27$. \\
+$\Omega_{\Lambda}$ & Dark energy density parameter. The fraction of the universe consisting of dark energy. $\Omega_{\rm \Lambda} \sim 0.7$. \\
+$\Omega_{\rm m}$ & Matter density parameter. The fraction of the universe consisting of matter, including dark matter and baryons. $\Omega_{\rm m} \sim 0.3$. \\
+$\Omega_{\rm r}$ & Radiation density parameter. The fraction of the universe consisting of relativistic particles. $\Omega_{\rm r} \sim 8 \times 10^{-5}$. \\
+$P(k)$ & Power spectrum. \\
+$P(R_{\rm off})$ & Probability distribution of cluster centroid offsets. \\
+$P(z)$ & Probability distribution of redshifts. \\
+$p_{\rm cc}$ & Fraction of \acs{3D-MF} clusters that are correctly centered on their dark matter halos. \\
+$\Phi(M)$ & Schechter function. A common parameterization of the \acs{LF}. \\
+$r$ & Comoving distance, that grows along with the expansion of space. \\
+$R_{200}$ & Radius of a dark matter halo (at $z$) within which the average density is 200$\rho_{crit}(z)$. \\
+
+\end{tabular}
+\section*{\underline{}}
+\vspace{-0.5cm}
+\begin{tabular}{p{0.6in}p{5.8in}}
+
+$R_{\rm off}$ & The distance between the \acs{3D-MF} identified center of a cluster, and the true center of a dark matter halo. \\
+$\rho_{\rm crit}(z)$ & Critical energy density of the universe. Current value is $\rho_{\rm crit}(0) \sim 9.2 \times 10^{-27}$ kg m$^{-3}$. \\
+$\Sigma$ & Surface mass density. Mass density projected onto the 2D plane of the sky. \\
+$\Sigma_{\rm crit}$ & Critical surface mass density. A function of the angular diameter distances between observer, lens and source, this is the minimum surface mass density of a lens for it to produce strong lensing features. \\
+$\Sigma^{\rm sm}$ & Smoothed surface mass density of a stack of clusters that are offset as described by the distribution $P(R_{\rm off})$. \\
+$\Sigma_{\rm 2halo}$ & The two halo term. The contribution to the surface mass density coming from nearby structure on the sky. \\
+$\Delta\Sigma$ & Differential surface mass density. Defined as the difference between the surface mass density at some radius from the center of a lens, and the average inside of that radius. \\
+$\sigma_{\rm cl}$ & The detection significance of a \acs{3D-MF} cluster candidate. \\
+$\sigma_{\rm off}$ & The radius where the $P(R_{\rm off})$ distribution peaks. \\
+$\sigma_8$ & Normalization of the matter power spectrum.  $\sigma_8 \sim 0.8$. \\
+$\psi(\theta)$ & Two-dimensional analogue to the Newtonian gravitational potential. \\
+$t_{\rm e}$ & Time of emission of light. \\
+$t_0$ & Present time, current age of the universe. \\
+$w(R)$ & Correlation function as a function of radius. \\
+$w_{\rm dm}$ & Auto-correlation function of dark matter. \\
+$w_{\rm opt}(R)$ & Optimally-weighted correlation function as a function of radius. \\
+$z$ & Redshift. A common distance measure in cosmology. \\
+
+\end{tabular}
 
 
 

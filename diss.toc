@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {3.2}Data}{33}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}\ac {3D-MF} Galaxy Clusters}{33}{subsection.3.2.1}
 \contentsline {subsubsection}{Cluster Centers}{34}{subsubsection*.17}
-\contentsline {subsubsection}{Cluster Richness}{36}{subsubsection*.20}
+\contentsline {subsubsection}{Cluster Richness}{35}{subsubsection*.20}
 \contentsline {subsection}{\numberline {3.2.2}Sources}{37}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Magnification Methodology}{37}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}The Measurement}{37}{subsection.3.3.1}
