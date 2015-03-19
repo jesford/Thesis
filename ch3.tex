@@ -56,7 +56,7 @@ Due to the nature of the method, the defined centers of the \ac{3D-MF} clusters,
 \resizebox{0.5\columnwidth}{!}{
     \begin{tabular}{llll}
       \hline
-      Mass Range [$M_{\odot}$] & Color & Best fit $\sigma_{\rm{off}}$ [arcmin] & $\chi^2_{red}$ \\ \hline
+      Mass Range [$M_{\odot}$] & Color & Best fit $\sigma_{\rm{off}}$ [arcmin] & $\chi^2_{\rm red}$ \\ \hline
       (1.5-5)$\times10^{13}$ & red    & 0.37$\pm$0.06 & 1.8  \\
       (5-10)$\times10^{13}$  & green  & 0.42$\pm$0.06 & 1.4  \\
       (1-2.5)$\times10^{14}$ & blue   & 0.42$\pm$0.06 & 1.2  \\ 
@@ -107,7 +107,7 @@ In the plane of the sky, galaxies must lie within a projected radius $R_{200}$ o
 
 As discussed in \ref{clusters}, \ac{3D-MF} tests on simulations suggested that peak significance was a good mass proxy for high, but not low, mass clusters. In light of this, we merely employ the above relation as a starting point for calculating the radii from mass,
 \begin{equation}
-R_{200} = \left[ \frac{3 M_{200}}{4 \pi (200) \rho_{crit}(z)} \right] ^ {1/3}.
+R_{200} = \left[ \frac{3 M_{200}}{4 \pi (200) \rho_{\rm crit}(z)} \right] ^ {1/3}.
 \end{equation}
 These $R_{200}$ estimates are then used for counting galaxies for cluster richness. Richness $N_{200}$ is the variable of choice used as a mass proxy for binning the magnification measurement. The distribution of these richness values is shown in Fig. 2.
 
@@ -133,9 +133,9 @@ n(m)dm = \mu^{\alpha-1} n_0(m)dm
 
 In practice the magnification signal is easily measured using the optimally-weighted cross-correlation function of \citet{Menard03}:
 \begin{equation}
-\mathrm{w}_{\mathrm{opt}}(R)=\frac{S^{\alpha-1} L - S^{\alpha-1} R - \langle \alpha-1 \rangle LR}{RR} + \langle \alpha-1 \rangle.
+\mathrm{w}_{\rm opt}(R)=\frac{\mathscr{S}^{\alpha-1} \mathscr{L} - \mathscr{S}^{\alpha-1} \mathscr{R} - \langle \alpha-1 \rangle \mathscr{L}\mathscr{R}}{\mathscr{R}\mathscr{R}} + \langle \alpha-1 \rangle .
 \end{equation}
-In this expression, the terms are normalized pair counts in radial bins, where $L$ stands for the lenses, and $S^{\alpha-1}$ are the optimally-weighted sources. $R$ represents objects from a random catalog more than ten times the size of the source catalog, with the same masks applied.
+In this expression, the terms are normalized pair counts in radial bins, where $\mathscr{L}$ stands for the lenses, and $\mathscr{S}^{\alpha-1}$ are the optimally-weighted sources. $\mathscr{R}$ represents objects from a random catalog more than ten times the size of the source catalog, with the same masks applied.
 
 In order to determine the optimal weight factor $\alpha-1$, for both the measurement and the interpretation, we require knowledge of the source \ac{LF}. As done in \citet{Ford12} we determine the \ac{LBG} \ac{LF} slope from the Schechter Function \citep{Schechter76}, giving
 \begin{equation}
@@ -246,9 +246,9 @@ We also calculate both the 1- and 2-halo terms for \ac{NFW} halos, w$_{\mathrm{1
 \end{equation}
 This method requires knowledge of the occupation distribution of the low-$z$ galaxy contaminants in the cluster dark matter halos, which is not well determined. As a first approximation we use the simple power-law form described in \citet{Hamana04},
 \begin{equation}
-N_g(M) = \begin{cases} (M/M_1)^\alpha & \text{for $M > M_{\mathrm{min}}$} \\ 0 & \text{for $ M < M_{\mathrm{min}}$} \end{cases}.
+N_g(M_{200}) = \begin{cases} (M_{200}/M_1)^A & \text{for $M_{200} > M_{\mathrm{min}}$} \\ 0 & \text{for $ M_{200} < M_{\mathrm{min}}$} \end{cases}.
 \end{equation}
-Since these parameters are unknown, we use the values for $M_1$ and $\alpha$ measured for galaxies in the SDSS \citep[see Table 3 of][]{Zehavi11}. We choose $M_{\mathrm{min}}$ to correspond to the minimum mass measured for cluster halos, and assume that halos above this mass always host a detected cluster. As a final check, we also ask what the clustering signal would be if every halo above $M_{\mathrm{min}}$ hosted both a cluster and a single low-$z$ galaxy contaminant (so that $N_g = 1$ for $M > M_{\mathrm{min}}$).
+Since these parameters are unknown, we use the values for $M_1$ and $A$ measured for galaxies in the SDSS \citep[see Table 3 of][]{Zehavi11}. We choose $M_{\mathrm{min}}$ to correspond to the minimum mass measured for cluster halos, and assume that halos above this mass always host a detected cluster. As a final check, we also ask what the clustering signal would be if every halo above $M_{\mathrm{min}}$ hosted both a cluster and a single low-$z$ galaxy contaminant (so that $N_g = 1$ for $M_{200} > M_{\mathrm{min}}$).
 
 This final method yields the largest estimates of $\mathrm{w}_{\mathrm{clustering}}$, and therefore a smaller estimate of cluster masses. The former (using SDSS parameters) gives the highest mass estimates, and the simple biasing approach of Equation \ref{model1} yields intermediate results. We use the range of these results to estimate an uncertainty in mass estimates coming from lack of knowledge about the nature of the low-$z$ galaxies that contaminate our \ac{LBG} source sample. This additional systematic error affects only the clusters at low redshift, where the source and lens $P(z)$ distributions overlap, and is reported on the mass estimates given in Table 3. All best fit mass values reported in the tables of this work are calculated using the contamination approach of Equation \ref{model1}, since this method relied on the fewest assumptions about the nature of the galaxy contaminants.
 
@@ -271,7 +271,7 @@ Accounting for redshift distributions in this particular source sample effective
 \section{Results}
 \label{results}
 
-Stacking the entire set of 18,036 clusters gives a total significance of 9.7$\sigma$ for the combined detection, shown in Figure \ref{w_all}. The perfectly centered model is a better fit to the overall measurement, with $\chi^2_{red}$ $\sim$ 1.2, while the miscentered model gives $\chi^2_{red}$ of 2.3. For both models, there are two free parameters ($M_0$ and $\log\beta$), leading to 8 degrees of freedom. To investigate miscentering and mass-richness scaling, we divide the clusters into six richness bins, and measure the optimal cross-correlation in each. 
+Stacking the entire set of 18,036 clusters gives a total significance of 9.7$\sigma$ for the combined detection, shown in Figure \ref{w_all}. The perfectly centered model is a better fit to the overall measurement, with $\chi^2_{\rm red}$ $\sim$ 1.2, while the miscentered model gives $\chi^2_{\rm red}$ of 2.3. For both models, there are two free parameters ($M_0$ and $\log\beta$), leading to 8 degrees of freedom. To investigate miscentering and mass-richness scaling, we divide the clusters into six richness bins, and measure the optimal cross-correlation in each. 
 
 We measure the characteristic signature of magnification in every richness bin with significances between 4.6 and 5.9$\sigma$. These results are shown in Figure \ref{binned}, where we try fitting both a perfectly centered model ($p_{\mathrm{cc}}=1$) and a model where every cluster is affected by centroid offsets ($p_{\mathrm{cc}}=0$). Details of the fits, including reduced $\chi^2$ and the average of the best fit mass values $\langle M_{200} \rangle$, are given in Table \ref{richtable}.
 
@@ -320,7 +320,7 @@ for the perfectly centered $p_{\mathrm{cc}}=1$ case, and
 \begin{equation}
 M_0 = (2.2 \pm 0.2) \times 10^{13} M_\odot, \beta = 1.5 \pm 0.1
 \end{equation}
-for the miscentered $p_{\mathrm{cc}}=0$ case. The reduced $\chi^2$ are 0.9 and 1.7, respectively (4 degrees of freedom), and there is good agreement between the two different centering scenarios explored here.
+for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and 1.7, respectively (4 degrees of freedom), and there is good agreement between the two different centering scenarios explored here.
 
 %----------------
 %LANDSCAPE TABLES
@@ -334,7 +334,7 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The reduced $\chi^2$ are 0.9 and 1
     \begin{tabular}{llllllll}
       \hline
        %&  &  &  &   p$_{cc}$=1: & &   p$_{cc}$=0: & \\
-      Richness & \# Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{red}$ & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{red}$ \\ \hline
+      Richness & \# Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ \\ \hline
       2 $<N_{200}$ & 18,036 & 9.7$\sigma$ & 17 & (2.0$\pm$0.3)$\times10^{13} M_{\odot}$ & 1.2 & (1.8$\pm$0.3)$\times10^{13} M_{\odot}$ & 2.3  \\
       2 $<N_{200}<$ 10 & 4,453 & 5.3$\sigma$ & 8 & (0.9$\pm$0.5)$\times10^{13} M_{\odot}$ & 3.0 & (0.7$\pm$0.4)$\times10^{13} M_{\odot}$ & 3.2  \\
       10 $<N_{200}<$ 20 & 9,398 & 5.9$\sigma$ & 15 & (1.3$\pm$0.3)$\times10^{13} M_{\odot}$ & 1.6 & (1.0$\pm$0.3)$\times10^{13} M_{\odot}$ & 2.2  \\
@@ -349,11 +349,11 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The reduced $\chi^2$ are 0.9 and 1
 %TABLE FOR REDSHIFT-BINNED PLOTS
 \begin{table}
   \centering
-    \caption[Magnification Results for Redshift-Binned Clusters]{Details of fits for redshift-binned measurements in Figure \ref{zbinw}. We list the same bin properties and fits given in Table \ref{richtable}, as well as $f_{clustering}$, which is the total fraction of \ac{LBG}s expected to lie within $\Delta z \sim$0.1 of the cluster z.}
+    \caption[Magnification Results for Redshift-Binned Clusters]{Details of fits for redshift-binned measurements in Figure \ref{zbinw}. We list the same bin properties and fits given in Table \ref{richtable}, as well as $f_{\rm clustering}$, which is the total fraction of \ac{LBG}s expected to lie within $\Delta z \sim$0.1 of the cluster z.}
     \label{ztable}
     \begin{tabular}{lllllllll}
       \hline
-      Redshift & $f_{clustering}$ & Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{red}$  & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{red}$ \\ \hline
+      Redshift & $f_{\rm clustering}$ & Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$  & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ \\ \hline
       $z$ $\sim$ 0.2 & 0.07 & 1,157 & 12.5$\sigma$ & 11.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} M_{\odot}$ & 3.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} M_{\odot}$ & 3.4  \\
       $z$ $\sim$ 0.3 & 0.02 & 1,515 & 8.0$\sigma$ & 14.4 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} M_{\odot}$ & 2.2 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} M_{\odot}$ & 2.1  \\
       $z$ $\sim$ 0.4 & 3$\times10^{-3}$ & 2,242 & 4.6$\sigma$ & 15.2 & (1.9$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.4 & (1.6$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.6  \\
