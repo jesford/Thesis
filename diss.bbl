@@ -1,4 +1,4 @@
-\begin{thebibliography}{159}
+\begin{thebibliography}{165}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -126,6 +126,15 @@ A.~S. {Bolton}, S.~{Burles}, L.~V.~E. {Koopmans}, T.~{Treu}, R.~{Gavazzi},
 \newblock {The Sloan Lens ACS Survey. V. The Full ACS Strong-Lens Sample}.
 \newblock \emph{\apj}, 682:\penalty0 964--984, Aug. 2008.
 \newblock \doi{10.1086/589327}.
+
+\bibitem[{Borgani}(2008)]{Borgani08}
+S.~{Borgani}.
+\newblock {Cosmology with Clusters of Galaxies}.
+\newblock In M.~{Plionis}, O.~{L{\'o}pez-Cruz}, and D.~{Hughes}, editors,
+  \emph{A Pan-Chromatic View of Clusters of Galaxies and the Large-Scale
+  Structure}, volume 740 of \emph{Lecture Notes in Physics, Berlin Springer
+  Verlag}, page 287, 2008.
+\newblock \doi{10.1007/978-1-4020-6941-3_9}.
 
 \bibitem[{Bridle} et~al.(2009){Bridle}, {Shawe-Taylor}, {Amara}, {Applegate},
   {Balan}, {Bernstein}, {Dahle}, {Erben}, {Gill}, {Heavens}, {Heymans}, {High},
@@ -282,6 +291,14 @@ S.~{Dodelson}.
 \newblock \emph{{Modern cosmology}}.
 \newblock 2003.
 
+\bibitem[{Duffy} et~al.(2008){Duffy}, {Schaye}, {Kay}, and {Dalla
+  Vecchia}]{Duffy08}
+A.~R. {Duffy}, J.~{Schaye}, S.~T. {Kay}, and C.~{Dalla Vecchia}.
+\newblock {Dark matter halo concentrations in the Wilkinson Microwave
+  Anisotropy Probe year 5 cosmology}.
+\newblock \emph{\mnras}, 390:\penalty0 L64--L68, Oct. 2008.
+\newblock \doi{10.1111/j.1745-3933.2008.00537.x}.
+
 \bibitem[{Durret} et~al.(2011){Durret}, {Adami}, {Cappi}, {Maurogordato},
   {M{\'a}rquez}, {Ilbert}, {Coupon}, {Arnouts}, {Benoist}, {Blaizot}, {Edorh},
   {Garilli}, {Guennou}, {Le Brun}, {Le F{\`e}vre}, {Mazure}, {McCracken},
@@ -302,6 +319,13 @@ A.~A. {Dutton} and A.~V. {Macci{\`o}}.
   parameters for Einasto and NFW profiles}.
 \newblock \emph{\mnras}, 441:\penalty0 3359--3374, July 2014.
 \newblock \doi{10.1093/mnras/stu742}.
+
+\bibitem[{Einasto}(1965)]{Einasto65}
+J.~{Einasto}.
+\newblock {On the Construction of a Composite Model for the Galaxy and on the
+  Determination of the System of Galactic Parameters}.
+\newblock \emph{Trudy Astrofizicheskogo Instituta Alma-Ata}, 5:\penalty0
+  87--100, 1965.
 
 \bibitem[{Erben} et~al.(2009){Erben}, {Hildebrandt}, {Lerchster}, {Hudelot},
   {Benjamin}, {van Waerbeke}, {Schrabback}, {Brimioulle}, {Cordes}, {Dietrich},
@@ -901,6 +925,12 @@ R.~{Narayan} and M.~{Bartelmann}.
 \newblock {Lectures on Gravitational Lensing}.
 \newblock \emph{ArXiv Astrophysics e-prints}, June 1996.
 
+\bibitem[{Navarro} et~al.(1996){Navarro}, {Frenk}, and {White}]{nfw96}
+J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
+\newblock {The Structure of Cold Dark Matter Halos}.
+\newblock \emph{\apj}, 462:\penalty0 563, May 1996.
+\newblock \doi{10.1086/177173}.
+
 \bibitem[{Navarro} et~al.(1997){Navarro}, {Frenk}, and {White}]{nfw97}
 J.~F. {Navarro}, C.~S. {Frenk}, and S.~D.~M. {White}.
 \newblock {A Universal Density Profile from Hierarchical Clustering}.
@@ -920,6 +950,14 @@ M.~{Oguri}.
   red sequence galaxies}.
 \newblock \emph{\mnras}, 444:\penalty0 147--161, Oct. 2014.
 \newblock \doi{10.1093/mnras/stu1446}.
+
+\bibitem[{Okabe} et~al.(2013){Okabe}, {Smith}, {Umetsu}, {Takada}, and
+  {Futamase}]{Okabe13}
+N.~{Okabe}, G.~P. {Smith}, K.~{Umetsu}, M.~{Takada}, and T.~{Futamase}.
+\newblock {LoCuSS: The Mass Density Profile of Massive Galaxy Clusters at z =
+  0.2}.
+\newblock \emph{\apjl}, 769:\penalty0 L35, June 2013.
+\newblock \doi{10.1088/2041-8205/769/2/L35}.
 
 \bibitem[{Ouchi} et~al.(2004){Ouchi}, {Shimasaku}, {Okamura}, {Furusawa},
   {Kashikawa}, {Ota}, {Doi}, {Hamabe}, {Kimura}, {Komiyama}, {Miyazaki},
@@ -1268,6 +1306,15 @@ M.~{Takada}.
 {The Dark Energy Survey Collaboration}.
 \newblock {The Dark Energy Survey}.
 \newblock \emph{ArXiv e-prints, astro-ph/0510346}, Oct. 2005.
+
+\bibitem[{Tinker} et~al.(2008){Tinker}, {Kravtsov}, {Klypin}, {Abazajian},
+  {Warren}, {Yepes}, {Gottl{\"o}ber}, and {Holz}]{Tinker08}
+J.~{Tinker}, A.~V. {Kravtsov}, A.~{Klypin}, K.~{Abazajian}, M.~{Warren},
+  G.~{Yepes}, S.~{Gottl{\"o}ber}, and D.~E. {Holz}.
+\newblock {Toward a Halo Mass Function for Precision Cosmology: The Limits of
+  Universality}.
+\newblock \emph{\apj}, 688:\penalty0 709--728, Dec. 2008.
+\newblock \doi{10.1086/591439}.
 
 \bibitem[{Tinker} et~al.(2010){Tinker}, {Robertson}, {Kravtsov}, {Klypin},
   {Warren}, {Yepes}, and {Gottl{\"o}ber}]{Tinker10}

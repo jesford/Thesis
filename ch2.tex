@@ -160,7 +160,7 @@ The brightest source galaxies, which are observationally found to lie in the ste
 
 Error bars are $1 \sigma$ uncertainties, obtained by jackknife resampling of the source population.  To do this, we create 30 jackknife samples of data, each with a different $1/30$ of sources removed from it.  Then we measure the optimal correlation function for each, and from these estimate the covariance matrix through
 \begin{equation}
-C(\theta_1, \theta_2)= \left( \frac{N}{N-1} \right)^2 \times \sum_{j=1}^N [\mathrm{w}_j(\theta_1)-\bar{\mathrm{w}}(\theta_1)] \times [\mathrm{w}_j(\theta_2)-\bar{\mathrm{w}}(\theta_2)],
+C(\theta_1, \theta_2)= \left( \frac{N}{N-1} \right)^2 \times \frac{1}{N} \sum_{j=1}^N [\mathrm{w}_j(\theta_1)-\bar{\mathrm{w}}(\theta_1)] \times [\mathrm{w}_j(\theta_2)-\bar{\mathrm{w}}(\theta_2)],
 \end{equation}
 where the index $j$ runs over the $N=30$ jackknife measurements.
 

@@ -351,9 +351,10 @@ Similar to the surface mass density representation of the convergence (\autoref{
 \end{equation}
 where $\theta$ now specifies the radial angle of separation between the lens center and the source image. The differential surface mass density is defined to equal the difference between the average surface mass density interior to $\theta$ and the surface mass density at $\theta$ \citep{Wright00}: 
 \begin{equation}
+\label{eqn:deltasigma}
 \Delta\Sigma(\theta) \equiv \overline{\Sigma}(< \theta) - \Sigma(\theta).
 \end{equation}
-Given an expression for the mass density profile of a gravitational lens, and angular diameter distances involved, the expected tangential shear profile can be calculated. Useful models for galaxy cluster masses, and the resulting $\gamma_{\rm t}(\theta)$ and $\Delta\Sigma(\theta)$ profiles, will be given in \autoref{sec:Clusters}.
+Given an expression for the mass density profile of a gravitational lens, and angular diameter distances involved, the expected tangential shear profile can be calculated. Useful models for galaxy cluster masses, and the resulting $\gamma_{\rm t}(\theta)$ and $\Delta\Sigma(\theta)$ profiles, are given in \autoref{sec:Profiles}.
 
 %%%%
 
@@ -448,11 +449,11 @@ The Fourier components of the density perturbations are $\delta_{\rm k}(k) = \in
 
 If we believe that the universe is indeed isotropic, and that these perturbations $\delta(x)$ can be described as a Gaussian random field (the simplest case scenario), then we can fully characterize them using the isotropic power spectrum $P(k) \equiv \langle | \delta_{\rm k} |^2 \rangle$ \citep{Kravtsov12}. The power spectrum is often approximated as a power law $P(k) \propto k^n$, where $n=1$ is the special scale-invariant case proposed around the same time by \citet{Harrison70,PeeblesYu70,Zeldovich72}. Recent measurements by \citet{PlanckXVI} have shown that $n \approx 0.96$.
 
-Defining a spherical window function $W(r)$, and its Fourier transform $W_k$, we can write the variance on mass scale ${\cal M}$ as 
+Defining a spherical window function $W(r)$, and its Fourier transform $W_k$, we can write the variance on mass scale ${\mathscr M}$ as 
 \begin{equation}
-\sigma^2 \equiv \left\langle \left| \frac{\delta {\cal M}}{\cal M} \right|^2 \right\rangle = \frac{1}{(2\pi)^3} \int P(k) |W_k|^2 {\rm d}^3k.
+\sigma^2 \equiv \left\langle \left| \frac{\delta {\mathscr M}}{\mathscr M} \right|^2 \right\rangle = \frac{1}{(2\pi)^3} \int P(k) |W_k|^2 {\rm d}^3k.
 \end{equation}
-Thus $\sigma_8$ is simply a special case of the square root of the above expression, wherein a top hat window function of radius $8 h^{-1}$Mpc is used.\footnote{The top hat window function is constant inside the $8 h^{-1}$Mpc radius, zero outside of it, and is normalized so it integrates to one.} This particular radius is historical in nature, simply chosen because $(\delta {\cal M}/{\cal M}) \sim 1$ in spheres of this volume, but it remains widely used in the cosmological literature today \citep{Voit05}. Better constraints now give $\sigma_8 \approx 0.83$ \citep{PlanckXVI}.
+Thus $\sigma_8$ is simply a special case of the square root of the above expression, wherein a top hat window function of radius $8 h^{-1}$Mpc is used.\footnote{The top hat window function is constant inside the $8 h^{-1}$Mpc radius, zero outside of it, and is normalized so it integrates to one.} This particular radius is historical in nature, simply chosen because $(\delta {\mathscr M}/{\mathscr M}) \sim 1$ in spheres of this volume, but it remains widely used in the cosmological literature today \citep{Voit05}. Better constraints now give $\sigma_8 \approx 0.83$ \citep{PlanckXVI}.
 
 At first, when the density constrast was small $\delta(x) \ll 1$, the perturbations simply expanded along with the universe. The modes grew independently, according to the linear growth function \citep{Voit05}:
 \begin{equation}
@@ -460,23 +461,96 @@ D(a) \propto \frac{\delta \rho}{\rho} \propto \frac{\dot{a}}{a} \int_0^a \frac{{
 \end{equation}
 Later, as they entered each other's horizon, the overdense regions grew by attracting surrounding matter. Once they reach a critical density contrast $\delta_c$, they collapsed gravitationally and decoupled from the global expansion \citep{Schneider06_IntroGravLensCosmology}. Smaller overdensities merged together to form larger structures, in what is known as hierarchical structure formation. A full mathematical description of the growth of structure is beyond the scope of this introduction,  and the reader is referred to important early papers \citep[e.g.][]{PS74,GottRees75} or more recent excellent reviews on the subject \citep[e.g.][]{Voit05,Schneider06_IntroGravLensCosmology,Kravtsov12}. 
 
-A common approach to extracting cosmological information from galaxy clusters involves measuring the cumulative number density (comoving) of clusters above some mass threshold.  This important quantity $n_M (M,z)$ is known as the cluster mass function. In the original formalism of \citet{PS74} the cluster mass function is given by
+A common approach to extracting cosmological information from galaxy clusters involves measuring the number density (comoving) of clusters at a given mass.  This important quantity $n_M ({\mathscr M},z)$ is known as the cluster mass function. In the original formalism of \citet{PS74} the cluster mass function is given by
 \begin{equation}
-n_M (M,z) = \frac{\Omega_{\rm m} \rho_{\rm crit}(z=0)}{M} {\rm erfc}\left[ \frac{\delta_c}{\sqrt{2}\sigma(M,z)} \right].
+\label{eqn:massfunc}
+n_M ({\mathscr M},z) = \frac{\Omega_{\rm m} \rho_{\rm crit}(z=0)}{\mathscr M} {\rm erfc}\left[ \frac{\delta_{\rm crit}}{\sqrt{2}\sigma({\mathscr M},z)} \right],
 \end{equation}
-Improvements have been made on the Press-Schechter formalism, most notably by \citet{Sheth99} and \citet{Jenkins01}, generalizing to ellipsoidal perturbations and improving parameterizations based on cluster simulations. The cluster mass function $n_M$ depends very specifically on the meaning of the mass of a cluster. A common choice, which will be used throughout this thesis, is the mass parameter $M_{200}$. This is the total mass interior to a radius $R_{200}$, within which the average density is 200 times the critical energy density of the universe, $\langle \rho (r<R_{200}) \rangle = 200 \rho_{\rm crit}(z)$.
+where $\delta_{\rm crit}$ is the critical linear overdensity for collapse. Improvements have been made on the Press-Schechter formalism, most notably by \citet{Sheth99} and \citet{Jenkins01}, generalizing to ellipsoidal perturbations and improving parameterizations based on cluster simulations. 
 
-There are several difficulties in connecting galaxy cluster observations to theories of structure formation in cosmology. Clusters evolve over time, but we cannot observe the collapse of an individual halo because of the time scales involved. Instead we must make inferences by observing ensembles of clusters at different redshifts. Other issues are the observational difficulties associated with compiling pure and complete samples of galaxy clusters, using techniques that nearly always probe some visible tracer of the cluster dark matter halo. Finally, it is very difficult to accurately know the true mass $M$ that appears in the cluster mass function. Gravitational lensing is the most promising method for obtaining accurate cluster masses, and the work in this thesis is aimed at improving these estimates further, especially for higher redshift clusters. Future experiments may build upon this work to use galaxy clusters to improve constraints on cosmology.
+Observers usually express the cluster mass function in differential form \citep{Borgani08}:
+\begin{equation}
+\label{eqn:diffmassfunc}
+\frac{{\rm d} n_M ({\mathscr M},z)}{{\rm d}{\mathscr M}} = \sqrt{\frac{2}{\pi}} \frac{\bar{\rho}_{\rm m}}{{\mathscr M}^2} \frac{\delta_{\rm crit}}{\sigma({\mathscr M},z)} \left| \frac{{\rm d \ log}\sigma({\mathscr M},z)}{{\rm d \ log}{\mathscr M}} \right| {\rm exp}\left( \frac{-\delta_{\rm crit}^2}{2\sigma({\mathscr M},z)^2} \right).
+\end{equation}
+For the purpose of fitting universal functions to data from observations or simulations, it is common to simplify the above expression into the form
+\begin{equation}
+\frac{{\rm d} n_M ({\mathscr M},z)}{{\rm d}{\mathscr M}} = f(\sigma) \frac{\bar{\rho}_{\rm m}}{\mathscr M} \frac{{\rm d \ ln}\sigma^{-1}}{{\rm d}{\mathscr M}},
+\end{equation}
+where the function $f(\sigma)$ is some parameterization that fits the data \citep[see e.g.][]{Tinker08}. The cluster mass function $n_M$ depends very specifically on the meaning of the mass of a cluster. A common choice, which will be used throughout this thesis, is the mass parameter $M_{200}$. This is the total mass interior to a radius $R_{200}$, within which the average density is 200 times the critical energy density of the universe, $\langle \rho (r<R_{200}) \rangle = 200 \rho_{\rm crit}(z)$.
 
-\textcolor{red}{Include power spectrum visualization (pg 81 Schneider hardcopy)?}
+There are several difficulties in connecting galaxy cluster observations to theories of structure formation in cosmology. Clusters evolve over time, but we cannot observe the collapse of an individual halo because of the time scales involved. Instead we must make inferences by observing ensembles of clusters at different redshifts. Other issues are the observational difficulties associated with compiling pure and complete samples of galaxy clusters, using techniques that nearly always probe some visible tracer of the cluster dark matter halo. Finally, it is very difficult to accurately know the true mass ${\mathscr M}$ that appears in the cluster mass function. Gravitational lensing is the most promising method for obtaining accurate cluster masses, and the work in this thesis is aimed at improving these estimates further, especially for higher redshift clusters. Future experiments may build upon this work to use galaxy clusters to improve constraints on cosmology.
 
 \subsection{Clusters for Astrophysics}
 \label{sec:ClusterAstro}
 
-Other stuff... \citep{Voit05} Be sure to include NFW profiles and $\Delta\Sigma$ profiles for clusters, as claimed at end of shear section.
+Galaxy clusters live in deep gravitational potentials, containing copious amounts of hot ionized plasma and cooler intracluster gas and dust, in addition to various types of galaxies and the dark matter already discussed. A multitude of astrophysical studies are made possible by investigating single galaxy clusters, merging galaxy cluster systems, or ensemble average properties of galaxy clusters. A full review of cluster astrophysics is beyond the scope of this introduction, and the reader is referred to reviews by \citet{Kravtsov12,Voit05}, and references within, for further information. The goal of this section is to highlight areas of astrophysics that particularly benefit from galaxy cluster studies, in order to demonstrate that accurate mass measurements -- as sought in this thesis -- can have a wide range of implications beyond cosmology.
+
+Galaxy evolution, BCGs. AGN.
+
+ICM. B-fields. Turbulence. cool cores, flows, fountains?
+
+Mergers, Shocks. Particle DM. 
+
 
 \textcolor{red}{\begin{itemize}\item cluster intro pg 30+ Schneider ecopy \item NFW on pg 76, of Schneider hardcopy \item halo abundance, power spectrum, pg 67+/- Schneider hardcopy \item good power spectrum visualization pg 81 Schneider hardcopy \end{itemize}}
+\textcolor{red}{Include power spectrum visualization (pg 81 Schneider hardcopy)?}
 
+\subsection{Cluster Mass Profiles}
+\label{sec:Profiles}
+
+The most well-known and oft-employed model for the mass distribution in a dark matter halo is the \ac{NFW} profile. High-resolution N-body simulations carried out by \citet{nfw96} demonstrated that this universal profile well-described the spherically-averaged matter distribution of gravitationally collapsed objects, independent of cosmological parameters and the spectrum of initial density fluctuations. The applicability of the model spans a wide range in mass, from the scale of dwarf galaxies to rich clusters of galaxies, and fits over two decades in radius. The density of an \ac{NFW} halo is given by:
+\begin{equation}
+\rho_{\mathrm{NFW}}(r) = \frac{\delta_{\rm c} \rho_{\mathrm{crit}}(z)}{(r/r_{\rm s})(1+r/r_{\rm s})^2}.
+\end{equation}
+Here $r_{\rm s}$ is known as the scale radius, and $\delta_{\rm c}$ is the characteristic overdensity of a halo,\footnote{Note that $\delta_{\rm c}$ should not be confused with $\delta_{\rm crit}$ in \autoref{eqn:massfunc} and \autoref{eqn:diffmassfunc}.} which is interchangeable with the halo concentration parameter $c_{200}$ through
+\begin{equation}
+\delta_{\rm c} = \left( \frac{200}{3} \right) \frac{c_{200}^3}{{\rm ln}(1+c_{200}) - c_{200}/(1+c_{200})}.
+\end{equation}
+
+In the \ac{NFW} prescription, the virial radius of a halo is $R_{200}$, which is the radius within which the average density is $200\rho_{\rm crit}$. It can be related to the scale radius and the concentration parameter though the equation $r_{\rm s} = R_{200}/c_{200}$. A common definition for the mass is the total mass interior to a sphere of radius $R_{200}$ \citep{Wright00}:
+\begin{equation}
+M_{200} = \frac{800 \pi}{3} \rho_{\rm crit} R_{200}^3.
+\end{equation}
+Equivalently, one can define masses interior to other radii (e.g. $M_{500}$ and $M_{2500}$ are often used in X-ray cluster studies), but $M_{200}$ is a common choice for weak lensing, and is used in this thesis.
+
+As expected in the scenario of hierarchical structure formation, more massive halos are less centrally concentrated (i.e. higher $M_{200}$ implies lower $c_{200}$). This is a reflection of the density of the universe when each halo was collapsing, so that recently formed massive halos are less dense. Strong correlations exist between the mass and concentration, both as determined in simulations \citep{Duffy08,Prada12,Dutton14} and more recently confirmed by observations \citep{Okabe13,Merten14}. 
+
+\citet{Wright00} performed calculations of the two-dimensional mass profiles, which are relevant for weak lensing, that follow from the \ac{NFW} formalism. The surface mass density $\Sigma$ and differential surface mass density $\Delta\Sigma$ (discussed in \autoref{sec:Shear}) can be derived by first integrating the \ac{NFW} mass density along the line-of-sight
+\begin{equation}
+\Sigma_{\rm NFW} (R) = 2 \int_0^{\infty} \rho_{\rm NFW} (R,y) {\rm d}y,
+\end{equation}
+where $R$ is the projected radial distance (in the plane of the sky) and $y$ is the line-of-sight dimension, both relative to the halo center. Adopting the dimensional radius $x \equiv R/r_{\rm s}$, we have:
+\begin{equation}
+\Sigma_{\rm NFW} (x) = 
+    \begin{cases}
+        \frac{2 r_{\rm s} \delta_{\rm c} \rho_{\rm crit}}{(x^2 - 1)} \left[ 1 - \frac{2}{\sqrt{1-x^2}} {\rm arctanh} \sqrt{\frac{1-x}{1+x}} \ \right], & \text{for } x < 1, \\
+        \frac{2 r_{\rm s} \delta_{\rm c} \rho_{\rm crit}}{3},              & \text{for } x = 1, \\
+        \frac{2 r_{\rm s} \delta_{\rm c} \rho_{\rm crit}}{(x^2 - 1)} \left[ 1 - \frac{2}{\sqrt{x^2 - 1}} {\rm arctan} \sqrt{\frac{x-1}{1+x}} \ \right], & \text{for } x < 1.
+    \end{cases}
+\end{equation}
+
+The differential surface mass density $\Delta\Sigma$, probed by shear, can be obtained from  \autoref{eqn:deltasigma}. One must integrate as follows to obtain the mean interior surface mass density
+\begin{equation}
+\overline{\Sigma}_{\rm NFW}(<x) = \frac{2}{x^2} \int_0^{x} \Sigma_{\rm NFW}(x') x' {\rm d}x',
+\end{equation}
+which yields the final required set of equations for the 2-dimensional \ac{NFW} profiles for gravitational lensing \citep{Wright00}:
+\begin{equation}
+\overline{\Sigma}_{\rm NFW}(<x) = 
+    \begin{cases}
+        \frac{4 r_{\rm s} \delta_{\rm c} \rho_{\rm crit}}{x^2} \left[ \frac{2}{\sqrt{1-x^2}} {\rm arctanh} \sqrt{\frac{1-x}{1+x}} + {\rm ln}(1/2) \right], & \text{for } x < 1, \\
+        4 r_{\rm s} \delta_{\rm c} \rho_{\rm crit} \left[ 1 + {\rm ln}(1/2) \right], & \text{for } x = 1, \\
+        \frac{4 r_{\rm s} \delta_{\rm c} \rho_{\rm crit}}{x^2} \left[ \frac{2}{\sqrt{x^2 - 1}} {\rm arctan} \sqrt{\frac{x-1}{1+x}} + {\rm ln}(1/2) \right], & \text{for } x < 1.
+    \end{cases}
+\end{equation}
+
+Several other commonly-used halo density models exist. The generalized-\ac{NFW}, or g\ac{NFW}, profile simply adds another free parameter to the \ac{NFW} model. While the \ac{NFW} density goes as $r^{-3}$ at large radii, and $r^{-1}$ at small radii, the g\ac{NFW} formalism allows the latter exponent (the inner logarithmic density slope) to vary. Alternatively, the Einasto profile has been shown in some recent work by \citet{Dutton14}, to be a better description of dark matter halos than the \ac{NFW} or g\ac{NFW} profiles. The Einasto profile was first introduced by \citet{Einasto65}, and is a 3-parameter model with density profile $\rho(r) \propto {\rm exp}(-Ar^{B})$.
+
+Another mass profile is the \ac{SIS} model (which is employed in \autoref{ch2} of this thesis). The \ac{SIS} is fully characterized by a constant velocity dispersion $\sigma_{\rm v}$, implying a density profile that goes as $\rho(r) \propto r^{-2}$. The surface mass density for a \ac{SIS} is given by \citet{BS01} to be:
+\begin{equation}
+\Sigma_{\rm SIS}(R) = \frac{\sigma_{\rm v}^2}{2 G R}.
+\end{equation}
+Although unphysical -- the total mass diverges -- the \ac{SIS} has been popular historically because of its simplicity as a one-parameter model, and its success in describing halos reasonably well at larger radii \citep{Schneider06_WeakGravLens}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Impact of this Thesis}
