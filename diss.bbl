@@ -1,4 +1,4 @@
-\begin{thebibliography}{165}
+\begin{thebibliography}{168}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,6 +42,17 @@ S.~{Andreon} and M.~A. {Hurn}.
   Bayesian approach}.
 \newblock \emph{\mnras}, 404:\penalty0 1922--1937, June 2010.
 \newblock \doi{10.1111/j.1365-2966.2010.16406.x}.
+
+\bibitem[{Applegate} et~al.(2014){Applegate}, {von der Linden}, {Kelly},
+  {Allen}, {Allen}, {Burchat}, {Burke}, {Ebeling}, {Mantz}, and
+  {Morris}]{Applegate14}
+D.~E. {Applegate}, A.~{von der Linden}, P.~L. {Kelly}, M.~T. {Allen}, S.~W.
+  {Allen}, P.~R. {Burchat}, D.~L. {Burke}, H.~{Ebeling}, A.~{Mantz}, and R.~G.
+  {Morris}.
+\newblock {Weighing the Giants - III. Methods and measurements of accurate
+  galaxy cluster weak-lensing masses}.
+\newblock \emph{\mnras}, 439:\penalty0 48--72, Mar. 2014.
+\newblock \doi{10.1093/mnras/stt2129}.
 
 \bibitem[{Arp}(1981)]{Arp81}
 H.~{Arp}.
@@ -104,6 +115,15 @@ G.~{Bertone}, D.~{Hooper}, and J.~{Silk}.
 \newblock {Particle dark matter: evidence, candidates and constraints}.
 \newblock \emph{\physrep}, 405:\penalty0 279--390, Jan. 2005.
 \newblock \doi{10.1016/j.physrep.2004.08.031}.
+
+\bibitem[{Best} et~al.(2007){Best}, {von der Linden}, {Kauffmann}, {Heckman},
+  and {Kaiser}]{Best07}
+P.~N. {Best}, A.~{von der Linden}, G.~{Kauffmann}, T.~M. {Heckman}, and C.~R.
+  {Kaiser}.
+\newblock {On the prevalence of radio-loud active galactic nuclei in brightest
+  cluster galaxies: implications for AGN heating of cooling flows}.
+\newblock \emph{\mnras}, 379:\penalty0 894--908, Aug. 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.11937.x}.
 
 \bibitem[{Bildfell} et~al.(2008){Bildfell}, {Hoekstra}, {Babul}, and
   {Mahdavi}]{Bildfell08}
@@ -615,6 +635,14 @@ H.~{Hoekstra}, M.~{Bartelmann}, H.~{Dahle}, H.~{Israel}, M.~{Limousin}, and
 \newblock {Masses of Galaxy Clusters from Gravitational Lensing}.
 \newblock \emph{\ssr}, 177:\penalty0 75--118, Aug. 2013.
 \newblock \doi{10.1007/s11214-013-9978-5}.
+
+\bibitem[{Hoekstra} et~al.(2015){Hoekstra}, {Herbonnet}, {Muzzin}, {Babul},
+  {Mahdavi}, {Viola}, and {Cacciato}]{Hoekstra15}
+H.~{Hoekstra}, R.~{Herbonnet}, A.~{Muzzin}, A.~{Babul}, A.~{Mahdavi},
+  M.~{Viola}, and M.~{Cacciato}.
+\newblock {The Canadian Cluster Comparison Project: detailed study of
+  systematics and updated weak lensing masses}.
+\newblock \emph{ArXiv e-prints}, Feb. 2015.
 
 \bibitem[{Hubble}(1929)]{Hubble29}
 E.~{Hubble}.
