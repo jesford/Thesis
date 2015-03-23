@@ -1,4 +1,4 @@
-\begin{thebibliography}{168}
+\begin{thebibliography}{176}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -156,6 +156,15 @@ S.~{Borgani}.
   Verlag}, page 287, 2008.
 \newblock \doi{10.1007/978-1-4020-6941-3_9}.
 
+\bibitem[{Brada{\v c}} et~al.(2008){Brada{\v c}}, {Allen}, {Treu}, {Ebeling},
+  {Massey}, {Morris}, {von der Linden}, and {Applegate}]{Bradac08}
+M.~{Brada{\v c}}, S.~W. {Allen}, T.~{Treu}, H.~{Ebeling}, R.~{Massey}, R.~G.
+  {Morris}, A.~{von der Linden}, and D.~{Applegate}.
+\newblock {Revealing the Properties of Dark Matter in the Merging Cluster MACS
+  J0025.4-1222}.
+\newblock \emph{\apj}, 687:\penalty0 959--967, Nov. 2008.
+\newblock \doi{10.1086/591246}.
+
 \bibitem[{Bridle} et~al.(2009){Bridle}, {Shawe-Taylor}, {Amara}, {Applegate},
   {Balan}, {Bernstein}, {Dahle}, {Erben}, {Gill}, {Heavens}, {Heymans}, {High},
   {Hoekstra}, {Jarvis}, {Kirk}, {Kitching}, {Kneib}, {Kuijken}, {Lagatutta},
@@ -231,6 +240,15 @@ D.~{Clowe}, M.~{Brada{\v c}}, A.~H. {Gonzalez}, M.~{Markevitch}, S.~W.
 \newblock {A Direct Empirical Proof of the Existence of Dark Matter}.
 \newblock \emph{\apjl}, 648:\penalty0 L109--L113, Sept. 2006.
 \newblock \doi{10.1086/508162}.
+
+\bibitem[{Clowe} et~al.(2012){Clowe}, {Markevitch}, {Brada{\v c}}, {Gonzalez},
+  {Chung}, {Massey}, and {Zaritsky}]{Clowe12}
+D.~{Clowe}, M.~{Markevitch}, M.~{Brada{\v c}}, A.~H. {Gonzalez}, S.~M. {Chung},
+  R.~{Massey}, and D.~{Zaritsky}.
+\newblock {On Dark Peaks and Missing Mass: A Weak-lensing Mass Reconstruction
+  of the Merging Cluster System A520}.
+\newblock \emph{\apj}, 758:\penalty0 128, Oct. 2012.
+\newblock \doi{10.1088/0004-637X/758/2/128}.
 
 \bibitem[{Cooray} and {Sheth}(2002)]{Cooray02}
 A.~{Cooray} and R.~{Sheth}.
@@ -375,6 +393,18 @@ T.~{Erben}, H.~{Hildebrandt}, L.~{Miller}, L.~{van Waerbeke}, C.~{Heymans},
   imaging data and catalogue products}.
 \newblock \emph{\mnras}, 433:\penalty0 2545--2563, Aug. 2013.
 \newblock \doi{10.1093/mnras/stt928}.
+
+\bibitem[{Fabian}(1994)]{Fabian94}
+A.~C. {Fabian}.
+\newblock {Cooling Flows in Clusters of Galaxies}.
+\newblock \emph{\araa}, 32:\penalty0 277--318, 1994.
+\newblock \doi{10.1146/annurev.aa.32.090194.001425}.
+
+\bibitem[{Fabian}(2012)]{Fabian12}
+A.~C. {Fabian}.
+\newblock {Observational Evidence of Active Galactic Nuclei Feedback}.
+\newblock \emph{\araa}, 50:\penalty0 455--489, Sept. 2012.
+\newblock \doi{10.1146/annurev-astro-081811-125521}.
 
 \bibitem[{Falco} et~al.(1985){Falco}, {Gorenstein}, and {Shapiro}]{Falco85}
 E.~E. {Falco}, M.~V. {Gorenstein}, and I.~I. {Shapiro}.
@@ -823,6 +853,21 @@ S.~{Mao} and P.~{Schneider}.
 \newblock \emph{\mnras}, 295:\penalty0 587, Apr. 1998.
 \newblock \doi{10.1046/j.1365-8711.1998.01319.x}.
 
+\bibitem[{Markevitch} and {Vikhlinin}(2007)]{Markevitch07}
+M.~{Markevitch} and A.~{Vikhlinin}.
+\newblock {Shocks and cold fronts in galaxy clusters}.
+\newblock \emph{\physrep}, 443:\penalty0 1--53, May 2007.
+\newblock \doi{10.1016/j.physrep.2007.01.001}.
+
+\bibitem[{Markevitch} et~al.(2004){Markevitch}, {Gonzalez}, {Clowe},
+  {Vikhlinin}, {Forman}, {Jones}, {Murray}, and {Tucker}]{Markevitch04}
+M.~{Markevitch}, A.~H. {Gonzalez}, D.~{Clowe}, A.~{Vikhlinin}, W.~{Forman},
+  C.~{Jones}, S.~{Murray}, and W.~{Tucker}.
+\newblock {Direct Constraints on the Dark Matter Self-Interaction Cross Section
+  from the Merging Galaxy Cluster 1E 0657-56}.
+\newblock \emph{\apj}, 606:\penalty0 819--824, May 2004.
+\newblock \doi{10.1086/383178}.
+
 \bibitem[{Massey} et~al.(2007{\natexlab{a}}){Massey}, {Heymans}, {Berg{\'e}},
   {Bernstein}, {Bridle}, {Clowe}, {Dahle}, {Ellis}, {Erben}, {Hetterscheidt},
   {High}, {Hirata}, {Hoekstra}, {Hudelot}, {Jarvis}, {Johnston}, {Kuijken},
@@ -986,6 +1031,15 @@ N.~{Okabe}, G.~P. {Smith}, K.~{Umetsu}, M.~{Takada}, and T.~{Futamase}.
   0.2}.
 \newblock \emph{\apjl}, 769:\penalty0 L35, June 2013.
 \newblock \doi{10.1088/2041-8205/769/2/L35}.
+
+\bibitem[{Oliva-Altamirano} et~al.(2015){Oliva-Altamirano}, {Brough}, {Jimmy},
+  {Tran}, {Couch}, {McDermid}, {Lidman}, {von der Linden}, and
+  {Sharp}]{Oliva15}
+P.~{Oliva-Altamirano}, S.~{Brough}, {Jimmy}, K.-V. {Tran}, W.~J. {Couch}, R.~M.
+  {McDermid}, C.~{Lidman}, A.~{von der Linden}, and R.~{Sharp}.
+\newblock {The accretion histories of brightest cluster galaxies from their
+  stellar population gradients}.
+\newblock \emph{ArXiv e-prints}, Mar. 2015.
 
 \bibitem[{Ouchi} et~al.(2004){Ouchi}, {Shimasaku}, {Okamura}, {Furusawa},
   {Kashikawa}, {Ota}, {Doi}, {Hamabe}, {Kimura}, {Komiyama}, {Miyazaki},
@@ -1449,6 +1503,13 @@ G.~M. {Voit}.
 \newblock {Tracing cosmic evolution with clusters of galaxies}.
 \newblock \emph{Reviews of Modern Physics}, 77:\penalty0 207--258, Apr. 2005.
 \newblock \doi{10.1103/RevModPhys.77.207}.
+
+\bibitem[{Voit} et~al.(2015){Voit}, {Donahue}, {Bryan}, and {McDonald}]{Voit15}
+G.~M. {Voit}, M.~{Donahue}, G.~L. {Bryan}, and M.~{McDonald}.
+\newblock {Regulation of star formation in giant galaxies by precipitation,
+  feedback and conduction}.
+\newblock \emph{\nat}, 519:\penalty0 203--206, Mar. 2015.
+\newblock \doi{10.1038/nature14167}.
 
 \bibitem[{Walsh} et~al.(1979){Walsh}, {Carswell}, and {Weymann}]{Walsh79}
 D.~{Walsh}, R.~F. {Carswell}, and R.~J. {Weymann}.

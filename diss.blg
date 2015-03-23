@@ -10,7 +10,10 @@ A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
 Database file #1: References.bib
-Warning--I didn't find a database entry for ""
+Repeated entry---line 3089 of file References.bib
+ : @article{DeLucia07
+ :                   ,
+I'm skipping whatever remains of this entry
 Too many commas in name 5 of "{Bridle}, S. and {Shawe-Taylor}, J. and {Amara}, A. and {Applegate}, D. and {Balan}, Berge, Joel, S.~T. and {Bernstein}, G. and {Dahle}, H. and {Erben}, T. and {Gill}, M. and {Heavens}, A. and {Heymans}, C. and {High}, F.~W. and {Hoekstra}, H. and {Jarvis}, M. and {Kirk}, D. and {Kitching}, T. and {Kneib}, J.-P. and {Kuijken}, K. and {Lagatutta}, D. and {Mandelbaum}, R. and {Massey}, R. and {Mellier}, Y. and {Moghaddam}, B. and {Moudden}, Y. and {Nakajima}, R. and {Paulin-Henriksson}, S. and {Pires}, S. and {Rassat}, A. and {Refregier}, A. and {Rhodes}, J. and {Schrabback}, T. and {Semboloni}, E. and {Shmakova}, M. and {van Waerbeke}, L. and {Witherick}, D. and {Voigt}, L. and {Wittman}, D." for entry great08
 while executing---line 1347 of file abbrvnat.bst
 Warning--empty publisher in Arp87
@@ -21,45 +24,45 @@ while executing---line 1429 of file abbrvnat.bst
 Warning--empty publisher in DodelsonText
 Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
-You've used 168 entries,
+You've used 176 entries,
             2773 wiz_defined-function locations,
-            1752 strings with 53646 characters,
-and the built_in function-call counts, 130490 in all, are:
-= -- 10120
-> -- 13955
-< -- 74
-+ -- 4675
-- -- 4502
-* -- 13170
-:= -- 21713
-add.period$ -- 637
-call.type$ -- 168
-change.case$ -- 1992
-chr.to.int$ -- 163
-cite$ -- 340
-duplicate$ -- 3509
-empty$ -- 6261
-format.name$ -- 4734
-if$ -- 25728
+            1803 strings with 55350 characters,
+and the built_in function-call counts, 135125 in all, are:
+= -- 10510
+> -- 14335
+< -- 77
++ -- 4803
+- -- 4622
+* -- 13607
+:= -- 22466
+add.period$ -- 668
+call.type$ -- 176
+change.case$ -- 2056
+chr.to.int$ -- 171
+cite$ -- 356
+duplicate$ -- 3673
+empty$ -- 6558
+format.name$ -- 4864
+if$ -- 26668
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 169
-newline$ -- 981
-num.names$ -- 681
-pop$ -- 3643
+missing$ -- 177
+newline$ -- 1028
+num.names$ -- 713
+pop$ -- 3752
 preamble$ -- 1
-purify$ -- 1831
+purify$ -- 1887
 quote$ -- 0
-skip$ -- 3460
+skip$ -- 3591
 stack$ -- 0
-substring$ -- 2682
-swap$ -- 385
+substring$ -- 2815
+swap$ -- 400
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1826
+type$ -- 1914
 warning$ -- 4
-while$ -- 630
+while$ -- 660
 width$ -- 0
-write$ -- 2439
-(There were 3 error messages)
+write$ -- 2556
+(There were 4 error messages)
