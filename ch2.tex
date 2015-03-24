@@ -20,10 +20,10 @@ Magnification affects the source number densities in two ways, and the one that 
 
 Compared to shear measurements, magnification exhibits a slightly lower signal-to-noise ($S/N$) ratio, the reason it has been largely ignored until recently.  However, what magnification lacks in signal strength, it makes up for in terms of its ability to be applied to lenses at higher redshift and to poorly resolved sources \citep{Waerbeke10}.  Since shear studies require measurements of galaxy shapes, in order for a source to be used it must necessarily be well resolved.  This is in stark contrast to magnification studies using source number densities, which have no such requirement for the sources to be resolved at all!  In principle only source magnitudes, redshifts, and positions relative to a lens must be known.  This simple fact makes it possible to extend weak lensing magnification analyses to a much higher redshift than possible for shear, and allows a much higher source density to be included in the analysis.  See \citet{Waerbeke10}, \citet{RozoSchmidt10}, and \citet{Umetsu11}, for more detailed discussions of the benefits of combining magnification with shear in gravitational lensing studies. 
 
-In Section \ref{theory} we review the equations describing the effects of weak lensing magnification on source number densities.  Section \ref{data} gives the properties of the X-ray groups and \ac{LBG}s that are used in this study.  Then Section \ref{results} describes the steps of our analysis, and results of the \ac{SIS} model fitting.  We summarize the results in Section \ref{summary}, and compare with weak lensing shear measurements that have previously been made on populations of galaxy groups.  We use the WMAP7 $\Lambda$CDM cosmological parameters $H_0 =$ 71 km s$^{-1}$ Mpc$^{-1}$ and $\Omega_{\Lambda} = 0.734$ \citep{WMAP7}, and set $\Omega_{\rm m} = 1 - \Omega_{\Lambda}$.
+In \autoref{sec:theory2} we review the equations describing the effects of weak lensing magnification on source number densities.  \autoref{sec:data2} gives the properties of the X-ray groups and \ac{LBG}s that are used in this study.  Then \autoref{sec:results2} describes the steps of our analysis, and results of the \ac{SIS} model fitting.  We summarize the results in \autoref{sec:summary2}, and compare with weak lensing shear measurements that have previously been made on populations of galaxy groups.  We use the WMAP7 $\Lambda$CDM cosmological parameters $H_0 =$ 71 km s$^{-1}$ Mpc$^{-1}$ and $\Omega_{\Lambda} = 0.734$ \citep{WMAP7}, and set $\Omega_{\rm m} = 1 - \Omega_{\Lambda}$.
 
 \section{Theory}
-\label{theory}
+\label{sec:theory2}
 The amplification matrix $\cal{A}$ maps the image deformation from the source to observer frame, and describes the first order effects of gravitational lensing.  
 \begin{equation}
 \cal{A} = \left( \begin{array}{cc}
@@ -55,7 +55,7 @@ where $\alpha$ is defined according to
 Thus distant source galaxies, lensed by an intervening concentration of mass, may have their observed number counts increased {\it or} decreased depending on the sign of the quantity $\alpha -1$.  Sources for which $\alpha -1 > 0$ will appear to be correlated on the sky with a lens position, while sources with $\alpha -1 < 0$ will be anti-correlated, as a dearth of objects will be observed in the vicinity of a lens.  The number density of galaxies for which the intrinsic number count slope gives $\alpha -1 \approx 0$ will essentially be unaffected by lensing magnification, as the dilution and amplification effects will cancel, and no correlation signal will be observed for these objects \citep{Scranton05}.
 
 \section{Data}
-\label{data}
+\label{sec:data2}
 \subsection{Lenses}
 The lenses in this study consist of X-ray selected galaxy groups in the \ac{COSMOS} Field.  See \citet{Leauthaud10} for the detailed properties of these groups.  From the full sample of 206 groups investigated in the aforementioned study, we use the shear-calibrated mass estimates to construct the most massive subsample of groups for this magnification study. Here masses are characterized by the parameter $M_{200}$, the total mass interior to a sphere of radius $R_{200}$, within which the average density is 200 times the critical. 
 
@@ -66,11 +66,11 @@ The lenses in this study consist of X-ray selected galaxy groups in the \ac{COSM
 %\vspace{-25pt}
 \includegraphics[scale=1.0]{plots_ch2/m200_zphot_histograms_44x.eps}
 \caption[Masses and Redshifts of \ac{COSMOS} Groups]{Masses and photometric redshifts of the groups in this study.  We select the most massive groups in our sample, $M_{200} / M_\odot \ge 3.56 \times 10^{13}$. Using only the cleanest groups (characterized by having $\ge$ 4 members, well-defined centroids, and no flags on possible mergers or projection effects), and applying appropriate masking, we are left with a sample of $44$ groups for this lensing magnification analyis.}
-\label{hists}
+\label{plot:hists2}
 \end{center}
 \end{figure*}
 
-Any groups that have less than 4 member galaxies, that appear to be undergoing mergers, that have uncertain centroids, or that raise concerns about projection effects, are excluded from the analysis. These restrictions follow from the group catalog requirement \texttt{FLAG\_INCLUDE=1}, discussed in \citet{George11}. The remaining $44$ most massive groups have shear determined masses in the range $ 3.56 \times 10^{13} \le M_{200} / M_\odot \le 1.70 \times 10^{14} $, and we employ stacking to increase the $S/N$ of the magnification measurement.  The redshift range of the groups is $ 0.32 \le z \le 0.98 $. Figure \ref{hists} displays these lens properties.
+Any groups that have less than 4 member galaxies, that appear to be undergoing mergers, that have uncertain centroids, or that raise concerns about projection effects, are excluded from the analysis. These restrictions follow from the group catalog requirement \texttt{FLAG\_INCLUDE=1}, discussed in \citet{George11}. The remaining $44$ most massive groups have shear determined masses in the range $ 3.56 \times 10^{13} \le M_{200} / M_\odot \le 1.70 \times 10^{14} $, and we employ stacking to increase the $S/N$ of the magnification measurement.  The redshift range of the groups is $ 0.32 \le z \le 0.98 $. \autoref{plot:hists2} displays these lens properties.
 
 Choosing an optimal lens centroid about which to construct angular bins is an area of ongoing research, and common choices include the \acf{BCG} or the X-ray emission peak.  If the location of the dark matter density peak were known {\it a priori}, then it would obviously be the ideal choice, but instead we must rely upon some combination of observables to approximate this position.  In this paper, we define lensing mass centers by the location of the group galaxy with highest stellar mass (MMGG$_\mathrm{scale}$) lying within a distance $ (R_{\rm s} + \sigma_{\rm x}) $ of the X-ray center, where $ R_{\rm s} $ is the group scale radius and $ \sigma_{\rm x} $ is the uncertainty in the X-ray center position \citep{George11}.  In order to be very confident about the locations of group centers, we exclude groups for which this galaxy is not the most massive member of the group.  This choice of centroid has been shown to optimally boost the measured shear signal for this group sample \citep{George12}.  
 
@@ -87,7 +87,7 @@ to simply compute cross-correlations between groups and background sources. $\ma
 
 In any lensing study, care must be taken to ensure that regions of an image containing artifacts such as saturated pixels, satellite tracks, or other spurious effects, are masked out of the investigation.  We consistently apply the same masks to the group, source, and random catalogs, prior to the correlation analysis. Using a large number (584,586) of objects in this random catalog serves to reduce shot noise.  
 
-We expect that the faintest (brightest) magnitude bins should yield a negative (positive) cross-correlation with the group centers, and this is exactly what we find.  Figure \ref{MagBinned} displays this anticipated result, where we simply use a number count weighted average to combine the signal of the distinct \ac{LBG} samples.  As discussed in \citet{Hildebrandt09b}, this negative correlation is one of the strongest verifications that no redshift overlap exists between lens and source populations, for no viable reason other than lensing magnification can be given for such a signal to exist.  Redshift overlap between samples must be avoided in magnification studies, as positive cross-correlations due to physical clustering would overwhelm any lensing induced signal.
+We expect that the faintest (brightest) magnitude bins should yield a negative (positive) cross-correlation with the group centers, and this is exactly what we find. \autoref{plot:MagBinned2} displays this anticipated result, where we simply use a number count weighted average to combine the signal of the distinct \ac{LBG} samples.  As discussed in \citet{Hildebrandt09b}, this negative correlation is one of the strongest verifications that no redshift overlap exists between lens and source populations, for no viable reason other than lensing magnification can be given for such a signal to exist.  Redshift overlap between samples must be avoided in magnification studies, as positive cross-correlations due to physical clustering would overwhelm any lensing induced signal.
 
 %LBG MAG-BINNED CORR PLOTS
 \begin{figure*}
@@ -97,16 +97,16 @@ We expect that the faintest (brightest) magnitude bins should yield a negative (
 %\vspace{-25pt}
 \includegraphics[scale=1.2]{plots_ch2/magbinnedLBGs_multiNFWfit.eps}
 \caption[Magnitude-Binned Cross-Correlation]{Angular cross-correlation of the X-ray groups with \ac{LBG}s, the latter separated into 3 magnitude-selected samples.  The Bright sample contains $U$, $G$, $B$, $R$-dropouts in the magnitude ranges $23<r<25$, $23.5<i<25$,  $23.5<i<25$,  $24<z<25.5$, respectively. Similarly, the Medium ranges are $25<r<25.5$, $25<i<26$,  $25<i<26$,  $25.5<z<26$.  The Faint ranges are $r>25.5$, $i>26$,  $i>26$,  $z>26$. These magnitude ranges are selected to contain \ac{LBG}s for which $(\alpha-1)>0$, $\approx 0$, and $<0$.  The measured correlations for each \ac{LBG} sample are simply averaged here (weighting by the number counts) in order to more clearly display this diagnostic check.  The negative correlation observed for the faintest sample is a good indication that no redshift overlap exists between foreground lenses and background sources.}
-\label{MagBinned}
+\label{plot:MagBinned2}
 \end{center}
 \end{figure*}
 
 \section{Analysis and Results}
-\label{results}
+\label{sec:results2}
 \subsection{Measuring $\alpha(m)$}
 Along with the mass of the lens itself, the slope of the source number counts as a function of magnitude, parameterized by the quantity $\alpha \equiv \alpha(m)$, controls the amplitude and sign of the expected magnification signal.  To interpret the correlations that we measure, and to implement an optimally-weighted procedure, we must determine the value of this quantity for every source galaxy that we intend to use in the measurement.  Fortunately, \ac{LBG}s have been extensively studied and many measurements of their \ac{LF} have been published.  
 
-For the $U$-, $G$-, and $R$-dropouts, we use the recent measurements by \citet{vanderBurg10}. For the $B$-dropouts we use the results of \citet{Sawicki06}. These two sets of measurements both involved fitting a Schechter Function \citep{Schechter76} to their galaxy number counts, and their best fit parameters that we use here, are displayed in Table 1.  The Schechter Function is given by
+For the $U$-, $G$-, and $R$-dropouts, we use the recent measurements by \citet{vanderBurg10}. For the $B$-dropouts we use the results of \citet{Sawicki06}. These two sets of measurements both involved fitting a Schechter Function \citep{Schechter76} to their galaxy number counts, and their best fit parameters that we use here, are displayed in \autoref{LFtable2}.  The Schechter Function is given by
 \begin{equation}
 \Phi(M)=0.4\ln(10)\Phi^\ast10^{0.4(\alpha_{\rm LF}+1)(M^\ast-M)} \exp [-10^{0.4(M^\ast-M)}],
 \end{equation}
@@ -116,7 +116,7 @@ Solving this equation for $\alpha(m)$, we obtain
 \begin{equation}
 \alpha(m) = 2.5 \frac{\mathrm d}{\mathrm d \it m} \log n_0(m)= 2.5 \frac{\mathrm d}{\mathrm d \it M} \log \Phi(M) = 10^{0.4(M^\ast-M)}-\alpha_{\rm LF}-1.
 \end{equation}
-We convert the observed apparent magnitudes $m$ of the \ac{LBG}s to absolute magnitudes $M$ via the relationship $M = m - DM + 2.5 \log (1+z)$, where $DM$ and $z$ are the distance modulus and redshift of the galaxy in question. Since we select apparent magnitudes in the $r$, $i$, and $z$ bands for the $U$-, $G$- and $B$-, and $R$-dropouts, we probe very similar restframe wavelengths and the K-correction between the samples is negligible.  Thus we ignore it here. Using the \ac{LF} parameters in Table \ref{LFtable}, combined with the conversion to absolute magnitudes, we then obtain a robust measure of $\alpha(m)$ for every \ac{LBG} in the sample. 
+We convert the observed apparent magnitudes $m$ of the \ac{LBG}s to absolute magnitudes $M$ via the relationship $M = m - DM + 2.5 \log (1+z)$, where $DM$ and $z$ are the distance modulus and redshift of the galaxy in question. Since we select apparent magnitudes in the $r$, $i$, and $z$ bands for the $U$-, $G$- and $B$-, and $R$-dropouts, we probe very similar restframe wavelengths and the K-correction between the samples is negligible.  Thus we ignore it here. Using the \ac{LF} parameters in \autoref{LFtable2}, combined with the conversion to absolute magnitudes, we then obtain a robust measure of $\alpha(m)$ for every \ac{LBG} in the sample. 
 
 \subsection{Optimally-Weighted Cross-Correlation}
 We implement a modified version of the \citet{LandySzalay93} estimator for the angular cross-correlation function, in which pair counts are weighted by their expectations from the differential source number counts as a function of magnitude.  This weighted correlation function has been shown to optimally boost the magnification signal \citep{Menard03}:    
@@ -137,7 +137,7 @@ $\mathscr{S}$ stands for the {\it sources}, or background lensed galaxies, $\mat
     %\begin{tabular}{|l||c|c|c|l|}
 
    \caption[Luminosity Function Parameters]{\ac{LF} (Schechter) parameters from external \ac{LBG} measurements. $^a$ \ac{LF} parameters from \protect \citet{vanderBurg10}. $^b$ \ac{LF} parameters from \protect \citet{Sawicki06}.}
- \label{LFtable}
+ \label{LFtable2}
 \resizebox{0.5\columnwidth}{!}{
     \begin{tabular}{lcccl}
       \hline \hline
@@ -156,7 +156,7 @@ $\mathscr{S}$ stands for the {\it sources}, or background lensed galaxies, $\mat
 %$^b$ LF parameters from \citet{Sawicki06}.
 
 
-The brightest source galaxies, which are observationally found to lie in the steepest part of the \ac{LF}, are expected to be positively correlated with the group centers, have the largest value of $\alpha-1$, and so receive a relatively large weight in this correlation study.  In contrast, the faintest background galaxies are expected to be anti-correlated, on average, with the group positions, because the effects of magnification dilution should be greater than the amplification of flux can compensate for, and these galaxies thus receive a negative weight.  Sources for which $\alpha-1 \approx 0$, ought to have the effects of dilution and amplification cancel out overall, and receive very little to no weight in this analysis \citep{Scranton05}. The optimally weighted correlation function is given in Figure \ref{multisis}, and shows the measured radial profile for this stack of massive galaxy groups.
+The brightest source galaxies, which are observationally found to lie in the steepest part of the \ac{LF}, are expected to be positively correlated with the group centers, have the largest value of $\alpha-1$, and so receive a relatively large weight in this correlation study.  In contrast, the faintest background galaxies are expected to be anti-correlated, on average, with the group positions, because the effects of magnification dilution should be greater than the amplification of flux can compensate for, and these galaxies thus receive a negative weight.  Sources for which $\alpha-1 \approx 0$, ought to have the effects of dilution and amplification cancel out overall, and receive very little to no weight in this analysis \citep{Scranton05}. The optimally weighted correlation function is given in \autoref{plot:multisis2}, and shows the measured radial profile for this stack of massive galaxy groups.
 
 Error bars are $1 \sigma$ uncertainties, obtained by jackknife resampling of the source population.  To do this, we create 30 jackknife samples of data, each with a different $1/30$ of sources removed from it.  Then we measure the optimal correlation function for each, and from these estimate the covariance matrix through
 \begin{equation}
@@ -182,7 +182,7 @@ To account for the range of lens masses and redshifts, we perform a multi-\ac{SI
 \begin{equation}
 \mathrm{w}_{\rm opt}(a)= \frac{1}{N_{\rm l}}\sum_{i=1}^{N_{\rm l}} \langle (\alpha -1)^2 \rangle_i \delta \mu_{\rm SIS} (z_i, aM_{{\rm shear},i}),
 \end{equation}
-where $i$ runs over all lenses. We use the minimum-$\chi^2$ method to fit the multi-\ac{SIS} profile to the magnification measurements (see Fig. \ref{multisis}). The $\chi^2_{\rm red}$ of the multi-\ac{SIS} fit is 2.3 ($\chi^2=11.5$ for 5 degrees of freedom), and is calculated using the unbiased inverse covariance matrix, according to the prescription in \citet{Hartlap07}.
+where $i$ runs over all lenses. We use the minimum-$\chi^2$ method to fit the multi-\ac{SIS} profile to the magnification measurements (see \autoref{plot:multisis2}). The $\chi^2_{\rm red}$ of the multi-\ac{SIS} fit is 2.3 ($\chi^2=11.5$ for 5 degrees of freedom), and is calculated using the unbiased inverse covariance matrix, according to the prescription in \citet{Hartlap07}.
 
 Here the fit parameter $a$ characterizes the scaling relation between the $M_{200}$ previously measured from the shear, and the best fit $M_{200}$ from magnification, so that $a \equiv M_{\rm magnification}/M_{\rm shear}$. This approach allows us to fit for a range of masses, thereby avoiding any biases that would be introduced by simply fitting to a stacked average lens profile.  We obtain a best fit value of $a=1.4 \pm 0.6$, indicating consistency between the shear and magnification mass estimates for this lens sample.
 
@@ -195,7 +195,7 @@ Here the fit parameter $a$ characterizes the scaling relation between the $M_{20
 % example: wopt_nfw_sis_44x_LFam1_aveErr0.7magcut.eps doesn't work!
 \includegraphics[scale=1.0]{plots_ch2/wopt_nfw_sis_44x_LFam1_aveErr07magcut.eps}
 \caption[Optimally-Weighted Cross-Correlation]{Multi-\ac{SIS} fit to the optimally weighted correlation function, using the \ac{LBG} background source sample. The significance of the magnification detection is $4.8 \sigma$.  The dashed line shows the prediction from the shear measured values of $M_{200}$ (A. Leauthaud 2011, private communication), and the solid line is the best fit to the magnification measurement.  We find the best fit relative scaling relation to be $a= M_{\rm magnification}/M_{\rm shear}=1.4 \pm 0.6$, consistent with the shear-measured group masses.  It must be noted that the shear values for $M_{200}$ were calculated assuming an \ac{NFW} profile, but the dashed line plotted here is the resultant \ac{SIS} achieved from applying these masses in an \ac{SIS} context, for comparison.}
-\label{multisis}
+\label{plot:multisis2}
 \end{center}
 \end{figure*}
 
@@ -208,7 +208,7 @@ Here the fit parameter $a$ characterizes the scaling relation between the $M_{20
 %\end{figure*}
 
 \section{Summary and Conclusions}
-\label{summary}
+\label{sec:summary2}
 We report a $4.8 \sigma$ detection of weak lensing magnification from a population of X-ray selected galaxy groups. This is the first magnification measurement using source number densities successfully performed on low-mass groups. \citet{Schmidt12} has recently explored the magnification of these groups using source sizes and fluxes.  For comparison, the shear detection significance is $11 \sigma$ on the same selection of $44$ groups (A. Leauthaud 2011, private communication).\footnote{The significance quoted for the shear does not take into account the full covariance matrix, as we have done for the magnification measurement.  Therefore this shear significance might be a bit optimistic.}
 
 To improve $S/N$ in this measurement, we stack the lenses, consisting of $44$ massive X-ray detected galaxy groups in the \ac{COSMOS} 1.64 deg$^2$ field.  We measure an optimally-weighted cross-correlation between the X-ray groups and high-redshift \ac{LBG}s, with $1 \sigma$ error bars determined from jackknife resampling of the sources. Performing a multi-\ac{SIS} fit to this optimally-weighted signal yields a measurement of the relative scaling between shear and magnification derived masses. Our magnification measurement yields a mass $M_{\rm magnification}=aM_{\rm shear}$ where the best fit parameter $a=1.4 \pm 0.6$, consistent with the shear mass estimates.

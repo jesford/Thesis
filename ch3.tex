@@ -18,24 +18,24 @@ A third approach to measuring gravitational lensing is through the magnification
 
 In this work we adopt the number density approach, known as flux magnification, using \ac{LBG}s for the lensed background sources. The observed number density of \ac{LBG}s is altered by the presence of foreground structure, due to the apparent stretching of sky solid angle, and the consequential amplification of source flux. Because of the variation in slope of the \ac{LBG} \ac{LF}, magnification can either increase or decrease the number densities of \ac{LBG}s, depending on their intrinsic magnitudes. By stacking many clusters we can overcome the predominant source of noise - physical source clustering \citep{Hildebrandt11}. 
 
-In Section \ref{data} we describe the cluster and background galaxy samples. Section \ref{method} lays out the methodology for the measurement and modeling of the magnification signal. We discuss our results in Section \ref{results} and conclude in Section \ref{conc}. Throughout this paper we give all distances in physical units, and use a standard $\Lambda$CDM cosmology with $H_0 =$ 70 km s$^{-1}$ Mpc$^{-1}$, $\Omega_{\rm m} = 0.3$, and $\Omega_{\Lambda} = 1 - \Omega_{\rm m} = 0.7$.
+In \autoref{sec:data3} we describe the cluster and background galaxy samples. \autoref{sec:method3} lays out the methodology for the measurement and modeling of the magnification signal. We discuss our results in \autoref{sec:results3} and conclude in \autoref{sec:conc3}. Throughout this paper we give all distances in physical units, and use a standard $\Lambda$CDM cosmology with $H_0 =$ 70 km s$^{-1}$ Mpc$^{-1}$, $\Omega_{\rm m} = 0.3$, and $\Omega_{\Lambda} = 1 - \Omega_{\rm m} = 0.7$.
 
 %-----------------------------------------
 
 \section{Data}
-\label{data}
+\label{sec:data3}
 For the magnification results presented in this paper, we are fortunate to work with a very large sample of galaxy cluster candidates and background galaxies in \ac{CFHTLenS}.\footnote{www.cfhtlens.org; Data products available at http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/\-community/\-CFHTLens/\-query.html}; \citet{Erben13}; \citet{Hildebrandt12} \ac{CFHTLenS} is based on the Wide portion of the \acf{CFHTLS}, with deep 5 band photometry. The survey is composed of four separate fields, in turn divided into 171 individual pointings, covering a total of 154 deg$^2$.
 
 \subsection{\ac{3D-MF} Galaxy Clusters}
-\label{clusters}
+\label{sec:clusters3}
 The \ac{3D-MF} cluster finding algorithm of \citet{Milkeraitis10}, essentially creates likelihood maps of the sky (in discrete redshift bins) and searches for peaks of significance above the galaxy background. The likelihood is estimated assuming that clusters follow a radial Hubble profile as well as a Schechter \ac{LF}. A significance peak of \textgreater 3.5$\sigma$ is considered a cluster detection. The reader is referred to \citet{Milkeraitis10} for the details of the \ac{3D-MF} algorithm; here we discuss only the essential points relevant to our purposes. 
 
-The radial component of the \ac{3D-MF} likelihood employs a cutoff radius of 1 Mpc, which was chosen to roughly correspond to the radius $R_{200}$ of an $M_{200} \sim 3 \times 10^{13} M_{\odot}$ cluster. \citet{Milkeraitis10} motivates this choice by the desire to optimally search for relatively high mass clusters, but notes that this radius will be less ideal for low mass clusters. One should expect that random galaxy interlopers may contaminate the estimation of significance for likelihood peaks corresponding to lower mass clusters. This may be a key factor in explaining the wide range of cluster significances conferred upon low mass clusters from simulations, while high mass simulated clusters were assigned significances that correlated strongly with mass \citep[see Figure 10 in][]{Milkeraitis10}. Because peak significance may therefore not be an ideal mass proxy to use for the full cluster ensemble, in this work we rely upon a measure of the cluster richness, which is discussed in Section \ref{rich} below. Using cluster richness has the added benefit that the mass-richness relation can be measured and used as a scaling relation.
+The radial component of the \ac{3D-MF} likelihood employs a cutoff radius of 1 Mpc, which was chosen to roughly correspond to the radius $R_{200}$ of an $M_{200} \sim 3 \times 10^{13} M_{\odot}$ cluster. \citet{Milkeraitis10} motivates this choice by the desire to optimally search for relatively high mass clusters, but notes that this radius will be less ideal for low mass clusters. One should expect that random galaxy interlopers may contaminate the estimation of significance for likelihood peaks corresponding to lower mass clusters. This may be a key factor in explaining the wide range of cluster significances conferred upon low mass clusters from simulations, while high mass simulated clusters were assigned significances that correlated strongly with mass \citep[see Figure 10 in][]{Milkeraitis10}. Because peak significance may therefore not be an ideal mass proxy to use for the full cluster ensemble, in this work we rely upon a measure of the cluster richness, which is discussed in \autoref{sec:rich3} below. Using cluster richness has the added benefit that the mass-richness relation can be measured and used as a scaling relation.
 
 Using the \ac{3D-MF} method, a total of 18,036 galaxy cluster candidates (hereafter clusters) have been detected in \ac{CFHTLenS}, at a significance of \textgreater 3.5$\sigma$ above the background. In contrast to previous cluster magnification studies, which have been limited by small number statistics, this huge sample of clusters allows us to pursue multiple avenues of investigation. In particular, we bin the clusters according to both richness and redshift, to recover trends in physical characteristics such as the mass-richness relation, and also investigate halo miscentering as a function of these parameters.
 
 \subsubsection{Cluster Centers}
-\label{centering}
+\label{sec:centering3}
 Due to the nature of the method, the defined centers of the \ac{3D-MF} clusters, which are located at peaks in the likelihood map, do not necessarily coincide with member galaxies. Hence the defined centers are notably different from many other cluster finders, which commonly choose the \ac{BCG}, the peak in X-ray emission, some type of (possibly luminosity-weighted) average of galaxy positions, or a combination of these, as a measure of the center of a dark matter halo.
 
 %PofRcentoff Plot GAUSSIAN MISCENTERING
@@ -44,7 +44,7 @@ Due to the nature of the method, the defined centers of the \ac{3D-MF} clusters,
 \begin{center}
 \includegraphics[scale=0.6]{plots_ch3/PofRc_bestfit_python.eps}
 \caption[Centroid Offset Model]{Modeled Gaussian distribution of radial offsets between defined \ac{3D-MF} centers and simulated cluster centers. The black points and solid curve is the combined data and best fit for all \ac{CFHTLenS} clusters combined. The colored curves show the best fit Gaussians for separate mass bins, and colors match the empirical offsets measured and presented in Figure 13 of \citet{Milkeraitis10}. As each of these colored curve fits is consistent with the solid black curve for the entire combined sample, we choose to use this single Gaussian distribution to model miscentering for all clusters.}
-\label{gauss}
+\label{plot:gauss3}
 \end{center}
 \end{figure}
 %\end{multicols}
@@ -52,7 +52,8 @@ Due to the nature of the method, the defined centers of the \ac{3D-MF} clusters,
 %Sigma_centoff Table GAUSSIAN MISCENTERING
 \begin{table}
   \begin{center}
-    \caption[Centroid Offset Fit Parameters]{Best Fit Gaussian Distributions for the Cluster Miscentering in Figure \ref{gauss}.}
+    \caption[Centroid Offset Fit Parameters]{Best Fit Gaussian Distributions for the Cluster Miscentering in \autoref{plot:gauss3}.}
+\label{table13}
 \resizebox{0.5\columnwidth}{!}{
     \begin{tabular}{llll}
       \hline
@@ -77,13 +78,13 @@ Perhaps a more interesting source for miscentering comes from the fact that clus
 We use the numbers of clusters at each offset, and the contamination from \citet{Milkeraitis10}, to estimate the probability of radial offsets $P(R_{\rm{off}})$. We fit the result for each mass bin with a 2-dimensional Gaussian distribution:
 \begin{equation}
 P(R_{\rm{off}}) = \frac{R_{\rm{off}}}{\sigma_{\rm{off}}^2} \exp \left[ -\frac{1}{2}\left( \frac{R_{\rm{off}}}{\sigma_{\rm{off}}} \right)^2 \right].
-\label{PofRc}
+\label{eqn:PofRc3}
 \end{equation}
-This resulting curves are presented in Figure \ref{gauss} (colors are selected to match those in Figure 13 of \citet{Milkeraitis10}), and for clarity we only show the data points for the bin that combines all clusters. We find consistent fits for the separate mass bins, which we list in Table 1, and therefore use the combined distribution (black curve) to model the effects of miscentering in our measurements.
+This resulting curves are presented in \autoref{plot:gauss3} (colors are selected to match those in Figure 13 of \citet{Milkeraitis10}), and for clarity we only show the data points for the bin that combines all clusters. We find consistent fits for the separate mass bins, which we list in \autoref{table13}, and therefore use the combined distribution (black curve) to model the effects of miscentering in our measurements.
 
 
 \subsubsection{Cluster Richness}
-\label{rich}
+\label{sec:rich3}
 We define the richness parameter $N_{200}$ in this work to be the number of galaxies within a radius $R_{200}$, and redshift $\Delta z$, of a cluster candidate center (both points discussed below). Member galaxies are also required to be brighter than $i$-band absolute magnitude -19.35. This cut-off is chosen to correspond to the limiting {\it apparent} magnitude of \ac{CFHTLenS} ($i \sim 24$) at the highest redshift clusters that we probe, $z \sim 1$. So at the expense of removing many galaxies from the richness count, we hope to largely avoid the effect of incompleteness on the number of galaxies per cluster. Then clusters of the same intrinsic richness at high and low redshift should have comparable observed $N_{200}$, within the expected scatter of the mass-richness relation.
 
 For the line-of-sight dimension, we require galaxies to fall within $\Delta z < 0.08(1+z)$ of the cluster redshift. This $\Delta z$ is the 2$\sigma$ scatter of photometric redshifts in the \ac{CFHTLenS} catalog, chosen so that we reduce the probability of galaxies in a cluster being missed due to errors in their photo-$z$ estimation. Of course this comes at the expense of counting galaxies within a quite broad line-of-sight extent, especially for the higher redshift clusters. This effect should cancel out though, since we also use the same $\Delta z$ range in calculating the galaxy background density, which is subtracted to yield $N_{200}$ as an overdensity count of cluster galaxy members.
@@ -95,7 +96,7 @@ For the line-of-sight dimension, we require galaxies to fall within $\Delta z < 
 %\vspace{0.5 cm}
 \includegraphics[scale=0.6]{plots_ch3/N200histogram.eps}
 \caption[\ac{3D-MF} Cluster Richness Distribution]{Distribution of richness ($N_{200}$) values for clusters in this study.}
-\label{hist}
+\label{plot:hist3}
 \end{center}
 \end{figure}
 %\end{multicols}
@@ -105,23 +106,23 @@ In the plane of the sky, galaxies must lie within a projected radius $R_{200}$ o
 \mathrm{log}(M_{200}) = 0.124 \sigma_{\rm cl} + \mathrm{log}(10^{14} M_{\odot}) - 1.507.
 \end{equation}
 
-As discussed in \ref{clusters}, \ac{3D-MF} tests on simulations suggested that peak significance was a good mass proxy for high, but not low, mass clusters. In light of this, we merely employ the above relation as a starting point for calculating the radii from mass,
+As discussed in \autoref{sec:clusters3}, \ac{3D-MF} tests on simulations suggested that peak significance was a good mass proxy for high, but not low, mass clusters. In light of this, we merely employ the above relation as a starting point for calculating the radii from mass,
 \begin{equation}
 R_{200} = \left[ \frac{3 M_{200}}{4 \pi (200) \rho_{\rm crit}(z)} \right] ^ {1/3}.
 \end{equation}
-These $R_{200}$ estimates are then used for counting galaxies for cluster richness. Richness $N_{200}$ is the variable of choice used as a mass proxy for binning the magnification measurement. The distribution of these richness values is shown in Fig. 2.
+These $R_{200}$ estimates are then used for counting galaxies for cluster richness. Richness $N_{200}$ is the variable of choice used as a mass proxy for binning the magnification measurement. The distribution of these richness values is shown in \autoref{plot:hist3}.
 
 %-----------------------------------------
 
 \subsection{Sources}
 We use \ac{LBG}s as the magnified background sources. \ac{LBG}s are high-redshift star-forming galaxies \citep{Steidel98}, that have been succesfully employed in past magnification studies \citep[see][]{Hildebrandt09b, Hildebrandt11, Morrison12, Ford12} due to the fact that their redshift distributions and \ac{LF} are reasonably well understood. Knowledge of the intrinsic source \ac{LF} allows for an interpretation of the magnification signal, which depends sensitively on the slope of the number counts as a function of magnitude. In addition, the high-redshift nature of \ac{LBG}s is important to reduce redshift overlap between lenses and sources. Any source galaxies in the redshift range of the cluster lenses will contaminate the lensing-induced cross-correlation signal, with correlations due to physical clustering.
 
-The \ac{LBG} sample is selected with the color selection criteria of \citet{Hildebrandt09a} (see Sect.~3.2 of that paper). It is composed of 122,144 $u$-dropouts with 23 \textless $r \leq$ 24.5, located at redshift $\sim$3.1. We choose this magnitude range to avoid as much potential low-redshift contamination as possible. See Section \ref{contam} for our modeling of the residual contamination. The detailed properties of this \ac{LBG} population will be described in a forthcoming paper (Hildebrandt et al. in prep.).
+The \ac{LBG} sample is selected with the color selection criteria of \citet{Hildebrandt09a} (see Sect.~3.2 of that paper). It is composed of 122,144 $u$-dropouts with 23 \textless $r \leq$ 24.5, located at redshift $\sim$3.1. We choose this magnitude range to avoid as much potential low-redshift contamination as possible. See \autoref{sec:contam3} for our modeling of the residual contamination. The detailed properties of this \ac{LBG} population will be described in a forthcoming paper (Hildebrandt et al. in prep.).
 
 %-----------------------------------------
 
 \section{Magnification Methodology}
-\label{method}
+\label{sec:method3}
 
 \subsection{The Measurement}
 
@@ -147,7 +148,7 @@ The magnification signal, $\mathrm{w}_{\mathrm{opt}}(R)$, is measured in logarit
 
 
 \subsection{The Modeling}
-\label{model}
+\label{sec:model3}
 
 The magnification is a function of the halo masses, and to first order it is proportional to the convergence $\kappa$. In this work, however, we will use the full expression for $\mu$ to account for any deviations from weak lensing in the inner regions of the clusters:
 \begin{equation}
@@ -158,9 +159,9 @@ The magnification is a function of the halo masses, and to first order it is pro
 We assume a spherical \acf{NFW} model \citep{nfw97} for the dark matter halos, along with the mass-concentration relation of \citet{Prada12}. The convergence is modeled as the sum of three terms,
 \begin{equation}
 \kappa = \left[p_{\mathrm{cc}}\Sigma_{\mathrm{NFW}} +(1-p_{\mathrm{cc}})\Sigma_{\mathrm{NFW}}^{\rm sm} + \Sigma_{\mathrm{2halo}} \right]/\Sigma_{\mathrm{crit}},
-\label{modelEQ}
+\label{eqn:modelEQ3}
 \end{equation}
-where $p_{\mathrm{cc}}$ is the fraction of clusters correctly centered (i.e. with $R_{\rm{off}}=0$), and $\Sigma_{\mathrm{crit}}(z)$ is the critical surface mass density at the lens redshift. The expression for the shear, $\gamma$, is identical with $\kappa \rightarrow \gamma$, and $\Sigma \rightarrow \Delta\Sigma$. Note that the first term in Equation \ref{modelEQ} is equivalent to adding a delta function to the miscentered distribution of Figure \ref{gauss}, to represent clusters with perfectly-identified centers. As discussed in Section \ref{results}, the fits do not give strong preference to miscentering in the measurement, but in future work (in particular with weak lensing shear) it will be useful to constrain the degree of miscentering using the data, instead of relying solely on simulations.
+where $p_{\mathrm{cc}}$ is the fraction of clusters correctly centered (i.e. with $R_{\rm{off}}=0$), and $\Sigma_{\mathrm{crit}}(z)$ is the critical surface mass density at the lens redshift. The expression for the shear, $\gamma$, is identical with $\kappa \rightarrow \gamma$, and $\Sigma \rightarrow \Delta\Sigma$. Note that the first term in \autoref{eqn:modelEQ3} is equivalent to adding a delta function to the miscentered distribution of \autoref{plot:gauss3}, to represent clusters with perfectly-identified centers. As discussed in \autoref{sec:results3}, the fits do not give strong preference to miscentering in the measurement, but in future work (in particular with weak lensing shear) it will be useful to constrain the degree of miscentering using the data, instead of relying solely on simulations.
 
 We assume both lenses and sources are located at known discrete redshifts. This is $z \sim$ 3.1 for the \ac{LBG}s. Since they are at very high redshift the effect of any small offsets from this has negligible effect on the angular diameter distance, the relevant distance measure for lensing. The clusters, on the other hand, have redshift uncertainties of 0.05 (due to the shifting redshift slices employed by \ac{3D-MF} \citep{Milkeraitis10}). This translates into an uncertainty on the mass estimates ranging from less than a percent up to $\sim$17\% (depending on cluster $z$), and is included in the reported mass estimates.
 
@@ -169,7 +170,7 @@ $\Sigma_{\mathrm{NFW}}$ is the standard surface mass density for a perfectly cen
 \begin{equation}
 \Sigma_{\rm NFW}^{\rm sm}(R)  = \int_0^\infty \Sigma_{\rm NFW}(R \vert R_{\rm{off}}) P(R_{\rm off}) \mathrm{d}R_{\rm off }.
 \end{equation}
-The distribution of offsets $P(R_{\rm{off}})$ is given by Equation \ref{PofRc}, and the other factor in the integrand is
+The distribution of offsets $P(R_{\rm{off}})$ is given by \autoref{eqn:PofRc3}, and the other factor in the integrand is
 \begin{equation}
 \Sigma_{\mathrm{NFW}}(R \vert R_{\rm{off}}) = \frac{1}{2\pi} \int_0^{2\pi} \Sigma_{\mathrm{NFW}}(R') \mathrm{d}\theta,
 \end{equation}
@@ -190,24 +191,24 @@ Here small $r$ is comoving distance, $D(z)$ is the growth factor, $P(k)$ is the 
 
 
 \subsubsection{Composite-Halo Fits}
-\label{multihalo}
-The part of the optimal correlation function which is caused by gravitation lensing is related to the magnification contrast $\delta\mu \equiv \mu-1$ through
+\label{sec:multihalo3}
+The part of the optimal correlation function which is caused by gravitational lensing is related to the magnification contrast $\delta\mu \equiv \mu-1$ through
 \begin{equation}
-\label{wmodel}
+\label{eqn:wmodel3}
 \mathrm{w}_{\mathrm{lensing}}(R) = \frac{1}{N_{lens}} \sum_{i=1}^{N_{lens}} \langle(\alpha-1)^2\rangle_i \delta\mu(R,M_{200})_i.
 \end{equation}
 Here the sum is over the number of lenses in a given stacked measurement, and $\langle(\alpha-1)^2\rangle_i$ refers to the average of the weight factor squared in the pointing of a given cluster.
 
 We perform composite-halo fits using the above prescription, in which we allow for the fact that the clusters in a given measurement have a range of masses and redshifts. We do not fit a single average mass. Instead, we calculate $\delta\mu(R,M_{200})_i$ for each individual cluster using a scaling relation between mass and richness,
 \begin{equation}
-\label{mr}
+\label{eqn:mr3}
 M_{200} = M_0 \left( \frac{N_{200}}{20} \right)^\beta.
 \end{equation}
-The fit parameters are the normalization, $M_0$, and (log-) slope, $\log\beta$, of the assumed power-law relation. From this we calculate the optimal correlation $\mathrm{w}_{\mathrm{opt}}(R)$ according to Equation \ref{wmodel}. The best-fit relation is determined by minimizing $\chi^2$, which is calculated using the full covariance matrix. We apply the correction factor from \citet{Hartlap07} to the inverse covariance matrix; this corrects for a known bias (related to the number of data sets and bins) which would otherwise lead to our error bars being too small.
+The fit parameters are the normalization, $M_0$, and (log-) slope, $\log\beta$, of the assumed power-law relation. From this we calculate the optimal correlation $\mathrm{w}_{\mathrm{opt}}(R)$ according to \autoref{eqn:wmodel3}. The best-fit relation is determined by minimizing $\chi^2$, which is calculated using the full covariance matrix. We apply the correction factor from \citet{Hartlap07} to the inverse covariance matrix; this corrects for a known bias (related to the number of data sets and bins) which would otherwise lead to our error bars being too small.
 
 
 \subsubsection{\ac{LBG} Contamination}
-\label{contam}
+\label{sec:contam3}
 An important source of systematic error for magnification comes from low-redshift contamination of the sources, leading to physical clustering between the lens and source populations. The cross-correlation that results from contamination can easily overwhelm the measurement of magnification, making redshift overlap far more important for magnification than for shear. Past studies sought to minimize this effect, for example by checking for the negative cross-correlation that should exist between lenses and very faint sources with shallow number count \citep{Ford12, Hildebrandt09b}. Here we incorporate this clustering into the model, using a similar approach to \citet{Hildebrandt13}.
 
 \begin{figure}
@@ -215,11 +216,11 @@ An important source of systematic error for magnification comes from low-redshif
 %\vspace{0.5cm}
 \includegraphics[scale=0.7]{plots_ch3/PofZ_clustersNudrops.eps}
 \caption[Redshift Distributions of Clusters and Sources]{Redshift probability distribution functions for the clusters and the \ac{LBG} sources. Low-redshift contamination of the \ac{LBG}s will lead to physical clustering correlations where overlap with the cluster redshifts occurs.}
-\label{pofz}
+\label{plot:pofz3}
 \end{center}
 \end{figure}
 
-Figure \ref{pofz} shows the redshift probability distributions, $P(z)$, for the clusters and the \ac{LBG}s. The \ac{LBG} redshift distribution is based on the stacked posterior $P(z)$ put out by the BPZ redshift code \citep[for details on the \ac{CFHTLenS} photo-$z$ see][]{Hildebrandt12}. Since the BPZ prior is only calibrated for a magnitude limited sample of galaxies we can not expect the stacked $P(z)$ to reflect the real redshift distribution of the color-selected \ac{LBG}s. Hence we use the location and shape of the primary (high-$z$) and secondary (low-$z$) peaks but adjust their relative heights separately. This can be done with a cross-correlation technique similar to \citet{Newman08}. Details of this technique will be presented in Hildebrandt et al. (in prep.).
+\autoref{plot:pofz3} shows the redshift probability distributions, $P(z)$, for the clusters and the \ac{LBG}s. The \ac{LBG} redshift distribution is based on the stacked posterior $P(z)$ put out by the BPZ redshift code \citep[for details on the \ac{CFHTLenS} photo-$z$ see][]{Hildebrandt12}. Since the BPZ prior is only calibrated for a magnitude limited sample of galaxies we can not expect the stacked $P(z)$ to reflect the real redshift distribution of the color-selected \ac{LBG}s. Hence we use the location and shape of the primary (high-$z$) and secondary (low-$z$) peaks but adjust their relative heights separately. This can be done with a cross-correlation technique similar to \citet{Newman08}. Details of this technique will be presented in Hildebrandt et al. (in prep.).
 
 Despite our efforts to avoid contamination, there is obviously some redshift overlap with the clusters. We use the products of the lens and source $P(z)$ to define selection functions, and calculate the expected angular correlations using the code from \citet{Hamana04}. The weighted correlation function that we measure is the sum of the correlations due to lensing magnification and clustering contamination:
 \begin{equation}
@@ -229,13 +230,13 @@ Note that $f_{\mathrm{lensing}}+f_{\mathrm{clustering}} \leq 1$, since some of t
 
 The clustering contamination fraction $f_{\mathrm{clustering}}(z)$ for each cluster redshift is defined as the fraction of each source $P(z)$ that lies within 0.1 in redshift (twice the cluster redshift uncertainty). The part of the source $P(z)$ that lies at higher redshift than the lens is then the lensed fraction $f_{\mathrm{lensing}}(z)$, and the part at lower redshift (i.e. in {\it front} of the lens) has no contribution to the signal.
 
-The factor $f_{\mathrm{clustering}}(z)$ itself is generally very small for the \ac{LBG}s used in this work, only really non-negligible for cluster redshifts $z \sim$ 0.2-0.3, which can be seen in Figure \ref{pofz}. The more significant effect on the estimated masses is that $f_{\mathrm{lensing}}(z) \sim$0.9 across all redshift bins, because about 10\% of the sources are not really being lensed. We tested our results for robustness against uncertainties in the contamination fraction. When we vary the total low-$z$ contamination fraction by $\pm1\sigma$ ($\sim$4\%), the best fit cluster mass estimates remain within the stated error bars.
+The factor $f_{\mathrm{clustering}}(z)$ itself is generally very small for the \ac{LBG}s used in this work, only really non-negligible for cluster redshifts $z \sim$ 0.2-0.3, which can be seen in \autoref{plot:pofz3}. The more significant effect on the estimated masses is that $f_{\mathrm{lensing}}(z) \sim$0.9 across all redshift bins, because about 10\% of the sources are not really being lensed. We tested our results for robustness against uncertainties in the contamination fraction. When we vary the total low-$z$ contamination fraction by $\pm1\sigma$ ($\sim$4\%), the best fit cluster mass estimates remain within the stated error bars.
 
 
 We explore three ways of determining $\mathrm{w}_{\mathrm{clustering}}$. Because of the weighting applied to \ac{LBG}s in our measurement (which is optimal for the lensed sources, and should suppress contributions from redshift overlap), there will always be a prefactor of $\langle \alpha-1 \rangle$ in each estimation of clustering. The first method uses the dark matter angular auto-correlation, $\mathrm{w}_{\mathrm{dm}}$, and estimates of the galaxy and cluster bias to calculate:
 \begin{equation}
 \mathrm{w}_{\mathrm{clustering}}(R,z) = \langle \alpha-1 \rangle b_{l} b_{s} \mathrm{w}_{\mathrm{dm}}(R,z).
-\label{model1}
+\label{eqn:model13}
 \end{equation}
 We set the bias factor for the galaxy contaminants $b_s$=1 for this analysis, which is reasonably consistent with the bias relation of \citet{Seljak04} that is employed for the cluster bias ($b_{l}$).
 
@@ -250,7 +251,7 @@ N_g(M_{200}) = \begin{cases} (M_{200}/M_1)^A & \text{for $M_{200} > M_{\mathrm{m
 \end{equation}
 Since these parameters are unknown, we use the values for $M_1$ and $A$ measured for galaxies in the \ac{SDSS} \citep[see Table 3 of][]{Zehavi11}. We choose $M_{\mathrm{min}}$ to correspond to the minimum mass measured for cluster halos, and assume that halos above this mass always host a detected cluster. As a final check, we also ask what the clustering signal would be if every halo above $M_{\mathrm{min}}$ hosted both a cluster and a single low-$z$ galaxy contaminant (so that $N_g = 1$ for $M_{200} > M_{\mathrm{min}}$).
 
-This final method yields the largest estimates of $\mathrm{w}_{\mathrm{clustering}}$, and therefore a smaller estimate of cluster masses. The former (using \ac{SDSS} parameters) gives the highest mass estimates, and the simple biasing approach of Equation \ref{model1} yields intermediate results. We use the range of these results to estimate an uncertainty in mass estimates coming from lack of knowledge about the nature of the low-$z$ galaxies that contaminate our \ac{LBG} source sample. This additional systematic error affects only the clusters at low redshift, where the source and lens $P(z)$ distributions overlap, and is reported on the mass estimates given in Table 3. All best fit mass values reported in the tables of this work are calculated using the contamination approach of Equation \ref{model1}, since this method relied on the fewest assumptions about the nature of the galaxy contaminants.
+This final method yields the largest estimates of $\mathrm{w}_{\mathrm{clustering}}$, and therefore a smaller estimate of cluster masses. The former (using \ac{SDSS} parameters) gives the highest mass estimates, and the simple biasing approach of \autoref{eqn:model13} yields intermediate results. We use the range of these results to estimate an uncertainty in mass estimates coming from lack of knowledge about the nature of the low-$z$ galaxies that contaminate our \ac{LBG} source sample. This additional systematic error affects only the clusters at low redshift, where the source and lens $P(z)$ distributions overlap, and is reported on the mass estimates given in \autoref{ztable3}. All best fit mass values reported in the tables of this work are calculated using the contamination approach of \autoref{eqn:model13}, since this method relied on the fewest assumptions about the nature of the galaxy contaminants.
 
 
 Accounting for redshift distributions in this particular source sample effectively means that cluster masses are {\it higher} than one would naively guess by fitting for only the magnification signal. However, note that in a case with more significant redshift overlap, so that $f_{\mathrm{clustering}}$ was large, the opposite statement would be true, and mass estimates that included the full $P(z)$ distribution would be smaller than than the naive magnification-only approach. These are important effects to consider, and future flux magnification studies should be careful to use full redshift distributions in modeling the measured signal.
@@ -262,18 +263,18 @@ Accounting for redshift distributions in this particular source sample effective
 \begin{center}
 \includegraphics[scale=0.7]{plots_ch3/wopt_allClusters_U.eps}
 \caption[Magnification for all Stacked \ac{3D-MF} Clusters]{Optimal cross-correlation signal measured for the entire stacked sample of 18,024 clusters. The model fits are both composite-\ac{NFW} (see text for all terms in the fit). The solid line assumes the clusters are perfectly centered on the peak likelihood of the \ac{3D-MF} cluster detection, while the dashed line includes the effects of cluster miscentering.}
-\label{w_all}
+\label{plot:w_all3}
 \end{center}
 \end{figure}
 
 %-----------------------------------------
 
 \section{Results}
-\label{results}
+\label{sec:results3}
 
-Stacking the entire set of 18,036 clusters gives a total significance of 9.7$\sigma$ for the combined detection, shown in Figure \ref{w_all}. The perfectly centered model is a better fit to the overall measurement, with $\chi^2_{\rm red}$ $\sim$ 1.2, while the miscentered model gives $\chi^2_{\rm red}$ of 2.3. For both models, there are two free parameters ($M_0$ and $\log\beta$), leading to 8 degrees of freedom. To investigate miscentering and mass-richness scaling, we divide the clusters into six richness bins, and measure the optimal cross-correlation in each. 
+Stacking the entire set of 18,036 clusters gives a total significance of 9.7$\sigma$ for the combined detection, shown in \autoref{plot:w_all3}. The perfectly centered model is a better fit to the overall measurement, with $\chi^2_{\rm red}$ $\sim$ 1.2, while the miscentered model gives $\chi^2_{\rm red}$ of 2.3. For both models, there are two free parameters ($M_0$ and $\log\beta$), leading to 8 degrees of freedom. To investigate miscentering and mass-richness scaling, we divide the clusters into six richness bins, and measure the optimal cross-correlation in each. 
 
-We measure the characteristic signature of magnification in every richness bin with significances between 4.6 and 5.9$\sigma$. These results are shown in Figure \ref{binned}, where we try fitting both a perfectly centered model ($p_{\mathrm{cc}}=1$) and a model where every cluster is affected by centroid offsets ($p_{\mathrm{cc}}=0$). Details of the fits, including reduced $\chi^2$ and the average of the best fit mass values $\langle M_{200} \rangle$, are given in Table \ref{richtable}.
+We measure the characteristic signature of magnification in every richness bin with significances between 4.6 and 5.9$\sigma$. These results are shown in \autoref{plot:binned3}, where we try fitting both a perfectly centered model ($p_{\mathrm{cc}}=1$) and a model where every cluster is affected by centroid offsets ($p_{\mathrm{cc}}=0$). Details of the fits, including reduced $\chi^2$ and the average of the best fit mass values $\langle M_{200} \rangle$, are given in \autoref{richtable3}.
 
 The lowest mass (richness) bin is not well fit by either model. Overall there is not a strong preference for either perfectly centered ($p_{\mathrm{cc}}=1$) or miscentered ($p_{\mathrm{cc}}=0$) clusters, and both are reasonably good fits. Generally, the miscentered model yields slightly higher masses for the clusters (though it is sensitive to the shape of the data), due to the Gaussian smoothing applied, which lowers the model amplitude in the innermost regions. However this is easily within the uncertainty on the mass estimates, so the results are in agreement.
 
@@ -283,12 +284,12 @@ The lowest mass (richness) bin is not well fit by either model. Overall there is
 \begin{center}
 %\vspace{1cm}
 \includegraphics[scale=0.9]{plots_ch3/wopt_panel_fcc0and1_U.eps}
-\caption[Magnification for Richness-Binned Clusters]{Optimal cross-correlation signal measured for each $N_{200}$ (richness) bin. Two composite-\ac{NFW} fits are shown. The solid curve assumes clusters are perfectly centered, while the dashed curve accounts for cluster miscentering, using the gaussian offset distribution modeled in Figure \ref{gauss} and discussed in Section \ref{model}.}
-\label{binned}
+\caption[Magnification for Richness-Binned Clusters]{Optimal cross-correlation signal measured for each $N_{200}$ (richness) bin. Two composite-\ac{NFW} fits are shown. The solid curve assumes clusters are perfectly centered, while the dashed curve accounts for cluster miscentering, using the gaussian offset distribution modeled in \autoref{plot:gauss3} and discussed in \autoref{sec:model3}.}
+\label{plot:binned3}
 \end{center}
 \end{figure}
 
-The issue of cluster miscentering is interesting in its own right as discussed in Section \ref{centering}. It is tempting to try and fit for the parameter $p_{\mathrm{cc}}$, describing the fraction that are actually correctly centered, or else for the miscentering Gaussian width $\sigma_{\rm{off}}$, as done in \citet{Johnston07}. The issue here is a strong degeneracy between $p_{\mathrm{cc}}$, $\sigma_{\rm{off}}$, and cluster concentration. Increasing the number of clusters that have offset centers produces essentially the same results as leaving $p_{\mathrm{cc}}$ fixed and increasing $\sigma_{\rm{off}}$, an effect that can be mimicked by a lower concentration in the \ac{NFW} model. We run the risk of overfitting to the results. 
+The issue of cluster miscentering is interesting in its own right as discussed in \autoref{sec:centering3}. It is tempting to try and fit for the parameter $p_{\mathrm{cc}}$, describing the fraction that are actually correctly centered, or else for the miscentering Gaussian width $\sigma_{\rm{off}}$, as done in \citet{Johnston07}. The issue here is a strong degeneracy between $p_{\mathrm{cc}}$, $\sigma_{\rm{off}}$, and cluster concentration. Increasing the number of clusters that have offset centers produces essentially the same results as leaving $p_{\mathrm{cc}}$ fixed and increasing $\sigma_{\rm{off}}$, an effect that can be mimicked by a lower concentration in the \ac{NFW} model. We run the risk of overfitting to the results. 
 
 In fact, \citet{Johnston07} found very little constraining power on the miscentering width and the fraction of miscentered MaxBCG clusters, and applied strong priors to these distributions. \citet{George12} performed an extensive weak lensing miscentering study of groups in the \ac{COSMOS} Field, and chose to forgo the additional parameter $p_{\mathrm{cc}}$, as they achieved sufficiently good fits without it. \citet{Mandelbaum08b} performed a lensing analysis of the MaxBCG clusters, and found that including miscentering effects with the \citet{Johnston07} prescription strongly affected the resultant fits for concentration, again asserting the degeneracies of these parameters. \citet{Mandelbaum08b} conclude that this method of accounting for miscentering depends heavily on the mock catalogs from which the input parameters are generated, and in the case of MaxBCG clusters likely overcompensates. 
 
@@ -302,17 +303,17 @@ In a forthcoming paper, we will present weak lensing shear measurements of these
 \begin{center}
 %\vspace{0.5 cm}
 \includegraphics[scale=0.7]{plots_ch3/MassRich_2to1000_U.eps}
-\caption[Mass-Richness Relation from Magnification]{Cluster mass-richness relation, using the same $N_{200}$ bins as in Figures \ref{binned}. Power law fits to the data are presented for both cases of with (blue diamonds and dashed line) and without (green squares and solid line) the effects of miscentering. Points are slightly offset horizontally for clarity.}
+\caption[Mass-Richness Relation from Magnification]{Cluster mass-richness relation, using the same $N_{200}$ bins as in \autoref{plot:binned3}. Power law fits to the data are presented for both cases of with (blue diamonds and dashed line) and without (green squares and solid line) the effects of miscentering. Points are slightly offset horizontally for clarity.}
 %\vspace{1 cm}
-\label{massrich}
+\label{plot:massrich3}
 \end{center}
 \end{figure}
 
 \subsection{The Mass-Richness Relation}
 
-We observe a prominent scaling of best fit mass to richness, across the six richness bins (although the first two bins do generally have overlapping error bars). We plot this trend in Figure \ref{massrich}, showing the average of the fit masses as a function of average cluster richness in each bin. Note that the distribution of $N_{200}$ in a bin is not uniform, and in the case of the highest richness bin the distribution is highly skewed (see Figure \ref{hist}).
+We observe a prominent scaling of best fit mass to richness, across the six richness bins (although the first two bins do generally have overlapping error bars). We plot this trend in \autoref{plot:massrich3}, showing the average of the fit masses as a function of average cluster richness in each bin. Note that the distribution of $N_{200}$ in a bin is not uniform, and in the case of the highest richness bin the distribution is highly skewed (see \autoref{plot:hist3}).
 
-We fit a simple power-law, Equation \ref{mr}, to these points, using the same plotted color and line schemes for perfectly centered and miscentered clusters. For this cluster sample, we find the best fit gives the normalization and slope of the mass-richness relation to be
+We fit a simple power-law, \autoref{eqn:mr3}, to these points, using the same plotted color and line schemes for perfectly centered and miscentered clusters. For this cluster sample, we find the best fit gives the normalization and slope of the mass-richness relation to be
 \begin{equation}
 M_0 = (2.3 \pm 0.2) \times 10^{13} M_\odot, \beta = 1.4 \pm 0.1
 \end{equation}
@@ -329,8 +330,8 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and
 %TABLE FOR RICHNESS-BINNED PLOTS
 \begin{table}
   \centering
-    \caption[Magnification Results for Richness-Binned Clusters]{Details of fits for richness-binned measurements in Figure \ref{binned}. We list the richness range selected, the number of clusters in that bin, the detection significance, the average richness of the bin, and the mass estimates and reduced $\chi^2$ for both the centered and miscentered models fit to the data. Note that the average mass given is not the value fit itself, but the average of all resulting masses fit using the composite-halo approach discussed in Section \ref{multihalo}.}
-    \label{richtable}
+    \caption[Magnification Results for Richness-Binned Clusters]{Details of fits for richness-binned measurements in \autoref{plot:binned3}. We list the richness range selected, the number of clusters in that bin, the detection significance, the average richness of the bin, and the mass estimates and reduced $\chi^2$ for both the centered and miscentered models fit to the data. Note that the average mass given is not the value fit itself, but the average of all resulting masses fit using the composite-halo approach discussed in \autoref{sec:multihalo3}.}
+    \label{richtable3}
     \begin{tabular}{llllllll}
       \hline
        %&  &  &  &   p$_{cc}$=1: & &   p$_{cc}$=0: & \\
@@ -349,8 +350,8 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and
 %TABLE FOR REDSHIFT-BINNED PLOTS
 \begin{table}
   \centering
-    \caption[Magnification Results for Redshift-Binned Clusters]{Details of fits for redshift-binned measurements in Figure \ref{zbinw}. We list the same bin properties and fits given in Table \ref{richtable}, as well as $f_{\rm clustering}$, which is the total fraction of \ac{LBG}s expected to lie within $\Delta z \sim$0.1 of the cluster z.}
-    \label{ztable}
+    \caption[Magnification Results for Redshift-Binned Clusters]{Details of fits for redshift-binned measurements in \autoref{plot:zbinw3}. We list the same bin properties and fits given in \autoref{richtable3}, as well as $f_{\rm clustering}$, which is the total fraction of \ac{LBG}s expected to lie within $\Delta z \sim$0.1 of the cluster z.}
+    \label{ztable3}
     \begin{tabular}{lllllllll}
       \hline
       Redshift & $f_{\rm clustering}$ & Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$  & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ \\ \hline
@@ -373,7 +374,7 @@ It is difficult to directly compare the results for the mass-richness relation i
 
 
 \subsection{Redshift Binning}
-\label{zbin}
+\label{sec:zbin3}
 
 %Z BINNED HISTOGRAM
 \begin{figure}
@@ -382,15 +383,15 @@ It is difficult to directly compare the results for the mass-richness relation i
 \includegraphics[scale=1.0]{plots_ch3/zbin_histograms.eps}
 \caption[Richness Distributions in Redshift Bins]{$N_{200}$ distributions as a function of cluster redshift.}
 %\vspace{1 cm}
-\label{zbinhist}
+\label{plot:zbinhist3}
 \end{center}
 \end{figure}
 
-Finally, we investigate the magnification as a function of redshift. We stack clusters of all richnesses, at each redshift in the catalog, $0.2 \leq z \leq 0.9$, and measure the optimal correlations in each. This is displayed in Figure \ref{zbinw}. We observe a steady decrease in measured signal as the cluster redshift increases from $z \sim$0.2 to 0.5, then roughly consistent measurements from 0.6$\leq z \leq$0.8, followed by rather low signal at $z \sim$0.9. 
+Finally, we investigate the magnification as a function of redshift. We stack clusters of all richnesses, at each redshift in the catalog, $0.2 \leq z \leq 0.9$, and measure the optimal correlations in each. This is displayed in \autoref{plot:zbinw3}. We observe a steady decrease in measured signal as the cluster redshift increases from $z \sim$0.2 to 0.5, then roughly consistent measurements from 0.6$\leq z \leq$0.8, followed by rather low signal at $z \sim$0.9. 
 
-The $N_{200}$ distributions in Figure \ref{zbinhist} show that these trends cannot be caused by deviations in richness between these different cluster redshifts. This is difficult to reconcile with the clear mass-richness scaling observed when all redshifts are combined. Table 3 shows that detection significance for each reshift bin is more tightly linked to mass than the $\langle N_{200} \rangle$. Perhaps the richness estimates used in this work are not optimized for use as a mass proxy at all redshifts. Another possibility is that we have not correctly accounted for redshift overlap between samples. If the contamination fraction is higher than estimated, this could lead to a boost in correlation strength at low redshift, as well as a depletion at higher redshift. However it is still very difficult to explain the anomalously low measurement at intermediate redshift, $z \sim$0.5, with this reasoning.
+The $N_{200}$ distributions in \autoref{plot:zbinhist3} show that these trends cannot be caused by deviations in richness between these different cluster redshifts. This is difficult to reconcile with the clear mass-richness scaling observed when all redshifts are combined. \autoref{ztable3} shows that detection significance for each redshift bin is more tightly linked to mass than the $\langle N_{200} \rangle$. Perhaps the richness estimates used in this work are not optimized for use as a mass proxy at all redshifts. Another possibility is that we have not correctly accounted for redshift overlap between samples. If the contamination fraction is higher than estimated, this could lead to a boost in correlation strength at low redshift, as well as a depletion at higher redshift. However it is still very difficult to explain the anomalously low measurement at intermediate redshift, $z \sim$0.5, with this reasoning.
 
-One factor that we have not accounted for is possible cluster false detections in our sample. Since \ac{3D-MF} was optimized to produce cluster catalogs that are as complete as possible, false detection rates could be quite high. In particular, we would expect these rates to increase at high redshift, which would also weaken those measured correlations. We note in particular that cluster redshift bins $z \sim$ 0.5 and 0.9, which yield relatively low cluster masses, are seen in Figure \ref{pofz} to have excess numbers of detected clusters, possibly an indication of higher false detection rates at these redshifts.
+One factor that we have not accounted for is possible cluster false detections in our sample. Since \ac{3D-MF} was optimized to produce cluster catalogs that are as complete as possible, false detection rates could be quite high. In particular, we would expect these rates to increase at high redshift, which would also weaken those measured correlations. We note in particular that cluster redshift bins $z \sim$ 0.5 and 0.9, which yield relatively low cluster masses, are seen in \autoref{plot:pofz3} to have excess numbers of detected clusters, possibly an indication of higher false detection rates at these redshifts.
 
 
 %Z BINNED WOPT
@@ -400,7 +401,7 @@ One factor that we have not accounted for is possible cluster false detections i
 \includegraphics[scale=0.9]{plots_ch3/wopt_z_panels_U.eps}
 \caption[Magnification for Redshift-Binned Clusters]{Optimal correlation for clusters binned in redshift.}
 %\vspace{1 cm}
-\label{zbinw}
+\label{plot:zbinw3}
 \end{center}
 \end{figure}
 %\vspace{1 cm}
@@ -409,7 +410,7 @@ One factor that we have not accounted for is possible cluster false detections i
 %-----------------------------------------
 
 \section{Conclusions}
-\label{conc}
+\label{sec:conc3}
 We present the most significant magnification-only cluster measurement to date, at 9.7$\sigma$. A sample of 18,036 cluster candidates has been detected using the \ac{3D-MF} technique in the $\sim$154 deg$^2$ \ac{CFHTLenS} survey. In this analysis we have investigated the mass of cluster dark matter halos, from flux magnification, as a function of both richness and redshift. A forthcoming paper will present the weak lensing shear analysis of these clusters as well.
 
 We fit a composite-\ac{NFW} model that accounts for the full redshift and mass ranges of the cluster sample, as well as redshift overlap with low-$z$ source contaminants, cluster halo miscentering, and the 2-halo term. We find that the entire cluster sample is marginally better fit by the model that does not include miscentering, but do not see a strong preference either way across richness bins. In the future, shear measurements, which are more sensitive to miscentering, may illuminate this aspect of the investigation.

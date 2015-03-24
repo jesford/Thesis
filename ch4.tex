@@ -9,19 +9,19 @@ We present the cluster mass-richness scaling relation calibrated by a weak lensi
 %==========================================================================
 
 \section{Introduction}
-\label{intro}
+\label{sec:intro4}
 The evolution of large scale structure is overwhelmingly driven by the invisible components which make up the majority of the present day energy density of the Universe. In order to probe these structures we are forced to rely on biased tracers of the underlying density field that we can actually observe, such as galaxies. Large galaxy cluster surveys are invaluable in providing sufficient statistics for classifying and analysing the most massive gravitationally bound systems that have had time to form in our cosmic history. In addition to providing a cosmological probe, they are interesting laboratories for the evolution of individual galaxies and the \ac{ICM} \citep{Voit05}.
 
 Several methods have been developed for identifying clusters in optical galaxy surveys, including the red sequence technique \citep{Gladders00}, density maps \citep{Adami10}, redMaPPer \citep{Rykoff14}, and matched-filter methods \citep{Postman96}. An extension of the latter, \ac{3D-MF}, is described in \citet{Milkeraitis10} and used in this work. This cluster finder attempts to circumvent the common issue of line-of-sight projections by using photometric redshift information to identify clusters in redshift slices. Beyond the use of photometric redshifts, \ac{3D-MF} does not apply any additional color-selection criteria for identifying clusters (e.g. that cluster members must fall on the red sequence). A similar algorithm tuned for galaxy groups was introduced by \citet{Gillis11}. Every cluster-finding technique will pick out clusters with somewhat distinct characteristics because of different assumptions that are made in the algorithm, and it is therefore important to characterize and contrast independent samples of clusters \citep{Milkeraitis10}.
 
 Among the broad array of analysis tools employed by the galaxy cluster research community, gravitational lensing is a crucial technique for obtaining masses and density profiles, independent of assumptions regarding cluster dynamical state. In the weak regime, lensing provides robust measurements of stacked cluster samples (and individual masses for very massive clusters), affording a statistical view of average galaxy cluster properties \citep{Hoekstra13}. The majority of weak lensing studies measure the shear, or shape distortion, of lensed source galaxies. The complementary magnification component of the lensing signal has more recently been measured with increasing precision \citep{Scranton05,Hildebrandt09b,Ford12,Ford14,Morrison12,Hildebrandt13,Bauer14}, and has been combined with shear in joint-lensing analyses \citep{Umetsu11,Umetsu14}. When combined with other cluster observables, lensing yields useful scaling relations that can be extrapolated with some caution to wider cluster populations, or cross-examined to characterize intrinsic disparities that may distinguish catalogs compiled using different cluster-finding techniques \citep{Hoekstra07,Johnston07,Leauthaud10,Hoekstra12,Covone14,Oguri14}.
 
-Section 2 of this paper describes the data, Section 3 gives the formalism of the weak lensing measurement, and Section 4 presents the results. We then discuss and compare our findings to other results, including our previous magnification measurements of the same lens sample, in Section 5. We finish with conclusions in Section 6. Throughout this work we use a concordance $\Lambda$ cold dark matter cosmology with $\Omega_{\rm m}$ = 0.3, $\Omega_{\Lambda}$ = 0.7, and H$_0$ = 70 km/s/Mpc.
+\autoref{sec:data4} of this paper describes the data, \autoref{sec:method4} gives the formalism of the weak lensing measurement, and \autoref{sec:results4} presents the results. We then discuss and compare our findings to other results, including our previous magnification measurements of the same lens sample, in \autoref{sec:disc4}. We finish with conclusions in \autoref{sec:conc4}. Throughout this work we use a concordance $\Lambda$ cold dark matter cosmology with $\Omega_{\rm m}$ = 0.3, $\Omega_{\Lambda}$ = 0.7, and H$_0$ = 70 km/s/Mpc.
 
 %==========================================================================
 
 \section{Data}
-\label{data}
+\label{sec:data4}
 
 %-----------------------------------------------
 
@@ -41,7 +41,8 @@ The \ac{CFHTLenS} reduced \ac{CFHTLS}-Wide data for weak lensing science applica
 
 %----------------------------------------------
 
-\subsection{\ac{3D-MF} Clusters}\label{3DMF}
+\subsection{\ac{3D-MF} Clusters}
+\label{sec:3DMF4}
 
 Here we give a brief overview of the \ac{3D-MF} galaxy cluster-finding algorithm. For additional background and details on the algorithm, including extensive testing on the Millennium Simulation data set, and information on the completeness and purity of a \ac{3D-MF} derived galaxy cluster catalog, the reader is directed to \citet{Milkeraitis10}.
 
@@ -53,7 +54,7 @@ where $\Phi$ is the galaxy \ac{LF}, $\Phi^*$ sets the overall normalization, $M$
 \begin{equation}
 P \left ( \frac{R}{R_{\rm c}} \right )=\frac{1}{\sqrt{1+ \left ( \frac{R}{R_{\rm c}} \right ) ^2}} - \frac{1}{\sqrt{1+ \left ( \frac{R_{\rm co}}{R_{\rm c}} \right ) ^2}},
 \end{equation}
-where $R_{\rm c}$ is the cluster core radius, and $R_{\rm co} \gg R_{\rm c}$ is the cutoff radius. In an attempt to match both of the above profiles, \ac{3D-MF} creates likelihood maps of the sky survey area. Peaks in this map are possible cluster detections, and are each assigned a significance $\sigma_{\rm cl}$ relative to the background signal \citep[$\sigma_{\rm cl}$ is calculated using Equation 5 of][which the reader is referred to for more details]{Milkeraitis10}. The cluster centers are defined to be the locations of the likelihood peaks; see Section \ref{sec:miscentering} for how uncertainties in the centers are dealt with.
+where $R_{\rm c}$ is the cluster core radius, and $R_{\rm co} \gg R_{\rm c}$ is the cutoff radius. In an attempt to match both of the above profiles, \ac{3D-MF} creates likelihood maps of the sky survey area. Peaks in this map are possible cluster detections, and are each assigned a significance $\sigma_{\rm cl}$ relative to the background signal \citep[$\sigma_{\rm cl}$ is calculated using Equation 5 of][which the reader is referred to for more details]{Milkeraitis10}. The cluster centers are defined to be the locations of the likelihood peaks; see \autoref{sec:miscentering4} for how uncertainties in the centers are dealt with.
 
 An important characteristic of this cluster-finding algorithm is the fact that the described process is carried out in discrete redshift bins to avoid spurious false-detections due to line-of-sight projections. \ac{3D-MF} was run on the \ac{CFHTLS}-Wide catalogs with redshift slices of width $\Delta z = 0.2$, which are then shifted by 0.1, and the finder is run again on the overlapping redshift slices. Clusters are assigned a final redshift estimate (of bin width $\Delta z = 0.1$) by using the center of the slice that maximizes cluster detection significance. \ac{3D-MF} was run using the same run-time parameters listed in table~2 in \citet{Milkeraitis10}, with the exception of an absolute $i'-$band magnitude of $M^*_{i'-\mathrm{band}}=-23.22 \pm 0.01$ and slope of the Schechter \ac{LF}, $\alpha=-1.04 \pm 0.01$, derived from the Wide data \citep{MMthesis11}.
 
@@ -66,8 +67,8 @@ Following the \ac{3D-MF} methodology for galaxy cluster catalog generation, the 
 \begin{center}
 %\vspace{0.2cm}
   \includegraphics[scale=0.7]{plots_ch4/MassSig_relation.eps}
-  \caption[Mass-Significance Relation]{Scaling of shear-measured mass $M_{200}$ with the \ac{3D-MF} cluster detection significance $\sigma_{\rm cl}$. Since we find significance to be a good proxy for mass, we use the derived mass-significance relation to estimate a radius $R_{200}$ for each cluster candidate, within which we count galaxies for richness $N_{200}$, as described in the Section \ref{3DMF}.}
-\label{plot:masssig} %labels must be after caption
+  \caption[Mass-Significance Relation]{Scaling of shear-measured mass $M_{200}$ with the \ac{3D-MF} cluster detection significance $\sigma_{\rm cl}$. Since we find significance to be a good proxy for mass, we use the derived mass-significance relation to estimate a radius $R_{200}$ for each cluster candidate, within which we count galaxies for richness $N_{200}$, as described in the \autoref{sec:3DMF4}.}
+\label{plot:masssig4} %labels must be after caption
 \end{center}
 \end{figure}
 
@@ -77,36 +78,36 @@ Following the \ac{3D-MF} methodology for galaxy cluster catalog generation, the 
 \vspace{0.5cm}
   \includegraphics[scale=0.9]{plots_ch4/hists_N200_z_NoGaps.eps}
   \caption[Richness and Redshift Distributions of \ac{3D-MF} Clusters]{Number of \ac{3D-MF} cluster candidates as a function of richness $N_{200}$ and redshift $z$.}
-\label{plot:hists}
+\label{plot:hists4}
 \end{center}
 \end{figure}
 
 In \citet{Ford14}, we described our method of calculating richness for each of these candidate clusters. $N_{200}$ is defined to be the number of member galaxies brighter than absolute magnitude $M_i \ge -19.35$, which is chosen to match the limiting magnitude at the furthest cluster redshift that we probe ($N_{200}$ is background-subtracted; there is no correction for passive evolution). To be considered a cluster member, a galaxy must lie within a projected radius $R_{200}$ of a cluster center, and have $\Delta z < 0.08(1+z)$ \citep[based on the photometric errors of the \ac{CFHTLenS} catalog; for details regarding $N_{200}$ see][]{Ford14}. $R_{200}$ is defined as radius within which the average density is 200 times the critical energy density of the Universe ($M_{200}$ is the total mass inside $R_{200}$), and in this work has been re-estimated from the data as follows. 
 
-Initially cluster candidates were stacked in bins of cluster detection significance $\sigma_{cl}$, which was found to correlate well with the amplitude of the measured shear profiles, and therefore with mass (see Figure \ref{plot:masssig}). These preliminary masses were estimated using the same method described in Section \ref{method}. A new mass-significance relationship,
+Initially cluster candidates were stacked in bins of cluster detection significance $\sigma_{cl}$, which was found to correlate well with the amplitude of the measured shear profiles, and therefore with mass (see \autoref{plot:masssig4}). These preliminary masses were estimated using the same method described in \autoref{sec:method4}. A new mass-significance relationship,
 \begin{equation}
-\label{eqn:masssig}
+\label{eqn:masssig4}
 \mathrm{log}\left[ \frac{M_{200}^{\rm prelim}}{M_{\odot}} \right] = \left( 0.161^{+0.006}_{-0.009} \right) \sigma_{\rm cl} + 12.39^{+0.05}_{-0.08},
 \end{equation}
-was derived from this result and the preliminary mass values converted into the corresponding radii, which were used to count galaxies for richness ($\sigma_{\rm cl} \rightarrow M_{200}^{\rm prelim} \rightarrow R_{200} \rightarrow N_{200}$). Compared with the richness estimates used in \citet{Ford14}, which were based on a preliminary shear analysis using a more basic cluster modeling approach \citep{MMthesis11}, the updated richnesses are larger in most cases (see the Full Model description in Section \ref{sec:halomodel} for improvements). For the log-normal curve in Figure \ref{plot:masssig}, as well as for all models fit in this work, the best fit is the curve that minimizes $\chi^2$, using a downhill simplex algorithm to search parameter space.
+was derived from this result and the preliminary mass values converted into the corresponding radii, which were used to count galaxies for richness ($\sigma_{\rm cl} \rightarrow M_{200}^{\rm prelim} \rightarrow R_{200} \rightarrow N_{200}$). Compared with the richness estimates used in \citet{Ford14}, which were based on a preliminary shear analysis using a more basic cluster modeling approach \citep{MMthesis11}, the updated richnesses are larger in most cases (see the Full Model description in \autoref{sec:halomodel4} for improvements). For the log-normal curve in \autoref{plot:masssig4}, as well as for all models fit in this work, the best fit is the curve that minimizes $\chi^2$, using a downhill simplex algorithm to search parameter space.
 
 %N200-SIG RELATION
 \begin{figure}
 \begin{center}
 \vspace{0.2cm}
   \includegraphics[scale=0.7]{plots_ch4/N200vsSig.eps}
-  \caption[Richness-Significance Scaling]{Scaling of richness $N_{200}$ with the \ac{3D-MF} cluster detection significance $\sigma_{\rm cl}$. Error bars denote the standard deviation of the ensemble of $N_{200}$ values in each $\sigma_{\rm cl}$ bin. Since $N_{200}$ is estimated using individual cluster radii calculated from the mass-significance relation (Equation \ref{eqn:masssig}), this figure confirms what we would expect -- a strong scaling between richness and significance.}
-\label{plot:n200sig} %labels must be after caption
+  \caption[Richness-Significance Scaling]{Scaling of richness $N_{200}$ with the \ac{3D-MF} cluster detection significance $\sigma_{\rm cl}$. Error bars denote the standard deviation of the ensemble of $N_{200}$ values in each $\sigma_{\rm cl}$ bin. Since $N_{200}$ is estimated using individual cluster radii calculated from the mass-significance relation (\autoref{eqn:masssig4}), this figure confirms what we would expect -- a strong scaling between richness and significance.}
+\label{plot:n200sig4} %labels must be after caption
 \end{center}
 \end{figure}
 
-Cluster candidates used in this work are required to have at least $N_{200} > 2$, and a detection significance $\ge 3.5$. The richness and redshift distributions are summarized in Figure \ref{plot:hists}. Figure \ref{plot:n200sig} shows the relative scaling between richness and detection significance. The final catalog contains the same 18,036 cluster candidates used in \citet{Ford14}, now with updated richness estimates based on the shear mass-significance scaling just described. There are also 20 additional low-significance cluster candidates whose revised $N_{200}$ now survive the cuts -- these systems have negligible impact on the overall results, but do increase the total number of clusters to 18,056. The full \ac{3D-MF} catalog is available at \url{cfhtlens.org}.  
+Cluster candidates used in this work are required to have at least $N_{200} > 2$, and a detection significance $\ge 3.5$. The richness and redshift distributions are summarized in \autoref{plot:hists4}. \autoref{plot:n200sig4} shows the relative scaling between richness and detection significance. The final catalog contains the same 18,036 cluster candidates used in \citet{Ford14}, now with updated richness estimates based on the shear mass-significance scaling just described. There are also 20 additional low-significance cluster candidates whose revised $N_{200}$ now survive the cuts -- these systems have negligible impact on the overall results, but do increase the total number of clusters to 18,056. The full \ac{3D-MF} catalog is available at \url{cfhtlens.org}.  
 
 
 %==========================================================================
 
 \section{Method}
-\label{method}
+\label{sec:method4}
 %----------------------------------------------
 
 \subsection{Stacking Galaxy Clusters}
@@ -120,32 +121,32 @@ For this analysis, the cluster candidates are stacked in bins of richness $N_{20
 %----------------------------------------------
 
 \subsection{Measuring $\Delta\Sigma$}
-\label{sec:measure}
+\label{sec:measure4}
 
-We measure the radial profile of the tangential shear, $\gamma_t(R)$, around each cluster candidate in bins of projected {\it physical} distance $R$, extending from 0.09 to 5 Mpc. The logarithmically-spaced radial bins are chosen to match those used in \citet{Ford14}, which we compare results to in Section \ref{sec:magn}, and the resulting mass measurements are insensitive to small adjustments in the innermost radii. To select background galaxies for measuring shear, we use their redshift probability distributions $P(z_s)$, where $z_s$ is the source redshift. Relative to a given cluster redshift ($z_l$), we require both that (1) the peak of a galaxy's $P(z_s)$ distribution is at higher redshift, and (2) at least 90\% of a galaxy's $P(z_s)$ is at higher redshift. The second requirement is designed to account for the occasional galaxy with an odd $P(z_s)$, which may peak at high redshift (and so would be included in many conventional shear analyses), but could perhaps have a non-negligible tail extending to low $z$, or even be bimodal.
+We measure the radial profile of the tangential shear, $\gamma_{\rm t}(R)$, around each cluster candidate in bins of projected {\it physical} distance $R$, extending from 0.09 to 5 Mpc. The logarithmically-spaced radial bins are chosen to match those used in \citet{Ford14}, which we compare results to in \autoref{sec:magn4}, and the resulting mass measurements are insensitive to small adjustments in the innermost radii. To select background galaxies for measuring shear, we use their redshift probability distributions $P(z_{\rm s})$, where $z_{\rm s}$ is the source redshift. Relative to a given cluster redshift ($z_{\rm l}$), we require both that (1) the peak of a galaxy's $P(z_{\rm s})$ distribution is at higher redshift, and (2) at least 90\% of a galaxy's $P(z_{\rm s})$ is at higher redshift. The second requirement is designed to account for the occasional galaxy with an odd $P(z_s)$, which may peak at high redshift (and so would be included in many conventional shear analyses), but could perhaps have a non-negligible tail extending to low $z$, or even be bimodal.
 
 From the individual shear profiles we construct $\Delta\Sigma$, the differential surface mass density, for each stacked cluster candidate sample: 
 \begin{equation}
-\label{eqn:deltasig}
-\Delta\Sigma(R) \equiv \overline{\Sigma}(<R)-\Sigma(R) = \langle \gamma_t(R) \rangle \Sigma_{\mathrm{crit}}.
+\label{eqn:deltasig4}
+\Delta\Sigma(R) \equiv \overline{\Sigma}(<R)-\Sigma(R) = \langle \gamma_{\rm t}(R) \rangle \Sigma_{\mathrm{crit}}.
 \end{equation}
 Here $\Sigma(R)$ is the surface mass density of a lens, and $\Sigma_{\mathrm{crit}}$ is the critical surface mass density, which depends on the geometry of the lens-source pairs. It is given by
 \begin{equation}
-\label{eqn:sigcrit}
-\Sigma_{\mathrm{crit}} = \frac{c^2}{4 \pi G} \frac{D_s}{D_l D_{ls}},
+\label{eqn:sigcrit4}
+\Sigma_{\mathrm{crit}} = \frac{c^2}{4 \pi G} \frac{D_{\rm s}}{D_{\rm l} D_{\rm ls}},
 \end{equation}
-where $c$ is the speed of light and $D_s$, $D_l$, and $D_{ls}$, are the angular diameter distances to the source, to the lens, and between the lens and source, respectively. 
+where $c$ is the speed of light and $D_{\rm s}$, $D_{\rm l}$, and $D_{\rm ls}$, are the angular diameter distances to the source, to the lens, and between the lens and source, respectively. 
 
-In computing $\Sigma_{\mathrm{crit}}$ for {\it each lens-source pair}, we treat the individual lens $z_l$ as fixed, and integrate over the full source $P(z_s)$, for $z_s > z_l$, to compute the distances:
+In computing $\Sigma_{\mathrm{crit}}$ for {\it each lens-source pair}, we treat the individual lens $z_{\rm l}$ as fixed, and integrate over the full source $P(z_{\rm s})$, for $z_{\rm s} > z_{\rm l}$, to compute the distances:
 \begin{equation}
-D_s = \int_{z_l}^{\infty} d_A(0,z_s) P(z_s) {\rm d}z_s
+D_s = \int_{z_{\rm l}}^{\infty} d_A(0,z_s) P(z_{\rm s}) {\rm d}z_{\rm s}
 \end{equation}
 \begin{equation}
-D_{ls} = \int_{z_l}^{\infty} d_A(z_l,z_s) P(z_s) {\rm d}z_s
+D_{ls} = \int_{z_{\rm l}}^{\infty} d_A(z_{\rm l},z_{\rm s}) P(z_{\rm s}) {\rm d}z_{\rm s}
 \end{equation}
-Here $d_A$ is the angular diameter distance between two redshifts (and $D_l$ is simply $d_A(0,z_l)$). The source redshift probability distribution is renormalized behind the lens, so that $\int_{z_l}^{\infty} P(z_s) {\rm d}z_s = 1$. Using the full $P(z_s)$ distribution should improve any residual photo-$z$ calibration bias in the lensing measurement \citep{Mandelbaum08a}.
+Here $d_A$ is the angular diameter distance between two redshifts (and $D_{\rm l}$ is simply $d_A(0,z_{\rm l})$). The source redshift probability distribution is renormalized behind the lens, so that $\int_{z_{\rm l}}^{\infty} P(z_{\rm s}) {\rm d}z_{\rm s} = 1$. Using the full $P(z_{\rm s})$ distribution should improve any residual photo-$z$ calibration bias in the lensing measurement \citep{Mandelbaum08a}.
 
-We follow the same procedure described in detail in \citet{Velander14}, wherein we combine shear profiles using the $lens$fit source weighting \citep[Equation 8 of][]{Miller13}, and apply a correction for multiplicative bias \citep{Miller13}, so that the $\langle \gamma_t(R) \rangle$ appearing in Equation \ref{eqn:deltasig} is the average {\it calibrated} tangential shear. We estimate a covariance matrix for each stacked sample, by running 100 sets of bootstrapped cluster measurements, and calculating the covariance as:
+We follow the same procedure described in detail in \citet{Velander14}, wherein we combine shear profiles using the $lens$fit source weighting \citep[Equation 8 of][]{Miller13}, and apply a correction for multiplicative bias \citep{Miller13}, so that the $\langle \gamma_{\rm t}(R) \rangle$ appearing in \autoref{eqn:deltasig4} is the average {\it calibrated} tangential shear. We estimate a covariance matrix for each stacked sample, by running 100 sets of bootstrapped cluster measurements, and calculating the covariance as:
 \begin{equation}
 \begin{split}
 %C(R_i,R_j) = \left[ \frac{N^2}{(N-1)^2} \right] \frac{1}{N} \sum_{k=1}^{N} \left[\Delta\Sigma_k(R_i) - \overline{\Delta\Sigma}(R_i)\right] \\
@@ -153,20 +154,20 @@ C(R_i,R_j) = \left[ \frac{N}{N-1} \right]^2 \frac{1}{N} \sum_{k=1}^{N} \left[\De
 \times \left[\Delta\Sigma_k(R_j) - \overline{\Delta\Sigma}(R_j)\right]
 \end{split}
 \end{equation}
-Here $N$ is the number of bootstrap samples, $R_i$ and $R_j$ denote specific angular bins, and $\overline{\Delta\Sigma}(R_i)$ is the differential surface mass density at $R_i$, averaged across all bootstrap realizations. The square-root of the diagonal of this matrix yields the error bars displayed on the weak lensing measurements in Section \ref{sec:results}. We confirm that $N=100$ bootstrap realizations of the data is sufficient by tracking the covariance estimated from different numbers of bootstrapped samples and checking for convergence, which typically occurs at around 40 realizations. We use the full covariance matrices when fitting to the data, as will be described in Section 4.1.
+Here $N$ is the number of bootstrap samples, $R_i$ and $R_j$ denote specific angular bins, and $\overline{\Delta\Sigma}(R_i)$ is the differential surface mass density at $R_i$, averaged across all bootstrap realizations. The square-root of the diagonal of this matrix yields the error bars displayed on the weak lensing measurements in \autoref{sec:results4}. We confirm that $N=100$ bootstrap realizations of the data is sufficient by tracking the covariance estimated from different numbers of bootstrapped samples and checking for convergence, which typically occurs at around 40 realizations. We use the full covariance matrices when fitting to the data, as will be described in \autoref{sec:fits4}.
 
-We test our $\Delta\Sigma$ measurements for systematics by measuring the rotated shear $\gamma_r(R)$ (where each galaxy ellipticity is rotated by 45$^{\circ}$), finding a signal consistent with zero. We also check that masked areas and edge effects are not affecting our measurement, by measuring $\Delta\Sigma$ around many randomly chosen points ($>$ 50 times the number of cluster candidates), and we find no significant signal here either.
+We test our $\Delta\Sigma$ measurements for systematics by measuring the rotated shear $\gamma_{\rm r}(R)$ (where each galaxy ellipticity is rotated by 45$^{\circ}$), finding a signal consistent with zero. We also check that masked areas and edge effects are not affecting our measurement, by measuring $\Delta\Sigma$ around many randomly chosen points ($>$ 50 times the number of cluster candidates), and we find no significant signal here either.
 
 \subsubsection{The \ac{NFW} model}
-\label{sec:nfw}
+\label{sec:nfw4}
 
 We use the \acf{NFW} dark matter density profile \citep{nfw97} for modeling $\Delta\Sigma$. As demonstrated by numerical simulations, the dissipationless collapse of density fluctuations under gravity produces overdensities that are approximated well by the \ac{NFW} profile
 \begin{equation}
 \rho_{\mathrm{NFW}}(r) = \frac{\delta_{\rm c} \rho_{\mathrm{crit}}(z)}{(r/r_{\rm s})(1+r/r_{\rm s})^2},
 \end{equation}
-where $\delta_{\rm c}$ is the characteristic overdensity of a halo, and $\rho_{\mathrm{crit}}(z)$ is the critical energy density of the Universe at that redshift. The scale radius is $r_{\rm s} = R_{200}/c_{200}$, where $c_{200}$ is the concentration parameter (not to be confused with the speed of light $c$ in Equation \ref{eqn:sigcrit}). $R_{200}$ is the cluster radius, and the total mass within that radius is known as $M_{200}$. \citet{Wright00} derived the \ac{NFW} forms of the projected mass density profiles in Equation \ref{eqn:deltasig}, which we make use of in this work.
+where $\delta_{\rm c}$ is the characteristic overdensity of a halo, and $\rho_{\mathrm{crit}}(z)$ is the critical energy density of the Universe at that redshift. The scale radius is $r_{\rm s} = R_{200}/c_{200}$, where $c_{200}$ is the concentration parameter (not to be confused with the speed of light $c$ in \autoref{eqn:sigcrit4}). $R_{200}$ is the cluster radius, and the total mass within that radius is known as $M_{200}$. \citet{Wright00} derived the \ac{NFW} forms of the projected mass density profiles in \autoref{eqn:deltasig4}, which we make use of in this work.
 
-In general, the \ac{NFW} profile is a two parameter model for the halo density, commonly parametrized in terms of $M_{200}$ and $c_{200}$. However, there is a well-established correlation between these two parameters, and it is common to introduce a mass-concentration relation to reduce the dimensionality of the problem (note that concentration itself may be degenerate with cluster centroid offsets, which will be discussed in Section \ref{sec:miscentering}). In this work we invoke the mass-concentration relation recently presented by \citet{Dutton14} for the \acs{Planck} cosmological parameters, which successfully characterizes the profiles of simulated haloes spanning a wide range of masses and redshifts. Given a cluster mass, the concentration is then fixed, and we have just a single mass-related fit parameter to deal with.
+In general, the \ac{NFW} profile is a two parameter model for the halo density, commonly parametrized in terms of $M_{200}$ and $c_{200}$. However, there is a well-established correlation between these two parameters, and it is common to introduce a mass-concentration relation to reduce the dimensionality of the problem (note that concentration itself may be degenerate with cluster centroid offsets, which will be discussed in \autoref{sec:miscentering4}). In this work we invoke the mass-concentration relation recently presented by \citet{Dutton14} for the \acs{Planck} cosmological parameters, which successfully characterizes the profiles of simulated halos spanning a wide range of masses and redshifts. Given a cluster mass, the concentration is then fixed, and we have just a single mass-related fit parameter to deal with.
 
 
 
@@ -176,7 +177,7 @@ In general, the \ac{NFW} profile is a two parameter model for the halo density, 
 %\vspace{0.8cm}
   \includegraphics[scale=1.0]{plots_ch4/PofRc_DeltaSigma_example.eps}
   \caption[Example of Miscentering Effect on Shear Profile]{This figure is an illustrative example of typical $\Delta\Sigma(R)$ and $\Delta\Sigma^{\rm sm}(R)$ profiles, to demonstrate the effects of cluster miscentering (Equations 7 -- 11) on measured shear density profiles. The left-hand panel shows a typical probability distribution of centroid offsets, $P(R_{\mathrm{off}})$, modeled via a 2D Gaussian with $\sigma_{\mathrm{off}}$ = 0.4 arcmin. The right-hand panel demonstrates the effect of this offset distribution on the measured shear profile (in vertical axis units of [$M_{\odot}$/pc$^2$]) of a fiducial halo of mass $M_{200}=10^{14} M_{\odot}$, located at $z=0.5$. The dashed black curve shows the perfectly centered $\Delta\Sigma(R)$ profile, and the solid blue curve shows the miscentered profile $\Delta\Sigma^{\rm sm}(R)$. In both panels, the vertical dotted line marks the location of the miscentering offset $\sigma_{\mathrm{off}}$, to guide the eye in the comparison.}
-\label{plot:miscentering}
+\label{plot:miscentering4}
 \end{center}
 \end{figure}
 
@@ -187,31 +188,31 @@ The gravitational lensing observable is galaxy shapes. From these, we measure th
 \begin{equation}
 \widehat{\Delta\Sigma} = \Delta\Sigma + \Delta\Sigma \ \Sigma \ \mathcal{L}_z,
 \end{equation}
-where $\mathcal{L}_z = \langle \Sigma_{\mathrm{crit}}^{-3} \rangle / \langle \Sigma_{\mathrm{crit}}^{-2} \rangle$ is calculated for each cluster redshift, using the full distribution of background galaxies satisfying the same redshift requirements outlined in Section \ref{sec:measure}. Similar to \citet{Leauthaud10}, we ignore any radial variations of $\mathcal{L}_z$, but do account for the variation with redshift, as our cluster sample spans a large $z$ range. The entire correction term $\Delta\Sigma \ \Sigma \ \mathcal{L}_z$ is negligible at all radii except for the innermost bin, where it typically makes up a few percent (at most $\sim$10\%) of the measured signal.
+where $\mathcal{L}_z = \langle \Sigma_{\mathrm{crit}}^{-3} \rangle / \langle \Sigma_{\mathrm{crit}}^{-2} \rangle$ is calculated for each cluster redshift, using the full distribution of background galaxies satisfying the same redshift requirements outlined in \autoref{sec:measure4}. Similar to \citet{Leauthaud10}, we ignore any radial variations of $\mathcal{L}_z$, but do account for the variation with redshift, as our cluster sample spans a large $z$ range. The entire correction term $\Delta\Sigma \ \Sigma \ \mathcal{L}_z$ is negligible at all radii except for the innermost bin, where it typically makes up a few percent (at most $\sim$10\%) of the measured signal.
 
 %----------------------------------------------
 
 \subsection{Miscentering Formalism}
-\label{sec:miscentering}
+\label{sec:miscentering4}
 
 As was shown in \citet{Milkeraitis10}, \ac{3D-MF} does not always determine the exact correct center for a galaxy cluster, and clusters may not always have a well-defined center. This is a problem with all galaxy cluster finders and dealing with it properly involves understanding and quantifying its effects, such as including the uncertainty of the center in calculations. The amplitude of measured shear profiles is absolutely dependent on the declared center of the profile, so miscentering can potentially have a large impact on results. Offset cluster centers that are mistakenly modeled as being the true centers of the gravitational potentials will lead to underestimates in the inferred lens masses.
 
 In our first analysis of the \ac{3D-MF} cluster candidates, we found modest evidence for cluster centroid errors \citep{Ford14}. However, that work relied on the lensing magnification technique, which is less sensitive to these effects than the shear, since magnification directly probes $\Sigma(R)$, while it is $\Delta\Sigma(R)$ that is more drastically reduced by a misplaced center. See, for example, fig. 4 in \citet{Johnston07}, for a nice illustration of the comparative effect of miscentering on these two lensing profiles. 
 
-In this work, we are able to directly quantify the presence of cluster miscentering by fitting for the offsets in our measurements of $\Delta\Sigma$. As will be shown in Section 4, we find that the best-fitting distribution of centroid offsets is in agreement with the following distribution based on simulations, which we assumed in \citet{Ford14}. 
+In this work, we are able to directly quantify the presence of cluster miscentering by fitting for the offsets in our measurements of $\Delta\Sigma$. As will be shown in \autoref{sec:results4}, we find that the best-fitting distribution of centroid offsets is in agreement with the following distribution based on simulations, which we assumed in \citet{Ford14}. 
 
 The distribution of cluster offsets can be modeled as a two-dimensional Gaussian, by using a uniform angular distribution and the following radial profile:
 \begin{equation}
 P(R_{\mathrm{off}})=\frac{R_{\mathrm{off}}}{\sigma_{\mathrm{off}}^2}\ \mathrm{exp}\bigg[-\frac{1}{2}\bigg(\frac{R_{\mathrm{off}}}{\sigma_{\mathrm{off}}}\bigg)^2\ \bigg].
 \end{equation}
-Here, $R_{\mathrm{off}}$ is the projected offset of the \ac{3D-MF} derived galaxy cluster center from the true galaxy cluster center, and $\sigma_{\mathrm{off}}$ is the width of the distribution and one of the miscentering parameters which we fit to the stacked shear measurement. An example $P(R_{\mathrm{off}})$ curve is plotted in the left-hand panel of Figure \ref{plot:miscentering}, for $\sigma_{\mathrm{off}}$=0.4 arcmin. Note that we use physical units (e.g. Mpc) for most distances in this work, the exception being $\sigma_{\mathrm{off}}$ which we report in angular size (arcmin). The reason for this choice is that we believe a significant contribution to miscentering derives from \ac{3D-MF}'s cluster characterization, which does not for example select a member galaxy as the center (this choice of angular size is a matter of taste, since complex cluster physics certainly contributes to ambiguous halo centers). 
+Here, $R_{\mathrm{off}}$ is the projected offset of the \ac{3D-MF} derived galaxy cluster center from the true galaxy cluster center, and $\sigma_{\mathrm{off}}$ is the width of the distribution and one of the miscentering parameters which we fit to the stacked shear measurement. An example $P(R_{\mathrm{off}})$ curve is plotted in the left-hand panel of \autoref{plot:miscentering4}, for $\sigma_{\mathrm{off}}$=0.4 arcmin. Note that we use physical units (e.g. Mpc) for most distances in this work, the exception being $\sigma_{\mathrm{off}}$ which we report in angular size (arcmin). The reason for this choice is that we believe a significant contribution to miscentering derives from \ac{3D-MF}'s cluster characterization, which does not for example select a member galaxy as the center (this choice of angular size is a matter of taste, since complex cluster physics certainly contributes to ambiguous halo centers). 
 
 The effect of this offset distribution $P(R_{\mathrm{off}})$ is to reduce the ideal $\Sigma(R)$ to a smoothed profile \citep[see e.g.][]{Johnston07,George12}
 \begin{equation}
-\label{EQ:sigsmooth}
+\label{eqn:sigsmooth4}
 \Sigma^{\rm sm}(R)=\int_{0}^{\infty} \Sigma(R|R_{\mathrm{off}})\ P(R_{\mathrm{off}})\ \mathrm{d}R_{\mathrm{off}},
 \end{equation}
-which is illustrated in the right-hand panel of Figure \ref{plot:miscentering}. Equation \ref{EQ:sigsmooth} is an integration over all possible values of $R_{\mathrm{off}}$ in the distribution. The expression for the surface mass density at a single $R_{\mathrm{off}}$ is
+which is illustrated in the right-hand panel of \autoref{plot:miscentering4}. \autoref{eqn:sigsmooth4} is an integration over all possible values of $R_{\mathrm{off}}$ in the distribution. The expression for the surface mass density at a single $R_{\mathrm{off}}$ is
 \begin{equation}
 \Sigma(R|R_{\mathrm{off}})=\frac{1}{2\pi}\int_{0}^{2\pi}\Sigma(r) \mathrm{d}\theta,
 \end{equation}
@@ -231,22 +232,17 @@ As a caveat, we note that the degree of miscentering is fairly degenerate with t
 %----------------------------------------------
 
 \subsection{The Halo Model}
-\label{sec:halomodel}
+\label{sec:halomodel4}
 Weak lensing measurements are sensitive to the fact that structures in the Universe are spatially correlated. We account for this large scale clustering using the halo model, which provides a useful framework for modeling the clustered and complex dark matter environments that we probe in gravitational lensing studies. This phenomenological approach places all the matter in the Universe into spherical haloes, which are clustered according to their mass. Observables such as galaxies and clusters are considered biased tracers of the underlying dark matter distribution, with a bias factor that has been constrained in many numerical simulations \citep[e.g.][]{Mo96,Sheth99,Tinker10}. See \citet{Cooray02} for an extensive review of the halo model.
 
 We follow an approach similar to \citet{Johnston07}, in considering a two-halo term in addition to the main \ac{NFW} halo fit to our weak lensing shear measurement. Calculation of the two-halo term is identical to our approach in \citet{Ford14}, and we refer the reader there for explicit details. The two-halo term is proportional to a cluster bias factor which depends on mass, and for this we continue to use the bias relation of \citet{Seljak04}. The full model including the two-halo term is:
 \begin{equation}
 \Delta\Sigma(R) = p_{\mathrm{cc}}\Delta\Sigma_{\mathrm{NFW}} +(1-p_{\mathrm{cc}})\Delta\Sigma_{\mathrm{NFW}}^{\rm sm} + \Delta\Sigma_{\mathrm{2halo}}
-\label{modelEQ}
+\label{modelEQ4}
 \end{equation}
 
 The fraction of cluster candidates that is {\it correctly centered} on their parent dark matter haloes, $p_{\mathrm{cc}}$, is a parameter that we fit to the data. $p_{\mathrm{cc}}$ is a continuous variable, bounded between 0 and 1, fit separately for each stacked weak lensing measurement. Thus we have two cluster-centering-related parameters ($p_{\mathrm{cc}}$ and $\sigma_{\mathrm{off}}$), as well as one mass-related parameter ($M_0$), in the final modeling of the data.
 
-
-%==========================================================================
-
-\section{Galaxy Cluster Weak Lensing Shear Results}
-\label{sec:results}
 
 %----------------------------------------------
 %RICHNESS-BINNED PLOTS
@@ -254,8 +250,8 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
 \begin{center}
 %\vspace{2.cm}
   \includegraphics[scale=0.9]{plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio.eps}
-  \caption[Shear for Richness-Binned Clusters]{Best-fitting models for each richness-binned stack of cluster candidates. The solid green curves are the best fits to the full model given by Equation \ref{modelEQ}. The dashed purple curves are the best-fitting models which assumes that every cluster center identified by \ac{3D-MF} is perfectly aligned with the dark matter halo center. With the exception of the lowest richness bin, where the best-fitting curves coincide, the perfectly centered model does not provide a good fit to the data at small $R$. Tables \ref{richbintable1} and \ref{richbintable2} summarize the results of both fits.}
-\label{plot:nbinned}
+  \caption[Shear for Richness-Binned Clusters]{Best-fitting models for each richness-binned stack of cluster candidates. The solid green curves are the best fits to the full model given by \autoref{modelEQ4}. The dashed purple curves are the best-fitting models which assumes that every cluster center identified by \ac{3D-MF} is perfectly aligned with the dark matter halo center. With the exception of the lowest richness bin, where the best-fitting curves coincide, the perfectly centered model does not provide a good fit to the data at small $R$. \autoref{richbintable14} and \autoref{richbintable24} summarize the results of both fits.}
+\label{plot:nbinned4}
 \end{center}
 \end{figure}
 
@@ -264,8 +260,8 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
 \begin{center}
 %\vspace{1.2cm}
   \includegraphics[scale=1.0]{plots_ch4/m200panels_NoGaps.eps}
-  \caption[Cluster Mass Distributions for each Richness Bin]{The underlying distribution of cluster candidate masses, within each of the six richness bins in Figure \ref{plot:nbinned}, for the full miscentered model. Because the parameters fit to the shear measurements are the normalization of the mass-richness relation (Equation \ref{MNeq}) and the miscentering parameters $p_{\mathrm{cc}}$ and $\sigma_{\mathrm{off}}$, the full ({\it not binned}) set of cluster $N_{200}$ values are each converted to an individual cluster mass. We bin these masses for presentation in the above histograms only, but emphasize that the composite-halo modeling approach in this work treats every cluster candidate as having an individual mass (richness) and redshift. This figure is also a visual representation of the \ac{3D-MF} cluster mass function, as obtained from weak lensing shear.}
-\label{plot:multimass}
+  \caption[Cluster Mass Distributions for each Richness Bin]{The underlying distribution of cluster candidate masses, within each of the six richness bins in \autoref{plot:nbinned4}, for the full miscentered model. Because the parameters fit to the shear measurements are the normalization of the mass-richness relation (\autoref{MNeq4}) and the miscentering parameters $p_{\mathrm{cc}}$ and $\sigma_{\mathrm{off}}$, the full ({\it not binned}) set of cluster $N_{200}$ values are each converted to an individual cluster mass. We bin these masses for presentation in the above histograms only, but emphasize that the composite-halo modeling approach in this work treats every cluster candidate as having an individual mass (richness) and redshift. This figure is also a visual representation of the \ac{3D-MF} cluster mass function, as obtained from weak lensing shear.}
+\label{plot:multimass4}
 \end{center}
 \end{figure}
 
@@ -277,7 +273,7 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
 %TABLE FOR RICHNESS-BINNED PLOTS - FULL MODEL
 \begin{table}
 \centering
-    \caption[Shear Results for Richness-Binned Clusters (Full Model)]{Details of the ``Full Model'' fits for the richness-binned measurements (Equation \ref{modelEQ}, green curves in Figure \ref{plot:nbinned}). This model has 7 degrees of freedom. We list the richness range selected, the number of cluster candidates in that bin, the shear detection significance, and the average richness and redshift of clusters in the bin. Fitted parameters include the centering-related parameters $p_{\mathrm{cc}}$ and $\sigma_{\mathrm{off}}$, and the normalization of the mass-richness relation $M_0$, from which the average mass in each bin $\langle M_{200} \rangle$ is derived. Note that the average mass given is not the value fit itself, but the average of all resulting masses fit using the composite-halo approach discussed in Section \ref{sec:nfw}. See Figure \ref{plot:multimass} for a summary of the mass distributions within each $N_{200}$ bin. Reduced generalized $\chi^2$ are given for each bin, and should be compared with the corresponding fits listed in Table \ref{richbintable2}, for the simple one-parameter model assuming perfect centers.}
+    \caption[Shear Results for Richness-Binned Clusters (Full Model)]{Details of the ``Full Model'' fits for the richness-binned measurements (\autoref{modelEQ4}, green curves in \autoref{plot:nbinned4}). This model has 7 degrees of freedom. We list the richness range selected, the number of cluster candidates in that bin, the shear detection significance, and the average richness and redshift of clusters in the bin. Fitted parameters include the centering-related parameters $p_{\mathrm{cc}}$ and $\sigma_{\mathrm{off}}$, and the normalization of the mass-richness relation $M_0$, from which the average mass in each bin $\langle M_{200} \rangle$ is derived. Note that the average mass given is not the value fit itself, but the average of all resulting masses fit using the composite-halo approach discussed in \autoref{sec:nfw4}. See \autoref{plot:multimass4} for a summary of the mass distributions within each $N_{200}$ bin. Reduced generalized $\chi^2$ are given for each bin, and should be compared with the corresponding fits listed in \autoref{richbintable24}, for the simple one-parameter model assuming perfect centers.}
     \begin{tabular}{llllllllll}
       \hline
       Richness & Clusters & Significance & $\langle N_{200} \rangle$ & $\langle z_l \rangle$ & $p_{\mathrm{cc}}$ & $\sigma_{\mathrm{off}}$ & $M_0 \left[ 10^{13} M_{\odot}\right]$ & $\langle M_{200} \rangle \left[ 10^{13} M_{\odot}\right]$ & $\chi^2_{\mathrm{red}}$ \\ \hline
@@ -289,13 +285,13 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
       60 $<N_{200}$ & 314 & 22.5$\sigma$ & 114 & 0.55 & 0.5$\pm$0.2 & $(0.4^{+0.2}_{-0.1})'$ & $1.6^{+0.4}_{-0.5}$ & 26$^{+6}_{-7}$ & 3.4 \\
       \hline
     \end{tabular}
-\label{richbintable1}
+\label{richbintable14}
 \end{table}
 
 %TABLE FOR RICHNESS-BINNED PLOTS - Pcc=1 MODEL
 \begin{table}
 \centering
-    \caption[Shear Results for Richness-Binned Clusters (Perfectly Centered Model)]{This table is a companion to Table \ref{richbintable1}, giving details of the $p_{\mathrm{cc}} \equiv 1$ model fits for the richness-binned measurements (purple dashed curves in Figure \ref{plot:nbinned}). This model has 9 degrees of freedom. We list the richness range selected (the reader can refer to Table \ref{richbintable1} for the number of clusters, shear significance, and average richness and redshift). For this model, there is a single fit parameter, the normalization of the mass-richness relation $M_0$, from which $\langle M_{200} \rangle$ is derived (again see Figure \ref{plot:multimass} for the full distribution of masses in each richness bin).}
+    \caption[Shear Results for Richness-Binned Clusters (Perfectly Centered Model)]{This table is a companion to \autoref{richbintable14}, giving details of the $p_{\mathrm{cc}} \equiv 1$ model fits for the richness-binned measurements (purple dashed curves in \autoref{plot:nbinned4}). This model has 9 degrees of freedom. We list the richness range selected (the reader can refer to \autoref{richbintable14} for the number of clusters, shear significance, and average richness and redshift). For this model, there is a single fit parameter, the normalization of the mass-richness relation $M_0$, from which $\langle M_{200} \rangle$ is derived (again see \autoref{plot:multimass4} for the full distribution of masses in each richness bin).}
     \begin{tabular}{llll}
       \hline
       Richness & $M_0 \left[ 10^{13} M_{\odot}\right]$ & $\langle M_{200} \rangle \left[ 10^{13} M_{\odot}\right]$ & $\chi^2_{\mathrm{red}}$ \\ \hline
@@ -307,13 +303,13 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
       60 $<N_{200}$ & 1.4$\pm$0.2 & 23$\pm$3 & 4.4  \\
       \hline
     \end{tabular}
-\label{richbintable2}
+\label{richbintable24}
 \end{table}
 
 %TABLE FOR Z-BINNED PLOTS - FULL MODEL
 \begin{table}
 \centering
-    \caption[Shear Results for Redshift-Binned Clusters (Full Model)]{Details of the ``Full Model'' fits for the redshift-binned measurements (green curves in Figure \ref{plot:zbinned}). This model has 7 degrees of freedom. We list the same bin properties and fits given in Table \ref{richbintable1}. The systematic errors listed on some cluster masses stem from uncertainties on the exact redshift of the cluster candidate. The fits in this table should be compared with the corresponding values in Table \ref{ztable2}, which represents the perfectly centered model.}
+    \caption[Shear Results for Redshift-Binned Clusters (Full Model)]{Details of the ``Full Model'' fits for the redshift-binned measurements (green curves in \autoref{plot:zbinned4}). This model has 7 degrees of freedom. We list the same bin properties and fits given in \autoref{richbintable14}. The systematic errors listed on some cluster masses stem from uncertainties on the exact redshift of the cluster candidate. The fits in this table should be compared with the corresponding values in \autoref{ztable24}, which represents the perfectly centered model.}
     \begin{tabular}{lllllllll}
       \hline
       Redshift & Clusters & Significance & $\langle N_{200} \rangle$ & $p_{\mathrm{cc}}$ & $\sigma_{\mathrm{off}}$ & $M_0 \left[ 10^{13} M_{\odot}\right]$ & $\langle M_{200} \rangle \left[ 10^{13} M_{\odot}\right]$ & $\chi^2_{\mathrm{red}}$ \\ \hline
@@ -327,13 +323,13 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
       $z$ $\sim$ 0.9 & 3,040 & 6.8$\sigma$ & 19 & 0.6$\pm$0.4 & $(0.4^{+1}_{-0.4})'$ & 1.8$^{+0.8}_{-1.7}$ & 1.9$^{+0.9}_{-1.8}$ & 0.5 \\
       \hline
     \end{tabular}
-    \label{ztable1}
+    \label{ztable14}
 \end{table}
 
 %TABLE FOR Z-BINNED PLOTS - Pcc=1 MODEL
 \begin{table}
 \centering
-    \caption[Shear Results for Redshift-Binned Clusters (Perfectly Centered Model)]{This table is a companion to Table \ref{ztable1}, giving details of the $p_{\mathrm{cc}} \equiv 1$ model fits for the redshift-binned measurements (purple dashed curves in Figure \ref{plot:zbinned}). This model has 9 degrees of freedom. For this model, there is a single fit parameter, the normalization of the mass-richness relation $M_0$, from which $\langle M_{200} \rangle$ is derived.}
+    \caption[Shear Results for Redshift-Binned Clusters (Perfectly Centered Model)]{This table is a companion to \autoref{ztable14}, giving details of the $p_{\mathrm{cc}} \equiv 1$ model fits for the redshift-binned measurements (purple dashed curves in \autoref{plot:zbinned4}). This model has 9 degrees of freedom. For this model, there is a single fit parameter, the normalization of the mass-richness relation $M_0$, from which $\langle M_{200} \rangle$ is derived.}
     \begin{tabular}{llll}
       \hline
       Redshift & $M_0 \left[ 10^{13} M_{\odot}\right]$ & $\langle M_{200} \rangle \left[ 10^{13} M_{\odot}\right]$ & $\chi^2_{\mathrm{red}}$ \\ \hline
@@ -347,41 +343,47 @@ The fraction of cluster candidates that is {\it correctly centered} on their par
       $z$ $\sim$ 0.9 & 1.3$\pm$0.6 & 1.4$\pm$0.6 & 0.6  \\
       \hline
     \end{tabular}
-    \label{ztable2}
+    \label{ztable24}
 \end{table}
 
 \end{landscape}
+
+%==========================================================================
+
+\section{Galaxy Cluster Weak Lensing Shear Results}
+\label{sec:results4}
+
 %----------------
 
 \subsection{Fits to $\Delta\Sigma$}
-\label{fits}
+\label{sec:fits4}
 
 %MASS-RICHNESS PLOT
 \begin{figure}
 \begin{center}
 %\vspace{0.5cm}
   \includegraphics[scale=0.7]{plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter.eps}
-  \caption[Mass-Richness Relation from Shear]{Power law best fit to mass-richness relation (Equation \ref{MNeq}) obtained from average masses measured for the individual $N_{200}$ bins in Figure \ref{plot:nbinned} and Table \ref{richbintable1}, for the full model which accounts for miscentering, and including the (very small) correction for intrinsic scatter. The dotted lines show the 1$\sigma$ limits on this relation. As discussed in Section \ref{sec:MN} the simple $p_{\mathrm{cc}} \equiv 1$ model, which assumes perfect cluster centers, yields the same slope, but a slightly lower overall normalization.}
-\label{plot:massrich}
+  \caption[Mass-Richness Relation from Shear]{Power law best fit to mass-richness relation (\autoref{MNeq4}) obtained from average masses measured for the individual $N_{200}$ bins in \autoref{plot:nbinned4} and \autoref{richbintable14}, for the full model which accounts for miscentering, and including the (very small) correction for intrinsic scatter. The dotted lines show the 1$\sigma$ limits on this relation. As discussed in \autoref{sec:MN4} the simple $p_{\mathrm{cc}} \equiv 1$ model, which assumes perfect cluster centers, yields the same slope, but a slightly lower overall normalization.}
+\label{plot:massrich4}
 \end{center}
 \end{figure}
 
 
-We divide our cluster candidate catalog into six richness bins, and measure the differential surface mass density as described in Section \ref{sec:measure}. The significances of the separate stacked measurements of $\Delta\Sigma(R)$ shown in Figure \ref{plot:nbinned} range from 14.2$\sigma$ to 25.6$\sigma$, calculated using the full covariance matrices to include correlation between radial measurement bins. Error bars are calculated as the square root of the diagonal of the covariance matrices. These values, along with details of the richness bins and fits are given in Table \ref{richbintable1}. This yields a total \ac{3D-MF} cluster shear significance of $\sim$54$\sigma$. 
+We divide our cluster candidate catalog into six richness bins, and measure the differential surface mass density as described in \autoref{sec:measure4}. The significances of the separate stacked measurements of $\Delta\Sigma(R)$ shown in \autoref{plot:nbinned4} range from 14.2$\sigma$ to 25.6$\sigma$, calculated using the full covariance matrices to include correlation between radial measurement bins. Error bars are calculated as the square root of the diagonal of the covariance matrices. These values, along with details of the richness bins and fits are given in \autoref{richbintable14}. This yields a total \ac{3D-MF} cluster shear significance of $\sim$54$\sigma$. 
 
 In modeling the halo mass, we use a composite-halo approach, which allows for the fact that the cluster candidates in a given stacked measurement may have a range of individual masses and redshifts. We emphasize that instead of fitting a single average mass (and also avoiding a single effective cluster redshift), we actually fit to the normalization of the mass-richness relation, $M_0$. We convert the array of cluster $N_{200}$ values into masses with the equation
 \begin{equation}
-\label{MNeq1.5}
+\label{MNeq1.54}
 M_{200} = M_0 \left( \frac{N_{200}}{20} \right)^{1.5}.
 \end{equation}
 
-In each separate stacked weak lensing measurement, we keep the slope of this mass-richness relation fixed, to avoid over-fitting to each stack with parameters that are quite degenerate within a narrow cluster bin. The \ac{NFW} mass of each individual cluster is given by Equation \ref{MNeq1.5}, with the fixed slope of 1.5 from \citet{Ford14}, which will be shown to be consistent with the global mass-richness relation, measured and discussed in Section \ref{sec:MN} of this current work. We note that because of the free normalization $M_0$, this approach does neither impose the form of the richness distribution (Figure \ref{plot:hists}) nor does it set a prior on the individual mass.
+In each separate stacked weak lensing measurement, we keep the slope of this mass-richness relation fixed, to avoid over-fitting to each stack with parameters that are quite degenerate within a narrow cluster bin. The \ac{NFW} mass of each individual cluster is given by \autoref{MNeq1.54}, with the fixed slope of 1.5 from \citet{Ford14}, which will be shown to be consistent with the global mass-richness relation, measured and discussed in \autoref{sec:MN4} of this current work. We note that because of the free normalization $M_0$, this approach does neither impose the form of the richness distribution (\autoref{plot:hists4}) nor does it set a prior on the individual mass.
 
-We fit the halo model given in Equation \ref{modelEQ} to the data, employing the downhill simplex method to minimize the generalized $\chi^2$, using the full covariance matrices estimated from bootstrap resampling. The results are displayed as the green curves in Figure \ref{plot:nbinned} (labelled ``Full Model''), and summarized in Table \ref{richbintable1}. The number of degrees of freedom for the model is 7 (10 radial bins minus 3 fit parameters). 
+We fit the halo model given in \autoref{modelEQ4} to the data, employing the downhill simplex method to minimize the generalized $\chi^2$, using the full covariance matrices estimated from bootstrap resampling. The results are displayed as the green curves in \autoref{plot:nbinned4} (labeled ``Full Model''), and summarized in \autoref{richbintable14}. The number of degrees of freedom for the model is 7 (10 radial bins minus 3 fit parameters). 
 
-To emphasize the importance of cluster miscentering, we also plot the best-fitting model where $p_{\mathrm{cc}} \equiv 1$ (i.e. perfect cluster centers) for comparison. This is shown as the dashed purple curves in Figure \ref{plot:nbinned} (with a single fit parameter, $M_0$, this model has 9 degrees of freedom). Visual inspection reveals poor fits to the data at small radii for this model, and this fact is quantified by the reduced generalized $\chi^2$ statistic ($\chi^2_{\mathrm{red}}$) values in Table \ref{richbintable2}. These results imply that cluster centroiding is an important component in the modeling of the \ac{3D-MF} weak lensing shear mass profiles, especially at the high mass (richness) end. For the majority of the rest of this work we will focus our attention on the results of the full model, which accounts for offset cluster centers.
+To emphasize the importance of cluster miscentering, we also plot the best-fitting model where $p_{\mathrm{cc}} \equiv 1$ (i.e. perfect cluster centers) for comparison. This is shown as the dashed purple curves in \autoref{plot:nbinned4} (with a single fit parameter, $M_0$, this model has 9 degrees of freedom). Visual inspection reveals poor fits to the data at small radii for this model, and this fact is quantified by the reduced generalized $\chi^2$ statistic ($\chi^2_{\mathrm{red}}$) values in \autoref{richbintable24}. These results imply that cluster centroiding is an important component in the modeling of the \ac{3D-MF} weak lensing shear mass profiles, especially at the high mass (richness) end. For the majority of the rest of this work we will focus our attention on the results of the full model, which accounts for offset cluster centers.
 
-The ensemble of cluster masses that result from the composite-halo modeling approach are displayed in Figure \ref{plot:multimass}, where each panel represents a single stacked weak lensing measurement, congruent with Figure \ref{plot:nbinned}. This visual representation of the cluster mass function is largely distinct from the $N_{200}$ histogram in Figure \ref{plot:hists}, because these masses are dependent upon the mass-richness normalization, as well as the miscentering parameters, which are fit to the measurements.
+The ensemble of cluster masses that result from the composite-halo modeling approach are displayed in \autoref{plot:multimass4}, where each panel represents a single stacked weak lensing measurement, congruent with \autoref{plot:nbinned4}. This visual representation of the cluster mass function is largely distinct from the $N_{200}$ histogram in \autoref{plot:hists4}, because these masses are dependent upon the mass-richness normalization, as well as the miscentering parameters, which are fit to the measurements.
 
 
 %Z-BINNED PLOTS
@@ -389,8 +391,8 @@ The ensemble of cluster masses that result from the composite-halo modeling appr
 \begin{center}
 %\vspace{1cm}
   \includegraphics[scale=1.0]{plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio.eps}
-  \caption[Shear for Redshift-Binned Clusters]{Best-fitting models for each stack of cluster candidates, this time binned in redshift. As in Figure \ref{plot:nbinned}, the solid green curves are the best fits to the full model given by Equation \ref{modelEQ}. The dashed purple curves are the best-fitting models which assumes that every cluster center identified by \ac{3D-MF} is perfectly aligned with the dark matter halo center. Tables \ref{ztable1} and \ref{ztable2} summarize the results of these fits.}
-\label{plot:zbinned}
+  \caption[Shear for Redshift-Binned Clusters]{Best-fitting models for each stack of cluster candidates, this time binned in redshift. As in \autoref{plot:nbinned4}, the solid green curves are the best fits to the full model given by \autoref{modelEQ4}. The dashed purple curves are the best-fitting models which assumes that every cluster center identified by \ac{3D-MF} is perfectly aligned with the dark matter halo center. \autoref{ztable14} and \autoref{ztable24} summarize the results of these fits.}
+\label{plot:zbinned4}
 \end{center}
 \end{figure}
 
@@ -398,21 +400,21 @@ The ensemble of cluster masses that result from the composite-halo modeling appr
 
 \subsection{The Mass-Richness Relation}
 
-\label{sec:MN}
-The results of the previous section demonstrate a strong scaling of mass with richness. In Figure \ref{plot:massrich} we plot the average mass $M_{200}$ measured in each richness bin, as a function of richness $N_{200}$, and fit the power law scaling relation:
+\label{sec:MN4}
+The results of the previous section demonstrate a strong scaling of mass with richness. In \autoref{plot:massrich4} we plot the average mass $M_{200}$ measured in each richness bin, as a function of richness $N_{200}$, and fit the power law scaling relation:
 \begin{equation}
-\label{MNeq}
+\label{MNeq4}
 M_{200} = M_0 \left( \frac{N_{200}}{20} \right)^\beta.
 \end{equation}
-This is similar to Equation \ref{MNeq1.5}, but the slope $\beta$ is now a free parameter, and the mass-richness normalization $M_0$ is fit across the full distribution of clusters. We note that the choice of $\beta=1.5$ in Equation \ref{MNeq1.5} does not have a significant effect on the $\beta$ measured here. Because of the degeneracy between $\beta$ and $M_0$ in each narrow cluster bin, a different choice of slope for the measurements in Section \ref{fits} still yields essentially the same mass estimates $M_{200}$, and thus the same global mass-richness relation.
+This is similar to \autoref{MNeq1.54}, but the slope $\beta$ is now a free parameter, and the mass-richness normalization $M_0$ is fit across the full distribution of clusters. We note that the choice of $\beta=1.5$ in \autoref{MNeq1.54} does not have a significant effect on the $\beta$ measured here. Because of the degeneracy between $\beta$ and $M_0$ in each narrow cluster bin, a different choice of slope for the measurements in \autoref{sec:fits4} still yields essentially the same mass estimates $M_{200}$, and thus the same global mass-richness relation.
 
 Since galaxy clusters exhibit a natural intrinsic scatter between halo mass and richness (or other mass proxy), a bias in scaling relations can result if this scatter is ignored \citep{Rozo09a}. The idea here is that while galaxy clusters at a given richness will scatter randomly with regard to their average mass, because of the shape of the cluster mass function, the net effect is to scatter from low to high mass. This can lead to a biased mass estimate in a given richness bin, as well as affect the global result for the mass-richness relation. We correct for intrinsic scatter using the data itself, following a procedure inspired by \citet{Velander14}, which is as follows.
 
-We first fit Equation \ref{MNeq} to the uncorrected raw mass estimates from each richness bin, and use this power law relation to assign an individual mass to each cluster, based on its value of $N_{200}$. We then draw many ``simulated'' clusters from the observed cluster mass function (i.e. the $N_{200}$ histogram in Figure \ref{plot:hists}), taking 1,000 times as many ``simulated'' as observed clusters. We then scatter their masses by values drawn from a Gaussian in $\ln (M_{200})$, with width $\sigma_{\ln M|N}$, centered on the particular $N_{200}$. For the width of the intrinsic scatter, we use values estimated by \citet{Rozo09a} for the MaxBCG clusters in the \ac{SDSS}. This is $\sigma_{\ln M|N} \sim 0.45$, which is the scatter in the natural logarithm of mass, at fixed richness.
+We first fit \autoref{MNeq4} to the uncorrected raw mass estimates from each richness bin, and use this power law relation to assign an individual mass to each cluster, based on its value of $N_{200}$. We then draw many ``simulated'' clusters from the observed cluster mass function (i.e. the $N_{200}$ histogram in \autoref{plot:hists4}), taking 1,000 times as many ``simulated'' as observed clusters. We then scatter their masses by values drawn from a Gaussian in $\ln (M_{200})$, with width $\sigma_{\ln M|N}$, centered on the particular $N_{200}$. For the width of the intrinsic scatter, we use values estimated by \citet{Rozo09a} for the MaxBCG clusters in the \ac{SDSS}. This is $\sigma_{\ln M|N} \sim 0.45$, which is the scatter in the natural logarithm of mass, at fixed richness.
 
-The resulting mass estimates are then used to calculate the corrected arithmetic mean mass in each of the richness bins, which are plotted in Figure \ref{plot:massrich} and used to re-fit Equation \ref{MNeq}, yielding the final mass-richness relation reported below. The corrections applied to the mass estimates are at the sub-percent level, and therefore negligible compared to other sources of uncertainty in this work. Nevertheless, we include these small corrections when fitting for the mass-richness relation. We note that increasing $\sigma_{\ln M|N}$ up to the 95\% confidence limit reported by \citet{Rozo09a} still does not affect the conclusions drawn in this work. A glance at Figure \ref{plot:multimass} justifies the low-impact of the intrinsic scatter correction, as most richness bins do not exhibit a very strong slope, which would otherwise lead to a larger effect on average mass in each bin.
+The resulting mass estimates are then used to calculate the corrected arithmetic mean mass in each of the richness bins, which are plotted in \autoref{plot:massrich4} and used to re-fit \autoref{MNeq4}, yielding the final mass-richness relation reported below. The corrections applied to the mass estimates are at the sub-percent level, and therefore negligible compared to other sources of uncertainty in this work. Nevertheless, we include these small corrections when fitting for the mass-richness relation. We note that increasing $\sigma_{\ln M|N}$ up to the 95\% confidence limit reported by \citet{Rozo09a} still does not affect the conclusions drawn in this work. A glance at \autoref{plot:multimass4} justifies the low-impact of the intrinsic scatter correction, as most richness bins do not exhibit a very strong slope, which would otherwise lead to a larger effect on average mass in each bin.
 
-In this work we measure $M_0$ = $(2.7^{+0.5}_{-0.4}) \times 10^{13} M_{\odot}$ and $\beta$ = $1.4 \pm 0.1$ for the full model (Figure \ref{plot:massrich}), with a $\chi^2_{\mathrm{red}}$ of 0.9. For the perfectly centered model, we get $M_0$ = $(2.2 \pm 0.2) \times 10^{13} M_{\odot}$ and $\beta$ = $1.4 \pm 0.1$, with a $\chi^2_{\mathrm{red}}$ of 1.0. (Note that uncertainties are larger on parameters estimated from the full model, both here and throughout this work, since there are simply more parameters than the perfectly-centered model). These results demonstrate that not including the centroid uncertainty in our analysis would lead us to systematically underestimate the cluster masses as well as the mass-richness normalization. Section \ref{sec:magn} contains a thorough comparison of these results with our previous magnification measurements of these cluster candidates.
+In this work we measure $M_0$ = $(2.7^{+0.5}_{-0.4}) \times 10^{13} M_{\odot}$ and $\beta$ = $1.4 \pm 0.1$ for the full model (\autoref{plot:massrich4}), with a $\chi^2_{\mathrm{red}}$ of 0.9. For the perfectly centered model, we get $M_0$ = $(2.2 \pm 0.2) \times 10^{13} M_{\odot}$ and $\beta$ = $1.4 \pm 0.1$, with a $\chi^2_{\mathrm{red}}$ of 1.0. (Note that uncertainties are larger on parameters estimated from the full model, both here and throughout this work, since there are simply more parameters than the perfectly-centered model). These results demonstrate that not including the centroid uncertainty in our analysis would lead us to systematically underestimate the cluster masses as well as the mass-richness normalization. \autoref{sec:magn4} contains a thorough comparison of these results with our previous magnification measurements of these cluster candidates.
 
 
 %----------------------------------------------
@@ -423,18 +425,18 @@ In this work we measure $M_0$ = $(2.7^{+0.5}_{-0.4}) \times 10^{13} M_{\odot}$ a
 %\vspace{0.2cm}
   \includegraphics[scale=0.7]{plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.eps}
   \caption[Redshift Dependence of Mass-Richness Normalization]{Normalization of the mass-richness relation $M_0$ as a function of redshift $z$. The evidence for redshift evolution is not significant: the mildly negative slope is consistent with zero.}
-\label{plot:MoVSz} %labels must be after caption
+\label{plot:MoVSz4} %labels must be after caption
 \end{center}
 \end{figure}
 
 \subsection{Results of Binning Clusters in Redshift}
-We also investigate the weak lensing shear measurement of \ac{3D-MF} cluster candidates as a function of cluster redshift. \ac{3D-MF} sorts candidate clusters into bins of width $\Delta z \sim$ 0.1, so these are natural bin choices, and the same used in our previous analysis \citep{Ford14}. Figure \ref{plot:zbinned} shows the measurements and fits to $\Delta \Sigma$, with error bars again obtained from the covariance matrices (Section \ref{sec:measure}). The significance of the shear measurements reaches $\sim$ 20$\sigma$ at $z \sim$ 0.5, where there is an abundance of \ac{3D-MF} cluster candidates, and drops to $\sim$ 7$\sigma$ at the highest redshifts, where shear signal-to-noise is depleted. 
+We also investigate the weak lensing shear measurement of \ac{3D-MF} cluster candidates as a function of cluster redshift. \ac{3D-MF} sorts candidate clusters into bins of width $\Delta z \sim$ 0.1, so these are natural bin choices, and the same used in our previous analysis \citep{Ford14}. \autoref{plot:zbinned4} shows the measurements and fits to $\Delta \Sigma$, with error bars again obtained from the covariance matrices (\autoref{sec:measure4}). The significance of the shear measurements reaches $\sim$ 20$\sigma$ at $z \sim$ 0.5, where there is an abundance of \ac{3D-MF} cluster candidates, and drops to $\sim$ 7$\sigma$ at the highest redshifts, where shear signal-to-noise is depleted. 
 
-In Figure \ref{plot:zbinned} (similar to Figure \ref{plot:nbinned}), we plot the full model in solid green, and the perfectly centered model in dashed purple. Table \ref{ztable1} and Table \ref{ztable2} display the results and fit parameters for these two models, respectively. The measurements at lower redshifts have an additional systematic error listed, which stems from uncertainties on the cluster redshifts, due to the way the \ac{3D-MF} method slices in redshift space \citep{Ford14}. The \ac{3D-MF} cluster candidates are found to be quite similar in average mass across the range of redshift probed -- we consistently obtain measurements of a few $10^{13} M_{\odot}$. The best-fitting miscentering parameter $p_{\mathrm{cc}}$ varies somewhat erratically as a function of redshift, but the error bars are too large to infer any significance from this. The width of the offset distribution on the other hand remains squarely at $\sigma_{\mathrm{off}} \sim$ 0.4 arcmin. We discuss this result in relation to other cluster miscentering studies in Section \ref{sec:centers}.
+In \autoref{plot:zbinned4} (similar to \autoref{plot:nbinned4}), we plot the full model in solid green, and the perfectly centered model in dashed purple. \autoref{ztable14} and \autoref{ztable24} display the results and fit parameters for these two models, respectively. The measurements at lower redshifts have an additional systematic error listed, which stems from uncertainties on the cluster redshifts, due to the way the \ac{3D-MF} method slices in redshift space \citep{Ford14}. The \ac{3D-MF} cluster candidates are found to be quite similar in average mass across the range of redshift probed -- we consistently obtain measurements of a few $10^{13} M_{\odot}$. The best-fitting miscentering parameter $p_{\mathrm{cc}}$ varies somewhat erratically as a function of redshift, but the error bars are too large to infer any significance from this. The width of the offset distribution on the other hand remains squarely at $\sigma_{\mathrm{off}} \sim$ 0.4 arcmin. We discuss this result in relation to other cluster miscentering studies in \autoref{sec:centers4}.
 
-We investigate possible redshift evolution of the mass-richness relation (given by Equation \ref{MNeq}) in Figure \ref{plot:MoVSz}, which shows the normalization of this scaling relation, $M_0$, as a function of redshift (with $\beta$ = 1.5 fixed), as listed in Table \ref{ztable1}. We fit a powerlaw relation of the form
+We investigate possible redshift evolution of the mass-richness relation (given by \autoref{MNeq4}) in \autoref{plot:MoVSz4}, which shows the normalization of this scaling relation, $M_0$, as a function of redshift (with $\beta$ = 1.5 fixed), as listed in \autoref{ztable14}. We fit a powerlaw relation of the form
 \begin{equation}
-\label{MoZeq}
+\label{MoZeq4}
 M_0 (z) = M_0 (z=0) \cdot \left[ 1+z \right] ^{\eta}.
 \end{equation}
 We find a normalization $M_0 (z=0) = (3.0 \pm 0.6) \times 10^{13} M_{\odot}$, and a powerlaw slope $\eta = -0.4^{+0.5}_{-0.6}$. The slope is consistent with zero, so no significant redshift-evolution is detected for the \ac{3D-MF} mass-richness scaling relation.
@@ -443,7 +445,7 @@ We find a normalization $M_0 (z=0) = (3.0 \pm 0.6) \times 10^{13} M_{\odot}$, an
 %==========================================================================
 
 \section{Discussion}
-\label{ch4:disc}
+\label{sec:disc4}
 
 %----------------------------------------------
 
@@ -474,9 +476,9 @@ Several cluster catalogs have been compiled in the \ac{CFHTLS}-Wide. \citet{Durr
 
 The \ac{3D-MF} cluster finder presents us with a sample of cluster candidates which, like every other cluster-finder, are drawn from a somewhat unique distribution defined by its particular selection function. Despite the difficulties inherent to making exact comparisons between scaling relations measured on disparate cluster samples, we attempt a broad look at how the \ac{3D-MF} mass-richness scaling compares to other relations in the literature.
 
-\citet{Wen09} defined a measure of richness $R$ for their \ac{SDSS} clusters, which is somewhat similar to the $N_{200}$ used in this work. They counted all galaxies brighter than absolute magnitude $M_r \leq -21$, within a 1 Mpc radius and $\Delta z < 0.04(1+z)$. Converting their mass-richness relation to the form of ours (Equation \ref{MNeq}), they obtained a somewhat steeper slope $\beta \sim$ 1.9, and a higher normalization $M_0 \sim 2.5\times10^{14} M_{\odot}$ than the best-fitting models presented in this work ({\it Full Model}: $M_0 \sim 2.7\times10^{13} M_{\odot}$, $\beta \sim$ 1.4). We tried measuring richness for the \ac{3D-MF} clusters following the same prescription as \citet{Wen09}, but found the one-size-fits-all radius to be a serious limitation for our sample, since the \ac{3D-MF} cluster candidates span a wide range of masses and therefore characteristic radii. The resulting richness estimates had greatly enhanced scatter and did not scale well with mass at the more massive end of the cluster catalog.
+\citet{Wen09} defined a measure of richness $R$ for their \ac{SDSS} clusters, which is somewhat similar to the $N_{200}$ used in this work. They counted all galaxies brighter than absolute magnitude $M_r \leq -21$, within a 1 Mpc radius and $\Delta z < 0.04(1+z)$. Converting their mass-richness relation to the form of ours (\autoref{MNeq4}), they obtained a somewhat steeper slope $\beta \sim$ 1.9, and a higher normalization $M_0 \sim 2.5\times10^{14} M_{\odot}$ than the best-fitting models presented in this work ({\it Full Model}: $M_0 \sim 2.7\times10^{13} M_{\odot}$, $\beta \sim$ 1.4). We tried measuring richness for the \ac{3D-MF} clusters following the same prescription as \citet{Wen09}, but found the one-size-fits-all radius to be a serious limitation for our sample, since the \ac{3D-MF} cluster candidates span a wide range of masses and therefore characteristic radii. The resulting richness estimates had greatly enhanced scatter and did not scale well with mass at the more massive end of the cluster catalog.
 
-In a follow-up paper, \citet{Wen12} defined a new richness $R_{L*}$ -- the total r-band luminosity within $R_{200}$ in units of $L_{\odot}$. For the portion of clusters with previously measured masses (weak lensing or X-ray), a scaling between the radius $R_{200}$ derived from these masses and the luminosity within 1 Mpc was measured, and this was used to estimate radii for calculating $R_{L*}$ for the full sample of 132,684 clusters. For the subsample with existing mass estimates, \citet{Wen12} found a mass-richness relation with normalization $M_0 \sim 1.1 \times 10^{14} M_{\odot}$ and slope $\beta \sim$ 1.2 (again converting to the form of our Equation \ref{MNeq}). \citet{Covone14} measured weak lensing masses for 1,176 of the clusters from \citet{Wen12}, which overlapped with \ac{CFHTLenS}. They found a very similar mass-richness scaling, with $M_0 \sim 10^{14} M_{\odot}$ and $\beta \sim$ 1.2. 
+In a follow-up paper, \citet{Wen12} defined a new richness $R_{L*}$ -- the total r-band luminosity within $R_{200}$ in units of $L_{\odot}$. For the portion of clusters with previously measured masses (weak lensing or X-ray), a scaling between the radius $R_{200}$ derived from these masses and the luminosity within 1 Mpc was measured, and this was used to estimate radii for calculating $R_{L*}$ for the full sample of 132,684 clusters. For the subsample with existing mass estimates, \citet{Wen12} found a mass-richness relation with normalization $M_0 \sim 1.1 \times 10^{14} M_{\odot}$ and slope $\beta \sim$ 1.2 (again converting to the form of our \autoref{MNeq4}). \citet{Covone14} measured weak lensing masses for 1,176 of the clusters from \citet{Wen12}, which overlapped with \ac{CFHTLenS}. They found a very similar mass-richness scaling, with $M_0 \sim 10^{14} M_{\odot}$ and $\beta \sim$ 1.2. 
 
 The mass-richness slope of the \ac{3D-MF} cluster candidates sits squarely between the results of \citet{Wen09}, using the $R$ richness, and \citet{Wen12} and \citet{Covone14}, which used the $R_{L*}$ measure. The \ac{3D-MF} normalization is lower than the other cluster catalogs, which could partly be a result of \ac{3D-MF} detecting more lower mass clusters missed by other finders. However, the different definition of richness, namely the fainter limit on galaxies contributing to $N_{200}$, means that the same mass cluster will have a larger measured richness in this work, implying a lower mass-richness normalization. Finally, the presence of false detections in the \ac{3D-MF} catalog (estimated from simulations to be at the level of $16-24$\%) would certainly bias the mass estimates low.
 
@@ -489,8 +491,8 @@ The addition of the galaxy color information in the richness estimate of the pre
 %----------------------------------------------
 
 \subsection{Comparisons with other Cluster Centroid Analyses}
-\label{sec:centers}
-We find the distribution of centroid offsets to be well characterized by a Gaussian of width $\sigma_{\mathrm{off}} \sim$ 0.4 arcmin,\footnote{For comparisons, 0.4 arcmin $\sim$ 147 kpc at redshift 0.5} and that this miscentering has an effect on a significant portion of the candidate clusters (up to $\sim$ 80\% of them are affected, see Table \ref{richbintable1}). Interestingly, previous studies applying \ac{3D-MF} to simulations yielded an average $\sigma_{\mathrm{off}}=0.40 \pm 0.06$ arcmin \citep[see Figure 1 in][]{Ford14}, which is easily consistent with the best-fitting offset measured on the real \ac{3D-MF} cluster candidates in this work.
+\label{sec:centers4}
+We find the distribution of centroid offsets to be well characterized by a Gaussian of width $\sigma_{\mathrm{off}} \sim$ 0.4 arcmin,\footnote{For comparisons, 0.4 arcmin $\sim$ 147 kpc at redshift 0.5} and that this miscentering has an effect on a significant portion of the candidate clusters (up to $\sim$ 80\% of them are affected, see \autoref{richbintable14}). Interestingly, previous studies applying \ac{3D-MF} to simulations yielded an average $\sigma_{\mathrm{off}}=0.40 \pm 0.06$ arcmin \citep[see Figure 1 in][]{Ford14}, which is easily consistent with the best-fitting offset measured on the real \ac{3D-MF} cluster candidates in this work.
 
 %MAGNIFICATION COMPARISON PLOT
 \begin{figure}
@@ -499,7 +501,7 @@ We find the distribution of centroid offsets to be well characterized by a Gauss
   \includegraphics[scale=0.9]{plots_ch4/shearVSmag_N200_z.eps}
 %\vspace{0.2cm}
   \caption[Comparison of Magnification and Shear Masses]{Here we compare the mass measurements obtained for the \ac{3D-MF} cluster candidates using weak lensing shear (i.e. this work) with the results obtained measuring the masses with the lensing magnification technique \citep[the $N_{200}$ estimates from that work, ][are used in this plot for the purposes of comparison]{Ford14}. The first panel compares mass measurements when cluster candidates are binned in richness $N_{200}$, and the second panel shows the redshift $z$ binning. Bins are identical for magnification and for shear, but the points are slightly offset horizontally for clarity. Blue diamonds represent the shear, and orange squares are for magnification.}
-\label{plot:magshear}
+\label{plot:magshear4}
 \end{center}
 \end{figure}
 
@@ -510,31 +512,32 @@ It is worth noting that candidate cluster centers that are coincident with a mem
 %----------------------------------------------
 
 \subsection{Comparison with Magnification Results}
-\label{sec:magn}
+\label{sec:magn4}
 
 One of the most interesting aspects of this work is the direct comparison between magnification and shear mass estimates, which is now made possible in the context of a very large lens sample. Prior to this work, the only observational magnification--shear direct cluster mass comparison in the literature was \citet{Ford12}. That study demonstrated a 1$\sigma$ consistency between masses measured with the two techniques, but applied to a small sample of just 44 galaxy groups, so any trends in cluster size or redshift were unable to be explored. \citet{Huff14} compared magnification and shear masses for \ac{SDSS} galaxy lenses, using a different and novel approach to measuring lensing magnification, and found mass profiles to be within a factor 3 of agreement.
 
 Important work related to the {\it joint} analysis of shear and magnification has been developed in \citet{Umetsu11} and \citet{Umetsu13}. \citet{Umetsu14} combined shear and magnification to measure the mass profiles of 20 massive X-ray-selected clusters. This work demonstrated that the geometric mean mass of the shear+magnification measurement was consistent with the shear-only measurement, but did not show magnification results on their own. Earlier work in \citet{Umetsu11} compared the signal-to-noise of the magnification and shear, but did not present mass estimates from separate analyses. 
 
-In this work we exploit the volume of the \ac{3D-MF} cluster catalog to fully compare masses determined with each of the independent techniques, as a function of both candidate cluster richness and redshift. The findings are summarized in Figure \ref{plot:magshear}. For consistency in the comparison, this plot uses the original $N_{200}$ estimates from \citet{Ford14}, so that the cluster candidate stacks in each richness bin are identical. Also, in this section only, we use the mass-concentration relation of \citet{Prada12}, in identical fashion to the magnification work. The \citet{Prada12} relation is in excellent agreement with recent measurements by \citet{Covone14} of the masses and concentrations of a cluster sample in \ac{CFHTLenS}, although it is in tension with other measurements such as \citet{Merten14}. 
+In this work we exploit the volume of the \ac{3D-MF} cluster catalog to fully compare masses determined with each of the independent techniques, as a function of both candidate cluster richness and redshift. The findings are summarized in \autoref{plot:magshear4}. For consistency in the comparison, this plot uses the original $N_{200}$ estimates from \citet{Ford14}, so that the cluster candidate stacks in each richness bin are identical. Also, in this section only, we use the mass-concentration relation of \citet{Prada12}, in identical fashion to the magnification work. The \citet{Prada12} relation is in excellent agreement with recent measurements by \citet{Covone14} of the masses and concentrations of a cluster sample in \ac{CFHTLenS}, although it is in tension with other measurements such as \citet{Merten14}. 
 
-The left-hand panel of Figure \ref{plot:magshear} displays the results when \ac{3D-MF} cluster candidates are stacked across all redshifts. The average of the composite-halo masses fit to each stack is comparable between the two methods, but the magnification estimates are systematically lower than the shear estimates. This yields a mass-richness normalization which is about 2$\sigma$ higher for the shear method, although the slope of the relation recovered with the two techniques is essentially identical. The magnification measurements yielded $M_0 = (2.2 \pm 0.2) \times 10^{13} M_{\odot}$ and $\beta = 1.5 \pm 0.1$ \citep[see the miscentered model in][]{Ford14}, while the shear measurements here give $M_0 = (3.1 \pm 0.5) \times 10^{13} M_{\odot}$ and $\beta = 1.5 \pm 0.2$. We note that the mass-richness relation parameters obtained from the shear measurements in Figure \ref{plot:magshear} are consistent within 1$\sigma$ with the new mass-richness parameters obtained with shear in Figure \ref{plot:massrich} and discussed in Section \ref{sec:MN}. We reiterate that the slight difference between the shear measurements in Figures \ref{plot:massrich} and \ref{plot:magshear} is due to a recalibration of the cluster $N_{200}$ estimates (see Section \ref{3DMF}) and a different choice of mass-concentration relation.
+The left-hand panel of \autoref{plot:magshear4} displays the results when \ac{3D-MF} cluster candidates are stacked across all redshifts. The average of the composite-halo masses fit to each stack is comparable between the two methods, but the magnification estimates are systematically lower than the shear estimates. This yields a mass-richness normalization which is about 2$\sigma$ higher for the shear method, although the slope of the relation recovered with the two techniques is essentially identical. The magnification measurements yielded $M_0 = (2.2 \pm 0.2) \times 10^{13} M_{\odot}$ and $\beta = 1.5 \pm 0.1$ \citep[see the miscentered model in][]{Ford14}, while the shear measurements here give $M_0 = (3.1 \pm 0.5) \times 10^{13} M_{\odot}$ and $\beta = 1.5 \pm 0.2$. We note that the mass-richness relation parameters obtained from the shear measurements in \autoref{plot:magshear4} are consistent within 1$\sigma$ with the new mass-richness parameters obtained with shear in \autoref{plot:massrich4} and discussed in \autoref{sec:MN4}. We reiterate that the slight difference between the shear measurements in \autoref{plot:massrich4} and \autoref{plot:magshear4} is due to a recalibration of the cluster $N_{200}$ estimates (see \autoref{sec:3DMF4}) and a different choice of mass-concentration relation.
 
 It is important to note that in both of the aforementioned magnification studies \citep{Ford12,Ford14}, the background source sample is completely distinct from the background sources used to measure shear. Indeed, both magnification results used magnified \ac{LBG}s, which are point-like sources whose negligible apparent size would not permit a measurement of the shear. In this sense, the magnification results are largely independent from the shear measurements to which they are compared, having only the lens population in common. We note that alternative methods of measuring magnification using source size information would instead tend to use the same source sample employed for measuring shear.
 
-The comparison becomes more interesting as a function of redshift, shown in the right-hand panel of Figure \ref{plot:magshear}. Here we see that the shear-measured average mass of cluster candidates does not vary as a function of redshift, while the magnification masses fluctuate. In \citet{Ford14}, we discussed this behaviour of the magnification signal, but without an alternative mass determination were not able to conclude whether this variation communicated an intrinsic property of the \ac{3D-MF} cluster candidates, or was an artefact of the magnification measurement. We are still unable to say with certainty whether the masses of the \ac{3D-MF} cluster sample truly are constant or evolving across the redshift range, as suggested by the conflicting shear and magnification measurements. Here, we discuss several possible reasons for these discrepant redshift-binned results. 
+The comparison becomes more interesting as a function of redshift, shown in the right-hand panel of \autoref{plot:magshear4}. Here we see that the shear-measured average mass of cluster candidates does not vary as a function of redshift, while the magnification masses fluctuate. In \citet{Ford14}, we discussed this behavior of the magnification signal, but without an alternative mass determination were not able to conclude whether this variation communicated an intrinsic property of the \ac{3D-MF} cluster candidates, or was an artifact of the magnification measurement. We are still unable to say with certainty whether the masses of the \ac{3D-MF} cluster sample truly are constant or evolving across the redshift range, as suggested by the conflicting shear and magnification measurements. Here, we discuss several possible reasons for these discrepant redshift-binned results. 
 
 First of all, the distributions of richness values for the separate $z$ slices are very similar, with the lower redshift slices containing relatively higher fractions of low-richness cluster candidates \citep[see Figure 7 in][]{Ford14}. So if (1) richness is a good estimator for mass, which it appears to be given the strong scaling, and (2) the mass-richness relation does not evolve strongly with redshift over the range $z \sim 0.5 \rightarrow 0.2$, then we would expect similar masses across this range, or for masses to actually decrease at lower redshift in concordance with the lower mean cluster $N_{200}$ (i.e. the opposite of the trend suggested by magnification).
 
 As discussed in detail in \citet{Ford14}, at $z \sim 0.2-0.3$ the magnification measurement is expected to be affected by some low-$z$ contamination in the \ac{LBG} source sample. In that work we attempted to compensate for this effect by including a term in the modeling of the measured signal, to account for physical clustering where the populations overlapped. A crucial assumption was the actual fraction of contaminated sources, which was estimated using a cross-correlation technique with foreground galaxies (Hildebrandt et al., in preparation). If these fractions were biased low, then much of the physical clustering signal would have been interpreted as due to magnification, leading to mass estimates that were too high (at low-$z$).
 
-Currently, we are also investigating the influence of several other systematic effects on our magnification measurements. In particular, we are studying how the varying depth and the varying seeing of the survey affect different lens and source samples, and how stellar contamination (or also just the light haloes of stars) and galactic dust can alter the magnification signal. This in-depth analysis of systematic effects will be presented in a forthcoming paper (Morrison et al., in preparation) and might provide additional insight into the apparent redshift dependence of the cluster magnification signal reported in \citet{Ford14}. Another possibility may be related to the masking effect of cluster galaxy members, which is survey dependent and can affect both magnification and shear measurements \citep{Simet14}. This sky obscuration could lead to our magnification masses being biased low, but our shear measurements should be robust because of the stringent criteria used for selecting background galaxies (Section \ref{sec:measure}).
+Currently, we are also investigating the influence of several other systematic effects on our magnification measurements. In particular, we are studying how the varying depth and the varying seeing of the survey affect different lens and source samples, and how stellar contamination (or also just the light halos of stars) and galactic dust can alter the magnification signal. This in-depth analysis of systematic effects will be presented in a forthcoming paper (Morrison et al., in preparation) and might provide additional insight into the apparent redshift dependence of the cluster magnification signal reported in \citet{Ford14}. Another possibility may be related to the masking effect of cluster galaxy members, which is survey dependent and can affect both magnification and shear measurements \citep{Simet14}. This sky obscuration could lead to our magnification masses being biased low, but our shear measurements should be robust because of the stringent criteria used for selecting background galaxies ( \autoref{sec:measure4}).
 
 In order for magnification to yield robust results that encourage its employment in the next generation of large surveys, this discrepancy needs to be addressed. Studies that compare shear and magnification measurements for large binned lens and source samples are crucial for teasing out these underlying systematics. 
 
 %==========================================================================
 
 \section{Conclusions}
+\label{sec:conc4}
 
 This work has presented weak lensing shear results, measured at 54$\sigma$ significance, for a new catalog of cluster candidates detected by the \ac{3D-MF} algorithm. \ac{3D-MF} is a three-dimensional advancement of older matched-filter techniques, which automatically searches wide and deep optical data for galaxy clusters across a range of redshifts. Given a sensible luminosity and radial profile, \ac{3D-MF} is able to search within data for a range of galaxy cluster masses. By construction, \ac{3D-MF} has allowed us to find lower mass cluster candidates (and groups) which other popular techniques, such as the red sequence and maxBCG, may not be capable of finding. 
 

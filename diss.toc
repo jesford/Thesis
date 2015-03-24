@@ -61,10 +61,10 @@
 \contentsline {subsubsection}{Non-weak shear corrections}{60}{subsubsection*.37}
 \contentsline {subsection}{\numberline {4.3.3}Miscentering Formalism}{61}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}The Halo Model}{63}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{63}{section.4.4}
+\contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{67}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Fits to $\Delta \Sigma $}{67}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}The Mass-Richness Relation}{68}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results of Binning Clusters in Redshift}{69}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.2}The Mass-Richness Relation}{69}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results of Binning Clusters in Redshift}{70}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Discussion}{71}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Interpretation of the Results}{71}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Comparisons of Cluster Catalog Volume}{71}{subsection.4.5.2}
