@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  23 MAR 2015 18:05
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  25 MAR 2015 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,26 +679,24 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
  (./abstract.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 23.
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)) [2
+)
+[2
 
 
 ]
 \openout2 = `preface.aux'.
 
-
-(./preface.tex
+ (./preface.tex
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
 .
- (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
 .
- (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
@@ -766,20 +764,23 @@ although it is yet undefined on input line 11.
 
 ]
 (./glossary.tex
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <10.95> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 18.
- [9
+[9
 
 
 ]
 LaTeX Font Info:    Try loading font information for U+eus on input line 92.
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueus.fd
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2009/06/22 v3.00 Euler Script
-) [10]) [11]
-[12]
+) [10])
+[11] [12]
 \openout2 = `intro.aux'.
 
  (./intro.tex
@@ -810,11 +811,11 @@ Package acronym Info: Label `acro:WIMP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 61.
  [3] [4] [5] [6] [7]
-<plots_intro/LensDiagram.png, id=699, 1157.32375pt x 586.19pt>
+<plots_intro/LensDiagram.png, id=698, 1157.32375pt x 586.19pt>
 File: plots_intro/LensDiagram.png Graphic file (type png)
 
 <use plots_intro/LensDiagram.png> [8 <./plots_intro/LensDiagram.png (PNG copy)>
-] <plots_intro/Abell2218_Med.jpg, id=727, 267.35722pt x 177.5419pt>
+] <plots_intro/Abell2218_Med.jpg, id=726, 267.35722pt x 177.5419pt>
 File: plots_intro/Abell2218_Med.jpg Graphic file (type jpg)
 
 <use plots_intro/Abell2218_Med.jpg>
@@ -822,7 +823,7 @@ Package acronym Info: Label `acro:MACHO' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 226.
  [9 <./plots_intro/Abell2218_Med.jpg>]
-<plots_intro/kappa_gamma.png, id=768, 610.28pt x 786.94pt>
+<plots_intro/kappa_gamma.png, id=767, 610.28pt x 786.94pt>
 File: plots_intro/kappa_gamma.png Graphic file (type png)
 
 <use plots_intro/kappa_gamma.png>
@@ -830,12 +831,12 @@ File: plots_intro/kappa_gamma.png Graphic file (type png)
 Package mathptmx Warning: There are no bold math fonts on input line 271.
 
 [10] [11 <./plots_intro/kappa_gamma.png (PNG copy)>]
-<plots_intro/ShearComponents.png, id=811, 911.405pt x 691.58376pt>
+<plots_intro/ShearComponents.png, id=810, 911.405pt x 691.58376pt>
 File: plots_intro/ShearComponents.png Graphic file (type png)
 
 <use plots_intro/ShearComponents.png> [12] [13 <./plots_intro/ShearComponents.p
 ng (PNG copy)>]
-<plots_intro/Magnification.png, id=853, 1197.47375pt x 598.235pt>
+<plots_intro/Magnification.png, id=852, 1197.47375pt x 598.235pt>
 File: plots_intro/Magnification.png Graphic file (type png)
 
 <use plots_intro/Magnification.png>
@@ -895,7 +896,7 @@ grams_44x-eps-converted-to.pdf plots_ch2/m200_zphot_histograms_44x.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf, id=1307, 352.31625pt
+<plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf, id=1306, 352.31625pt
  x 196.735pt>
 File: plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -921,7 +922,7 @@ ltiNFWfit-eps-converted-to.pdf plots_ch2/magbinnedLBGs_multiNFWfit.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf, id=1353, 379.4175pt 
+<plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf, id=1352, 379.4175pt 
 x 154.5775pt>
 File: plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -953,7 +954,7 @@ Err07magcut.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch2/wopt_nfw_sis_44x_LFam1_aveErr07magcut-eps-converted-to.pdf, id=1415,
+<plots_ch2/wopt_nfw_sis_44x_LFam1_aveErr07magcut-eps-converted-to.pdf, id=1414,
  461.725pt x 346.29375pt>
 File: plots_ch2/wopt_nfw_sis_44x_LFam1_aveErr07magcut-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -992,7 +993,7 @@ thon-eps-converted-to.pdf plots_ch3/PofRc_bestfit_python.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf, id=1506, 518.93875pt x 40
+<plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf, id=1505, 518.93875pt x 40
 2.50375pt>
 File: plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1010,7 +1011,7 @@ s-converted-to.pdf plots_ch3/N200histogram.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/N200histogram-eps-converted-to.pdf, id=1605, 516.93124pt x 404.51125
+<plots_ch3/N200histogram-eps-converted-to.pdf, id=1604, 516.93124pt x 404.51125
 pt>
 File: plots_ch3/N200histogram-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/N200histogram-eps-converted-to.pdf> [39 <./plots_ch3/N200histog
@@ -1029,7 +1030,7 @@ rops-eps-converted-to.pdf plots_ch3/PofZ_clustersNudrops.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf, id=1726, 503.8825pt x 190
+<plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf, id=1725, 503.8825pt x 190
 .7125pt>
 File: plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1047,7 +1048,7 @@ _U-eps-converted-to.pdf plots_ch3/wopt_allClusters_U.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_allClusters_U-eps-converted-to.pdf, id=1789, 503.8825pt x 388.4
+<plots_ch3/wopt_allClusters_U-eps-converted-to.pdf, id=1788, 503.8825pt x 388.4
 5125pt>
 File: plots_ch3/wopt_allClusters_U-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1065,7 +1066,7 @@ nd1_U-eps-converted-to.pdf plots_ch3/wopt_panel_fcc0and1_U.eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf, id=1833, 498.86375pt x 3
+<plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf, id=1832, 498.86375pt x 3
 41.275pt>
 File: plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1083,7 +1084,7 @@ _U-eps-converted-to.pdf plots_ch3/MassRich_2to1000_U.eps>
 (epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf, id=1896, 516.93124pt x 399.
+<plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf, id=1895, 516.93124pt x 399.
 4925pt>
 File: plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1101,7 +1102,7 @@ eps-converted-to.pdf plots_ch3/zbin_histograms.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/zbin_histograms-eps-converted-to.pdf, id=1966, 456.70625pt x 208.78p
+<plots_ch3/zbin_histograms-eps-converted-to.pdf, id=1965, 456.70625pt x 208.78p
 t>
 File: plots_ch3/zbin_histograms-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/zbin_histograms-eps-converted-to.pdf> [50
@@ -1120,7 +1121,7 @@ eps-converted-to.pdf plots_ch3/wopt_z_panels_U.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_z_panels_U-eps-converted-to.pdf, id=2001, 498.86375pt x 207.776
+<plots_ch3/wopt_z_panels_U-eps-converted-to.pdf, id=2000, 498.86375pt x 207.776
 25pt>
 File: plots_ch3/wopt_z_panels_U-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/wopt_z_panels_U-eps-converted-to.pdf> [51 <./plots_ch3/wopt_z_p
@@ -1421,10 +1422,10 @@ Package rerunfilecheck Info: File `diss.brf' has not changed.
 (rerunfilecheck)             Checksum: 0230D83A9CF14C9323BBC5D8F7AAFD46;23534.
  ) 
 Here is how much of TeX's memory you used:
- 12386 strings out of 493747
- 184266 string characters out of 3143546
+ 12385 strings out of 493747
+ 184261 string characters out of 3143546
  296221 words of memory out of 3000000
- 14759 multiletter control sequences out of 15000+200000
+ 14758 multiletter control sequences out of 15000+200000
  82796 words of font info for 173 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  42i,16n,40p,1730b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1444,7 +1445,7 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (108 pages, 1871572 bytes).
+Output written on diss.pdf (108 pages, 1871502 bytes).
 PDF statistics:
  3901 PDF objects out of 4296 (max. 8388607)
  3175 compressed objects within 32 object streams
