@@ -1,4 +1,4 @@
-\begin{thebibliography}{176}
+\begin{thebibliography}{177}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -986,6 +986,15 @@ C.~B. {Morrison}, R.~{Scranton}, B.~{M{\'e}nard}, S.~J. {Schmidt}, J.~A.
   Survey}.
 \newblock \emph{\mnras}, 426:\penalty0 2489--2499, Nov. 2012.
 \newblock \doi{10.1111/j.1365-2966.2012.21826.x}.
+
+\bibitem[{Mu{\~n}oz-Cuartas} et~al.(2011){Mu{\~n}oz-Cuartas}, {Macci{\`o}},
+  {Gottl{\"o}ber}, and {Dutton}]{Munoz11}
+J.~C. {Mu{\~n}oz-Cuartas}, A.~V. {Macci{\`o}}, S.~{Gottl{\"o}ber}, and A.~A.
+  {Dutton}.
+\newblock {The redshift evolution of {$\Lambda$} cold dark matter halo
+  parameters: concentration, spin and shape}.
+\newblock \emph{\mnras}, 411:\penalty0 584--594, Feb. 2011.
+\newblock \doi{10.1111/j.1365-2966.2010.17704.x}.
 
 \bibitem[{Narayan}(1989)]{Narayan89}
 R.~{Narayan}.
