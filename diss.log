@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  21 APR 2015 22:19
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  21 APR 2015 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,7 +1423,7 @@ Package rerunfilecheck Info: File `diss.brf' has not changed.
 Here is how much of TeX's memory you used:
  12401 strings out of 493747
  184509 string characters out of 3143546
- 296324 words of memory out of 3000000
+ 296334 words of memory out of 3000000
  14771 multiletter control sequences out of 15000+200000
  81036 words of font info for 171 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -1444,10 +1444,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (109 pages, 1876273 bytes).
+Output written on diss.pdf (109 pages, 1876619 bytes).
 PDF statistics:
- 3918 PDF objects out of 4296 (max. 8388607)
- 3191 compressed objects within 32 object streams
+ 3920 PDF objects out of 4296 (max. 8388607)
+ 3193 compressed objects within 32 object streams
  528 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
