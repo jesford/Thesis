@@ -5,7 +5,7 @@
 \label{ch3}
 
 %\begin{abstract}
-Gravitational lensing magnification is measured with a significance of 9.7$\sigma$ on a large sample of galaxy clusters in the \acf{CFHTLenS}. This survey covers $\sim$154 deg$^2$ and contains over 18,000 cluster candidates at redshifts $0.2 \leq z \leq 0.9$, detected using the \acf{3D-MF} cluster-finder of \citet{Milkeraitis10}. We fit composite-\ac{NFW} models to the ensemble, accounting for cluster miscentering, source-lens redshift overlap, as well as nearby structure (the 2-halo term), and recover mass estimates of the cluster dark matter halos in range of $\sim10^{13} M_\odot$ to $2\times10^{14} M_\odot$. Cluster richness is measured for the entire sample, and we bin the clusters according to both richness and redshift. A mass-richness relation $M_{200} = M_0 (N_{200} / 20)^\beta$ is fit to the measurements. For two different cluster miscentering models we find consistent results for the normalization and slope,  $M_0 = (2.3 \pm 0.2) \times 10^{13} M_\odot$, $\beta = 1.4 \pm 0.1$ and $M_0 = (2.2 \pm 0.2) \times 10^{13} M_\odot$, $\beta = 1.5 \pm 0.1$. We find that accounting for the full redshift distribution of lenses and sources is important, since any overlap can have an impact on mass estimates inferred from flux magnification.
+Gravitational lensing magnification is measured with a significance of 9.7$\sigma$ on a large sample of galaxy clusters in the \acf{CFHTLenS}. This survey covers $\sim$154 deg$^2$ and contains over 18,000 cluster candidates at redshifts $0.2 \leq z \leq 0.9$, detected using the \acf{3D-MF} cluster-finder of \citet{Milkeraitis10}. We fit composite-\ac{NFW} models to the ensemble, accounting for cluster miscentering, source-lens redshift overlap, as well as nearby structure (the 2-halo term), and recover mass estimates of the cluster dark matter halos in range of $\sim10^{13}\ {\rm M}_\odot$ to $2\times10^{14}\ {\rm M}_\odot$. Cluster richness is measured for the entire sample, and we bin the clusters according to both richness and redshift. A mass-richness relation $M_{200} = M_0 (N_{200} / 20)^\beta$ is fit to the measurements. For two different cluster miscentering models we find consistent results for the normalization and slope,  $M_0 = (2.3 \pm 0.2) \times 10^{13}\ {\rm M}_\odot$, $\beta = 1.4 \pm 0.1$ and $M_0 = (2.2 \pm 0.2) \times 10^{13}\ {\rm M}_\odot$, $\beta = 1.5 \pm 0.1$. We find that accounting for the full redshift distribution of lenses and sources is important, since any overlap can have an impact on mass estimates inferred from flux magnification.
 %\end{abstract}
 
 
@@ -24,13 +24,13 @@ In \autoref{sec:data3} we describe the cluster and background galaxy samples. \a
 
 \section{Data}
 \label{sec:data3}
-For the magnification results presented in this paper, we are fortunate to work with a very large sample of galaxy cluster candidates and background galaxies in \ac{CFHTLenS}.\footnote{www.cfhtlens.org; Data products available at http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/\-community/\-CFHTLens/\-query.html}; \citet{Erben13}; \citet{Hildebrandt12} \ac{CFHTLenS} is based on the Wide portion of the \acf{CFHTLS}, with deep 5 band photometry. The survey is composed of four separate fields, in turn divided into 171 individual pointings, covering a total of 154 deg$^2$.
+For the magnification results presented in this paper, we are fortunate to work with a very large sample of galaxy cluster candidates and background galaxies in \ac{CFHTLenS}.\footnote{www.cfhtlens.org; Data products available at http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/\-community/\-CFHTLens/\-query.html} \citep{Erben13,Hildebrandt12}. \ac{CFHTLenS} is based on the Wide portion of the \acf{CFHTLS}, with deep 5 band photometry. The survey is composed of four separate fields, in turn divided into 171 individual pointings, covering a total of 154 deg$^2$.
 
 \subsection{\ac{3D-MF} Galaxy Clusters}
 \label{sec:clusters3}
 The \ac{3D-MF} cluster finding algorithm of \citet{Milkeraitis10}, essentially creates likelihood maps of the sky (in discrete redshift bins) and searches for peaks of significance above the galaxy background. The likelihood is estimated assuming that clusters follow a radial Hubble profile as well as a Schechter \ac{LF}. A significance peak of \textgreater 3.5$\sigma$ is considered a cluster detection. The reader is referred to \citet{Milkeraitis10} for the details of the \ac{3D-MF} algorithm; here we discuss only the essential points relevant to our purposes. 
 
-The radial component of the \ac{3D-MF} likelihood employs a cutoff radius of 1 Mpc, which was chosen to roughly correspond to the radius $R_{200}$ of an $M_{200} \sim 3 \times 10^{13} M_{\odot}$ cluster. \citet{Milkeraitis10} motivates this choice by the desire to optimally search for relatively high mass clusters, but notes that this radius will be less ideal for low mass clusters. One should expect that random galaxy interlopers may contaminate the estimation of significance for likelihood peaks corresponding to lower mass clusters. This may be a key factor in explaining the wide range of cluster significances conferred upon low mass clusters from simulations, while high mass simulated clusters were assigned significances that correlated strongly with mass \citep[see Figure 10 in][]{Milkeraitis10}. Because peak significance may therefore not be an ideal mass proxy to use for the full cluster ensemble, in this work we rely upon a measure of the cluster richness, which is discussed in \autoref{sec:rich3} below. Using cluster richness has the added benefit that the mass-richness relation can be measured and used as a scaling relation.
+The radial component of the \ac{3D-MF} likelihood employs a cutoff radius of 1 Mpc, which was chosen to roughly correspond to the radius $R_{200}$ of an $M_{200} \sim 3 \times 10^{13} {\rm M}_{\odot}$ cluster. \citet{Milkeraitis10} motivates this choice by the desire to optimally search for relatively high mass clusters, but notes that this radius will be less ideal for low mass clusters. One should expect that random galaxy interlopers may contaminate the estimation of significance for likelihood peaks corresponding to lower mass clusters. This may be a key factor in explaining the wide range of cluster significances conferred upon low mass clusters from simulations, while high mass simulated clusters were assigned significances that correlated strongly with mass \citep[see figure 10 in][]{Milkeraitis10}. Because peak significance may therefore not be an ideal mass proxy to use for the full cluster ensemble, in this work we rely upon a measure of the cluster richness, which is discussed in \autoref{sec:rich3} below. Using cluster richness has the added benefit that the mass-richness relation can be measured and used as a scaling relation.
 
 Using the \ac{3D-MF} method, a total of 18,036 galaxy cluster candidates (hereafter clusters) have been detected in \ac{CFHTLenS}, at a significance of \textgreater 3.5$\sigma$ above the background. In contrast to previous cluster magnification studies, which have been limited by small number statistics, this huge sample of clusters allows us to pursue multiple avenues of investigation. In particular, we bin the clusters according to both richness and redshift, to recover trends in physical characteristics such as the mass-richness relation, and also investigate halo miscentering as a function of these parameters.
 
@@ -57,7 +57,7 @@ Due to the nature of the method, the defined centers of the \ac{3D-MF} clusters,
 \resizebox{0.5\columnwidth}{!}{
     \begin{tabular}{llll}
       \hline
-      Mass Range [$M_{\odot}$] & Color & Best fit $\sigma_{\rm{off}}$ [arcmin] & $\chi^2_{\rm red}$ \\ \hline
+      Mass Range [${\rm M}_{\odot}$] & Color & Best fit $\sigma_{\rm{off}}$ [arcmin] & $\chi^2_{\rm red}$ \\ \hline
       (1.5-5)$\times10^{13}$ & red    & 0.37$\pm$0.06 & 1.8  \\
       (5-10)$\times10^{13}$  & green  & 0.42$\pm$0.06 & 1.4  \\
       (1-2.5)$\times10^{14}$ & blue   & 0.42$\pm$0.06 & 1.2  \\ 
@@ -103,7 +103,7 @@ For the line-of-sight dimension, we require galaxies to fall within $\Delta z < 
 
 In the plane of the sky, galaxies must lie within a projected radius $R_{200}$ of the cluster center (defined above). $R_{200}$ is defined as the radius within which the average density is 200 times the critical energy density of the Universe, $\rho_{\rm crit}(z)$, evaluated at the redshift of the cluster. However, since $R_{200}$ itself is unknown, we require some kind of assumption about radius or mass in order to proceed with the galaxy counting. There is no unique way to do this. We begin by making an initial approximation of the masses using a best fit power-law relation between mass and cluster peak significance ($\sigma_{\rm cl}$), for \ac{3D-MF} clusters \citep{MMthesis11}:
 \begin{equation}
-\mathrm{log}(M_{200}) = 0.124 \sigma_{\rm cl} + \mathrm{log}(10^{14} M_{\odot}) - 1.507.
+\mathrm{log}(M_{200}) = 0.124 \sigma_{\rm cl} + \mathrm{log}(10^{14} {\rm M}_{\odot}) - 1.507.
 \end{equation}
 
 As discussed in \autoref{sec:clusters3}, \ac{3D-MF} tests on simulations suggested that peak significance was a good mass proxy for high, but not low, mass clusters. In light of this, we merely employ the above relation as a starting point for calculating the radii from mass,
@@ -144,7 +144,7 @@ In order to determine the optimal weight factor $\alpha-1$, for both the measure
 \end{equation}
 and rely on externally measured \ac{LF}s for the characteristic magnitude $M^\ast$ and faint end slope $\alpha_{\mathrm{LF}}$. We use the \ac{LBG} \ac{LF} of \citet{vanderBurg10}, measured using much deeper data from the \ac{CFHTLS} Deep fields. For $u$-dropouts $M^\ast$ is -20.84 and $\alpha_{\mathrm{LF}}$ is -1.6. Thus every source galaxy is assigned a weight factor of $\alpha-1$ according to its absolute magnitude $M$.
 
-The magnification signal, $\mathrm{w}_{\mathrm{opt}}(R)$, is measured in logarithmic radial bins of physical range 0.09 -- 4 Mpc (in contrast to angle), so that we can stack clusters at different redshifts without mixing very different physical scales. Each cluster's signal is measured separately before stacking the measured $\mathrm{w}_{\mathrm{opt}}(R)$, and full covariance matrices are estimated from the different measurements. 
+The magnification signal, $\mathrm{w}_{\mathrm{opt}}(R)$, is measured in logarithmic radial bins of physical range $0.09-4$ Mpc (in contrast to angle), so that we can stack clusters at different redshifts without mixing very different physical scales. Each cluster's signal is measured separately before stacking the measured $\mathrm{w}_{\mathrm{opt}}(R)$, and full covariance matrices are estimated from the different measurements. 
 
 
 \subsection{The Modeling}
@@ -179,15 +179,15 @@ where $R' = \sqrt{R^2 + R_{\rm{off}}^2 + 2RR_{\rm{off}}\cos\theta}$ \citep{Yang0
 The 2-halo term $\Sigma_{\mathrm{2halo}}$ accounts for the fact that the halos we study do not live in isolation, but are clustered as all matter in the Universe is. We account for neighboring halos following the prescription of \citet{Johnston07}:
 
 \begin{equation}
-\Sigma_{\mathrm{2halo}}(R,z) = b_{l}(M_{200},z) \Omega_{\rm m} \sigma_8^2 D(z)^2 \Sigma_l(R,z)
+\Sigma_{\mathrm{2halo}}(R,z) = b_{\rm l}(M_{200},z) \Omega_{\rm m} \sigma_8^2 D(z)^2 \Sigma_l(R,z),
 \end{equation}
 \begin{equation}
-\Sigma_l(R,z) = (1+z)^3 \rho_{crit,0} \int_{-\infty}^\infty \xi\left( (1+z)\sqrt{R^2 + y^2} \right) \mathrm{d}y
+\Sigma_l(R,z) = (1+z)^3 \rho_{crit,0} \int_{-\infty}^\infty \xi\left( (1+z)\sqrt{R^2 + y^2} \right) \mathrm{d}y,
 \end{equation}
 \begin{equation}
-\xi(r) = \frac{1}{2\pi^2} \int_0^\infty k^2 P(k) \frac{\sin{kr}}{kr} \mathrm{d}k
+\xi(r) = \frac{1}{2\pi^2} \int_0^\infty k^2 P(k) \frac{\sin{kr}}{kr} \mathrm{d}k.
 \end{equation}
-Here small $r$ is comoving distance, $D(z)$ is the growth factor, $P(k)$ is the linear matter power spectrum, and $\sigma_8$ is the amplitude of the power spectrum on scales of 8 $h^{-1}$Mpc. For the lens bias factor $b_{l}(M_{200},z)$ we use Equation 5 of \citet{Seljak04}.
+Here small $r$ is comoving distance, $D(z)$ is the growth factor, $P(k)$ is the linear matter power spectrum, and $\sigma_8$ is the amplitude of the power spectrum on scales of 8 $h^{-1}$Mpc. For the lens bias factor $b_{\rm l}(M_{200},z)$ we use Equation 5 of \citet{Seljak04}.
 
 
 \subsubsection{Composite-Halo Fits}
@@ -235,21 +235,21 @@ The factor $f_{\mathrm{clustering}}(z)$ itself is generally very small for the \
 
 We explore three ways of determining $\mathrm{w}_{\mathrm{clustering}}$. Because of the weighting applied to \ac{LBG}s in our measurement (which is optimal for the lensed sources, and should suppress contributions from redshift overlap), there will always be a prefactor of $\langle \alpha-1 \rangle$ in each estimation of clustering. The first method uses the dark matter angular auto-correlation, $\mathrm{w}_{\mathrm{dm}}$, and estimates of the galaxy and cluster bias to calculate:
 \begin{equation}
-\mathrm{w}_{\mathrm{clustering}}(R,z) = \langle \alpha-1 \rangle b_{l} b_{s} \mathrm{w}_{\mathrm{dm}}(R,z).
+\mathrm{w}_{\mathrm{clustering}}(R,z) = \langle \alpha-1 \rangle b_{\rm l} b_{\rm s} \mathrm{w}_{\mathrm{dm}}(R,z).
 \label{eqn:model13}
 \end{equation}
-We set the bias factor for the galaxy contaminants $b_s$=1 for this analysis, which is reasonably consistent with the bias relation of \citet{Seljak04} that is employed for the cluster bias ($b_{l}$).
+We set the bias factor for the galaxy contaminants $b_{\rm s}$=1 for this analysis, which is reasonably consistent with the bias relation of \citet{Seljak04} that is employed for the cluster bias ($b_{\rm l}$).
 
 
 We also calculate both the 1- and 2-halo terms for \ac{NFW} halos, w$_{\mathrm{1halo}}$ and w$_{\mathrm{2halo}}$ \citep[again using the code and methods described in][]{Hamana04}. Here the expression for physical clustering takes the form:
 \begin{equation}
-\mathrm{w}_{\mathrm{clustering}}(R,z) = \langle \alpha-1 \rangle b_{s} \left[\mathrm{w}_{\mathrm{1halo}}(R,z)+\mathrm{w}_{\mathrm{2halo}}(R,z)\right].
+\mathrm{w}_{\mathrm{clustering}}(R,z) = \langle \alpha-1 \rangle b_{\rm s} \left[\mathrm{w}_{\mathrm{1halo}}(R,z)+\mathrm{w}_{\mathrm{2halo}}(R,z)\right].
 \end{equation}
 This method requires knowledge of the occupation distribution of the low-$z$ galaxy contaminants in the cluster dark matter halos, which is not well determined. As a first approximation we use the simple power-law form described in \citet{Hamana04},
 \begin{equation}
-N_g(M_{200}) = \begin{cases} (M_{200}/M_1)^A & \text{for $M_{200} > M_{\mathrm{min}}$} \\ 0 & \text{for $ M_{200} < M_{\mathrm{min}}$} \end{cases}.
+N_{\rm g}(M_{200}) = \begin{cases} (M_{200}/M_1)^A & \text{for $M_{200} > M_{\mathrm{min}}$} \\ 0 & \text{for $ M_{200} < M_{\mathrm{min}}$} \end{cases}.
 \end{equation}
-Since these parameters are unknown, we use the values for $M_1$ and $A$ measured for galaxies in the \ac{SDSS} \citep[see Table 3 of][]{Zehavi11}. We choose $M_{\mathrm{min}}$ to correspond to the minimum mass measured for cluster halos, and assume that halos above this mass always host a detected cluster. As a final check, we also ask what the clustering signal would be if every halo above $M_{\mathrm{min}}$ hosted both a cluster and a single low-$z$ galaxy contaminant (so that $N_g = 1$ for $M_{200} > M_{\mathrm{min}}$).
+Since these parameters are unknown, we use the values for $M_1$ and $A$ measured for galaxies in the \ac{SDSS} \citep[see Table 3 of][]{Zehavi11}. We choose $M_{\mathrm{min}}$ to correspond to the minimum mass measured for cluster halos, and assume that halos above this mass always host a detected cluster. As a final check, we also ask what the clustering signal would be if every halo above $M_{\mathrm{min}}$ hosted both a cluster and a single low-$z$ galaxy contaminant (so that $N_{\rm g} = 1$ for $M_{200} > M_{\mathrm{min}}$).
 
 This final method yields the largest estimates of $\mathrm{w}_{\mathrm{clustering}}$, and therefore a smaller estimate of cluster masses. The former (using \ac{SDSS} parameters) gives the highest mass estimates, and the simple biasing approach of \autoref{eqn:model13} yields intermediate results. We use the range of these results to estimate an uncertainty in mass estimates coming from lack of knowledge about the nature of the low-$z$ galaxies that contaminate our \ac{LBG} source sample. This additional systematic error affects only the clusters at low redshift, where the source and lens $P(z)$ distributions overlap, and is reported on the mass estimates given in \autoref{ztable3}. All best fit mass values reported in the tables of this work are calculated using the contamination approach of \autoref{eqn:model13}, since this method relied on the fewest assumptions about the nature of the galaxy contaminants.
 
@@ -315,11 +315,11 @@ We observe a prominent scaling of best fit mass to richness, across the six rich
 
 We fit a simple power-law, \autoref{eqn:mr3}, to these points, using the same plotted color and line schemes for perfectly centered and miscentered clusters. For this cluster sample, we find the best fit gives the normalization and slope of the mass-richness relation to be
 \begin{equation}
-M_0 = (2.3 \pm 0.2) \times 10^{13} M_\odot, \beta = 1.4 \pm 0.1
+M_0 = (2.3 \pm 0.2) \times 10^{13}\ {\rm M}_\odot, \beta = 1.4 \pm 0.1
 \end{equation}
 for the perfectly centered $p_{\mathrm{cc}}=1$ case, and
 \begin{equation}
-M_0 = (2.2 \pm 0.2) \times 10^{13} M_\odot, \beta = 1.5 \pm 0.1
+M_0 = (2.2 \pm 0.2) \times 10^{13}\ {\rm M}_\odot, \beta = 1.5 \pm 0.1
 \end{equation}
 for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and 1.7, respectively (4 degrees of freedom), and there is good agreement between the two different centering scenarios explored here.
 
@@ -336,13 +336,13 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and
       \hline
        %&  &  &  &   p$_{cc}$=1: & &   p$_{cc}$=0: & \\
       Richness & \# Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ \\ \hline
-      2 $<N_{200}$ & 18,036 & 9.7$\sigma$ & 17 & (2.0$\pm$0.3)$\times10^{13} M_{\odot}$ & 1.2 & (1.8$\pm$0.3)$\times10^{13} M_{\odot}$ & 2.3  \\
-      2 $<N_{200}<$ 10 & 4,453 & 5.3$\sigma$ & 8 & (0.9$\pm$0.5)$\times10^{13} M_{\odot}$ & 3.0 & (0.7$\pm$0.4)$\times10^{13} M_{\odot}$ & 3.2  \\
-      10 $<N_{200}<$ 20 & 9,398 & 5.9$\sigma$ & 15 & (1.3$\pm$0.3)$\times10^{13} M_{\odot}$ & 1.6 & (1.0$\pm$0.3)$\times10^{13} M_{\odot}$ & 2.2  \\
-      20 $<N_{200}<$ 30 & 2,967 & 5.4$\sigma$ & 24 & (2.9$\pm$0.7)$\times10^{13} M_{\odot}$ & 0.7 & (3.3$\pm$0.8)$\times10^{13} M_{\odot}$ & 0.3  \\
-      30 $<N_{200}<$ 40 & 695 & 5.0$\sigma$ & 35 & (7$\pm$2)$\times10^{13} M_{\odot}$ & 0.3 & (7$\pm$2)$\times10^{13} M_{\odot}$ & 0.5  \\
-      40 $<N_{200}<$ 60 & 351 & 4.6$\sigma$ & 47 & (1.0$\pm$0.2)$\times10^{14} M_{\odot}$ & 0.4 & (1.1$\pm$0.2)$\times10^{14} M_{\odot}$ & 0.3  \\
-      60 $<N_{200}$ & 172 & 5.5$\sigma$ & 99 & (2.0$\pm$0.4)$\times10^{14} M_{\odot}$ & 0.5 & (2.1$\pm$0.4)$\times10^{14} M_{\odot}$ & 0.6  \\
+      2 $<N_{200}$ & 18,036 & 9.7$\sigma$ & 17 & (2.0$\pm$0.3)$\times10^{13} {\rm M}_{\odot}$ & 1.2 & (1.8$\pm$0.3)$\times10^{13} {\rm M}_{\odot}$ & 2.3  \\
+      2 $<N_{200}<$ 10 & 4,453 & 5.3$\sigma$ & 8 & (0.9$\pm$0.5)$\times10^{13} {\rm M}_{\odot}$ & 3.0 & (0.7$\pm$0.4)$\times10^{13} {\rm M}_{\odot}$ & 3.2  \\
+      10 $<N_{200}<$ 20 & 9,398 & 5.9$\sigma$ & 15 & (1.3$\pm$0.3)$\times10^{13} {\rm M}_{\odot}$ & 1.6 & (1.0$\pm$0.3)$\times10^{13} {\rm M}_{\odot}$ & 2.2  \\
+      20 $<N_{200}<$ 30 & 2,967 & 5.4$\sigma$ & 24 & (2.9$\pm$0.7)$\times10^{13} {\rm M}_{\odot}$ & 0.7 & (3.3$\pm$0.8)$\times10^{13} {\rm M}_{\odot}$ & 0.3  \\
+      30 $<N_{200}<$ 40 & 695 & 5.0$\sigma$ & 35 & (7$\pm$2)$\times10^{13} {\rm M}_{\odot}$ & 0.3 & (7$\pm$2)$\times10^{13} {\rm M}_{\odot}$ & 0.5  \\
+      40 $<N_{200}<$ 60 & 351 & 4.6$\sigma$ & 47 & (1.0$\pm$0.2)$\times10^{14} {\rm M}_{\odot}$ & 0.4 & (1.1$\pm$0.2)$\times10^{14} {\rm M}_{\odot}$ & 0.3  \\
+      60 $<N_{200}$ & 172 & 5.5$\sigma$ & 99 & (2.0$\pm$0.4)$\times10^{14} {\rm M}_{\odot}$ & 0.5 & (2.1$\pm$0.4)$\times10^{14} {\rm M}_{\odot}$ & 0.6  \\
       \hline
     \end{tabular}
 \end{table}
@@ -355,14 +355,14 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and
     \begin{tabular}{lllllllll}
       \hline
       Redshift & $f_{\rm clustering}$ & Clusters & Significance & $\langle N_{200} \rangle$ & p$_{cc}$=1: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$  & p$_{cc}$=0: $\langle M_{200} \rangle$ & $\chi^2_{\rm red}$ \\ \hline
-      $z$ $\sim$ 0.2 & 0.07 & 1,157 & 12.5$\sigma$ & 11.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} M_{\odot}$ & 3.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} M_{\odot}$ & 3.4  \\
-      $z$ $\sim$ 0.3 & 0.02 & 1,515 & 8.0$\sigma$ & 14.4 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} M_{\odot}$ & 2.2 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} M_{\odot}$ & 2.1  \\
-      $z$ $\sim$ 0.4 & 3$\times10^{-3}$ & 2,242 & 4.6$\sigma$ & 15.2 & (1.9$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.4 & (1.6$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.6  \\
-      $z$ $\sim$ 0.5 & 4$\times10^{-4}$ & 2,932 & 4.0$\sigma$ & 15.9 & (0.3$\pm$0.4)$\times10^{13} M_{\odot}$ & 1.9 & (0.2$\pm$0.5)$\times10^{13} M_{\odot}$ & 1.9  \\
-      $z$ $\sim$ 0.6 & 1$\times10^{-4}$ & 2,455 & 4.6$\sigma$ & 18.0 & (2.2$\pm$0.8)$\times10^{13} M_{\odot}$ & 1.5 & (2.0$\pm$0.8)$\times10^{13} M_{\odot}$ & 1.6  \\
-      $z$ $\sim$ 0.7 & 2$\times10^{-5}$ & 2,331 & 4.5$\sigma$ & 19.3 & (1.2$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.7 & (1.1$\pm$0.7)$\times10^{13} M_{\odot}$ & 1.9  \\
-      $z$ $\sim$ 0.8 & 2$\times10^{-5}$ & 2,364 & 4.9$\sigma$ & 19.9 & (2.5$\pm$0.9)$\times10^{13} M_{\odot}$ & 1.5 & (2.2$\pm$0.9)$\times10^{13} M_{\odot}$ & 1.7  \\ 
-      $z$ $\sim$ 0.9 & 2$\times10^{-5}$ & 3,040 & 2.6$\sigma$ & 17.6 & (0.5$\pm$0.5)$\times10^{13} M_{\odot}$ & 0.6 & (0.3$\pm$0.6)$\times10^{13} M_{\odot}$ & 0.8  \\
+      $z$ $\sim$ 0.2 & 0.07 & 1,157 & 12.5$\sigma$ & 11.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} {\rm M}_{\odot}$ & 3.6 & (9$\pm$2$\pm$2$^{sys}$)$\times10^{13} {\rm M}_{\odot}$ & 3.4  \\
+      $z$ $\sim$ 0.3 & 0.02 & 1,515 & 8.0$\sigma$ & 14.4 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} {\rm M}_{\odot}$ & 2.2 & (6$\pm$1$\pm$1$^{sys}$)$\times10^{13} {\rm M}_{\odot}$ & 2.1  \\
+      $z$ $\sim$ 0.4 & 3$\times10^{-3}$ & 2,242 & 4.6$\sigma$ & 15.2 & (1.9$\pm$0.7)$\times10^{13} {\rm M}_{\odot}$ & 1.4 & (1.6$\pm$0.7)$\times10^{13} {\rm M}_{\odot}$ & 1.6  \\
+      $z$ $\sim$ 0.5 & 4$\times10^{-4}$ & 2,932 & 4.0$\sigma$ & 15.9 & (0.3$\pm$0.4)$\times10^{13} {\rm M}_{\odot}$ & 1.9 & (0.2$\pm$0.5)$\times10^{13} {\rm M}_{\odot}$ & 1.9  \\
+      $z$ $\sim$ 0.6 & 1$\times10^{-4}$ & 2,455 & 4.6$\sigma$ & 18.0 & (2.2$\pm$0.8)$\times10^{13} {\rm M}_{\odot}$ & 1.5 & (2.0$\pm$0.8)$\times10^{13} {\rm M}_{\odot}$ & 1.6  \\
+      $z$ $\sim$ 0.7 & 2$\times10^{-5}$ & 2,331 & 4.5$\sigma$ & 19.3 & (1.2$\pm$0.7)$\times10^{13} {\rm M}_{\odot}$ & 1.7 & (1.1$\pm$0.7)$\times10^{13} {\rm M}_{\odot}$ & 1.9  \\
+      $z$ $\sim$ 0.8 & 2$\times10^{-5}$ & 2,364 & 4.9$\sigma$ & 19.9 & (2.5$\pm$0.9)$\times10^{13} {\rm M}_{\odot}$ & 1.5 & (2.2$\pm$0.9)$\times10^{13} {\rm M}_{\odot}$ & 1.7  \\ 
+      $z$ $\sim$ 0.9 & 2$\times10^{-5}$ & 3,040 & 2.6$\sigma$ & 17.6 & (0.5$\pm$0.5)$\times10^{13} {\rm M}_{\odot}$ & 0.6 & (0.3$\pm$0.6)$\times10^{13} {\rm M}_{\odot}$ & 0.8  \\
       \hline
     \end{tabular}
 \end{table}
@@ -417,7 +417,7 @@ We fit a composite-\ac{NFW} model that accounts for the full redshift and mass r
 
 We observe a strong scaling between measured mass and cluster richness, and fit a simple power-law relation to the data. The two miscentering models explored in this work yield consistent values for the normalization and slope of the mass-richness relation.
 
-We have attempted to account for the contamination of our background sources with low-$z$ galaxies. This is a serious systematic effect for magnification, as redshift overlap between lenses and sources will lead to physical clustering correlations, swamping the lensing-induced correlations that we want to measure. We use the full stacked redshift probability distributions for the lens and source populations, and include the expected clustering contribution in our model. In spite of this we see unexpected features in the redshift-binned measurements. Part of the reason could come from cluster false detections, which can be high for the \ac{3D-MF} method which is optimized for completeness. Another contribution could come from errors in the source redshift distributions. Accounting for redshift overlap is imperative if significant overlap exists between the lens and source distributions, or else mass estimates can end up very biased.
+We have attempted to account for the contamination of our background sources with low-$z$ galaxies. This is a serious systematic effect for magnification, as redshift overlap between lenses and sources will lead to physical clustering correlations, swamping the lensing-induced correlations that we want to measure. We use the full stacked redshift probability distributions for the lens and source populations, and include the expected clustering contribution in our model. In spite of this we see unexpected features in the redshift-binned measurements. Part of the reason could come from cluster false detections, which can be high for the \ac{3D-MF} method, which is optimized for completeness. Another contribution could come from errors in the source redshift distributions. Accounting for redshift overlap is imperative if significant overlap exists between the lens and source distributions, or else mass estimates can end up very biased.
 
 This is the first analysis presented of the \ac{3D-MF} clusters in \ac{CFHTLenS}, but much more science is left to do with the sample. In particular, a more thorough investigation of the miscentering problem will be carried out in the forthcoming shear analysis, where it will be possible to compare different candidate centers. Another interesting question is whether dust can be detected on cluster scales by simultaneously measuring the chromatic extinction along with flux magnification. Finally different background source samples may be employed to improve signal-to-noise, but only if their redshift distributions can be well determined. We leave these tasks to future work.
 

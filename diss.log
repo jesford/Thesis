@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  21 APR 2015 00:06
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  21 APR 2015 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,18 +1143,18 @@ Chapter 4.
 ]
 Package acronym Info: Label `acro:CFHT' newly defined as it shall be overridden
 
-although it is yet undefined on input line 30.
+although it is yet undefined on input line 33.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 36.
+(hyperref)                removing `math shift' on input line 39.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 36.
+(hyperref)                removing `math shift' on input line 39.
 
 [55] [56]
-Overfull \hbox (1.40169pt too wide) in paragraph at lines 61--62
+Overfull \hbox (1.40169pt too wide) in paragraph at lines 64--65
 []\OT1/ptm/m/n/10.95 Excluding pos-si-ble mul-ti-ple de-tec-tions, a to-tal of 
 22,694 galaxy clus-ter can-di-dates were found in the \OT1/ptm/m/sc/10.95 cfhtl
 s[][]\OT1/ptm/m/n/10.95 -
@@ -1169,10 +1169,10 @@ o.pdf>
 (epstopdf)                    size: 14450 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/MassSig_relation
 -eps-converted-to.pdf plots_ch4/MassSig_relation.eps>
-(epstopdf)             \includegraphics on input line 69.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/MassSig_relation-eps-converted-to.pdf, id=2192, 520.94624pt x 373.39
+<plots_ch4/MassSig_relation-eps-converted-to.pdf, id=2189, 520.94624pt x 373.39
 5pt>
 File: plots_ch4/MassSig_relation-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/MassSig_relation-eps-converted-to.pdf>
@@ -1185,10 +1185,10 @@ d-to.pdf>
 (epstopdf)                    size: 11852 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/hists_N200_z_NoG
 aps-eps-converted-to.pdf plots_ch4/hists_N200_z_NoGaps.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf, id=2195, 481.8pt x 204.765
+<plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf, id=2192, 481.8pt x 204.765
 pt>
 File: plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1202,29 +1202,29 @@ Package epstopdf Info: Source file: <plots_ch4/N200vsSig.eps>
 (epstopdf)                    size: 11568 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/N200vsSig-eps-co
 nverted-to.pdf plots_ch4/N200vsSig.eps>
-(epstopdf)             \includegraphics on input line 98.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/N200vsSig-eps-converted-to.pdf, id=2246, 508.90125pt x 373.395pt>
+<plots_ch4/N200vsSig-eps-converted-to.pdf, id=2243, 508.90125pt x 373.395pt>
 File: plots_ch4/N200vsSig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots_ch4/N200vsSig-eps-converted-to.pdf> [58 <./plots_ch4/hists_N200_z_No
 Gaps-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 123.
+(hyperref)                removing `math shift' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 123.
+(hyperref)                removing `\Delta' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 123.
+(hyperref)                removing `\Sigma' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 123.
+(hyperref)                removing `math shift' on input line 126.
 
 [59 <./plots_ch4/N200vsSig-eps-converted-to.pdf>] [60]
 Package epstopdf Info: Source file: <plots_ch4/PofRc_DeltaSigma_example.eps>
@@ -1236,10 +1236,10 @@ verted-to.pdf>
 (epstopdf)                    size: 16995 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/PofRc_DeltaSigma
 _example-eps-converted-to.pdf plots_ch4/PofRc_DeltaSigma_example.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf, id=2353, 474.77374pt 
+<plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf, id=2350, 474.77374pt 
 x 152.57pt>
 File: plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1256,11 +1256,11 @@ p5_DuttonMaccio-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearFit_panel_f
 cc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf plots_ch4/shearFit_panel_f
 cc0and1_slopeMN1p5_DuttonMaccio.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf
-, id=2475, 501.875pt x 384.43625pt>
+, id=2472, 501.875pt x 384.43625pt>
 File: plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1275,10 +1275,10 @@ to.pdf>
 (epstopdf)                    size: 20749 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/m200panels_NoGap
 s-eps-converted-to.pdf plots_ch4/m200panels_NoGaps.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/m200panels_NoGaps-eps-converted-to.pdf, id=2482, 483.8075pt x 90.337
+<plots_ch4/m200panels_NoGaps-eps-converted-to.pdf, id=2479, 483.8075pt x 90.337
 5pt>
 File: plots_ch4/m200panels_NoGaps-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/m200panels_NoGaps-eps-converted-to.pdf> [64] [65 <./plots_ch4/s
@@ -1286,19 +1286,19 @@ hearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf> <./plots_c
 h4/m200panels_NoGaps-eps-converted-to.pdf>] [66] [67]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 358.
+(hyperref)                removing `math shift' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 358.
+(hyperref)                removing `\Delta' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 358.
+(hyperref)                removing `\Sigma' on input line 361.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 358.
+(hyperref)                removing `math shift' on input line 361.
 
 Package epstopdf Info: Source file: <plots_ch4/MassRich_shear_FullModelOnly_Dut
 tonMaccio_IntrinsicScatter.eps>
@@ -1311,11 +1311,11 @@ tonMaccio_IntrinsicScatter-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/MassRich_shear_F
 ullModelOnly_DuttonMaccio_IntrinsicScatter-eps-converted-to.pdf plots_ch4/MassR
 ich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter-eps-conve
-rted-to.pdf, id=2623, 520.94624pt x 383.4325pt>
+rted-to.pdf, id=2620, 520.94624pt x 383.4325pt>
 File: plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter-eps-
 converted-to.pdf Graphic file (type pdf)
 
@@ -1336,17 +1336,17 @@ N1p5_DuttonMaccio-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearFit_zpanels
 _fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf plots_ch4/shearFit_zpane
 ls_fcc0and1_slopeMN1p5_DuttonMaccio.eps>
-(epstopdf)             \includegraphics on input line 393.
+(epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.p
-df, id=2689, 497.86pt x 209.78375pt>
+df, id=2686, 497.86pt x 209.78375pt>
 File: plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-
 to.pdf>
-Overfull \hbox (10.03627pt too wide) in paragraph at lines 393--394
+Overfull \hbox (10.03627pt too wide) in paragraph at lines 396--397
  [] 
  []
 
@@ -1363,10 +1363,10 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/Mo_vs_z_DuttonMa
 ccio_powerlaw-eps-converted-to.pdf plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.eps>
 
-(epstopdf)             \includegraphics on input line 426.
+(epstopdf)             \includegraphics on input line 429.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf, id=2767, 529.98p
+<plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf, id=2764, 529.98p
 t x 376.40625pt>
 File: plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1383,10 +1383,10 @@ to.pdf>
 (epstopdf)                    size: 23884 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearVSmag_N200_
 z-eps-converted-to.pdf plots_ch4/shearVSmag_N200_z.eps>
-(epstopdf)             \includegraphics on input line 501.
+(epstopdf)             \includegraphics on input line 504.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf, id=2899, 507.8975pt x 197.73
+<plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf, id=2896, 507.8975pt x 197.73
 875pt>
 File: plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf> [74] [75 <./plots_ch4/s
@@ -1418,16 +1418,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: 8A13CC7FB007C9FA12526E4213BB9A85;5329.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 33E15103903997B8F359E68D9C42A046;23681.
+(rerunfilecheck)             Checksum: 3C2310DFBF9D86A229701270758971F5;23681.
  ) 
 Here is how much of TeX's memory you used:
- 12403 strings out of 493747
- 184528 string characters out of 3143546
- 296431 words of memory out of 3000000
- 14772 multiletter control sequences out of 15000+200000
- 82796 words of font info for 173 fonts, out of 3000000 for 9000
+ 12401 strings out of 493747
+ 184509 string characters out of 3143546
+ 296324 words of memory out of 3000000
+ 14771 multiletter control sequences out of 15000+200000
+ 81036 words of font info for 171 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 42i,16n,40p,1730b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,40p,1744b,858s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1444,10 +1444,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (109 pages, 1877117 bytes).
+Output written on diss.pdf (109 pages, 1876273 bytes).
 PDF statistics:
- 3921 PDF objects out of 4296 (max. 8388607)
- 3194 compressed objects within 32 object streams
+ 3918 PDF objects out of 4296 (max. 8388607)
+ 3191 compressed objects within 32 object streams
  528 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
