@@ -1,4 +1,4 @@
-\begin{thebibliography}{177}
+\begin{thebibliography}{190}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -110,6 +110,13 @@ A.~H. {Bauer}, E.~{Gazta{\~n}aga}, P.~{Mart{\'{\i}}}, and R.~{Miquel}.
 \newblock \emph{\mnras}, 440:\penalty0 3701--3713, June 2014.
 \newblock \doi{10.1093/mnras/stu530}.
 
+\bibitem[{Bayliss}(2012)]{Bayliss12}
+M.~B. {Bayliss}.
+\newblock {Broadband Photometry of 105 Giant Arcs: Redshift Constraints and
+  Implications for Giant Arc Statistics}.
+\newblock \emph{\apj}, 744:\penalty0 156, Jan. 2012.
+\newblock \doi{10.1088/0004-637X/744/2/156}.
+
 \bibitem[{Bertone} et~al.(2005){Bertone}, {Hooper}, and {Silk}]{Bertone05}
 G.~{Bertone}, D.~{Hooper}, and J.~{Silk}.
 \newblock {Particle dark matter: evidence, candidates and constraints}.
@@ -138,6 +145,12 @@ A.~{Biviano}.
 \newblock {From Messier to Abell: 200 Years of Science with Galaxy Clusters}.
 \newblock In \emph{Constructing the Universe with Clusters of Galaxies},
   page~1, 2000.
+
+\bibitem[{Blandford} and {Narayan}(1992)]{Blandford92}
+R.~D. {Blandford} and R.~{Narayan}.
+\newblock {Cosmological applications of gravitational lensing}.
+\newblock \emph{\araa}, 30:\penalty0 311--358, 1992.
+\newblock \doi{10.1146/annurev.aa.30.090192.001523}.
 
 \bibitem[{Bolton} et~al.(2008){Bolton}, {Burles}, {Koopmans}, {Treu},
   {Gavazzi}, {Moustakas}, {Wayth}, and {Schlegel}]{Bolton08}
@@ -364,6 +377,13 @@ J.~{Einasto}.
   Determination of the System of Galactic Parameters}.
 \newblock \emph{Trudy Astrofizicheskogo Instituta Alma-Ata}, 5:\penalty0
   87--100, 1965.
+
+\bibitem[{Einstein}(1917)]{Einstein17}
+A.~{Einstein}.
+\newblock {Kosmologische Betrachtungen zur allgemeinen
+  Relativit{\"a}tstheorie}.
+\newblock \emph{Sitzungsberichte der K{\"o}niglich Preu{\ss}ischen Akademie der
+  Wissenschaften (Berlin), Seite 142-152.}, pages 142--152, 1917.
 
 \bibitem[{Erben} et~al.(2009){Erben}, {Hildebrandt}, {Lerchster}, {Hudelot},
   {Benjamin}, {van Waerbeke}, {Schrabback}, {Brimioulle}, {Cordes}, {Dietrich},
@@ -673,6 +693,11 @@ H.~{Hoekstra}, R.~{Herbonnet}, A.~{Muzzin}, A.~{Babul}, A.~{Mahdavi},
 \newblock {The Canadian Cluster Comparison Project: detailed study of
   systematics and updated weak lensing masses}.
 \newblock \emph{ArXiv e-prints}, Feb. 2015.
+
+\bibitem[{Hogg}(1999)]{Hogg99}
+D.~W. {Hogg}.
+\newblock {Distance measures in cosmology}.
+\newblock \emph{ArXiv Astrophysics e-prints}, May 1999.
 
 \bibitem[{Hubble}(1929)]{Hubble29}
 E.~{Hubble}.
@@ -1067,6 +1092,17 @@ B.~{Paczynski}.
 \newblock \emph{\araa}, 34:\penalty0 419--460, 1996.
 \newblock \doi{10.1146/annurev.astro.34.1.419}.
 
+\bibitem[{Peebles}(1982)]{Peebles82}
+P.~J.~E. {Peebles}.
+\newblock {Primeval adiabatic perturbations - Effect of massive neutrinos}.
+\newblock \emph{\apj}, 258:\penalty0 415--424, July 1982.
+\newblock \doi{10.1086/160094}.
+
+\bibitem[{Peebles}(1993)]{PeeblesText}
+P.~J.~E. {Peebles}.
+\newblock \emph{{Principles of Physical Cosmology}}.
+\newblock 1993.
+
 \bibitem[{Peebles} and {Yu}(1970)]{PeeblesYu70}
 P.~J.~E. {Peebles} and J.~T. {Yu}.
 \newblock {Primeval Adiabatic Perturbation in an Expanding Universe}.
@@ -1107,6 +1143,24 @@ S.~{Perlmutter}, G.~{Aldering}, G.~{Goldhaber}, R.~A. {Knop}, P.~{Nugent},
 \newblock \emph{\aap}, 571:\penalty0 A16, Nov. 2014.
 \newblock \doi{10.1051/0004-6361/201321591}.
 
+\bibitem[{Planck Collaboration} et~al.(2015{\natexlab{a}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, and et~al.]{PlanckXIII_15}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, and et~al.
+\newblock {Planck 2015 results. XIII. Cosmological parameters}.
+\newblock \emph{ArXiv e-prints}, Feb. 2015{\natexlab{a}}.
+
+\bibitem[{Planck Collaboration} et~al.(2015{\natexlab{b}}){Planck
+  Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Banday}, {Barreiro}, {Bartolo}, and et~al.]{PlanckDE15}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, N.~{Bartolo}, and et~al.
+\newblock {Planck 2015 results. XIV. Dark energy and modified gravity}.
+\newblock \emph{ArXiv e-prints}, Feb. 2015{\natexlab{b}}.
+
 \bibitem[{Postman} et~al.(1996){Postman}, {Lubin}, {Gunn}, {Oke}, {Hoessel},
   {Schneider}, and {Christensen}]{Postman96}
 M.~{Postman}, L.~M. {Lubin}, J.~E. {Gunn}, J.~B. {Oke}, J.~G. {Hoessel}, D.~P.
@@ -1144,6 +1198,12 @@ A.~G. {Riess}, A.~V. {Filippenko}, P.~{Challis}, A.~{Clocchiatti},
   and a Cosmological Constant}.
 \newblock \emph{\aj}, 116:\penalty0 1009--1038, Sept. 1998.
 \newblock \doi{10.1086/300499}.
+
+\bibitem[{Roos}(2010)]{Roos10}
+M.~{Roos}.
+\newblock {Dark Matter: The evidence from astronomy, astrophysics and
+  cosmology}.
+\newblock \emph{ArXiv e-prints}, Jan. 2010.
 
 \bibitem[{Rozo} and {Schmidt}(2010)]{RozoSchmidt10}
 E.~{Rozo} and F.~{Schmidt}.
@@ -1247,6 +1307,13 @@ P.~{Schneider}, L.~{King}, and T.~{Erben}.
 \newblock {Cluster mass profiles from weak lensing: constraints from shear and
   magnification information}.
 \newblock \emph{\aap}, 353:\penalty0 41--56, Jan. 2000.
+
+\bibitem[{Schumann}(2014)]{Schumann14}
+M.~{Schumann}.
+\newblock {Dark Matter 2013}.
+\newblock \emph{Brazilian Journal of Physics}, 44:\penalty0 483--493, Oct.
+  2014.
+\newblock \doi{10.1007/s13538-014-0222-x}.
 
 \bibitem[{Scranton} et~al.(2005){Scranton}, {M{\'e}nard}, {Richards}, {Nichol},
   {Myers}, {Jain}, {Gray}, {Bartelmann}, {Brunner}, {Connolly}, {Gunn},
@@ -1534,6 +1601,14 @@ R.~L. {Webster}, P.~C. {Hewett}, M.~E. {Harding}, and G.~A. {Wegner}.
 \newblock \emph{\nat}, 336:\penalty0 358, Nov. 1988.
 \newblock \doi{10.1038/336358a0}.
 
+\bibitem[{Weinberg} et~al.(2013){Weinberg}, {Mortonson}, {Eisenstein},
+  {Hirata}, {Riess}, and {Rozo}]{Weinberg13}
+D.~H. {Weinberg}, M.~J. {Mortonson}, D.~J. {Eisenstein}, C.~{Hirata}, A.~G.
+  {Riess}, and E.~{Rozo}.
+\newblock {Observational probes of cosmic acceleration}.
+\newblock \emph{\physrep}, 530:\penalty0 87--255, Sept. 2013.
+\newblock \doi{10.1016/j.physrep.2013.05.001}.
+
 \bibitem[{Wen} et~al.(2009){Wen}, {Han}, and {Liu}]{Wen09}
 Z.~L. {Wen}, J.~L. {Han}, and F.~S. {Liu}.
 \newblock {Galaxy Clusters Identified from the SDSS DR6 and Their Properties}.
@@ -1546,6 +1621,16 @@ Z.~L. {Wen}, J.~L. {Han}, and F.~S. {Liu}.
   Digital Sky Survey III}.
 \newblock \emph{\apjs}, 199:\penalty0 34, Apr. 2012.
 \newblock \doi{10.1088/0067-0049/199/2/34}.
+
+\bibitem[{White} et~al.(1995){White}, {Scott}, {Silk}, and {Davis}]{White95}
+M.~{White}, D.~{Scott}, J.~{Silk}, and M.~{Davis}.
+\newblock {Cold dark matter resuscitated?}
+\newblock \emph{\mnras}, 276:\penalty0 L69--L75, Oct. 1995.
+
+\bibitem[{White} et~al.(1993){White}, {Efstathiou}, and {Frenk}]{White93}
+S.~D.~M. {White}, G.~{Efstathiou}, and C.~S. {Frenk}.
+\newblock {The amplitude of mass fluctuations in the universe}.
+\newblock \emph{\mnras}, 262:\penalty0 1023--1028, June 1993.
 
 \bibitem[{Wright} and {Brainerd}(2000)]{Wright00}
 C.~O. {Wright} and T.~G. {Brainerd}.
