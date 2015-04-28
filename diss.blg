@@ -9,7 +9,7 @@ A level-1 auxiliary file: ch3.aux
 A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10320 items from 5000.
+Reallocated field_info (elt_size=4) to 10432 items from 5000.
 Database file #1: References.bib
 Repeated entry---line 3089 of file References.bib
  : @article{DeLucia07
@@ -26,45 +26,45 @@ Warning--empty publisher in DodelsonText
 Warning--empty publisher in PeeblesText
 Warning--empty publisher in RydenText
 Warning--empty publisher in Sagan80
-You've used 190 entries,
+You've used 194 entries,
             2773 wiz_defined-function locations,
-            1885 strings with 57738 characters,
-and the built_in function-call counts, 141944 in all, are:
-= -- 11090
-> -- 14795
-< -- 86
-+ -- 4962
-- -- 4766
-* -- 14189
-:= -- 23554
-add.period$ -- 716
-call.type$ -- 190
-change.case$ -- 2145
-chr.to.int$ -- 184
-cite$ -- 385
-duplicate$ -- 3964
-empty$ -- 7066
-format.name$ -- 5024
-if$ -- 28073
+            1907 strings with 58150 characters,
+and the built_in function-call counts, 143689 in all, are:
+= -- 11249
+> -- 14872
+< -- 90
++ -- 4987
+- -- 4787
+* -- 14319
+:= -- 23814
+add.period$ -- 729
+call.type$ -- 194
+change.case$ -- 2163
+chr.to.int$ -- 188
+cite$ -- 393
+duplicate$ -- 4054
+empty$ -- 7226
+format.name$ -- 5055
+if$ -- 28455
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 192
-newline$ -- 1104
-num.names$ -- 769
-pop$ -- 3921
+missing$ -- 196
+newline$ -- 1125
+num.names$ -- 787
+pop$ -- 3956
 preamble$ -- 1
-purify$ -- 1963
+purify$ -- 1977
 quote$ -- 0
-skip$ -- 3806
+skip$ -- 3872
 stack$ -- 0
-substring$ -- 3021
-swap$ -- 436
-text.length$ -- 11
+substring$ -- 3092
+swap$ -- 451
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2063
+type$ -- 2107
 warning$ -- 5
-while$ -- 711
+while$ -- 728
 width$ -- 0
-write$ -- 2744
+write$ -- 2797
 (There were 4 error messages)

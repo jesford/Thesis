@@ -1,4 +1,4 @@
-\begin{thebibliography}{190}
+\begin{thebibliography}{194}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -110,13 +110,6 @@ A.~H. {Bauer}, E.~{Gazta{\~n}aga}, P.~{Mart{\'{\i}}}, and R.~{Miquel}.
 \newblock \emph{\mnras}, 440:\penalty0 3701--3713, June 2014.
 \newblock \doi{10.1093/mnras/stu530}.
 
-\bibitem[{Bayliss}(2012)]{Bayliss12}
-M.~B. {Bayliss}.
-\newblock {Broadband Photometry of 105 Giant Arcs: Redshift Constraints and
-  Implications for Giant Arc Statistics}.
-\newblock \emph{\apj}, 744:\penalty0 156, Jan. 2012.
-\newblock \doi{10.1088/0004-637X/744/2/156}.
-
 \bibitem[{Bertone} et~al.(2005){Bertone}, {Hooper}, and {Silk}]{Bertone05}
 G.~{Bertone}, D.~{Hooper}, and J.~{Silk}.
 \newblock {Particle dark matter: evidence, candidates and constraints}.
@@ -146,19 +139,17 @@ A.~{Biviano}.
 \newblock In \emph{Constructing the Universe with Clusters of Galaxies},
   page~1, 2000.
 
+\bibitem[{Blain} and {Longair}(1996)]{Blain96}
+A.~W. {Blain} and M.~S. {Longair}.
+\newblock {Observing strategies for blank-field surveys in the submillimetre
+  waveband}.
+\newblock \emph{\mnras}, 279:\penalty0 847--858, Apr. 1996.
+
 \bibitem[{Blandford} and {Narayan}(1992)]{Blandford92}
 R.~D. {Blandford} and R.~{Narayan}.
 \newblock {Cosmological applications of gravitational lensing}.
 \newblock \emph{\araa}, 30:\penalty0 311--358, 1992.
 \newblock \doi{10.1146/annurev.aa.30.090192.001523}.
-
-\bibitem[{Bolton} et~al.(2008){Bolton}, {Burles}, {Koopmans}, {Treu},
-  {Gavazzi}, {Moustakas}, {Wayth}, and {Schlegel}]{Bolton08}
-A.~S. {Bolton}, S.~{Burles}, L.~V.~E. {Koopmans}, T.~{Treu}, R.~{Gavazzi},
-  L.~A. {Moustakas}, R.~{Wayth}, and D.~J. {Schlegel}.
-\newblock {The Sloan Lens ACS Survey. V. The Full ACS Strong-Lens Sample}.
-\newblock \emph{\apj}, 682:\penalty0 964--984, Aug. 2008.
-\newblock \doi{10.1086/589327}.
 
 \bibitem[{Borgani}(2008)]{Borgani08}
 S.~{Borgani}.
@@ -205,20 +196,6 @@ T.~J. {Broadhurst}, A.~N. {Taylor}, and J.~A. {Peacock}.
   background galaxies}.
 \newblock \emph{\apj}, 438:\penalty0 49--61, Jan. 1995.
 \newblock \doi{10.1086/175053}.
-
-\bibitem[{Browne} et~al.(2003){Browne}, {Wilkinson}, {Jackson}, {Myers},
-  {Fassnacht}, {Koopmans}, {Marlow}, {Norbury}, {Rusin}, {Sykes}, {Biggs},
-  {Blandford}, {de Bruyn}, {Chae}, {Helbig}, {King}, {McKean}, {Pearson},
-  {Phillips}, {Readhead}, {Xanthopoulos}, and {York}]{Browne03}
-I.~W.~A. {Browne}, P.~N. {Wilkinson}, N.~J.~F. {Jackson}, S.~T. {Myers}, C.~D.
-  {Fassnacht}, L.~V.~E. {Koopmans}, D.~R. {Marlow}, M.~{Norbury}, D.~{Rusin},
-  C.~M. {Sykes}, A.~D. {Biggs}, R.~D. {Blandford}, A.~G. {de Bruyn}, K.-H.
-  {Chae}, P.~{Helbig}, L.~J. {King}, J.~P. {McKean}, T.~J. {Pearson}, P.~M.
-  {Phillips}, A.~C.~S. {Readhead}, E.~{Xanthopoulos}, and T.~{York}.
-\newblock {The Cosmic Lens All-Sky Survey - II. Gravitational lens candidate
-  selection and follow-up}.
-\newblock \emph{\mnras}, 341:\penalty0 13--32, May 2003.
-\newblock \doi{10.1046/j.1365-8711.2003.06257.x}.
 
 \bibitem[{Capak} et~al.(2007){Capak}, {Aussel}, {Ajiki}, {McCracken},
   {Mobasher}, {Scoville}, {Shopbell}, {Taniguchi}, {Thompson}, {Tribiano},
@@ -310,6 +287,13 @@ N.~{Dalal} and C.~S. {Kochanek}.
 \newblock {Direct Detection of Cold Dark Matter Substructure}.
 \newblock \emph{\apj}, 572:\penalty0 25--33, June 2002.
 \newblock \doi{10.1086/340303}.
+
+\bibitem[{Davis} and {Peebles}(1983)]{DavisPeebles83}
+M.~{Davis} and P.~J.~E. {Peebles}.
+\newblock {A survey of galaxy redshifts. V - The two-point position and
+  velocity correlations}.
+\newblock \emph{\apj}, 267:\penalty0 465--482, Apr. 1983.
+\newblock \doi{10.1086/160884}.
 
 \bibitem[{de Jong} et~al.(2013){de Jong}, {Verdoes Kleijn}, {Kuijken}, and
   {Valentijn}]{KiDS13}
@@ -425,6 +409,13 @@ A.~C. {Fabian}.
 \newblock {Observational Evidence of Active Galactic Nuclei Feedback}.
 \newblock \emph{\araa}, 50:\penalty0 455--489, Sept. 2012.
 \newblock \doi{10.1146/annurev-astro-081811-125521}.
+
+\bibitem[{Fahlman} et~al.(1994){Fahlman}, {Kaiser}, {Squires}, and
+  {Woods}]{Fahlman94}
+G.~{Fahlman}, N.~{Kaiser}, G.~{Squires}, and D.~{Woods}.
+\newblock {Dark matter in MS 1224 from distortion of background galaxies}.
+\newblock \emph{\apj}, 437:\penalty0 56--62, Dec. 1994.
+\newblock \doi{10.1086/174974}.
 
 \bibitem[{Falco} et~al.(1985){Falco}, {Gorenstein}, and {Shapiro}]{Falco85}
 E.~E. {Falco}, M.~V. {Gorenstein}, and I.~I. {Shapiro}.
@@ -731,6 +722,18 @@ D.~E. {Johnston}, E.~S. {Sheldon}, R.~H. {Wechsler}, E.~{Rozo}, B.~P.
   Density Profiles and the Mass--Richness Relation}.
 \newblock \emph{ArXiv e-prints, astro-ph/0709.1159}, Sept. 2007.
 
+\bibitem[{Kaiser}(1994)]{Kaiser94}
+N.~{Kaiser}.
+\newblock {Mapping the dark matter in clusters. (I)}.
+\newblock In F.~{Durret}, A.~{Mazure}, and J.~{Tran Thanh Van}, editors,
+  \emph{Clusters of Galaxies}, page 269, 1994.
+
+\bibitem[{Kaiser} and {Squires}(1993)]{KS93}
+N.~{Kaiser} and G.~{Squires}.
+\newblock {Mapping the dark matter with weak gravitational lensing}.
+\newblock \emph{\apj}, 404:\penalty0 441--450, Feb. 1993.
+\newblock \doi{10.1086/172297}.
+
 \bibitem[{Kerscher} et~al.(2000){Kerscher}, {Szapudi}, and
   {Szalay}]{Kerscher00}
 M.~{Kerscher}, I.~{Szapudi}, and A.~S. {Szalay}.
@@ -1002,6 +1005,19 @@ L.~{Miller}, C.~{Heymans}, T.~D. {Kitching}, L.~{van Waerbeke}, T.~{Erben},
 H.~J. {Mo} and S.~D.~M. {White}.
 \newblock {An analytic model for the spatial clustering of dark matter haloes}.
 \newblock \emph{\mnras}, 282:\penalty0 347--361, Sept. 1996.
+
+\bibitem[{More} et~al.(2015){More}, {Verma}, {Marshall}, {More}, {Baeten},
+  {Wilcox}, {Macmillan}, {Cornen}, {Kapadia}, {Parrish}, {Snyder}, {Davis},
+  {Gavazzi}, {Lintott}, {Simpson}, {Miller}, {Smith}, {Paget}, {Saha}, {Kueng},
+  {Collett}, {Tecza}, and {Baumer}]{SpaceWarps15}
+A.~{More}, A.~{Verma}, P.~{Marshall}, S.~{More}, E.~{Baeten}, J.~{Wilcox},
+  C.~{Macmillan}, C.~{Cornen}, A.~{Kapadia}, M.~{Parrish}, C.~{Snyder},
+  C.~{Davis}, R.~{Gavazzi}, C.~{Lintott}, R.~{Simpson}, D.~{Miller}, A.~M.
+  {Smith}, E.~{Paget}, P.~{Saha}, R.~{Kueng}, T.~{Collett}, M.~{Tecza}, and
+  M.~{Baumer}.
+\newblock {Space Warps II. New Gravitational Lens Candidates from the CFHTLS
+  Discovered through Citizen Science}.
+\newblock \emph{ArXiv e-prints}, Apr. 2015.
 
 \bibitem[{Morrison} et~al.(2012){Morrison}, {Scranton}, {M{\'e}nard},
   {Schmidt}, {Tyson}, {Ryan}, {Choi}, and {Wittman}]{Morrison12}
@@ -1380,6 +1396,13 @@ M.~{Simet} and R.~{Mandelbaum}.
 \newblock {Background sky obscuration by cluster galaxies as a source of
   systematic error for weak lensing}.
 \newblock \emph{ArXiv e-prints, astro-ph/1406.4908}, June 2014.
+
+\bibitem[{Smail} et~al.(1997){Smail}, {Ivison}, and {Blain}]{Smail97}
+I.~{Smail}, R.~J. {Ivison}, and A.~W. {Blain}.
+\newblock {A Deep Sub-millimeter Survey of Lensing Clusters: A New Window on
+  Galaxy Formation and Evolution}.
+\newblock \emph{\apjl}, 490:\penalty0 L5--L8, Nov. 1997.
+\newblock \doi{10.1086/311017}.
 
 \bibitem[{Soucail} et~al.(1987){Soucail}, {Fort}, {Mellier}, and
   {Picat}]{Soucail87}
