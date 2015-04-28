@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  27 APR 2015 23:49
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  28 APR 2015 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1286,19 +1286,19 @@ hearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf> <./plots_c
 h4/m200panels_NoGaps-eps-converted-to.pdf>] [67] [68]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 361.
+(hyperref)                removing `math shift' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 361.
+(hyperref)                removing `\Delta' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Sigma' on input line 361.
+(hyperref)                removing `\Sigma' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 361.
+(hyperref)                removing `math shift' on input line 365.
 
 Package epstopdf Info: Source file: <plots_ch4/MassRich_shear_FullModelOnly_Dut
 tonMaccio_IntrinsicScatter.eps>
@@ -1311,7 +1311,7 @@ tonMaccio_IntrinsicScatter-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/MassRich_shear_F
 ullModelOnly_DuttonMaccio_IntrinsicScatter-eps-converted-to.pdf plots_ch4/MassR
 ich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter.eps>
-(epstopdf)             \includegraphics on input line 368.
+(epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter-eps-conve
@@ -1336,7 +1336,7 @@ N1p5_DuttonMaccio-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearFit_zpanels
 _fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf plots_ch4/shearFit_zpane
 ls_fcc0and1_slopeMN1p5_DuttonMaccio.eps>
-(epstopdf)             \includegraphics on input line 396.
+(epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.p
@@ -1346,7 +1346,7 @@ File: plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted
 
 <use plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-
 to.pdf>
-Overfull \hbox (10.03627pt too wide) in paragraph at lines 396--397
+Overfull \hbox (10.03627pt too wide) in paragraph at lines 400--401
  [] 
  []
 
@@ -1363,7 +1363,7 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/Mo_vs_z_DuttonMa
 ccio_powerlaw-eps-converted-to.pdf plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.eps>
 
-(epstopdf)             \includegraphics on input line 429.
+(epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf, id=2817, 529.98p
@@ -1383,7 +1383,7 @@ to.pdf>
 (epstopdf)                    size: 23884 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearVSmag_N200_
 z-eps-converted-to.pdf plots_ch4/shearVSmag_N200_z.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 508.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf, id=2949, 507.8975pt x 197.73
@@ -1417,13 +1417,22 @@ aux) (./ch4.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: 8A13CC7FB007C9FA12526E4213BB9A85;5329.
-Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 74100C3A2E40501FFA33B35DF3749A50;24418.
+
+
+Package rerunfilecheck Warning: File `diss.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographicsl references right.
+
+Package rerunfilecheck Info: Checksums for `diss.brf':
+(rerunfilecheck)             Before: 647172250D5A061FD2F91F243762EE7B;24418
+(rerunfilecheck)             After:  253E1FF21F7573A25AFABD98C4365A8B;24418.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  12527 strings out of 493747
  186352 string characters out of 3143546
- 297980 words of memory out of 3000000
+ 297933 words of memory out of 3000000
  14878 multiletter control sequences out of 15000+200000
  81036 words of font info for 171 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -1444,10 +1453,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (111 pages, 1825609 bytes).
+Output written on diss.pdf (111 pages, 1825788 bytes).
 PDF statistics:
- 4006 PDF objects out of 4296 (max. 8388607)
- 3277 compressed objects within 33 object streams
+ 4004 PDF objects out of 4296 (max. 8388607)
+ 3275 compressed objects within 33 object streams
  547 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
