@@ -1,4 +1,4 @@
-\begin{thebibliography}{194}
+\begin{thebibliography}{197}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -63,7 +63,7 @@ H.~{Arp}.
 \bibitem[{Arp}(1987)]{Arp87}
 H.~{Arp}.
 \newblock \emph{{Quasars, redshifts, and controversies}}.
-\newblock 1987.
+\newblock Cambridge University Press, 1987.
 
 \bibitem[{Audouze} and {Tran Thanh Van}(1984)]{Bond83}
 J.~{Audouze} and J.~{Tran Thanh Van}, editors.
@@ -170,14 +170,14 @@ M.~{Brada{\v c}}, S.~W. {Allen}, T.~{Treu}, H.~{Ebeling}, R.~{Massey}, R.~G.
 \newblock \doi{10.1086/591246}.
 
 \bibitem[{Bridle} et~al.(2009){Bridle}, {Shawe-Taylor}, {Amara}, {Applegate},
-  {Balan}, {Bernstein}, {Dahle}, {Erben}, {Gill}, {Heavens}, {Heymans}, {High},
-  {Hoekstra}, {Jarvis}, {Kirk}, {Kitching}, {Kneib}, {Kuijken}, {Lagatutta},
-  {Mandelbaum}, {Massey}, {Mellier}, {Moghaddam}, {Moudden}, {Nakajima},
-  {Paulin-Henriksson}, {Pires}, {Rassat}, {Refregier}, {Rhodes}, {Schrabback},
-  {Semboloni}, {Shmakova}, {van Waerbeke}, {Witherick}, {Voigt}, and
-  {Wittman}]{great08}
-S.~{Bridle}, J.~{Shawe-Taylor}, A.~{Amara}, D.~{Applegate}, J.~S.~T. {Balan},
-  Berge, G.~{Bernstein}, H.~{Dahle}, T.~{Erben}, M.~{Gill}, A.~{Heavens},
+  {Balan}, {Berge}, {Bernstein}, {Dahle}, {Erben}, {Gill}, {Heavens},
+  {Heymans}, {High}, {Hoekstra}, {Jarvis}, {Kirk}, {Kitching}, {Kneib},
+  {Kuijken}, {Lagatutta}, {Mandelbaum}, {Massey}, {Mellier}, {Moghaddam},
+  {Moudden}, {Nakajima}, {Paulin-Henriksson}, {Pires}, {Rassat}, {Refregier},
+  {Rhodes}, {Schrabback}, {Semboloni}, {Shmakova}, {van Waerbeke}, {Witherick},
+  {Voigt}, and {Wittman}]{great08}
+S.~{Bridle}, J.~{Shawe-Taylor}, A.~{Amara}, D.~{Applegate}, S.~T. {Balan},
+  J.~{Berge}, G.~{Bernstein}, H.~{Dahle}, T.~{Erben}, M.~{Gill}, A.~{Heavens},
   C.~{Heymans}, F.~W. {High}, H.~{Hoekstra}, M.~{Jarvis}, D.~{Kirk},
   T.~{Kitching}, J.-P. {Kneib}, K.~{Kuijken}, D.~{Lagatutta}, R.~{Mandelbaum},
   R.~{Massey}, Y.~{Mellier}, B.~{Moghaddam}, Y.~{Moudden}, R.~{Nakajima},
@@ -222,6 +222,15 @@ P.~{Capak}, H.~{Aussel}, M.~{Ajiki}, H.~J. {McCracken}, B.~{Mobasher},
 \newblock {The First Release COSMOS Optical and Near-IR Data and Catalog}.
 \newblock \emph{\apjs}, 172:\penalty0 99--116, Sept. 2007.
 \newblock \doi{10.1086/519081}.
+
+\bibitem[{Chang} et~al.(2013){Chang}, {Jarvis}, {Jain}, {Kahn}, {Kirkby},
+  {Connolly}, {Krughoff}, {Peng}, and {Peterson}]{Chang13}
+C.~{Chang}, M.~{Jarvis}, B.~{Jain}, S.~M. {Kahn}, D.~{Kirkby}, A.~{Connolly},
+  S.~{Krughoff}, E.-H. {Peng}, and J.~R. {Peterson}.
+\newblock {The effective number density of galaxies for weak lensing
+  measurements in the LSST project}.
+\newblock \emph{\mnras}, 434:\penalty0 2121--2135, Sept. 2013.
+\newblock \doi{10.1093/mnras/stt1156}.
 
 \bibitem[{Clowe} et~al.(2006){Clowe}, {Brada{\v c}}, {Gonzalez}, {Markevitch},
   {Randall}, {Jones}, and {Zaritsky}]{Clowe06}
@@ -295,6 +304,12 @@ M.~{Davis} and P.~J.~E. {Peebles}.
 \newblock \emph{\apj}, 267:\penalty0 465--482, Apr. 1983.
 \newblock \doi{10.1086/160884}.
 
+\bibitem[{Dawson}(2013)]{DawsonThesis13}
+W.~A. {Dawson}.
+\newblock \emph{{Constraining Dark Matter Through the Study of Merging Galaxy
+  Clusters}}.
+\newblock PhD thesis, University of California, Davis, Mar. 2013.
+
 \bibitem[{de Jong} et~al.(2013){de Jong}, {Verdoes Kleijn}, {Kuijken}, and
   {Valentijn}]{KiDS13}
 J.~T.~A. {de Jong}, G.~A. {Verdoes Kleijn}, K.~H. {Kuijken}, and E.~A.
@@ -324,7 +339,7 @@ J.~P. {Dietrich}, Y.~{Zhang}, J.~{Song}, C.~P. {Davis}, T.~A. {McKay},
 \bibitem[{Dodelson}(2003)]{DodelsonText}
 S.~{Dodelson}.
 \newblock \emph{{Modern cosmology}}.
-\newblock 2003.
+\newblock Academic Press, 2003.
 
 \bibitem[{Duffy} et~al.(2008){Duffy}, {Schaye}, {Kay}, and {Dalla
   Vecchia}]{Duffy08}
@@ -1117,7 +1132,7 @@ P.~J.~E. {Peebles}.
 \bibitem[{Peebles}(1993)]{PeeblesText}
 P.~J.~E. {Peebles}.
 \newblock \emph{{Principles of Physical Cosmology}}.
-\newblock 1993.
+\newblock Princeton University Press, 1993.
 
 \bibitem[{Peebles} and {Yu}(1970)]{PeeblesYu70}
 P.~J.~E. {Peebles} and J.~T. {Yu}.
@@ -1250,7 +1265,7 @@ E.~{Rozo}, E.~S. {Rykoff}, B.~P. {Koester}, T.~{McKay}, J.~{Hao}, A.~{Evrard},
 \bibitem[{Ryden}(2003)]{RydenText}
 B.~{Ryden}.
 \newblock \emph{{Introduction to cosmology}}.
-\newblock 2003.
+\newblock Addison-Wesley, 2003.
 
 \bibitem[{Rykoff} et~al.(2014){Rykoff}, {Rozo}, {Busha}, {Cunha}, {Finoguenov},
   {Evrard}, {Hao}, {Koester}, {Leauthaud}, {Nord}, {Pierre}, {Reddick},
@@ -1266,7 +1281,7 @@ E.~S. {Rykoff}, E.~{Rozo}, M.~T. {Busha}, C.~E. {Cunha}, A.~{Finoguenov},
 \bibitem[{Sagan}(1980)]{Sagan80}
 C.~{Sagan}.
 \newblock \emph{{Cosmos}}.
-\newblock 1980.
+\newblock Random House Publishing Group, 1980.
 
 \bibitem[{Sawicki} and {Thompson}(2006)]{Sawicki06}
 M.~{Sawicki} and D.~{Thompson}.
@@ -1654,6 +1669,11 @@ M.~{White}, D.~{Scott}, J.~{Silk}, and M.~{Davis}.
 S.~D.~M. {White}, G.~{Efstathiou}, and C.~S. {Frenk}.
 \newblock {The amplitude of mass fluctuations in the universe}.
 \newblock \emph{\mnras}, 262:\penalty0 1023--1028, June 1993.
+
+\bibitem[{Wittman}(2013)]{WittmanProposal13}
+D.~{Wittman}.
+\newblock {Probing Dark Matter with a New Class of Merging Clusters}.
+\newblock HST Proposal, Oct. 2013.
 
 \bibitem[{Wright} and {Brainerd}(2000)]{Wright00}
 C.~O. {Wright} and T.~G. {Brainerd}.

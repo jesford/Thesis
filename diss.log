@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  29 APR 2015 00:17
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  4 MAY 2015 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,11 +883,11 @@ Chapter 2.
 
 ] [27]
 Package epstopdf Info: Source file: <plots_ch2/m200_zphot_histograms_44x.eps>
-(epstopdf)                    date: 2015-04-14 14:29:15
+(epstopdf)                    date: 2015-04-14 15:29:15
 (epstopdf)                    size: 17295 bytes
 (epstopdf)             Output file: <plots_ch2/m200_zphot_histograms_44x-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2015-04-17 13:34:40
+(epstopdf)                    date: 2015-04-17 14:34:40
 (epstopdf)                    size: 9719 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch2/m200_zphot_histo
 grams_44x-eps-converted-to.pdf plots_ch2/m200_zphot_histograms_44x.eps>
@@ -909,11 +909,11 @@ en
 although it is yet undefined on input line 79.
  [29 <./plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch2/magbinnedLBGs_multiNFWfit.eps>
-(epstopdf)                    date: 2015-04-14 14:29:17
+(epstopdf)                    date: 2015-04-14 15:29:17
 (epstopdf)                    size: 34924 bytes
 (epstopdf)             Output file: <plots_ch2/magbinnedLBGs_multiNFWfit-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2015-04-17 13:34:40
+(epstopdf)                    date: 2015-04-17 14:34:40
 (epstopdf)                    size: 16123 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch2/magbinnedLBGs_mu
 ltiNFWfit-eps-converted-to.pdf plots_ch2/magbinnedLBGs_multiNFWfit.eps>
@@ -941,11 +941,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [33]
 Package epstopdf Info: Source file: <plots_ch2/wopt_CompositeHaloFits_44x_LFam1
 _aveErr07magcut.eps>
-(epstopdf)                    date: 2015-04-14 14:29:19
+(epstopdf)                    date: 2015-04-14 15:29:19
 (epstopdf)                    size: 25494 bytes
 (epstopdf)             Output file: <plots_ch2/wopt_CompositeHaloFits_44x_LFam1
 _aveErr07magcut-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-17 13:34:41
+(epstopdf)                    date: 2015-04-17 14:34:41
 (epstopdf)                    size: 14446 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch2/wopt_CompositeHa
 loFits_44x_LFam1_aveErr07magcut-eps-converted-to.pdf plots_ch2/wopt_CompositeHa
@@ -981,11 +981,11 @@ LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 31.
  [38]
 Package epstopdf Info: Source file: <plots_ch3/PofRc_bestfit_python.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 476614 bytes
 (epstopdf)             Output file: <plots_ch3/PofRc_bestfit_python-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-05-30 12:12:52
+(epstopdf)                    date: 2014-05-30 13:12:52
 (epstopdf)                    size: 22530 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/PofRc_bestfit_py
 thon-eps-converted-to.pdf plots_ch3/PofRc_bestfit_python.eps>
@@ -999,11 +999,11 @@ f)
  <use plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf> [39 <./plots_ch3/Pof
 Rc_bestfit_python-eps-converted-to.pdf>] [40]
 Package epstopdf Info: Source file: <plots_ch3/N200histogram.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 466866 bytes
 (epstopdf)             Output file: <plots_ch3/N200histogram-eps-converted-to.p
 df>
-(epstopdf)                    date: 2014-05-30 12:12:53
+(epstopdf)                    date: 2014-05-30 13:12:53
 (epstopdf)                    size: 11715 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/N200histogram-ep
 s-converted-to.pdf plots_ch3/N200histogram.eps>
@@ -1018,11 +1018,11 @@ ram-eps-converted-to.pdf>] [42] [43] [44]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 210.
 Package epstopdf Info: Source file: <plots_ch3/PofZ_clustersNudrops.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 216703 bytes
 (epstopdf)             Output file: <plots_ch3/PofZ_clustersNudrops-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2014-05-30 12:12:53
+(epstopdf)                    date: 2014-05-30 13:12:53
 (epstopdf)                    size: 10637 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/PofZ_clustersNud
 rops-eps-converted-to.pdf plots_ch3/PofZ_clustersNudrops.eps>
@@ -1036,11 +1036,11 @@ f)
  <use plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf> [45 <./plots_ch3/Pof
 Z_clustersNudrops-eps-converted-to.pdf>] [46]
 Package epstopdf Info: Source file: <plots_ch3/wopt_allClusters_U.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 433727 bytes
 (epstopdf)             Output file: <plots_ch3/wopt_allClusters_U-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-05-30 12:12:54
+(epstopdf)                    date: 2014-05-30 13:12:54
 (epstopdf)                    size: 16101 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/wopt_allClusters
 _U-eps-converted-to.pdf plots_ch3/wopt_allClusters_U.eps>
@@ -1054,11 +1054,11 @@ File: plots_ch3/wopt_allClusters_U-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/wopt_allClusters_U-eps-converted-to.pdf> [47 <./plots_ch3/wopt_
 allClusters_U-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch3/wopt_panel_fcc0and1_U.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 461785 bytes
 (epstopdf)             Output file: <plots_ch3/wopt_panel_fcc0and1_U-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-05-30 12:12:55
+(epstopdf)                    date: 2014-05-30 13:12:55
 (epstopdf)                    size: 33471 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/wopt_panel_fcc0a
 nd1_U-eps-converted-to.pdf plots_ch3/wopt_panel_fcc0and1_U.eps>
@@ -1072,11 +1072,11 @@ df)
  <use plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf> [48 <./plots_ch3/wo
 pt_panel_fcc0and1_U-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch3/MassRich_2to1000_U.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 459274 bytes
 (epstopdf)             Output file: <plots_ch3/MassRich_2to1000_U-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2014-05-30 12:12:56
+(epstopdf)                    date: 2014-05-30 13:12:56
 (epstopdf)                    size: 15275 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/MassRich_2to1000
 _U-eps-converted-to.pdf plots_ch3/MassRich_2to1000_U.eps>
@@ -1090,11 +1090,11 @@ File: plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf> [49 <./plots_ch3/MassR
 ich_2to1000_U-eps-converted-to.pdf>] [50] [51]
 Package epstopdf Info: Source file: <plots_ch3/zbin_histograms.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 260510 bytes
 (epstopdf)             Output file: <plots_ch3/zbin_histograms-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-05-30 12:12:56
+(epstopdf)                    date: 2014-05-30 13:12:56
 (epstopdf)                    size: 15617 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/zbin_histograms-
 eps-converted-to.pdf plots_ch3/zbin_histograms.eps>
@@ -1109,11 +1109,11 @@ File: plots_ch3/zbin_histograms-eps-converted-to.pdf Graphic file (type pdf)
 
  <./plots_ch3/zbin_histograms-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch3/wopt_z_panels_U.eps>
-(epstopdf)                    date: 2014-05-30 12:10:21
+(epstopdf)                    date: 2014-05-30 13:10:21
 (epstopdf)                    size: 348301 bytes
 (epstopdf)             Output file: <plots_ch3/wopt_z_panels_U-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2014-05-30 12:12:57
+(epstopdf)                    date: 2014-05-30 13:12:57
 (epstopdf)                    size: 39917 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch3/wopt_z_panels_U-
 eps-converted-to.pdf plots_ch3/wopt_z_panels_U.eps>
@@ -1161,11 +1161,11 @@ s[][]\OT1/ptm/m/n/10.95 -
  []
 
 Package epstopdf Info: Source file: <plots_ch4/MassSig_relation.eps>
-(epstopdf)                    date: 2015-01-13 05:25:17
+(epstopdf)                    date: 2015-01-13 06:25:17
 (epstopdf)                    size: 431459 bytes
 (epstopdf)             Output file: <plots_ch4/MassSig_relation-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2015-01-13 10:34:13
+(epstopdf)                    date: 2015-01-13 11:34:13
 (epstopdf)                    size: 14450 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/MassSig_relation
 -eps-converted-to.pdf plots_ch4/MassSig_relation.eps>
@@ -1177,11 +1177,11 @@ Package epstopdf Info: Output file is already uptodate.
 File: plots_ch4/MassSig_relation-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/MassSig_relation-eps-converted-to.pdf>
 Package epstopdf Info: Source file: <plots_ch4/hists_N200_z_NoGaps.eps>
-(epstopdf)                    date: 2015-01-13 05:26:08
+(epstopdf)                    date: 2015-01-13 06:26:08
 (epstopdf)                    size: 248483 bytes
 (epstopdf)             Output file: <plots_ch4/hists_N200_z_NoGaps-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:34:14
+(epstopdf)                    date: 2015-01-13 11:34:14
 (epstopdf)                    size: 11852 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/hists_N200_z_NoG
 aps-eps-converted-to.pdf plots_ch4/hists_N200_z_NoGaps.eps>
@@ -1195,10 +1195,10 @@ File: plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf Graphic file (type pdf
  <use plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf> [58 <./plots_ch4/Mass
 Sig_relation-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch4/N200vsSig.eps>
-(epstopdf)                    date: 2015-01-13 05:26:25
+(epstopdf)                    date: 2015-01-13 06:26:25
 (epstopdf)                    size: 412821 bytes
 (epstopdf)             Output file: <plots_ch4/N200vsSig-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:34:15
+(epstopdf)                    date: 2015-01-13 11:34:15
 (epstopdf)                    size: 11568 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/N200vsSig-eps-co
 nverted-to.pdf plots_ch4/N200vsSig.eps>
@@ -1228,11 +1228,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [60 <./plots_ch4/N200vsSig-eps-converted-to.pdf>] [61]
 Package epstopdf Info: Source file: <plots_ch4/PofRc_DeltaSigma_example.eps>
-(epstopdf)                    date: 2015-01-13 05:26:41
+(epstopdf)                    date: 2015-01-13 06:26:41
 (epstopdf)                    size: 189463 bytes
 (epstopdf)             Output file: <plots_ch4/PofRc_DeltaSigma_example-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:34:15
+(epstopdf)                    date: 2015-01-13 11:34:15
 (epstopdf)                    size: 16995 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/PofRc_DeltaSigma
 _example-eps-converted-to.pdf plots_ch4/PofRc_DeltaSigma_example.eps>
@@ -1247,11 +1247,11 @@ e pdf)
 [62] [63 <./plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf>] [64]
 Package epstopdf Info: Source file: <plots_ch4/shearFit_panel_fcc0and1_slopeMN1
 p5_DuttonMaccio.eps>
-(epstopdf)                    date: 2015-01-13 05:27:02
+(epstopdf)                    date: 2015-01-13 06:27:02
 (epstopdf)                    size: 525590 bytes
 (epstopdf)             Output file: <plots_ch4/shearFit_panel_fcc0and1_slopeMN1
 p5_DuttonMaccio-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:37:28
+(epstopdf)                    date: 2015-01-13 11:37:28
 (epstopdf)                    size: 38894 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearFit_panel_f
 cc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf plots_ch4/shearFit_panel_f
@@ -1267,11 +1267,11 @@ o.pdf Graphic file (type pdf)
 <use plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to
 .pdf>
 Package epstopdf Info: Source file: <plots_ch4/m200panels_NoGaps.eps>
-(epstopdf)                    date: 2015-01-13 05:27:28
+(epstopdf)                    date: 2015-01-13 06:27:28
 (epstopdf)                    size: 232939 bytes
 (epstopdf)             Output file: <plots_ch4/m200panels_NoGaps-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2015-01-13 10:37:29
+(epstopdf)                    date: 2015-01-13 11:37:29
 (epstopdf)                    size: 20749 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/m200panels_NoGap
 s-eps-converted-to.pdf plots_ch4/m200panels_NoGaps.eps>
@@ -1302,11 +1302,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package epstopdf Info: Source file: <plots_ch4/MassRich_shear_FullModelOnly_Dut
 tonMaccio_IntrinsicScatter.eps>
-(epstopdf)                    date: 2015-01-13 05:27:54
+(epstopdf)                    date: 2015-01-13 06:27:54
 (epstopdf)                    size: 449549 bytes
 (epstopdf)             Output file: <plots_ch4/MassRich_shear_FullModelOnly_Dut
 tonMaccio_IntrinsicScatter-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:37:29
+(epstopdf)                    date: 2015-01-13 11:37:29
 (epstopdf)                    size: 14969 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/MassRich_shear_F
 ullModelOnly_DuttonMaccio_IntrinsicScatter-eps-converted-to.pdf plots_ch4/MassR
@@ -1327,11 +1327,11 @@ onverted-to.pdf> [69
 nverted-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch4/shearFit_zpanels_fcc0and1_slopeM
 N1p5_DuttonMaccio.eps>
-(epstopdf)                    date: 2015-01-13 05:28:22
+(epstopdf)                    date: 2015-01-13 06:28:22
 (epstopdf)                    size: 373919 bytes
 (epstopdf)             Output file: <plots_ch4/shearFit_zpanels_fcc0and1_slopeM
 N1p5_DuttonMaccio-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:38:23
+(epstopdf)                    date: 2015-01-13 11:38:23
 (epstopdf)                    size: 45427 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearFit_zpanels
 _fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf plots_ch4/shearFit_zpane
@@ -1354,11 +1354,11 @@ Overfull \hbox (10.03627pt too wide) in paragraph at lines 400--401
 d-to.pdf>]
 Package epstopdf Info: Source file: <plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.ep
 s>
-(epstopdf)                    date: 2015-01-13 05:28:45
+(epstopdf)                    date: 2015-01-13 06:28:45
 (epstopdf)                    size: 440222 bytes
 (epstopdf)             Output file: <plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2015-01-13 10:38:24
+(epstopdf)                    date: 2015-01-13 11:38:24
 (epstopdf)                    size: 14892 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/Mo_vs_z_DuttonMa
 ccio_powerlaw-eps-converted-to.pdf plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.eps>
@@ -1375,11 +1375,11 @@ File: plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf Graphic file
 [72 <./plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf>] [73]
 [74]
 Package epstopdf Info: Source file: <plots_ch4/shearVSmag_N200_z.eps>
-(epstopdf)                    date: 2015-01-13 05:29:04
+(epstopdf)                    date: 2015-01-13 06:29:04
 (epstopdf)                    size: 277844 bytes
 (epstopdf)             Output file: <plots_ch4/shearVSmag_N200_z-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2015-01-13 10:39:01
+(epstopdf)                    date: 2015-01-13 11:39:01
 (epstopdf)                    size: 23884 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots_ch4/shearVSmag_N200_
 z-eps-converted-to.pdf plots_ch4/shearVSmag_N200_z.eps>
@@ -1400,34 +1400,34 @@ Chapter 5.
 
 
 
-] [81] [82] [83]) [84] (./diss.bbl (./diss.brf)
+] [81] [82] [83] [84]) [85] (./diss.bbl (./diss.brf)
 \tf@brf=\write8
 \openout8 = `diss.brf'.
 
- [85
+ [86
 
 
-] [86] [87] [88] [89]
-[90] [91] [92] [93] [94] [95] [96] [97] [98]) [99]
+] [87] [88] [89]
+[90] [91] [92] [93] [94] [95] [96] [97] [98] [99]) [100]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
- (./diss.aux (./abstract.aux) (./preface.aux) (./intro.aux) (./ch2.aux) (./ch3.
-aux) (./ch4.aux)
-(./conclusions.aux))
+ (./diss.aux
+(./abstract.aux) (./preface.aux) (./intro.aux) (./ch2.aux) (./ch3.aux)
+(./ch4.aux) (./conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: 8A13CC7FB007C9FA12526E4213BB9A85;5329.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 253E1FF21F7573A25AFABD98C4365A8B;24418.
+(rerunfilecheck)             Checksum: 1C91CFBEAA8567ECD481E1E897122B0C;24566.
  ) 
 Here is how much of TeX's memory you used:
- 12527 strings out of 493747
- 186352 string characters out of 3143546
- 298028 words of memory out of 3000000
- 14878 multiletter control sequences out of 15000+200000
- 81036 words of font info for 171 fonts, out of 3000000 for 9000
+ 12559 strings out of 493747
+ 186810 string characters out of 3143546
+ 298566 words of memory out of 3000000
+ 14896 multiletter control sequences out of 15000+200000
+ 85386 words of font info for 180 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 42i,16n,40p,1744b,893s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,16n,40p,1860b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2010/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1444,10 +1444,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/u
 rw/symbol/usyr.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2010/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (111 pages, 1825881 bytes).
+Output written on diss.pdf (112 pages, 1829261 bytes).
 PDF statistics:
- 4009 PDF objects out of 4296 (max. 8388607)
- 3280 compressed objects within 33 object streams
- 547 named destinations out of 1000 (max. 500000)
+ 4028 PDF objects out of 4296 (max. 8388607)
+ 3298 compressed objects within 33 object streams
+ 552 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 
