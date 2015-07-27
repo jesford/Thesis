@@ -1,54 +1,55 @@
-This is BibTeX, Version 0.99d (TeX Live 2010)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: diss.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: dedicate.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: ch2.aux
 A level-1 auxiliary file: ch3.aux
 A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10516 items from 5000.
+Reallocated field_info (elt_size=4) to 10544 items from 5000.
 Database file #1: References.bib
-You've used 197 entries,
+You've used 198 entries,
             2773 wiz_defined-function locations,
-            1930 strings with 58824 characters,
-and the built_in function-call counts, 145134 in all, are:
-= -- 11376
-> -- 14985
+            1940 strings with 58982 characters,
+and the built_in function-call counts, 145641 in all, are:
+= -- 11422
+> -- 15015
 < -- 92
-+ -- 5026
-- -- 4823
-* -- 14434
-:= -- 24058
-add.period$ -- 739
-call.type$ -- 197
-change.case$ -- 2183
-chr.to.int$ -- 191
-cite$ -- 394
-duplicate$ -- 4106
-empty$ -- 7322
-format.name$ -- 5094
-if$ -- 28751
++ -- 5036
+- -- 4832
+* -- 14482
+:= -- 24137
+add.period$ -- 743
+call.type$ -- 198
+change.case$ -- 2189
+chr.to.int$ -- 192
+cite$ -- 396
+duplicate$ -- 4127
+empty$ -- 7362
+format.name$ -- 5104
+if$ -- 28857
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 197
-newline$ -- 1141
-num.names$ -- 799
-pop$ -- 3992
+missing$ -- 198
+newline$ -- 1147
+num.names$ -- 803
+pop$ -- 4001
 preamble$ -- 1
-purify$ -- 1995
+purify$ -- 2000
 quote$ -- 0
-skip$ -- 3916
+skip$ -- 3930
 stack$ -- 0
-substring$ -- 3125
-swap$ -- 457
+substring$ -- 3148
+swap$ -- 459
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2140
+type$ -- 2151
 warning$ -- 0
-while$ -- 738
+while$ -- 742
 width$ -- 0
-write$ -- 2842
+write$ -- 2857

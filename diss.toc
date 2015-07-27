@@ -15,10 +15,10 @@
 \contentsline {subsection}{\numberline {1.2.1}Weak Lensing Shear}{10}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Weak Lensing Magnification}{14}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}Magnification vs. Shear}{16}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Galaxy Clusters}{17}{section.1.3}
+\contentsline {section}{\numberline {1.3}Galaxy Clusters}{18}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Clusters for Cosmology}{18}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Clusters for Astrophysics}{20}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Cluster Mass Profiles}{21}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Cluster Mass Profiles}{22}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Impact of this Thesis}{23}{section.1.4}
 \contentsline {section}{\numberline {1.5}Thesis Overview}{24}{section.1.5}
 \contentsline {chapter}{\numberline {2}Magnification by Galaxy Group Dark Matter Halos}{26}{chapter.2}
