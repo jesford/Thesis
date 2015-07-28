@@ -3,53 +3,52 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: diss.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: preface.aux
-A level-1 auxiliary file: dedicate.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: ch2.aux
 A level-1 auxiliary file: ch3.aux
 A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10544 items from 5000.
+Reallocated field_info (elt_size=4) to 10572 items from 5000.
 Database file #1: References.bib
-You've used 198 entries,
+You've used 199 entries,
             2773 wiz_defined-function locations,
-            1940 strings with 58982 characters,
-and the built_in function-call counts, 145641 in all, are:
-= -- 11422
-> -- 15015
+            1946 strings with 59171 characters,
+and the built_in function-call counts, 146266 in all, are:
+= -- 11476
+> -- 15063
 < -- 92
-+ -- 5036
-- -- 4832
-* -- 14482
-:= -- 24137
-add.period$ -- 743
-call.type$ -- 198
-change.case$ -- 2189
-chr.to.int$ -- 192
-cite$ -- 396
-duplicate$ -- 4127
-empty$ -- 7362
-format.name$ -- 5104
-if$ -- 28857
++ -- 5052
+- -- 4847
+* -- 14544
+:= -- 24236
+add.period$ -- 747
+call.type$ -- 199
+change.case$ -- 2197
+chr.to.int$ -- 193
+cite$ -- 398
+duplicate$ -- 4148
+empty$ -- 7404
+format.name$ -- 5120
+if$ -- 28985
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 198
-newline$ -- 1147
-num.names$ -- 803
-pop$ -- 4001
+missing$ -- 199
+newline$ -- 1153
+num.names$ -- 807
+pop$ -- 4014
 preamble$ -- 1
-purify$ -- 2000
+purify$ -- 2007
 quote$ -- 0
-skip$ -- 3930
+skip$ -- 3946
 stack$ -- 0
-substring$ -- 3148
-swap$ -- 459
+substring$ -- 3177
+swap$ -- 461
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2151
+type$ -- 2162
 warning$ -- 0
-while$ -- 742
+while$ -- 746
 width$ -- 0
-write$ -- 2857
+write$ -- 2872

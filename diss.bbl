@@ -1,4 +1,4 @@
-\begin{thebibliography}{198}
+\begin{thebibliography}{199}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -254,6 +254,13 @@ D.~{Clowe}, M.~{Markevitch}, M.~{Brada{\v c}}, A.~H. {Gonzalez}, S.~M. {Chung},
   of the Merging Cluster System A520}.
 \newblock \emph{\apj}, 758:\penalty0 128, Oct. 2012.
 \newblock \doi{10.1088/0004-637X/758/2/128}.
+
+\bibitem[{Cohn} et~al.(2007){Cohn}, {Evrard}, {White}, {Croton}, and
+  {Ellingson}]{Cohn07}
+J.~D. {Cohn}, A.~E. {Evrard}, M.~{White}, D.~{Croton}, and E.~{Ellingson}.
+\newblock {Red-sequence cluster finding in the Millennium Simulation}.
+\newblock \emph{\mnras}, 382:\penalty0 1738--1750, Dec. 2007.
+\newblock \doi{10.1111/j.1365-2966.2007.12479.x}.
 
 \bibitem[{Cooray} and {Sheth}(2002)]{Cooray02}
 A.~{Cooray} and R.~{Sheth}.

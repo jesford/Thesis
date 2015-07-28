@@ -103,7 +103,7 @@ For the line-of-sight dimension, we require galaxies to fall within $\Delta z < 
 
 In the plane of the sky, galaxies must lie within a projected radius $R_{200}$ of the cluster center (defined above). $R_{200}$ is defined as the radius within which the average density is 200 times the critical energy density of the Universe, $\rho_{\rm crit}(z)$, evaluated at the redshift of the cluster. However, since $R_{200}$ itself is unknown, we require some kind of assumption about radius or mass in order to proceed with the galaxy counting. There is no unique way to do this. We begin by making an initial approximation of the masses using a best fit power-law relation between mass and cluster peak significance ($\sigma_{\rm cl}$), for \ac{3D-MF} clusters \citep{MMthesis11}:
 \begin{equation}
-\mathrm{log}(M_{200}) = 0.124 \sigma_{\rm cl} + \mathrm{log}(10^{14} {\rm M}_{\odot}) - 1.507.
+\mathrm{log} \left[ \frac{M_{200}}{10^{14}\ {\rm M}_{\odot}} \right] = 0.124 \sigma_{\rm cl} - 1.507.
 \end{equation}
 
 As discussed in \autoref{sec:clusters3}, \ac{3D-MF} tests on simulations suggested that peak significance was a good mass proxy for high, but not low, mass clusters. In light of this, we merely employ the above relation as a starting point for calculating the radii from mass,
@@ -130,7 +130,7 @@ The magnification factor, $\mu$, of a gravitational lens can be expressed in ter
 \begin{equation}
 n(m)dm = \mu^{\alpha-1} n_0(m)dm 
 \end{equation}
-\citep{Narayan89}. Here $m$ is apparent magnitude, and $\alpha \equiv \alpha(m)$ is proportional to the logarithmic slope of the source \ac{LF}. Depending on the \ac{LF}'s slope in a given magnitude bin, it is possible to observe either an increase or a decrease in source number counts, as demonstrated in Figure 2 of \citet{Ford12}. 
+\citep{Narayan89}. Here $m$ is apparent magnitude, and $\alpha \equiv \alpha(m)$ is proportional to the logarithmic slope of the source \ac{LF}. Depending on the \ac{LF}'s slope in a given magnitude bin, it is possible to observe either an increase or a decrease in source number counts, as demonstrated in \autoref{plot:MagBinned2} of \autoref{ch2} \citep[equivalently, Figure 2 of][]{Ford12}. 
 
 In practice the magnification signal is easily measured using the optimally-weighted cross-correlation function of \citet{Menard03}:
 \begin{equation}
@@ -138,7 +138,7 @@ In practice the magnification signal is easily measured using the optimally-weig
 \end{equation}
 In this expression, the terms are normalized pair counts in radial bins, where $\mathscr{L}$ stands for the lenses, and $\mathscr{S}^{\alpha-1}$ are the optimally-weighted sources. $\mathscr{R}$ represents objects from a random catalog more than ten times the size of the source catalog, with the same masks applied.
 
-In order to determine the optimal weight factor $\alpha-1$, for both the measurement and the interpretation, we require knowledge of the source \ac{LF}. As done in \citet{Ford12} we determine the \ac{LBG} \ac{LF} slope from the Schechter Function \citep{Schechter76}, giving
+In order to determine the optimal weight factor $\alpha-1$, for both the measurement and the interpretation, we require knowledge of the source \ac{LF}. As done in \autoref{ch2} \citep{Ford12} we determine the \ac{LBG} \ac{LF} slope from the Schechter Function \citep{Schechter76}, giving
 \begin{equation}
 \alpha = 2.5 \frac{\mathrm{d}}{\mathrm{d}m}\log n_0(m) = 10^{0.4(M^\ast-M)}-\alpha_{\mathrm{LF}}-1,
 \end{equation}
