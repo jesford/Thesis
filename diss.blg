@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: diss.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: dedicate.aux
 A level-1 auxiliary file: intro.aux
 A level-1 auxiliary file: ch2.aux
 A level-1 auxiliary file: ch3.aux
@@ -13,7 +14,7 @@ Reallocated field_info (elt_size=4) to 10600 items from 5000.
 Database file #1: References.bib
 You've used 200 entries,
             2773 wiz_defined-function locations,
-            1953 strings with 59973 characters,
+            1954 strings with 59985 characters,
 and the built_in function-call counts, 148341 in all, are:
 = -- 11617
 > -- 15372

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 JUL 2015 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 JUL 2015 16:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -528,9 +528,9 @@ Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-) (./diss.aux (./abstract.aux) (./preface.aux) (./intro.aux) (./ch2.aux) (./ch3
-.aux)
-(./ch4.aux) (./conclusions.aux))
+) (./diss.aux (./abstract.aux) (./preface.aux) (./dedicate.aux) (./intro.aux) (
+./ch2.aux)
+(./ch3.aux) (./ch4.aux) (./conclusions.aux))
 \openout1 = `diss.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 352.
@@ -720,10 +720,10 @@ Overfull \hbox (5.62868pt too wide) in paragraph at lines 11--12
 ]
 Package acronym Info: Label `acro:3D-MF' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 39.
+although it is yet undefined on input line 40.
 Package acronym Info: Label `acro:CFHTLenS' newly defined as it shall be overri
 dden
-although it is yet undefined on input line 56.
+although it is yet undefined on input line 57.
  [5])
 \tf@toc=\write6
 \openout6 = `diss.toc'.
@@ -738,7 +738,7 @@ although it is yet undefined on input line 56.
 ] (./diss.lof
 Package acronym Info: Label `acro:COSMOS' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 11.
+although it is yet undefined on input line 12.
 )
 \tf@lof=\write8
 \openout8 = `diss.lof'.
@@ -760,6 +760,12 @@ LaTeX Font Info:    Try loading font information for U+eus on input line 92.
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 ) [10]) [11]
 [12]
+\openout2 = `dedicate.aux'.
+
+ (./dedicate.tex) [13
+
+
+]
 \openout2 = `intro.aux'.
 
  (./intro.tex
@@ -767,6 +773,7 @@ Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 [1
+
 
 
 
@@ -790,14 +797,14 @@ Package acronym Info: Label `acro:WIMP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 61.
  [3] [4] [5] [6] [7]
-<plots_intro/LensDiagram.png, id=726, 1158.3275pt x 592.2125pt>
+<plots_intro/LensDiagram.png, id=735, 1158.3275pt x 592.2125pt>
 File: plots_intro/LensDiagram.png Graphic file (type png)
 
 <use plots_intro/LensDiagram.png>
 Package pdftex.def Info: plots_intro/LensDiagram.png used on input line 206.
 (pdftex.def)             Requested size: 463.3228pt x 236.8808pt.
  [8 <./plots_intro/LensDiagram.png>]
-<plots_intro/Abell2218_Med.jpg, id=754, 267.35722pt x 177.5419pt>
+<plots_intro/Abell2218_Med.jpg, id=763, 267.35722pt x 177.5419pt>
 File: plots_intro/Abell2218_Med.jpg Graphic file (type jpg)
 
 <use plots_intro/Abell2218_Med.jpg>
@@ -807,7 +814,7 @@ Package acronym Info: Label `acro:MACHO' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 226.
  [9 <./plots_intro/Abell2218_Med.jpg>]
-<plots_intro/KappaGamma.png, id=792, 617.30624pt x 598.235pt>
+<plots_intro/KappaGamma.png, id=801, 617.30624pt x 598.235pt>
 File: plots_intro/KappaGamma.png Graphic file (type png)
 
 <use plots_intro/KappaGamma.png>
@@ -818,7 +825,7 @@ Package pdftex.def Info: plots_intro/KappaGamma.png used on input line 262.
 Package mathptmx Warning: There are no bold math fonts on input line 271.
 
 [11 <./plots_intro/KappaGamma.png>] [12]
-<plots_intro/TangentialShear.png, id=850, 794.97pt x 780.9175pt>
+<plots_intro/TangentialShear.png, id=860, 794.97pt x 780.9175pt>
 File: plots_intro/TangentialShear.png Graphic file (type png)
 
 <use plots_intro/TangentialShear.png>
@@ -826,7 +833,7 @@ Package pdftex.def Info: plots_intro/TangentialShear.png used on input line 344
 .
 (pdftex.def)             Requested size: 317.98236pt x 312.36147pt.
  [13 <./plots_intro/TangentialShear.png>]
-<plots_intro/Magnification.png, id=887, 1197.47375pt x 598.235pt>
+<plots_intro/Magnification.png, id=896, 1197.47375pt x 598.235pt>
 File: plots_intro/Magnification.png Graphic file (type png)
 
 <use plots_intro/Magnification.png>
@@ -891,7 +898,7 @@ rams_44x-eps-converted-to.pdf plots_ch2/m200_zphot_histograms_44x.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf, id=1385, 352.31625pt
+<plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf, id=1394, 352.31625pt
  x 196.735pt>
 File: plots_ch2/m200_zphot_histograms_44x-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -916,7 +923,7 @@ tiNFWfit-eps-converted-to.pdf plots_ch2/magbinnedLBGs_multiNFWfit.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf, id=1430, 379.4175pt 
+<plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf, id=1440, 379.4175pt 
 x 154.5775pt>
 File: plots_ch2/magbinnedLBGs_multiNFWfit-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -954,7 +961,7 @@ oFits_44x_LFam1_aveErr07magcut.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch2/wopt_CompositeHaloFits_44x_LFam1_aveErr07magcut-eps-converted-to.pdf
-, id=1512, 461.725pt x 345.29pt>
+, id=1521, 461.725pt x 345.29pt>
 File: plots_ch2/wopt_CompositeHaloFits_44x_LFam1_aveErr07magcut-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -996,7 +1003,7 @@ hon-eps-converted-to.pdf plots_ch3/PofRc_bestfit_python.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf, id=1604, 518.93875pt x 40
+<plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf, id=1613, 518.93875pt x 40
 2.50375pt>
 File: plots_ch3/PofRc_bestfit_python-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1017,7 +1024,7 @@ df>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/N200histogram-eps-converted-to.pdf, id=1702, 516.93124pt x 404.51125
+<plots_ch3/N200histogram-eps-converted-to.pdf, id=1711, 516.93124pt x 404.51125
 pt>
 File: plots_ch3/N200histogram-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/N200histogram-eps-converted-to.pdf>
@@ -1037,7 +1044,7 @@ ops-eps-converted-to.pdf plots_ch3/PofZ_clustersNudrops.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf, id=1828, 503.8825pt x 190
+<plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf, id=1837, 503.8825pt x 190
 .7125pt>
 File: plots_ch3/PofZ_clustersNudrops-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1058,7 +1065,7 @@ U-eps-converted-to.pdf plots_ch3/wopt_allClusters_U.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_allClusters_U-eps-converted-to.pdf, id=1890, 503.8825pt x 388.4
+<plots_ch3/wopt_allClusters_U-eps-converted-to.pdf, id=1899, 503.8825pt x 388.4
 5125pt>
 File: plots_ch3/wopt_allClusters_U-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1079,7 +1086,7 @@ d1_U-eps-converted-to.pdf plots_ch3/wopt_panel_fcc0and1_U.eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf, id=1934, 498.86375pt x 3
+<plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf, id=1944, 498.86375pt x 3
 41.275pt>
 File: plots_ch3/wopt_panel_fcc0and1_U-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1100,7 +1107,7 @@ U-eps-converted-to.pdf plots_ch3/MassRich_2to1000_U.eps>
 (epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf, id=1998, 516.93124pt x 399.
+<plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf, id=2007, 516.93124pt x 399.
 4925pt>
 File: plots_ch3/MassRich_2to1000_U-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1121,7 +1128,7 @@ ps-converted-to.pdf plots_ch3/zbin_histograms.eps>
 (epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/zbin_histograms-eps-converted-to.pdf, id=2066, 456.70625pt x 208.78p
+<plots_ch3/zbin_histograms-eps-converted-to.pdf, id=2075, 456.70625pt x 208.78p
 t>
 File: plots_ch3/zbin_histograms-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/zbin_histograms-eps-converted-to.pdf>
@@ -1144,7 +1151,7 @@ ps-converted-to.pdf plots_ch3/wopt_z_panels_U.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch3/wopt_z_panels_U-eps-converted-to.pdf, id=2101, 498.86375pt x 207.776
+<plots_ch3/wopt_z_panels_U-eps-converted-to.pdf, id=2111, 498.86375pt x 207.776
 25pt>
 File: plots_ch3/wopt_z_panels_U-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch3/wopt_z_panels_U-eps-converted-to.pdf>
@@ -1201,7 +1208,7 @@ eps-converted-to.pdf plots_ch4/MassSig_relation.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/MassSig_relation-eps-converted-to.pdf, id=2270, 520.94624pt x 373.39
+<plots_ch4/MassSig_relation-eps-converted-to.pdf, id=2279, 520.94624pt x 373.39
 5pt>
 File: plots_ch4/MassSig_relation-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/MassSig_relation-eps-converted-to.pdf>
@@ -1220,7 +1227,7 @@ ps-eps-converted-to.pdf plots_ch4/hists_N200_z_NoGaps.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf, id=2273, 481.8pt x 204.765
+<plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf, id=2282, 481.8pt x 204.765
 pt>
 File: plots_ch4/hists_N200_z_NoGaps-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1240,7 +1247,7 @@ verted-to.pdf plots_ch4/N200vsSig.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/N200vsSig-eps-converted-to.pdf, id=2327, 508.90125pt x 373.395pt>
+<plots_ch4/N200vsSig-eps-converted-to.pdf, id=2336, 508.90125pt x 373.395pt>
 File: plots_ch4/N200vsSig-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots_ch4/N200vsSig-eps-converted-to.pdf>
@@ -1277,7 +1284,7 @@ example-eps-converted-to.pdf plots_ch4/PofRc_DeltaSigma_example.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf, id=2438, 474.77374pt 
+<plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf, id=2447, 474.77374pt 
 x 152.57pt>
 File: plots_ch4/PofRc_DeltaSigma_example-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1302,7 +1309,7 @@ c0and1_slopeMN1p5_DuttonMaccio.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.pdf
-, id=2563, 501.875pt x 384.43625pt>
+, id=2572, 501.875pt x 384.43625pt>
 File: plots_ch4/shearFit_panel_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1323,7 +1330,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/m200panels_NoGaps-eps-converted-to.pdf, id=2570, 483.8075pt x 90.337
+<plots_ch4/m200panels_NoGaps-eps-converted-to.pdf, id=2579, 483.8075pt x 90.337
 5pt>
 File: plots_ch4/m200panels_NoGaps-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/m200panels_NoGaps-eps-converted-to.pdf>
@@ -1363,7 +1370,7 @@ ch_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter-eps-conve
-rted-to.pdf, id=2709, 520.94624pt x 383.4325pt>
+rted-to.pdf, id=2718, 520.94624pt x 383.4325pt>
 File: plots_ch4/MassRich_shear_FullModelOnly_DuttonMaccio_IntrinsicScatter-eps-
 converted-to.pdf Graphic file (type pdf)
 
@@ -1392,7 +1399,7 @@ s_fcc0and1_slopeMN1p5_DuttonMaccio.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted-to.p
-df, id=2777, 497.86pt x 209.78375pt>
+df, id=2786, 497.86pt x 209.78375pt>
 File: plots_ch4/shearFit_zpanels_fcc0and1_slopeMN1p5_DuttonMaccio-eps-converted
 -to.pdf Graphic file (type pdf)
 
@@ -1421,7 +1428,7 @@ cio_powerlaw-eps-converted-to.pdf plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw.eps>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf, id=2855, 529.98p
+<plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf, id=2864, 529.98p
 t x 376.40625pt>
 File: plots_ch4/Mo_vs_z_DuttonMaccio_powerlaw-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1445,7 +1452,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 508.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf, id=2990, 507.8975pt x 197.73
+<plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf, id=2999, 507.8975pt x 197.73
 875pt>
 File: plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf Graphic file (type pdf)
  <use plots_ch4/shearVSmag_N200_z-eps-converted-to.pdf>
@@ -1474,22 +1481,22 @@ Chapter 5.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 438.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
  (./diss.aux
-(./abstract.aux) (./preface.aux) (./intro.aux) (./ch2.aux) (./ch3.aux)
-(./ch4.aux) (./conclusions.aux))
+(./abstract.aux) (./preface.aux) (./dedicate.aux) (./intro.aux) (./ch2.aux)
+(./ch3.aux) (./ch4.aux) (./conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 438.
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: E0CC975800575303A6D9ABBAEFE9862A;5412.
+(rerunfilecheck)             Checksum: 2E591AC11A47BA3C297188ED7E98F3CE;5459.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 8B6118062B4F9F386A41575DFA42BCEE;24928.
+(rerunfilecheck)             Checksum: B1E8033AE6B05A863BB78EACDC08C020;24931.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 438.
  ) 
 Here is how much of TeX's memory you used:
- 13424 strings out of 493089
- 199659 string characters out of 6134842
- 316840 words of memory out of 5000000
- 15990 multiletter control sequences out of 15000+600000
- 82012 words of font info for 176 fonts, out of 8000000 for 9000
+ 13436 strings out of 493089
+ 199795 string characters out of 6134842
+ 317287 words of memory out of 5000000
+ 15992 multiletter control sequences out of 15000+600000
+ 83148 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,42p,1816b,901s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1507,10 +1514,10 @@ dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (113 pages, 1862483 bytes).
+Output written on diss.pdf (114 pages, 1863098 bytes).
 PDF statistics:
- 4086 PDF objects out of 4296 (max. 8388607)
- 3354 compressed objects within 34 object streams
- 557 named destinations out of 1000 (max. 500000)
- 723 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4096 PDF objects out of 4296 (max. 8388607)
+ 3363 compressed objects within 34 object streams
+ 559 named destinations out of 1000 (max. 500000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

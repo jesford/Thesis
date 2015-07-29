@@ -4,6 +4,7 @@
 \contentsline {chapter}{List of Tables}{vii}{chapter*.4}
 \contentsline {chapter}{List of Figures}{viii}{chapter*.5}
 \contentsline {chapter}{Glossary}{ix}{chapter*.6}
+\contentsline {chapter}{Dedication}{xiii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Cosmology}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Our Universe}{1}{subsection.1.1.1}
@@ -37,14 +38,14 @@
 \contentsline {section}{\numberline {3.1}Introduction}{38}{section.3.1}
 \contentsline {section}{\numberline {3.2}Data}{39}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}\ac {3D-MF} Galaxy Clusters}{39}{subsection.3.2.1}
-\contentsline {subsubsection}{Cluster Centers}{40}{subsubsection*.17}
-\contentsline {subsubsection}{Cluster Richness}{42}{subsubsection*.20}
+\contentsline {subsubsection}{Cluster Centers}{40}{subsubsection*.18}
+\contentsline {subsubsection}{Cluster Richness}{42}{subsubsection*.21}
 \contentsline {subsection}{\numberline {3.2.2}Sources}{43}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Magnification Methodology}{43}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}The Measurement}{43}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}The Modeling}{44}{subsection.3.3.2}
-\contentsline {subsubsection}{Composite-Halo Fits}{45}{subsubsection*.22}
-\contentsline {subsubsection}{\ac {LBG} Contamination}{46}{subsubsection*.23}
+\contentsline {subsubsection}{Composite-Halo Fits}{45}{subsubsection*.23}
+\contentsline {subsubsection}{\ac {LBG} Contamination}{46}{subsubsection*.24}
 \contentsline {section}{\numberline {3.4}Results}{48}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}The Mass-Richness Relation}{50}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Redshift Binning}{53}{subsection.3.4.2}
@@ -58,8 +59,8 @@
 \contentsline {section}{\numberline {4.3}Method}{61}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Stacking Galaxy Clusters}{61}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Measuring $\Delta \Sigma $}{62}{subsection.4.3.2}
-\contentsline {subsubsection}{The \ac {NFW} model}{63}{subsubsection*.35}
-\contentsline {subsubsection}{Non-weak shear corrections}{63}{subsubsection*.37}
+\contentsline {subsubsection}{The \ac {NFW} model}{63}{subsubsection*.36}
+\contentsline {subsubsection}{Non-weak shear corrections}{63}{subsubsection*.38}
 \contentsline {subsection}{\numberline {4.3.3}Miscentering Formalism}{64}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}The Halo Model}{66}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Galaxy Cluster Weak Lensing Shear Results}{70}{section.4.4}
@@ -77,4 +78,4 @@
 \contentsline {section}{\numberline {5.1}Thesis Summary}{81}{section.5.1}
 \contentsline {section}{\numberline {5.2}Final Conclusions}{83}{section.5.2}
 \contentsline {section}{\numberline {5.3}Future Prospects}{84}{section.5.3}
-\contentsline {chapter}{Bibliography}{87}{chapter*.48}
+\contentsline {chapter}{Bibliography}{87}{chapter*.49}
