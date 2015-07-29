@@ -1,4 +1,4 @@
-\begin{thebibliography}{199}
+\begin{thebibliography}{200}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -274,6 +274,25 @@ J.~{Coupon}, T.~{Broadhurst}, and K.~{Umetsu}.
   Magnified BOSS-survey Galaxies}.
 \newblock \emph{\apj}, 772:\penalty0 65, July 2013.
 \newblock \doi{10.1088/0004-637X/772/1/65}.
+
+\bibitem[{Coupon} et~al.(2015){Coupon}, {Arnouts}, {van Waerbeke}, {Moutard},
+  {Ilbert}, {van Uitert}, {Erben}, {Garilli}, {Guzzo}, {Heymans},
+  {Hildebrandt}, {Hoekstra}, {Kilbinger}, {Kitching}, {Mellier}, {Miller},
+  {Scodeggio}, {Bonnett}, {Branchini}, {Davidzon}, {De Lucia}, {Fritz}, {Fu},
+  {Hudelot}, {Hudson}, {Kuijken}, {Leauthaud}, {Le F{\`e}vre}, {McCracken},
+  {Moscardini}, {Rowe}, {Schrabback}, {Semboloni}, and {Velander}]{Coupon15}
+J.~{Coupon}, S.~{Arnouts}, L.~{van Waerbeke}, T.~{Moutard}, O.~{Ilbert},
+  E.~{van Uitert}, T.~{Erben}, B.~{Garilli}, L.~{Guzzo}, C.~{Heymans},
+  H.~{Hildebrandt}, H.~{Hoekstra}, M.~{Kilbinger}, T.~{Kitching}, Y.~{Mellier},
+  L.~{Miller}, M.~{Scodeggio}, C.~{Bonnett}, E.~{Branchini}, I.~{Davidzon},
+  G.~{De Lucia}, A.~{Fritz}, L.~{Fu}, P.~{Hudelot}, M.~J. {Hudson},
+  K.~{Kuijken}, A.~{Leauthaud}, O.~{Le F{\`e}vre}, H.~J. {McCracken},
+  L.~{Moscardini}, B.~T.~P. {Rowe}, T.~{Schrabback}, E.~{Semboloni}, and
+  M.~{Velander}.
+\newblock {The galaxy-halo connection from a joint lensing, clustering and
+  abundance analysis in the CFHTLenS/VIPERS field}.
+\newblock \emph{\mnras}, 449:\penalty0 1352--1379, May 2015.
+\newblock \doi{10.1093/mnras/stv276}.
 
 \bibitem[{Covone} et~al.(2014){Covone}, {Sereno}, {Kilbinger}, and
   {Cardone}]{Covone14}

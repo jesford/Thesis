@@ -9,46 +9,46 @@ A level-1 auxiliary file: ch3.aux
 A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusions.aux
 The style file: abbrvnat.bst
-Reallocated field_info (elt_size=4) to 10572 items from 5000.
+Reallocated field_info (elt_size=4) to 10600 items from 5000.
 Database file #1: References.bib
-You've used 199 entries,
+You've used 200 entries,
             2773 wiz_defined-function locations,
-            1946 strings with 59171 characters,
-and the built_in function-call counts, 146266 in all, are:
-= -- 11476
-> -- 15063
+            1953 strings with 59973 characters,
+and the built_in function-call counts, 148341 in all, are:
+= -- 11617
+> -- 15372
 < -- 92
-+ -- 5052
-- -- 4847
-* -- 14544
-:= -- 24236
-add.period$ -- 747
-call.type$ -- 199
-change.case$ -- 2197
-chr.to.int$ -- 193
-cite$ -- 398
-duplicate$ -- 4148
-empty$ -- 7404
-format.name$ -- 5120
-if$ -- 28985
++ -- 5155
+- -- 4949
+* -- 14780
+:= -- 24596
+add.period$ -- 751
+call.type$ -- 200
+change.case$ -- 2234
+chr.to.int$ -- 194
+cite$ -- 400
+duplicate$ -- 4169
+empty$ -- 7446
+format.name$ -- 5223
+if$ -- 29374
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 199
-newline$ -- 1153
-num.names$ -- 807
-pop$ -- 4014
+missing$ -- 200
+newline$ -- 1159
+num.names$ -- 811
+pop$ -- 4085
 preamble$ -- 1
-purify$ -- 2007
+purify$ -- 2043
 quote$ -- 0
-skip$ -- 3946
+skip$ -- 3991
 stack$ -- 0
-substring$ -- 3177
-swap$ -- 461
+substring$ -- 3206
+swap$ -- 463
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2162
+type$ -- 2173
 warning$ -- 0
-while$ -- 746
+while$ -- 750
 width$ -- 0
-write$ -- 2872
+write$ -- 2887
