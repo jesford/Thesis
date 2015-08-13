@@ -323,6 +323,43 @@ M_0 = (2.2 \pm 0.2) \times 10^{13}\ {\rm M}_\odot, \beta = 1.5 \pm 0.1
 \end{equation}
 for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and 1.7, respectively (4 degrees of freedom), and there is good agreement between the two different centering scenarios explored here.
 
+It is difficult to directly compare the results for the mass-richness relation in this work to other studies. The main reason is that the richness $N_{200}$ we use is different than other definitions, which often count only red-sequence galaxies. Some uncertainty exists in the measure of richness as well, which we do not include in the analysis. Alternative measures of cluster richness would yield different scaling relations. Another factor is the cluster sample, which was compiled using a novel cluster-finder, and may well have different characteristics than other samples in the literature. In a follow-up paper we will present a shear analysis of the \ac{CFHTLenS} clusters, and compare the mass-richness relation obtained using that complementary probe of halo mass.
+
+
+\subsection{Redshift Binning}
+\label{sec:zbin3}
+
+Finally, we investigate the magnification as a function of redshift. We stack clusters of all richnesses, at each redshift in the catalog, $0.2 \leq z \leq 0.9$, and measure the optimal correlations in each. This is displayed in \autoref{plot:zbinw3}. We observe a steady decrease in measured signal as the cluster redshift increases from $z \sim$0.2 to 0.5, then roughly consistent measurements from 0.6$\leq z \leq$0.8, followed by rather low signal at $z \sim$0.9. 
+
+The $N_{200}$ distributions in \autoref{plot:zbinhist3} show that these trends cannot be caused by deviations in richness between these different cluster redshifts. This is difficult to reconcile with the clear mass-richness scaling observed when all redshifts are combined. \autoref{ztable3} shows that detection significance for each redshift bin is more tightly linked to mass than the $\langle N_{200} \rangle$. Perhaps the richness estimates used in this work are not optimized for use as a mass proxy at all redshifts. Another possibility is that we have not correctly accounted for redshift overlap between samples. If the contamination fraction is higher than estimated, this could lead to a boost in correlation strength at low redshift, as well as a depletion at higher redshift. However it is still very difficult to explain the anomalously low measurement at intermediate redshift, $z \sim$0.5, with this reasoning.
+
+One factor that we have not accounted for is possible cluster false detections in our sample. Since \ac{3D-MF} was optimized to produce cluster catalogs that are as complete as possible, false detection rates could be quite high. In particular, we would expect these rates to increase at high redshift, which would also weaken those measured correlations. We note in particular that cluster redshift bins $z \sim$ 0.5 and 0.9, which yield relatively low cluster masses, are seen in \autoref{plot:pofz3} to have excess numbers of detected clusters, possibly an indication of higher false detection rates at these redshifts. In future work, false-detection rates for \ac{3D-MF} could be examined with more extensive tests on simulations, and through cross-matching with independent galaxy cluster catalogs.
+
+%Z BINNED WOPT
+\begin{figure}
+\begin{center}
+%\vspace{1 cm}
+\includegraphics[scale=0.9]{plots_ch3/wopt_z_panels_U.eps}
+\caption[Magnification for Redshift-Binned Clusters]{{\bf Magnification for Redshift-Binned Clusters.} Optimal correlation for clusters binned in redshift.}
+%\vspace{1 cm}
+\label{plot:zbinw3}
+\end{center}
+\end{figure}
+%\vspace{1 cm}
+
+%Z BINNED HISTOGRAM
+\begin{figure}
+\begin{center}
+%\vspace{1 cm}
+\includegraphics[scale=1.0]{plots_ch3/zbin_histograms.eps}
+\caption[Richness Distributions in Redshift Bins]{{\bf Richness Distributions in Redshift Bins.} $N_{200}$ distributions as a function of cluster redshift.}
+%\vspace{1 cm}
+\label{plot:zbinhist3}
+\end{center}
+\end{figure}
+
+
+
 %----------------
 %LANDSCAPE TABLES
 \begin{landscape}
@@ -368,43 +405,6 @@ for the miscentered $p_{\mathrm{cc}}=0$ case. The $\chi^2_{\rm red}$ are 0.9 and
 \end{table}
 \end{landscape}
 %----------------
-
-
-It is difficult to directly compare the results for the mass-richness relation in this work to other studies. The main reason is that the richness $N_{200}$ we use is different than other definitions, which often count only red-sequence galaxies. Some uncertainty exists in the measure of richness as well, which we do not include in the analysis. Alternative measures of cluster richness would yield different scaling relations. Another factor is the cluster sample, which was compiled using a novel cluster-finder, and may well have different characteristics than other samples in the literature. In a follow-up paper we will present a shear analysis of the \ac{CFHTLenS} clusters, and compare the mass-richness relation obtained using that complementary probe of halo mass.
-
-
-\subsection{Redshift Binning}
-\label{sec:zbin3}
-
-%Z BINNED HISTOGRAM
-\begin{figure}
-\begin{center}
-%\vspace{1 cm}
-\includegraphics[scale=1.0]{plots_ch3/zbin_histograms.eps}
-\caption[Richness Distributions in Redshift Bins]{{\bf Richness Distributions in Redshift Bins.} $N_{200}$ distributions as a function of cluster redshift.}
-%\vspace{1 cm}
-\label{plot:zbinhist3}
-\end{center}
-\end{figure}
-
-Finally, we investigate the magnification as a function of redshift. We stack clusters of all richnesses, at each redshift in the catalog, $0.2 \leq z \leq 0.9$, and measure the optimal correlations in each. This is displayed in \autoref{plot:zbinw3}. We observe a steady decrease in measured signal as the cluster redshift increases from $z \sim$0.2 to 0.5, then roughly consistent measurements from 0.6$\leq z \leq$0.8, followed by rather low signal at $z \sim$0.9. 
-
-The $N_{200}$ distributions in \autoref{plot:zbinhist3} show that these trends cannot be caused by deviations in richness between these different cluster redshifts. This is difficult to reconcile with the clear mass-richness scaling observed when all redshifts are combined. \autoref{ztable3} shows that detection significance for each redshift bin is more tightly linked to mass than the $\langle N_{200} \rangle$. Perhaps the richness estimates used in this work are not optimized for use as a mass proxy at all redshifts. Another possibility is that we have not correctly accounted for redshift overlap between samples. If the contamination fraction is higher than estimated, this could lead to a boost in correlation strength at low redshift, as well as a depletion at higher redshift. However it is still very difficult to explain the anomalously low measurement at intermediate redshift, $z \sim$0.5, with this reasoning.
-
-One factor that we have not accounted for is possible cluster false detections in our sample. Since \ac{3D-MF} was optimized to produce cluster catalogs that are as complete as possible, false detection rates could be quite high. In particular, we would expect these rates to increase at high redshift, which would also weaken those measured correlations. We note in particular that cluster redshift bins $z \sim$ 0.5 and 0.9, which yield relatively low cluster masses, are seen in \autoref{plot:pofz3} to have excess numbers of detected clusters, possibly an indication of higher false detection rates at these redshifts. In future work, false-detection rates for \ac{3D-MF} could be examined with more extensive tests on simulations, and through cross-matching with independent galaxy cluster catalogs.
-
-
-%Z BINNED WOPT
-\begin{figure}
-\begin{center}
-%\vspace{1 cm}
-\includegraphics[scale=0.9]{plots_ch3/wopt_z_panels_U.eps}
-\caption[Magnification for Redshift-Binned Clusters]{{\bf Magnification for Redshift-Binned Clusters.} Optimal correlation for clusters binned in redshift.}
-%\vspace{1 cm}
-\label{plot:zbinw3}
-\end{center}
-\end{figure}
-%\vspace{1 cm}
 
 
 %-----------------------------------------
