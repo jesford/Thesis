@@ -6,3 +6,12 @@
 *.out
 *.toc
 *.gz
+LICENSE
+FAQ
+Makefile
+.DS_Store
+.bzrignore
+biblio.bib
+intro_original.tex
+macros.tex
+
